@@ -8,27 +8,18 @@ import "./components.css";
 
 export default class Portfolio extends Component {
   render() {
-    const classes = makeStyles(theme => ({
-      root: {
-        flexGrow: 1
-      },
-      paper: {
-        padding: theme.spacing(2),
-        textAlign: "center",
-        color: theme.palette.text.secondary
-      },
-      card: {
-        maxWidth: 345
-      }
-    }));
-
     return (
       <div className="portfolio" id="portfolio">
-        <Typography variant="h3" className="center">
-          <strong className="color">PROJECTS</strong>
+        <img
+          src={require("../images/coding.jpg")}
+          className="portfoliosplash"
+        />
+        <Typography variant="h3" className="center0">
+          <strong>PROJECTS</strong>
           <div className="subhead" />
         </Typography>
-        <div className={classes.root}>
+
+        <div className="portfoliozindex">
           <Grid
             container
             spacing={1}
