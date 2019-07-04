@@ -65,7 +65,7 @@ export default class About extends Component {
             <img src={require("../images/github3.png")} className="icon" />
           </a>
         </div>
-        <Link to="about" spy={true} smooth={true} duration={500}>
+        <Link to="about" spy={true} smooth={true} duration={1000}>
           <Typography className="toabout">ABOUT ME</Typography>
         </Link>
       </div>

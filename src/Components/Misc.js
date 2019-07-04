@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import GridList from "@material-ui/core/GridList";
+import Grid from "@material-ui/core/Grid";
+
 import GridListTile from "@material-ui/core/GridListTile";
 import ModalImage from "react-modal-image";
 
@@ -21,7 +23,7 @@ export default class Misc extends Component {
         backgroundColor: theme.palette.background.paper
       },
       gridList: {
-        width: 1000,
+        width: 800,
         height: 450
       }
     }));
@@ -177,12 +179,12 @@ export default class Misc extends Component {
             <div className="subhead" />
           </Typography>
           {/* Nature */}
-          <div className={classes.root}>
-            <Typography variant="h5" className="center">
-              <strong>Nature</strong>
-              <div className="subhead2" />
-            </Typography>
-            <GridList cellHeight={300} className={classes.gridList} cols={5}>
+          <Typography variant="h5" className="center">
+            <strong>Nature</strong>
+            <div className="subhead2" />
+          </Typography>
+          <div className="limit">
+            <GridList cellHeight={250} className={classes.gridList} cols={5}>
               {nature.map(tile => (
                 <GridListTile key={tile.img} cols={tile.cols || 1}>
                   <div className="picture">
@@ -202,60 +204,60 @@ export default class Misc extends Component {
                 </GridListTile>
               ))}
             </GridList>
-          </div>
-          {/* Touring */}
-          <div className={classes.root}>
-            <Typography variant="h5" className="center">
-              <strong>Touring</strong>
-              <div className="subhead2" />
-            </Typography>
-            <GridList cellHeight={300} className={classes.gridList} cols={5}>
-              {touring.map(tile => (
-                <GridListTile key={tile.img} cols={tile.cols || 1}>
-                  <div className="picture">
-                    <div className="picture3">
-                      <a className="none2" href={tile.img} target="_blank">
-                        <div className="download">VIEW</div>
-                      </a>
+            {/* Touring */}
+            <div className={classes.root}>
+              <Typography variant="h5" className="center">
+                <strong>Touring</strong>
+                <div className="subhead2" />
+              </Typography>
+              <GridList cellHeight={250} className={classes.gridList} cols={5}>
+                {touring.map(tile => (
+                  <GridListTile key={tile.img} cols={tile.cols || 1}>
+                    <div className="picture">
+                      <div className="picture3">
+                        <a className="none2" href={tile.img} target="_blank">
+                          <div className="download">VIEW</div>
+                        </a>
+                      </div>
+                      <ModalImage
+                        small={tile.img}
+                        large={tile.img}
+                        alt="Hello World!"
+                        className="picture2"
+                      />
                     </div>
-                    <ModalImage
-                      small={tile.img}
-                      large={tile.img}
-                      alt="Hello World!"
-                      className="picture2"
-                    />
-                  </div>
-                  {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
-                </GridListTile>
-              ))}
-            </GridList>
-          </div>
-          {/* Volkswagen Credit */}
-          <div className={classes.root}>
-            <Typography variant="h5" className="center">
-              <strong>VW Group Of America</strong>
-              <div className="subhead2" />
-            </Typography>
-            <GridList cellHeight={300} className={classes.gridList} cols={5}>
-              {vw.map(tile => (
-                <GridListTile key={tile.img} cols={tile.cols || 1}>
-                  <div className="picture">
-                    <div className="picture3">
-                      <a className="none2" href={tile.img} target="_blank">
-                        <div className="download">VIEW</div>
-                      </a>
+                    {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
+                  </GridListTile>
+                ))}
+              </GridList>
+            </div>
+            {/* Volkswagen Credit */}
+            <div className={classes.root}>
+              <Typography variant="h5" className="center">
+                <strong>VW Group Of America</strong>
+                <div className="subhead2" />
+              </Typography>
+              <GridList cellHeight={250} className={classes.gridList} cols={5}>
+                {vw.map(tile => (
+                  <GridListTile key={tile.img} cols={tile.cols || 1}>
+                    <div className="picture">
+                      <div className="picture3">
+                        <a className="none2" href={tile.img} target="_blank">
+                          <div className="download">VIEW</div>
+                        </a>
+                      </div>
+                      <ModalImage
+                        small={tile.img}
+                        large={tile.img}
+                        alt="Hello World!"
+                        className="picture2"
+                      />
                     </div>
-                    <ModalImage
-                      small={tile.img}
-                      large={tile.img}
-                      alt="Hello World!"
-                      className="picture2"
-                    />
-                  </div>
-                  {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
-                </GridListTile>
-              ))}
-            </GridList>
+                    {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
+                  </GridListTile>
+                ))}
+              </GridList>
+            </div>
           </div>
         </div>
       </div>
