@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
+
+import "./components.css";
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -10,12 +10,6 @@ export default class Navbar extends Component {
   };
 
   render() {
-    const classes = makeStyles({
-      root: {
-        flexGrow: 1
-      }
-    });
-
     return (
       <div>
         <div>

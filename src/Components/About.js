@@ -19,23 +19,13 @@ import "./components.css";
 
 export default class About extends Component {
   render() {
-    const classes = makeStyles(theme => ({
-      root: {
-        flexGrow: 1
-      },
-      skillsroot: {
-        display: "flex",
-        justifyContent: "center",
-        flexWrap: "wrap"
-      }
-    }));
     function handleDelete() {}
 
     function handleClick() {}
     return (
       <div>
         <div class="about" id="about">
-          <div className={classes.root}>
+          <div className="center">
             <Grid container spacing={1}>
               <Grid item xs={4}>
                 <Fragment>
@@ -113,7 +103,7 @@ export default class About extends Component {
               {/*  */}
 
               <Grid item xs={4} md={4}>
-                <div className={classes.skillsroot}>
+                <div className="">
                   <br />
                   <Typography variant="h3">
                     <strong>COURSES</strong>
@@ -253,7 +243,7 @@ export default class About extends Component {
                 <Typography variant="h5">Languages</Typography>
                 <br />
 
-                <div className={classes.root}>
+                <div className="">
                   <Chip
                     avatar={
                       <img
@@ -278,7 +268,7 @@ export default class About extends Component {
                     }
                     label="Javascript"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -292,7 +282,7 @@ export default class About extends Component {
                     }
                     label="Java"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -306,7 +296,7 @@ export default class About extends Component {
                     }
                     label="C++"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -320,7 +310,7 @@ export default class About extends Component {
                     }
                     label="R"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -341,7 +331,7 @@ export default class About extends Component {
                     }
                     label="React"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -355,7 +345,7 @@ export default class About extends Component {
                     }
                     label="vis.js"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -369,7 +359,7 @@ export default class About extends Component {
                     }
                     label="d3.js"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -383,7 +373,7 @@ export default class About extends Component {
                     }
                     label="Django"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -403,7 +393,7 @@ export default class About extends Component {
                     }
                     label="AWS"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -417,7 +407,7 @@ export default class About extends Component {
                     }
                     label="Docker"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -431,7 +421,7 @@ export default class About extends Component {
                     }
                     label="Unix"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -445,7 +435,7 @@ export default class About extends Component {
                     }
                     label="GitHub"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -459,7 +449,7 @@ export default class About extends Component {
                     }
                     label="Bitbucket"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}
@@ -473,7 +463,7 @@ export default class About extends Component {
                     }
                     label="Linux"
                     clickable
-                    className={classes.chip}
+                    className=""
                     color="basic"
                     onDelete={handleDelete}
                     deleteIcon={<DoneIcon />}

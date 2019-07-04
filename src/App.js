@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <Home />
+        <Navbar />
         <About />
         <Portfolio />
         <Experience />
