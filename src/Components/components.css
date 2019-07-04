@@ -224,6 +224,9 @@
   height: 100%;
   background-color: white;
 }
+.center2 {
+  padding-top: 6%;
+}
 .center {
   padding-top: 6%;
   text-align: center;
@@ -333,7 +336,6 @@
 .none {
   text-decoration: none;
 }
-
 /* Experience */
 .experience {
   height: 100%;
@@ -375,11 +377,14 @@
   color: #777777;
 }
 .vertical {
-  transition: 0s;
+  transition: 0.3s;
   opacity: 1;
 }
 .vertical:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
+  /* border: 3px solid black; */
+  /* transform: scale(1.1); */
+  padding: 10px;
 }
 /* Resume */
 .resume {

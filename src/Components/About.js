@@ -25,7 +25,7 @@ export default class About extends Component {
     return (
       <div>
         <div class="about" id="about">
-          <div className="center">
+          <div className="center2">
             <Grid container spacing={1}>
               <Grid item xs={4}>
                 <Fragment>
