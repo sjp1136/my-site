@@ -16,7 +16,7 @@ export default class About extends Component {
     return (
       <div className="home" id="home">
         <img src={require("../images/me.jpg")} className="me" />
-        <img src={require("../images/uva.jpg")} className="uva" />
+        <img src={require("../images/touring4.JPG")} className="uva" />
         {/* <Typing className="centered" speed={5} hideCursor={false}> */}
         <div className="centered">
           <Typography>

@@ -25,6 +25,8 @@ export default class About extends Component {
     return (
       <div>
         <div class="about" id="about">
+          <img src={require("../images/uva4.jpg")} className="aboutsplash" />
+
           <div className="center2">
             <Grid container spacing={1}>
               <Grid item xs={4}>

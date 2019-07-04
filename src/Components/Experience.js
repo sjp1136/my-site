@@ -138,7 +138,7 @@ export default class Experience extends Component {
               icon={
                 <img
                   src={require("../images/ridgeback.png")}
-                  className="timelineavatar3"
+                  className="timelineavatar"
                 />
               }
             >
