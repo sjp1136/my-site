@@ -346,7 +346,11 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  transition: 0.3s;
   /* border: 1px solid #021a40; */
+}
+.timelineavatar:hover {
+  transform: scale(1.1);
 }
 .timelineavatar3 {
   /* vertical-align: middle; */
@@ -377,14 +381,14 @@
   color: #777777;
 }
 .vertical {
-  transition: 0.3s;
+  transition: 0.1s;
   opacity: 1;
 }
 .vertical:hover {
   /* opacity: 0.7; */
   /* border: 3px solid black; */
-  /* transform: scale(1.1); */
-  padding: 10px;
+  transform: scale(1.04);
+  /* padding: 3px; */
 }
 /* Resume */
 .resume {
