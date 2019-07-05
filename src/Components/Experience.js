@@ -17,6 +17,12 @@ export default class Experience extends Component {
             <strong className="color">EXPERIENCE</strong>
             <div className="subhead" />
           </Typography>
+
+          <img
+            src={require("../images/experience.png")}
+            className="experiencesplash1"
+          />
+
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical-timeline-element--no-children"
