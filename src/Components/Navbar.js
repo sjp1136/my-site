@@ -16,19 +16,19 @@ export default class Navbar extends Component {
           <div className="nav " />
           <div className="nav2 centered2">
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <div className="link">Home</div>
+              <div className="link">HOME</div>
             </Link>
             <Link to="about" spy={true} smooth={true} duration={500}>
-              <div className="link">About</div>
+              <div className="link">ABOUT</div>
             </Link>
             <Link to="portfolio" spy={true} smooth={true} duration={500}>
-              <div className="link">Projects</div>
+              <div className="link">PROJECTS</div>
             </Link>
             <Link to="experience" spy={true} smooth={true} duration={500}>
-              <div className="link">Experiences</div>
+              <div className="link">EXPERIENCES</div>
             </Link>
             <Link to="misc" spy={true} smooth={true} duration={500}>
-              <div className="link">Misc</div>
+              <div className="link">MISC</div>
             </Link>
 
             <a
@@ -36,7 +36,7 @@ export default class Navbar extends Component {
               href={require("../files/SungJoonParkResume.pdf")}
               target="SungJoonParkResume"
             >
-              Resume
+              RESUME
             </a>
           </div>
         </div>
