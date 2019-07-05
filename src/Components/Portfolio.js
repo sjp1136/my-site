@@ -10,7 +10,7 @@ export default class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio" id="portfolio">
-        <img
+        <div
           src={require("../images/coding.jpg")}
           className="portfoliosplash"
         />
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">SHAREIT</div>
-                    <div className="technology"> DJANGO</div>
+                    <div className="technology django"> DJANGO</div>
                     <a
                       className="none"
                       href="https://github.com/sp3bk/cs4501-internet-scale"
@@ -70,7 +70,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">SKILLMATCHER</div>
-                    <div className="technology"> DJANGO</div>
+                    <div className="technology django"> DJANGO</div>
                     <a className="none" href="https://lucky-13.herokuapp.com/">
                       <div className="label">VIEW</div>
                     </a>
@@ -93,7 +93,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">TRENCHTEK</div>
-                    <div className="technology"> REACT</div>
+                    <div className="technology react"> REACT</div>
                     <a
                       className="none"
                       href="https://trenchtek.firebaseapp.com/"
@@ -121,7 +121,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">FACEME</div>
-                    <div className="technology"> REACT</div>
+                    <div className="technology react"> REACT</div>
                     <a className="none" href="https://github.com/sp3bk/FaceMe-">
                       <div className="label">VIEW</div>
                     </a>
@@ -144,7 +144,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">SNFLASK</div>
-                    <div className="technology"> FLASK</div>
+                    <div className="technology flask"> FLASK</div>
                     <div className="label2">
                       <a
                         className="none"
@@ -172,7 +172,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">POMODORO</div>
-                    <div className="technology"> REACT</div>
+                    <div className="technology react"> REACT</div>
                     <a
                       className="none"
                       href="https://pomodoro-18245.firebaseapp.com/login"

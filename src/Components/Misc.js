@@ -179,10 +179,10 @@ export default class Misc extends Component {
             <div className="subhead" />
           </Typography>
           {/* Nature */}
-          <Typography variant="h5" className="center">
+          {/* <Typography variant="h5" className="center">
             <strong>Nature</strong>
             <div className="subhead2" />
-          </Typography>
+          </Typography> */}
           <div className="limit">
             <GridList cellHeight={250} className={classes.gridList} cols={5}>
               {nature.map(tile => (
@@ -206,10 +206,10 @@ export default class Misc extends Component {
             </GridList>
             {/* Touring */}
             <div className={classes.root}>
-              <Typography variant="h5" className="center">
+              {/* <Typography variant="h5" className="center">
                 <strong>Touring</strong>
                 <div className="subhead2" />
-              </Typography>
+              </Typography> */}
               <GridList cellHeight={250} className={classes.gridList} cols={5}>
                 {touring.map(tile => (
                   <GridListTile key={tile.img} cols={tile.cols || 1}>
@@ -233,10 +233,10 @@ export default class Misc extends Component {
             </div>
             {/* Volkswagen Credit */}
             <div className={classes.root}>
-              <Typography variant="h5" className="center">
+              {/* <Typography variant="h5" className="center">
                 <strong>VW Group Of America</strong>
                 <div className="subhead2" />
-              </Typography>
+              </Typography> */}
               <GridList cellHeight={250} className={classes.gridList} cols={5}>
                 {vw.map(tile => (
                   <GridListTile key={tile.img} cols={tile.cols || 1}>

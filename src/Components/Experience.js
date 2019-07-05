@@ -14,14 +14,14 @@ export default class Experience extends Component {
       <div>
         <div class="experience" id="experience">
           <Typography variant="h3" className="center">
-            <strong className="color">EXPERIENCE</strong>
-            <div className="subhead" />
+            <strong className="">EXPERIENCE</strong>
+            <div className="subhead3" />
           </Typography>
 
-          <img
-            src={require("../images/experience.png")}
+          {/* <img
+            src={require("../images/experience2.png")}
             className="experiencesplash1"
-          />
+          /> */}
 
           <VerticalTimeline>
             <VerticalTimelineElement
@@ -73,12 +73,12 @@ export default class Experience extends Component {
                       color="basic"
                     />
                   </div>
-                  <h3 className="vertical-timeline-element-title">
+                  <h2 className="vertical-timeline-element-title">
                     Hackcville
-                  </h3>
-                  <h4 className="vertical-timeline-element-subtitle role">
+                  </h2>
+                  <h3 className="vertical-timeline-element-subtitle role">
                     Software Engineering Intern
-                  </h4>
+                  </h3>
                   <p>
                     5-week training program developing functional web
                     applications/software using React, Firebase, and REST APIs
@@ -126,10 +126,10 @@ export default class Experience extends Component {
                       color="basic"
                     />
                   </div>
-                  <h3 className="vertical-timeline-element-title">Tucows</h3>
-                  <h4 className="vertical-timeline-element-subtitle role">
+                  <h2 className="vertical-timeline-element-title">Tucows</h2>
+                  <h3 className="vertical-timeline-element-subtitle role">
                     Software Engineering Intern
-                  </h4>
+                  </h3>
                   <p>
                     Built microservices for company’s backbone using jQuery, and
                     Python.
@@ -187,12 +187,14 @@ export default class Experience extends Component {
                       color="basic"
                     />
                   </div>
-                  <h3 className="vertical-timeline-element-title">
+                  <h2 className="vertical-timeline-element-title">
+                    {" "}
                     Ridgeback Network Defense
-                  </h3>
-                  <h4 className="vertical-timeline-element-subtitle role">
+                  </h2>
+
+                  <h3 className="vertical-timeline-element-subtitle role">
                     Javascript Developer Intern (Remote)
-                  </h4>
+                  </h3>
                   <p>
                     Developed on the user interface and the functionalities of
                     the Ridgeback-Hunter platform using vis.js and d3.js. Built
@@ -256,12 +258,12 @@ export default class Experience extends Component {
                   </div>
                   {/* <br />
               <br /> */}
-                  <h3 className="vertical-timeline-element-title">
+                  <h2 className="vertical-timeline-element-title">
                     Volkswagen Credit
-                  </h3>
-                  <h4 className="vertical-timeline-element-subtitle role">
+                  </h2>
+                  <h3 className="vertical-timeline-element-subtitle role">
                     Software Developer Intern
-                  </h4>
+                  </h3>
                   <p>
                     Integrating and deploying React applications with Docker and
                     AWS (ECR, ECS Fargate, RDS, CloudFormation, CloudFront, S3)​
