@@ -16,7 +16,7 @@ export default class Home extends Component {
     return (
       <div className="home" id="home">
         <img src={require("../images/me.jpg")} className="me" />
-        <div src={require("../images/touring4b.jpeg")} className="background" />
+        <div src={require("../images/touring4.JPG")} className="background" />
         {/* <Typing className="centered" speed={5} hideCursor={false}> */}
         <div className="centered6">
           <div className="quote2">

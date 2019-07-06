@@ -61,7 +61,8 @@ export default class About extends Component {
                     <p>
                       Outside of academics, I enjoy hanging out with friends in
                       my fellowship, playing tennis, and sometimes reading
-                      interesting books.
+                      interesting books. I have recently started learning guitar
+                      as well.
                     </p>
                   </div>
                 </div>

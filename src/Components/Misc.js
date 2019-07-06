@@ -27,6 +27,38 @@ export default class Misc extends Component {
         height: 450
       }
     }));
+    const gcf = [
+      {
+        img: require("../images/group1.jpg"),
+        author: "SJP",
+        cols: 3
+      },
+      {
+        img: require("../images/group2.jpg"),
+        author: "SJP",
+        cols: 2
+      },
+      {
+        img: require("../images/group3.jpg"),
+        author: "SJP",
+        cols: 2
+      },
+      // {
+      //   img: require("../images/group4.jpg"),
+      //   author: "SJP",
+      //   cols: 3
+      // },
+      {
+        img: require("../images/group5.jpg"),
+        author: "SJP",
+        cols: 3
+      }
+      // {
+      //   img: require("../images/group6.jpg"),
+      //   author: "SJP",
+      //   cols: 2
+      // }
+    ];
     const vw = [
       {
         img: require("../images/vw1.JPG"),
@@ -172,20 +204,67 @@ export default class Misc extends Component {
     ];
 
     return (
-      <div>
-        <div class="misc" id="misc">
-          <Typography variant="h3" className="center">
-            <strong>PHOTOS (iPhone7)</strong>
-            <div className="subhead" />
-          </Typography>
-          {/* Nature */}
-          {/* <Typography variant="h5" className="center">
+      <div class="misc" id="misc">
+        <div className="miscsplash" />
+
+        <Typography variant="h3" className="center0">
+          <strong>PHOTOS</strong>
+          <div className="subhead" />
+        </Typography>
+        {/* Nature */}
+        {/* <Typography variant="h5" className="center">
             <strong>Nature</strong>
             <div className="subhead2" />
           </Typography> */}
-          <div className="limit">
+        <div className="limit">
+          <GridList cellHeight={250} className={classes.gridList} cols={5}>
+            {gcf.map(tile => (
+              <GridListTile key={tile.img} cols={tile.cols || 1}>
+                <div className="picture">
+                  <div className="picture3">
+                    <a className="none2" href={tile.img} target="_blank">
+                      <div className="download">VIEW</div>
+                    </a>
+                  </div>
+                  <ModalImage
+                    small={tile.img}
+                    large={tile.img}
+                    alt="Hello World!"
+                    className="picture2"
+                  />
+                </div>
+                {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
+              </GridListTile>
+            ))}
+          </GridList>
+          <GridList cellHeight={250} className={classes.gridList} cols={5}>
+            {nature.map(tile => (
+              <GridListTile key={tile.img} cols={tile.cols || 1}>
+                <div className="picture">
+                  <div className="picture3">
+                    <a className="none2" href={tile.img} target="_blank">
+                      <div className="download">VIEW</div>
+                    </a>
+                  </div>
+                  <ModalImage
+                    small={tile.img}
+                    large={tile.img}
+                    alt="Hello World!"
+                    className="picture2"
+                  />
+                </div>
+                {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
+              </GridListTile>
+            ))}
+          </GridList>
+          {/* Touring */}
+          <div className={classes.root}>
+            {/* <Typography variant="h5" className="center">
+                <strong>Touring</strong>
+                <div className="subhead2" />
+              </Typography> */}
             <GridList cellHeight={250} className={classes.gridList} cols={5}>
-              {nature.map(tile => (
+              {touring.map(tile => (
                 <GridListTile key={tile.img} cols={tile.cols || 1}>
                   <div className="picture">
                     <div className="picture3">
@@ -204,60 +283,33 @@ export default class Misc extends Component {
                 </GridListTile>
               ))}
             </GridList>
-            {/* Touring */}
-            <div className={classes.root}>
-              {/* <Typography variant="h5" className="center">
-                <strong>Touring</strong>
-                <div className="subhead2" />
-              </Typography> */}
-              <GridList cellHeight={250} className={classes.gridList} cols={5}>
-                {touring.map(tile => (
-                  <GridListTile key={tile.img} cols={tile.cols || 1}>
-                    <div className="picture">
-                      <div className="picture3">
-                        <a className="none2" href={tile.img} target="_blank">
-                          <div className="download">VIEW</div>
-                        </a>
-                      </div>
-                      <ModalImage
-                        small={tile.img}
-                        large={tile.img}
-                        alt="Hello World!"
-                        className="picture2"
-                      />
-                    </div>
-                    {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
-                  </GridListTile>
-                ))}
-              </GridList>
-            </div>
-            {/* Volkswagen Credit */}
-            <div className={classes.root}>
-              {/* <Typography variant="h5" className="center">
+          </div>
+          {/* Volkswagen Credit */}
+          <div className={classes.root}>
+            {/* <Typography variant="h5" className="center">
                 <strong>VW Group Of America</strong>
                 <div className="subhead2" />
               </Typography> */}
-              <GridList cellHeight={250} className={classes.gridList} cols={5}>
-                {vw.map(tile => (
-                  <GridListTile key={tile.img} cols={tile.cols || 1}>
-                    <div className="picture">
-                      <div className="picture3">
-                        <a className="none2" href={tile.img} target="_blank">
-                          <div className="download">VIEW</div>
-                        </a>
-                      </div>
-                      <ModalImage
-                        small={tile.img}
-                        large={tile.img}
-                        alt="Hello World!"
-                        className="picture2"
-                      />
+            <GridList cellHeight={250} className={classes.gridList} cols={5}>
+              {vw.map(tile => (
+                <GridListTile key={tile.img} cols={tile.cols || 1}>
+                  <div className="picture">
+                    <div className="picture3">
+                      <a className="none2" href={tile.img} target="_blank">
+                        <div className="download">VIEW</div>
+                      </a>
                     </div>
-                    {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
-                  </GridListTile>
-                ))}
-              </GridList>
-            </div>
+                    <ModalImage
+                      small={tile.img}
+                      large={tile.img}
+                      alt="Hello World!"
+                      className="picture2"
+                    />
+                  </div>
+                  {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
+                </GridListTile>
+              ))}
+            </GridList>
           </div>
         </div>
       </div>

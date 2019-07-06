@@ -10,10 +10,7 @@ export default class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio" id="portfolio">
-        <div
-          src={require("../images/coding.jpg")}
-          className="portfoliosplash"
-        />
+        <div className="portfoliosplash" />
         <Typography variant="h3" className="center0">
           <strong>PROJECTS</strong>
           <div className="subhead" />

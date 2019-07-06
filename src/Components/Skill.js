@@ -11,6 +11,8 @@ export default class Skill extends Component {
         {/* <div src={require("../images/touring4b.jpeg")} className="background" /> */}
         {/* <Typing className="centered" speed={5} hideCursor={false}> */}
         <div className="centered5">
+          {/* <div className="portfoliosplash" /> */}
+
           <Typography variant="h3" className="center3">
             <strong>TECHNICAL SKILLS</strong>
             <div className="subhead3" />
@@ -21,7 +23,7 @@ export default class Skill extends Component {
             <div className="author">- Elon Musk</div>
           </Typography>
         </div>
-        <div className="center2" />
+        <div className="center2">hello</div>
       </div>
     );
   }
