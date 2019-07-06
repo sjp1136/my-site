@@ -224,9 +224,11 @@
   position: relative;
 }
 .paper {
-  padding: 15%;
+  height: 616px;
+  width: 450px;
   position: relative;
   overflow: hidden;
+  margin: auto;
 
   /* z-index: 0; */
 }
@@ -273,6 +275,8 @@
 .aboutpic {
   height: 616px;
   width: 450px;
+  overflow: hidden;
+
   /* height: 10%; */
   /* width: 70%; */
 }
