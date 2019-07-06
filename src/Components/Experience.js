@@ -41,36 +41,36 @@ export default class Experience extends Component {
               >
                 <div className="padding">
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/react.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/react.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="React"
                     clickable
                     color="basic"
                   />
                   &nbsp;
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/aws.jpg")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/aws.jpg")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="AWS"
                     clickable
                     color="basic"
                   />
                   &nbsp;
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/docker.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/docker.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="Docker"
                     clickable
                     color="basic"
@@ -104,36 +104,36 @@ export default class Experience extends Component {
               <a className="none2" href="http://www.ridgebacknet.com/">
                 <div className="padding">
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/javascript.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/javascript.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="Javascript"
                     clickable
                     color="basic"
                   />
                   &nbsp;
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/visjs.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/visjs.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="visjs"
                     clickable
                     color="basic"
                   />
                   &nbsp;
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/d3.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/d3.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="d3"
                     clickable
                     color="basic"
@@ -169,24 +169,24 @@ export default class Experience extends Component {
                 {/* <div className="vertical"> */}
                 <div className="padding">
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/python.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/python.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="Python"
                     clickable
                     color="basic"
                   />
                   &nbsp;
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/jquery.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/jquery.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="jQuery"
                     clickable
                     color="basic"
@@ -219,24 +219,24 @@ export default class Experience extends Component {
                 {/* <div className="vertical"> */}
                 <div className="padding">
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/react.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/react.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="React"
                     clickable
                     color="basic"
                   />
                   &nbsp;
                   <Chip
-                    avatar={
-                      <img
-                        src={require("../images/firebase.png")}
-                        className="avatar2"
-                      />
-                    }
+                    // avatar={
+                    //   <img
+                    //     src={require("../images/firebase.png")}
+                    //     className="avatar2"
+                    //   />
+                    // }
                     label="Firebase"
                     clickable
                     color="basic"

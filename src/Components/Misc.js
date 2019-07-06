@@ -207,7 +207,7 @@ export default class Misc extends Component {
       <div class="misc" id="misc">
         <div className="miscsplash" />
 
-        <Typography variant="h3" className="center0">
+        <Typography variant="h3" className="center4">
           <strong>PHOTOS</strong>
           <div className="subhead" />
         </Typography>
