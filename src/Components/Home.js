@@ -11,13 +11,20 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import { Icon } from "antd";
 
-export default class About extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div className="home" id="home">
         <img src={require("../images/me.jpg")} className="me" />
         <div src={require("../images/touring4b.jpeg")} className="background" />
         {/* <Typing className="centered" speed={5} hideCursor={false}> */}
+        <div className="centered6">
+          <div className="quote2">
+            “Hardships often prepare ordinary people for an extraordinary
+            destiny.”
+          </div>
+          <div className="author2">- C.S. Lewis</div>
+        </div>
         <div className="centered">
           <Typography>
             <div className="name">SUNG JOON PARK</div>
@@ -65,7 +72,7 @@ export default class About extends Component {
             <img src={require("../images/github3.png")} className="icon" />
           </a>
         </div>
-        <Link to="about" spy={true} smooth={true} duration={1000}>
+        <Link to="about" spy={true} smooth={true} duration={6500}>
           <Typography className="toabout">ABOUT ME</Typography>
         </Link>
       </div>

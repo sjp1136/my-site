@@ -14,6 +14,7 @@ import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import DoneIcon from "@material-ui/icons/Done";
 import { Timeline, Event } from "react-timeline-scribble";
+import Paper from "@material-ui/core/Paper";
 
 import "./components.css";
 
@@ -26,16 +27,52 @@ export default class About extends Component {
       <div>
         <div class="about" id="about">
           {/* <img src={require("../images/uva4.jpg")} className="aboutsplash" /> */}
-
+          <div className="centered3">
+            <Typography variant="h3" className="center3">
+              <strong>ABOUT ME</strong>
+              <div className="subhead3" />
+              <div className="quote">
+                “Don’t let your happiness depend on something you may lose.”
+              </div>
+              <div className="author">- C.S. Lewis</div>
+            </Typography>
+          </div>
           <div className="center2">
             <Grid container spacing={1}>
-              <Grid item xs={4}>
+              <Grid item xs={6}>
+                <div className="paper text">
+                  <div className="centered4">
+                    <img
+                      src={require("../images/selfpic.JPG")}
+                      className="aboutpic"
+                    />
+                  </div>
+                  <div className="blackglass">
+                    <h2 className="who">WHO AM I?</h2>
+                    <p>
+                      I am a 3rd year student studying at the University of
+                      Virginia, majoring in Computer Science & Statistics in the
+                      School of Engineering. I aspire to become a full-stack
+                      engineer and enjoy challenging myself to learn and use new
+                      modern technologies and tools that software development is
+                      revolving around today. My current interests lie in
+                      machine learning and cloud services.
+                    </p>
+                    <p>
+                      Outside of academics, I enjoy hanging out with friends in
+                      my fellowship, playing tennis, and sometimes reading
+                      interesting books.
+                    </p>
+                  </div>
+                </div>
+              </Grid>
+              <Grid item xs={6}>
                 <Fragment>
-                  <br />
+                  {/* <br />
                   <Typography variant="h3">
                     <strong>EDUCATION</strong>
                   </Typography>
-                  <br />
+                  <br /> */}
 
                   <VerticalTimeline layout="one-column">
                     <VerticalTimelineElement
@@ -52,15 +89,33 @@ export default class About extends Component {
                         />
                       }
                     >
-                      <h3 className="vertical-timeline-element-title">
-                        <a className="none2" href="https://www.virginia.edu/">
-                          University of Virginia
-                        </a>
-                      </h3>
-                      <h4 className="vertical-timeline-element-subtitle role">
-                        2nd Year (SEAS) - CS & Statistics
-                      </h4>
-                      <p>Grace Christian Fellowship, Hackcville.</p>
+                      <a className="none2" href="http://www.virginia.edu/">
+                        <div className="vertical2">
+                          <h2 className="vertical-timeline-element-title ">
+                            <a
+                              className="none2"
+                              href="https://www.virginia.edu/"
+                            >
+                              University of Virginia
+                            </a>
+                          </h2>
+                          <h4 className="vertical-timeline-element-subtitle role">
+                            2nd Year (SEAS) - CS & Statistics
+                          </h4>
+                          <p>
+                            <strong>Activities:</strong> Grace Christian
+                            Fellowship, Hackcville.
+                          </p>
+                          <p>
+                            <strong>Coursework: </strong>CS4774 Machine
+                            Learning, CS4501 Computer Vision, CS4501 Internet
+                            Scale Applications, CS4102 Algorithms, CS3330
+                            Computer Arhictecture, CS3240 Advanced Software
+                            Development, CS2150 Program and Data Representation,
+                            CS2110 Software Development Methods
+                          </p>
+                        </div>
+                      </a>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
@@ -76,15 +131,30 @@ export default class About extends Component {
                         />
                       }
                     >
-                      <h3 className="vertical-timeline-element-title">
-                        <a className="none2" href="https://tjhsst.fcps.edu/">
-                          Thomas Jefferson HSST
-                        </a>
-                      </h3>
-                      <h4 className="vertical-timeline-element-subtitle role">
-                        Student
-                      </h4>
-                      <p>Varsity Tennis 2014-15, 2016-17.</p>
+                      <a className="none2" href="https://tjhsst.fcps.edu/">
+                        <div className="vertical2">
+                          <h2 className="vertical-timeline-element-title">
+                            <a
+                              className="none2"
+                              href="https://tjhsst.fcps.edu/"
+                            >
+                              Thomas Jefferson HSST
+                            </a>
+                          </h2>
+                          <h4 className="vertical-timeline-element-subtitle role">
+                            Student
+                          </h4>
+                          <p>
+                            <strong>Activities:</strong> Varsity Tennis 2014-15,
+                            2016-17.
+                          </p>
+                          <p>
+                            <strong>Coursework: </strong>AP Computer Science,
+                            Artificial Intelligence 1 & 2, Mobile App
+                            Development, Computer Vision
+                          </p>
+                        </div>
+                      </a>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work vertical-timeline-element--no-children"
@@ -104,7 +174,7 @@ export default class About extends Component {
               </Grid>
               {/*  */}
 
-              <Grid item xs={4} md={4}>
+              {/* <Grid item xs={4} md={4}>
                 <div className="">
                   <br />
                   <Typography variant="h3">
@@ -155,7 +225,6 @@ export default class About extends Component {
                         </ListItem>
                       </List>
                     </Grid>
-                    {/* UVA Courses */}
                     <Grid item xs={6} md={6}>
                       <Typography variant="h4">UVA</Typography>
                       <List>
@@ -235,8 +304,8 @@ export default class About extends Component {
                     </Grid>
                   </Grid>
                 </div>
-              </Grid>
-              <Grid item xs={4}>
+              </Grid> */}
+              {/* <Grid item xs={4}>
                 <br />
                 <Typography variant="h3">
                   <strong>TECH. SKILLS</strong>
@@ -471,7 +540,7 @@ export default class About extends Component {
                     deleteIcon={<DoneIcon />}
                   />
                 </div>
-              </Grid>
+              </Grid> */}
             </Grid>
           </div>
         </div>
