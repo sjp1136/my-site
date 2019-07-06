@@ -43,7 +43,7 @@ export default class About extends Component {
                 <div className="paper text">
                   <div className="centered4">
                     <img
-                      src={require("../images/selfpic.JPG")}
+                      src={require("../images/me2.jpg")}
                       className="aboutpic"
                     />
                   </div>
