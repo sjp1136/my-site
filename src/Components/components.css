@@ -81,8 +81,7 @@
   position: absolute;
   top: 35%;
   left: 50%;
-  width: 15%;
-  height: 15;
+  width: 230px;
   border-radius: 50%;
   z-index: 2;
   transform: translate(-50%, -50%);
@@ -108,7 +107,7 @@
   position: absolute;
   text-align: center;
   margin: auto;
-  top: 18%;
+  top: 17%;
   padding-top: 60px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -225,24 +224,44 @@
   position: relative;
 }
 .paper {
-  padding: 5%;
+  padding: 15%;
   position: relative;
   overflow: hidden;
+
+  /* z-index: 0; */
 }
 .paper:hover .blackglass {
   /* width: 450px; */
-  opacity: 0.99;
-  color: rgb(221, 221, 221, 1);
+  /* opacity: 0.8; */
+  color: rgb(255, 255, 255, 1);
+  background: rgba(25, 25, 25, 0.8);
 }
 .centered4 {
   text-align: center;
   margin: auto;
+  /* z-index: 1; */
+}
+.blackglass {
+  /* z-index: 0; */
+  padding: 40px;
+  height: 536px;
+  width: 370px;
+  background: rgba(25, 25, 25, 0);
+  position: absolute;
+  overflow: hidden;
+  color: rgb(255, 255, 255, 0);
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  /* opacity: 0; */
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
 }
 .centered5 {
   position: absolute;
   text-align: center;
   margin: auto;
-  top: 30%;
+  top: 23%;
   padding-top: 60px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -250,21 +269,7 @@
 .who {
   text-align: center;
 }
-.blackglass {
-  padding: 40px;
-  height: 536px;
-  width: 370px;
-  background: rgba(25, 25, 25, 0.8);
-  position: absolute;
-  overflow: hidden;
-  color: rgb(221, 221, 221, 0);
-  font-size: 20px;
-  top: 50%;
-  left: 50%;
-  opacity: 0.5;
-  transform: translate(-50%, -50%);
-  transition: 0.3s ease;
-}
+
 .aboutpic {
   height: 616px;
   width: 450px;
@@ -275,12 +280,14 @@
   width: 1000px;
   font-size: 25px;
   color: gray;
+  font-style: italic;
   /* font-weight: bold; */
 }
 .quote2 {
   width: 1000px;
   font-size: 25px;
   color: #bbbbbb;
+  font-style: italic;
   /* font-weight: bold; */
 }
 .author {
@@ -289,6 +296,7 @@
   color: gray;
   padding: 10px;
   margin-bottom: 10%;
+  font-style: italic;
   /* font-weight: bold; */
 }
 .author2 {
@@ -297,11 +305,12 @@
   color: #bbbbbb;
   padding: 10px;
   margin-bottom: 10%;
+
   /* font-weight: bold; */
 }
 
 .vertical2 {
-  transition: 0.1s;
+  transition: 0.2s;
   opacity: 1;
 }
 .vertical2:hover {
@@ -323,7 +332,7 @@
   position: absolute;
 }
 .center2 {
-  padding-top: 25%;
+  padding-top: 20%;
   /* position: absolute; */
   z-index: 5;
 }
@@ -472,26 +481,31 @@
   overflow: hidden;
 }
 .github {
-  width: 30px;
-  height: 30px;
-  margin-left: 268px;
-  margin-top: -308px;
   position: absolute;
   opacity: 0.7;
   background-color: black;
-  padding: 10px 10px 5px 5px;
+  /* padding: 10px 10px 5px 5px; */
+  text-align: center;
+  margin: auto;
+  /* padding-top: 60px; */
+  top: 0%;
+  right: 0%;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
   z-index: 2;
   transition: 0.2s;
 }
 .github:hover {
   opacity: 1;
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
+
 .github2 {
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  padding: 12px;
   opacity: 1;
-  padding-top: 5px;
+
+  /* padding-top: 5px; */
 }
 /* .github2:hover {
   height: 0px;
@@ -550,8 +564,9 @@
   transition: 0.3s;
 }
 .label:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
+  opacity: 0.9;
 }
 .none {
   text-decoration: none;
@@ -599,12 +614,12 @@
   transition: 0.1s ease-in-out;
   transform-origin: center center;
 }
-.timelineavatar:hover {
+/* .timelineavatar:hover {
   transform-origin: center center;
   transform: scale(1.4);
   top: 0%;
   left: 0%;
-}
+} */
 .timelineavatar3 {
   /* vertical-align: middle; */
   width: 60px;
@@ -639,7 +654,7 @@
   font-size: 15px;
 }
 .vertical {
-  transition: 0.1s;
+  transition: 0.2s;
   opacity: 1;
 }
 .vertical:hover {
@@ -647,6 +662,12 @@
   /* border: 3px solid black; */
   transform: scale(1.04);
   /* padding: 3px; */
+}
+.vertical:hover .timelineavatar {
+  transform-origin: center center;
+  transform: scale(1.15);
+  top: 0%;
+  left: 0%;
 }
 /* Resume */
 .resume {

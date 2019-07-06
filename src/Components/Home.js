@@ -19,11 +19,13 @@ export default class Home extends Component {
         <div src={require("../images/touring4.JPG")} className="background" />
         {/* <Typing className="centered" speed={5} hideCursor={false}> */}
         <div className="centered6">
-          <div className="quote2">
-            “Hardships often prepare ordinary people for an extraordinary
-            destiny.”
-          </div>
-          <div className="author2">- C.S. Lewis</div>
+          <Typography>
+            <div className="quote2">
+              “Hardships often prepare ordinary people for an extraordinary
+              destiny.”
+            </div>
+            <div className="author2">-C.S. Lewis</div>
+          </Typography>
         </div>
         <div className="centered">
           <Typography>

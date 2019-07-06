@@ -34,7 +34,7 @@ export default class About extends Component {
               <div className="quote">
                 “Don’t let your happiness depend on something you may lose.”
               </div>
-              <div className="author">- C.S. Lewis</div>
+              <div className="author">-C.S. Lewis</div>
             </Typography>
           </div>
           <div className="center2">
@@ -92,7 +92,7 @@ export default class About extends Component {
                     >
                       <a className="none2" href="http://www.virginia.edu/">
                         <div className="vertical2">
-                          <h2 className="vertical-timeline-element-title ">
+                          <h2 className="vertical-timeline-element-title">
                             <a
                               className="none2"
                               href="https://www.virginia.edu/"
