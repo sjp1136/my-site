@@ -345,7 +345,7 @@
   position: absolute;
 }
 .center2 {
-  padding-top: 20%;
+  padding-top: 250px;
   /* position: absolute; */
   z-index: 5;
 }
@@ -405,46 +405,38 @@
   margin: 0 auto;
   align-content: center;
   position: relative;
-  padding-bottom: 150px;
 }
 .container {
   /* background-color: yellow; */
   width: 100%;
   display: flex;
-  margin: 25px;
+  margin: 10px 0px 40px 0px;
 }
 .container2 {
-  margin: 25px;
+  margin: 10px 0px 40px 0px;
   /* background-color: gray; */
   width: 100%;
   display: flex;
 }
 .container3 {
-  margin: 25px;
-  /* background-color: green; */
+  margin: 10px 0px 40px 0px;
   width: 100%;
   display: flex;
 }
 .height2 {
-  height: 180px;
-  width: 180px;
-  padding: 15px;
-}
-.height3 {
-  /* width: 160px; */
   height: 130px;
-  padding: 10px;
-}
-.height4 {
-  /* width: 160px; */
-
-  height: 150px;
-  padding: 10px;
+  width: 130px;
+  padding: 10px 10px 10px 50px;
 }
 .skilllabel {
   font-size: 30px;
-  /* margin-bottom: 10px; */
+  padding-left: 30px;
 }
+.height3 {
+  height: 130px;
+  padding: 10px;
+}
+
 .eachskill {
   display: flex;
   flex-direction: column;
@@ -514,7 +506,7 @@
   z-index: 5;
 }
 .center3 {
-  /* padding-top: -20%; */
+  padding-top: 100px;
   /* padding: 6%; */
   text-align: center;
   /* color: black; */
@@ -717,6 +709,8 @@
 .vertical {
   transition: 0.2s;
   opacity: 1;
+  color: gray;
+  /* box-shadow: 3px 3px 1px 1px; */
 }
 .vertical:hover {
   /* opacity: 0.7; */

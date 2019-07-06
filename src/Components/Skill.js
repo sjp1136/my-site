@@ -55,10 +55,10 @@ export default class Skill extends Component {
               <div className="skilllabel">FRAMEWORKS</div>
             </div>
             <div className="skills">
-              <img src={require("../images/react.png")} className="height4" />
-              <img src={require("../images/django.png")} className="height4" />
-              <img src={require("../images/visjs.png")} className="height4" />
-              <img src={require("../images/d3.png")} className="height4" />
+              <img src={require("../images/react.png")} className="height3" />
+              <img src={require("../images/django.png")} className="height3" />
+              <img src={require("../images/visjs.png")} className="height3" />
+              <img src={require("../images/d3.png")} className="height3" />
             </div>
           </div>
 
