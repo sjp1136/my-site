@@ -25,28 +25,20 @@ export default class Experience extends Component {
 
           <VerticalTimeline>
             <VerticalTimelineElement
-              className="vertical-timeline-element--work vertical-timeline-element--no-children"
-              iconStyle={{ background: "rgb(0, 200, 0)", color: "#fff" }}
-              icon={
-                <img
-                  src={require("../images/star.png")}
-                  className="timelineavatar"
-                />
-              }
-            />
-            <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
-              date="May - Jun 2018"
+              date="May 2019 - Present"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <img
-                  src={require("../images/hackcville.png")}
+                  src={require("../images/volkswagen.png")}
                   className="timelineavatar"
                 />
               }
             >
-              <a className="none2" href="http://www.hackcville.com/">
-                {/* <div className="vertical"> */}
+              <a
+                className="none2"
+                href="http://www.volkswagengroupofamerica.com/"
+              >
                 <div className="padding">
                   <Chip
                     avatar={
@@ -63,50 +55,11 @@ export default class Experience extends Component {
                   <Chip
                     avatar={
                       <img
-                        src={require("../images/firebase.png")}
+                        src={require("../images/aws.jpg")}
                         className="avatar2"
                       />
                     }
-                    label="Firebase"
-                    clickable
-                    color="basic"
-                  />
-                </div>
-                <h2 className="vertical-timeline-element-title">Hackcville</h2>
-                <h3 className="vertical-timeline-element-subtitle role">
-                  Software Engineering Intern
-                </h3>
-                <p>
-                  5-week training program developing functional web
-                  applications/software using React, Firebase, and REST APIs in
-                  teams using agile development techniques. Deployed 3 websites.
-                  Gained experience with React.
-                </p>
-                {/* </div> */}
-              </a>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work vertical"
-              date="Jun - Aug 2018"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={
-                <img
-                  src={require("../images/tucows.png")}
-                  className="timelineavatar"
-                />
-              }
-            >
-              <a className="none2" href="http://www.tucows.com/">
-                {/* <div className="vertical"> */}
-                <div className="padding">
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/python.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Python"
+                    label="AWS"
                     clickable
                     color="basic"
                   />
@@ -114,28 +67,29 @@ export default class Experience extends Component {
                   <Chip
                     avatar={
                       <img
-                        src={require("../images/jquery.png")}
+                        src={require("../images/docker.png")}
                         className="avatar2"
                       />
                     }
-                    label="jQuery"
+                    label="Docker"
                     clickable
                     color="basic"
                   />
                 </div>
-                <h2 className="vertical-timeline-element-title">Tucows</h2>
+                {/* <br />
+              <br /> */}
+                <h2 className="vertical-timeline-element-title">
+                  Volkswagen Credit
+                </h2>
                 <h3 className="vertical-timeline-element-subtitle role">
-                  Software Engineering Intern
+                  Software Developer Intern
                 </h3>
                 <p>
-                  Built microservices for company’s backbone using jQuery, and
-                  Python.
+                  Integrating and deploying React applications with Docker and
+                  AWS (ECR, ECS Fargate, RDS, CloudFormation, CloudFront, S3)​
                 </p>
-                {/* </div> */}
               </a>
             </VerticalTimelineElement>
-            {/* </div> */}
-
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
               date="Aug 2018 - Apr 2019"
@@ -202,19 +156,67 @@ export default class Experience extends Component {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
-              date="May 2019 - Present"
+              date="Jun - Aug 2018"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <img
-                  src={require("../images/volkswagen.png")}
+                  src={require("../images/tucows.png")}
                   className="timelineavatar"
                 />
               }
             >
-              <a
-                className="none2"
-                href="http://www.volkswagengroupofamerica.com/"
-              >
+              <a className="none2" href="http://www.tucows.com/">
+                {/* <div className="vertical"> */}
+                <div className="padding">
+                  <Chip
+                    avatar={
+                      <img
+                        src={require("../images/python.png")}
+                        className="avatar2"
+                      />
+                    }
+                    label="Python"
+                    clickable
+                    color="basic"
+                  />
+                  &nbsp;
+                  <Chip
+                    avatar={
+                      <img
+                        src={require("../images/jquery.png")}
+                        className="avatar2"
+                      />
+                    }
+                    label="jQuery"
+                    clickable
+                    color="basic"
+                  />
+                </div>
+                <h2 className="vertical-timeline-element-title">Tucows</h2>
+                <h3 className="vertical-timeline-element-subtitle role">
+                  Software Engineering Intern
+                </h3>
+                <p>
+                  Built microservices for company’s backbone using jQuery, and
+                  Python.
+                </p>
+                {/* </div> */}
+              </a>
+            </VerticalTimelineElement>
+            {/* </div> */}
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work vertical"
+              date="May - Jun 2018"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={
+                <img
+                  src={require("../images/hackcville.png")}
+                  className="timelineavatar"
+                />
+              }
+            >
+              <a className="none2" href="http://www.hackcville.com/">
+                {/* <div className="vertical"> */}
                 <div className="padding">
                   <Chip
                     avatar={
@@ -231,41 +233,39 @@ export default class Experience extends Component {
                   <Chip
                     avatar={
                       <img
-                        src={require("../images/aws.jpg")}
+                        src={require("../images/firebase.png")}
                         className="avatar2"
                       />
                     }
-                    label="AWS"
-                    clickable
-                    color="basic"
-                  />
-                  &nbsp;
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/docker.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Docker"
+                    label="Firebase"
                     clickable
                     color="basic"
                   />
                 </div>
-                {/* <br />
-              <br /> */}
-                <h2 className="vertical-timeline-element-title">
-                  Volkswagen Credit
-                </h2>
+                <h2 className="vertical-timeline-element-title">Hackcville</h2>
                 <h3 className="vertical-timeline-element-subtitle role">
-                  Software Developer Intern
+                  Software Engineering Intern
                 </h3>
                 <p>
-                  Integrating and deploying React applications with Docker and
-                  AWS (ECR, ECS Fargate, RDS, CloudFormation, CloudFront, S3)​
+                  5-week training program developing functional web
+                  applications/software using React, Firebase, and REST APIs in
+                  teams using agile development techniques. Deployed 3 websites.
+                  Gained experience with React.
                 </p>
+                {/* </div> */}
               </a>
             </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work vertical-timeline-element--no-children"
+              iconStyle={{ background: "rgb(0, 200, 0)", color: "#fff" }}
+              icon={
+                <img
+                  src={require("../images/star.png")}
+                  className="timelineavatar"
+                />
+              }
+            />
           </VerticalTimeline>
           <p />
         </div>

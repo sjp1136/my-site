@@ -50,13 +50,31 @@ export default class About extends Component {
                   <div className="blackglass">
                     <h2 className="who">WHO AM I?</h2>
                     <p>
-                      I am a 3rd year student studying at the University of
-                      Virginia, majoring in Computer Science & Statistics in the
-                      School of Engineering. I aspire to become a full-stack
-                      engineer and enjoy challenging myself to learn and use new
-                      modern technologies and tools that software development is
-                      revolving around today. My current interests lie in
-                      machine learning and cloud services.
+                      I am a 3rd year student studying at the{" "}
+                      <a href="https://www.virginia.edu/" className="none4">
+                        University of Virginia
+                      </a>
+                      , majoring in Computer Science & Statistics in the School
+                      of Engineering. Currently, I am a Software Development
+                      Intern using AWS, Docker, React at{" "}
+                      <a
+                        href="https://www.vwcredit.com/Authentication/Login"
+                        className="none4"
+                      >
+                        Volkswagen Credit
+                      </a>
+                      , a financial subsidiary of{" "}
+                      <a
+                        href="http://www.volkswagengroupofamerica.com/"
+                        className="none4"
+                      >
+                        Volkswagen Group of America
+                      </a>{" "}
+                      based in Herndon VA. Down the road, I aspire to become a
+                      full-stack engineer and enjoy challenging myself to learn
+                      and use new modern technologies and tools that software
+                      development is revolving around today. My current
+                      interests lie in machine learning and cloud services.
                     </p>
                     <p>
                       Outside of academics, I enjoy hanging out with friends in
