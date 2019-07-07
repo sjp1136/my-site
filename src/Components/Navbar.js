@@ -28,18 +28,17 @@ export default class Navbar extends Component {
               <div className="link">PROJECTS</div>
             </Link>
             <Link to="experience" spy={true} smooth={true} duration={500}>
-              <div className="link">EXPERIENCES</div>
+              <div className="link">EXPERIENCE</div>
             </Link>
             <Link to="misc" spy={true} smooth={true} duration={500}>
               <div className="link">MISC</div>
             </Link>
-
             <a
-              className="link"
+              className="none"
               href={require("../files/SungJoonParkResume.pdf")}
               target="SungJoonParkResume"
             >
-              RESUME
+              <div className="link">RESUME</div>
             </a>
           </div>
         </div>

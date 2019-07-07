@@ -511,7 +511,7 @@ Typography {
   color: white;
 }
 .center0 {
-  top: 12%;
+  top: 19%;
   color: white;
   position: absolute;
   z-index: 2;
@@ -859,7 +859,7 @@ Typography {
   font-weight: 300;
 }
 .download:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.9);
   color: black;
 }
 /* Footer */
