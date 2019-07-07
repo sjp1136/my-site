@@ -130,8 +130,9 @@ export default class About extends Component {
                             Computer Vision, CS4501 Internet Scale Applications,
                             CS4102 Algorithms, CS3330 Computer Arhictecture,
                             CS3240 Advanced Software Development, CS2150 Program
-                            and Data Representation, CS2110 Software Development
-                            Methods
+                            and Data Representation, CS2102 Discrete
+                            Mathematics, CS2110 Software Development Methods,
+                            STAT3080 From Data to Knowledge
                           </div>
                         </div>
                       </a>

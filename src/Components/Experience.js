@@ -85,8 +85,11 @@ export default class Experience extends Component {
                   Software Developer Intern
                 </h3>
                 <div className="text2">
-                  Integrating and deploying React applications with Docker and
-                  AWS (ECR, ECS Fargate, RDS, CloudFormation, CloudFront, S3)​
+                  I am currently integrating and deploying the VCI React
+                  application with Docker and AWS (ECR, ECS Fargate, RDS,
+                  CloudFormation, CloudFront, S3)​. The projects are setup in
+                  sprint style formation. Gained some experience using Docker
+                  and AWS.
                 </div>
               </a>
             </VerticalTimelineElement>
@@ -148,9 +151,12 @@ export default class Experience extends Component {
                   Javascript Developer Intern (Remote)
                 </h3>
                 <div className="text2">
-                  Developed on the user interface and the functionalities of the
-                  Ridgeback-Hunter platform using vis.js and d3.js. Built 13
-                  network visualization widgets.
+                  I worked on the visualization portion of the network graph on
+                  the Ridgeback-Hunter platform using vis.js and also helped
+                  build and deploy 13 network visualization widgets using d3.js.
+                  Gained my first experience working in pure Javascript
+                  application and using the two data visualization libraries,
+                  vis.js and d3.js.
                 </div>
               </a>
             </VerticalTimelineElement>
@@ -197,8 +203,16 @@ export default class Experience extends Component {
                   Software Engineering Intern
                 </h3>
                 <div className="text2">
-                  Built microservices for company’s backbone using jQuery, and
-                  Python.
+                  I primarily worked on two projects during this internship. The
+                  first project involved deploying the compiled and integrated
+                  employee database into the employee site (OrgLink) built in
+                  C#. This program was built using Python and shell scripts for
+                  automation. The site was used by recruiters to find new hires
+                  or promote employees. The second project I worked on was the
+                  site for the internet installation team database. Using
+                  jQuery, I worked on facilitating the user functionalities on
+                  these site. Gained experience with Python, shell scripts, and
+                  jQuery.
                 </div>
                 {/* </div> */}
               </a>
@@ -247,10 +261,13 @@ export default class Experience extends Component {
                   Software Engineering Intern
                 </h3>
                 <div className="text2">
-                  5-week training program developing functional web
-                  applications/software using React, Firebase, and REST APIs in
-                  teams using agile development techniques. Deployed 3 websites.
-                  Gained experience with React.
+                  This 5-week training program that involved developing
+                  functional web applications/software using React, Firebase,
+                  and incorporating different REST APIs in agile development
+                  teams. Each project completed was completed in different teams
+                  to introduce new team dynamics. In total, we deployed 3
+                  websites, FaceMe, Pomodoro, and Trenchtek. Gained first
+                  experience using React.
                 </div>
                 {/* </div> */}
               </a>
