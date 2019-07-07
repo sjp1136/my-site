@@ -14,7 +14,7 @@ export default class Experience extends Component {
       <div>
         <div class="experience" id="experience">
           <Typography variant="h3" className="center">
-            <strong className="">EXPERIENCE</strong>
+            EXPERIENCE
             <div className="subhead3" />
           </Typography>
 

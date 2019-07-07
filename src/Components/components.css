@@ -224,7 +224,7 @@ Typography {
   margin: 0 auto;
   padding-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 5px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   opacity: 0.8;
 }
 .subhead2 {
@@ -239,7 +239,7 @@ Typography {
   margin: 0 auto;
   padding-top: 20px;
   margin-bottom: 20px;
-  border-bottom: 5px solid black;
+  border-bottom: 1px solid black;
   opacity: 0.8;
 }
 
@@ -469,6 +469,7 @@ Typography {
 .skilllabel {
   font-size: 30px;
   padding-left: 30px;
+  font-weight: 300;
 }
 .height3 {
   height: 130px;
@@ -499,7 +500,12 @@ Typography {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-
+.description {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
 .react {
   color: #61dbfb;
 }
@@ -544,10 +550,9 @@ Typography {
 }
 .center3 {
   padding-top: 100px;
-  /* padding: 6%; */
   text-align: center;
-  /* color: black; */
   z-index: 5;
+  font-weight: 900;
 }
 .cardcontainer {
   position: relative;
@@ -627,15 +632,16 @@ Typography {
   font-size: 35px;
   margin-top: 70px;
   padding: 50px 0px 0px 0px;
-  font-weight: bold;
+  font-weight: 300;
+  text-align: center;
   /* margin-left: 10px; */
 
   /* text-decoration: overline; */
 }
 .technology {
   /* color: #cccccc; */
-  font-weight: bold;
-
+  font-weight: 300;
+  font-size: 20px;
   padding: 0px 60px;
 }
 
@@ -801,6 +807,7 @@ Typography {
   margin: auto;
   padding-bottom: 100px;
   left: 50%;
+  font-weight: 300;
   transform: translate(-50%, -50%);
 }
 .limit {

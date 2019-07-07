@@ -29,7 +29,7 @@ export default class About extends Component {
           {/* <img src={require("../images/uva4.jpg")} className="aboutsplash" /> */}
           <div className="centered3">
             <Typography variant="h3" className="center3">
-              <strong>ABOUT ME</strong>
+              ABOUT ME
               <div className="subhead3" />
               <div className="quote">
                 “Don’t let your happiness depend on something you may lose.”

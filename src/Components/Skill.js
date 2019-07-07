@@ -17,7 +17,7 @@ export default class Skill extends Component {
           {/* <div className="portfoliosplash" /> */}
 
           <Typography variant="h3" className="center3">
-            <strong>TECHNICAL SKILLS</strong>
+            TECHNICAL SKILLS
             <div className="subhead3" />
             <div className="quote">
               “When something is important enough, you do it even if the odds

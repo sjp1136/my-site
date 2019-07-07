@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
       <div className="portfolio" id="portfolio">
         <div className="portfoliosplash" />
         <Typography variant="h3" className="center0">
-          <strong>PROJECTS</strong>
+          PROJECTS
           <div className="subhead" />
         </Typography>
 
@@ -41,6 +41,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">SHAREIT</div>
+                    <div className="description">ECommercePlatform</div>
                     <div className="technology django"> DJANGO</div>
                     <a
                       className="none"
@@ -67,6 +68,10 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">SKILLMATCHER</div>
+                    <div className="description">
+                      Student2StudentInteraction
+                    </div>
+
                     <div className="technology django"> DJANGO</div>
                     <a className="none" href="https://lucky-13.herokuapp.com/">
                       <div className="label">VIEW</div>
@@ -90,6 +95,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">TRENCHTEK</div>
+                    <div className="description">CompanyClientInteraction</div>
                     <div className="technology react"> REACT</div>
                     <a
                       className="none"
@@ -118,6 +124,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">FACEME</div>
+                    <div className="description">YourFBProfile</div>
                     <div className="technology react"> REACT</div>
                     <a className="none" href="https://github.com/sp3bk/FaceMe-">
                       <div className="label">VIEW</div>
@@ -141,6 +148,7 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">SNFLASK</div>
+                    <div className="description">SocialNetwork</div>
                     <div className="technology flask"> FLASK</div>
                     <div className="label2">
                       <a
@@ -169,6 +177,8 @@ export default class Portfolio extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">POMODORO</div>
+                    <div className="description">ProducitivityTimerApp</div>
+
                     <div className="technology react"> REACT</div>
                     <a
                       className="none"
