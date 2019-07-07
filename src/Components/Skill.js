@@ -72,7 +72,7 @@ export default class Skill extends Component {
               <img src={require("../images/docker.png")} className="height3" />
               <img
                 src={require("../images/concourse.png")}
-                className="height2"
+                className="height3"
               />
               <img src={require("../images/git.png")} className="height3" />
 

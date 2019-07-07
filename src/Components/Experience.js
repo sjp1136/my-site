@@ -84,10 +84,10 @@ export default class Experience extends Component {
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Developer Intern
                 </h3>
-                <p>
+                <div className="text2">
                   Integrating and deploying React applications with Docker and
                   AWS (ECR, ECS Fargate, RDS, CloudFormation, CloudFront, S3)​
-                </p>
+                </div>
               </a>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -147,11 +147,11 @@ export default class Experience extends Component {
                 <h3 className="vertical-timeline-element-subtitle role">
                   Javascript Developer Intern (Remote)
                 </h3>
-                <p>
+                <div className="text2">
                   Developed on the user interface and the functionalities of the
                   Ridgeback-Hunter platform using vis.js and d3.js. Built 13
                   network visualization widgets.
-                </p>
+                </div>
               </a>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -196,10 +196,10 @@ export default class Experience extends Component {
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
                 </h3>
-                <p>
+                <div className="text2">
                   Built microservices for company’s backbone using jQuery, and
                   Python.
-                </p>
+                </div>
                 {/* </div> */}
               </a>
             </VerticalTimelineElement>
@@ -246,12 +246,12 @@ export default class Experience extends Component {
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
                 </h3>
-                <p>
+                <div className="text2">
                   5-week training program developing functional web
                   applications/software using React, Firebase, and REST APIs in
                   teams using agile development techniques. Deployed 3 websites.
                   Gained experience with React.
-                </p>
+                </div>
                 {/* </div> */}
               </a>
             </VerticalTimelineElement>

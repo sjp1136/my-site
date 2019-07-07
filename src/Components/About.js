@@ -49,9 +49,9 @@ export default class About extends Component {
                   </div>
                   <div className="blackglass">
                     <h2 className="who">WHO AM I?</h2>
-                    <p>
+                    <p className="p">
                       I am a 3rd year student studying at the{" "}
-                      <a href="https://www.virginia.edu/" className="none4">
+                      <a href="https://www.virginia.edu/" className="none4 p">
                         University of Virginia
                       </a>
                       , majoring in Computer Science & Statistics in the School
@@ -59,14 +59,14 @@ export default class About extends Component {
                       Intern using AWS, Docker, React at{" "}
                       <a
                         href="https://www.vwcredit.com/Authentication/Login"
-                        className="none4"
+                        className="none4 p"
                       >
                         Volkswagen Credit
                       </a>
                       , a financial subsidiary of{" "}
                       <a
                         href="http://www.volkswagengroupofamerica.com/"
-                        className="none4"
+                        className="none4 p"
                       >
                         Volkswagen Group of America
                       </a>{" "}
@@ -76,7 +76,7 @@ export default class About extends Component {
                       development is revolving around today. My current
                       interests lie in machine learning and cloud services.
                     </p>
-                    <p>
+                    <p className="p">
                       Outside of academics, I enjoy hanging out with friends in
                       my fellowship, playing tennis, and sometimes reading
                       interesting books. I have recently started learning guitar
@@ -121,18 +121,18 @@ export default class About extends Component {
                           <h4 className="vertical-timeline-element-subtitle role">
                             2nd Year (SEAS) - CS & Statistics
                           </h4>
-                          <p>
-                            <strong>Activities:</strong> Grace Christian
-                            Fellowship, Hackcville.
-                          </p>
-                          <p>
-                            <strong>Coursework: </strong>CS4774 Machine
-                            Learning, CS4501 Computer Vision, CS4501 Internet
-                            Scale Applications, CS4102 Algorithms, CS3330
-                            Computer Arhictecture, CS3240 Advanced Software
-                            Development, CS2150 Program and Data Representation,
-                            CS2110 Software Development Methods
-                          </p>
+                          <div className="text2">
+                            <p>Activities:</p> Grace Christian Fellowship,
+                            Hackcville.
+                          </div>
+                          <div className="text2">
+                            <p>Coursework: </p>CS4774 Machine Learning, CS4501
+                            Computer Vision, CS4501 Internet Scale Applications,
+                            CS4102 Algorithms, CS3330 Computer Arhictecture,
+                            CS3240 Advanced Software Development, CS2150 Program
+                            and Data Representation, CS2110 Software Development
+                            Methods
+                          </div>
                         </div>
                       </a>
                     </VerticalTimelineElement>
@@ -163,15 +163,14 @@ export default class About extends Component {
                           <h4 className="vertical-timeline-element-subtitle role">
                             Student
                           </h4>
-                          <p>
-                            <strong>Activities:</strong> Varsity Tennis 2014-15,
-                            2016-17.
-                          </p>
-                          <p>
-                            <strong>Coursework: </strong>AP Computer Science,
-                            Artificial Intelligence 1 & 2, Mobile App
-                            Development, Computer Vision
-                          </p>
+                          <div className="text2">
+                            <p>Activities:</p> Varsity Tennis 2014-15, 2016-17.
+                          </div>
+                          <div className="text2">
+                            <p>Coursework: </p>AP Computer Science, Artificial
+                            Intelligence 1 & 2, Mobile App Development, Computer
+                            Vision
+                          </div>
                         </div>
                       </a>
                     </VerticalTimelineElement>

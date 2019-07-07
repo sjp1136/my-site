@@ -56,23 +56,34 @@ export default class Home extends Component {
             radius={0}
             zIndex={1}
           >
-            <a href="tel:7035776388">
-              <img src={require("../images/phone.png")} className="icon" />
-            </a>
+            <div className="icon1">
+              <a href="tel:7035776388">
+                <img src={require("../images/phone.png")} className="icon" />
+              </a>
+            </div>
           </ReactSimpleTooltip>
 
           <div className="iconpadding" />
-          <a href="mailto:sp3bk@virginia.edu">
-            <img src={require("../images/mail2.png")} className="icon" />
-          </a>
+
+          <div className="icon1">
+            <a href="mailto:sp3bk@virginia.edu">
+              <img src={require("../images/mail4.png")} className="icon" />
+            </a>
+          </div>
+
           <div className="iconpadding" />
-          <a href="https://www.linkedin.com/in/sung-joon-park/">
-            <img src={require("../images/linkedin.png")} className="icon" />
-          </a>
+          <div className="icon1">
+            <a href="https://www.linkedin.com/in/sung-joon-park/">
+              <img src={require("../images/linkedin2.png")} className="icon" />
+            </a>
+          </div>
+
           <div className="iconpadding" />
-          <a href="http://github.com/sp3bk/">
-            <img src={require("../images/github3.png")} className="icon" />
-          </a>
+          <div className="icon1">
+            <a href="http://github.com/sp3bk/">
+              <img src={require("../images/github2.svg")} className="icon" />
+            </a>
+          </div>
         </div>
         <Link to="about" spy={true} smooth={true} duration={6500}>
           <Typography className="toabout">ABOUT ME</Typography>

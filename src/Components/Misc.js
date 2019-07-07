@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 
 import GridListTile from "@material-ui/core/GridListTile";
 import ModalImage from "react-modal-image";
-
+import Footer from "./Footer.js";
 // import tileData from "./tileData";
 // import ListHeader from "@material-ui/core/ListHeader";
 
@@ -312,6 +312,7 @@ export default class Misc extends Component {
             </GridList>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
