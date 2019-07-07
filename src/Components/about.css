@@ -4,6 +4,8 @@
   background-color: #eeeeee;
   z-index: 0;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .centered3 {
   position: absolute;

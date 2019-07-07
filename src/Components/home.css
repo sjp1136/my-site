@@ -8,7 +8,7 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  /* position: relative; */
+  position: relative;
 }
 .centered6 {
   position: absolute;
@@ -84,7 +84,7 @@
   text-align: center;
   margin: auto;
   /* padding-top: 60px; */
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -92,7 +92,7 @@
   position: absolute;
   text-align: center;
   margin: auto;
-  top: 90%;
+  top: 67%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -100,7 +100,7 @@
   position: absolute;
   text-align: center;
   margin: auto;
-  top: 115%;
+  top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
