@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import Typography from "@material-ui/core/Typography";
 
 import "./components.css";
+import "./skill.css";
 
 // - Languages: Python, Javascript, Java, C++, R
 // - Frameworks: React, Django, vis.js, d3.js

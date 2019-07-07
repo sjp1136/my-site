@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import { Icon } from "antd";
 
 import "./components.css";
+import "./portfolio.css";
 
 export default class Portfolio extends Component {
   render() {

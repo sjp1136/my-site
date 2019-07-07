@@ -3,6 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 
 import "./components.css";
+import "./navbar.css";
 
 export default class Navbar extends Component {
   scrollToTop = () => {

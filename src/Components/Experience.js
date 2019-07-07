@@ -7,6 +7,7 @@ import {
 import Chip from "@material-ui/core/Chip";
 import "react-vertical-timeline-component/style.min.css";
 import "./components.css";
+import "./experience.css";
 
 export default class Experience extends Component {
   render() {

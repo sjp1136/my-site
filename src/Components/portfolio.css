@@ -1,0 +1,191 @@
+/* Portfolio */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  /* width: 100%;
+    height: 100%; */
+  position: relative;
+  padding-bottom: 150px;
+  background-image: url("../images/coding.jpg");
+  background-size: 100% 100%;
+  z-index: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.portfoliosplash {
+  min-height: 100%;
+  width: 100%;
+  /* top: 17%;  */
+  margin-top: 75px;
+  /* padding-bottom/* padding-right: 5%; */
+  /* padding-left: 5%; */
+  text-align: center;
+  position: absolute;
+  opacity: 0.6;
+  background-color: black;
+}
+.description {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.react {
+  color: #61dbfb;
+}
+.django {
+  /* color: #092e20; */
+  color: #2da977;
+}
+.flask {
+  color: white;
+}
+.center0 {
+  /* padding-top: 50px; */
+  top: 170px;
+  /* margin-right: 20px; */
+  color: white;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.portfoliozindex {
+  padding-top: 200px;
+  /* padding-top: 40%; */
+  z-index: 5;
+  /* position: absolute; */
+}
+
+.center {
+  /* padding-top: -20%; */
+  padding-top: 100px;
+  text-align: center;
+  /* color: black; */
+  z-index: 5;
+}
+.center3 {
+  padding-top: 100px;
+  text-align: center;
+  z-index: 5;
+  font-weight: 900;
+}
+.cardcontainer {
+  position: relative;
+}
+.card {
+  position: absolute;
+}
+.black {
+  background-color: black;
+  height: 300px;
+}
+.height {
+  height: 300px;
+  width: 300px;
+  transition: 0.2s;
+  overflow: hidden;
+}
+.post {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.github {
+  position: absolute;
+  opacity: 0.7;
+  background-color: black;
+  /* padding: 10px 10px 5px 5px; */
+  text-align: center;
+  margin: auto;
+  /* padding-top: 60px; */
+  top: 0%;
+  right: 0%;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  z-index: 2;
+  transition: 0.2s;
+}
+.github:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.github2 {
+  width: 23px;
+  padding: 12px;
+  opacity: 1;
+
+  /* padding-top: 5px; */
+}
+/* .github2:hover {
+    height: 0px;
+    opacity: 0.5;
+  } */
+.post:hover .post-s {
+  width: 300px;
+  height: 300px;
+}
+.post:hover .height {
+  /* transform: scale(1.2); */
+  width: 100%;
+  max-width: 300px;
+}
+.post-s {
+  width: 0;
+  height: 300px;
+  background: rgba(25, 25, 25, 0.8);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.used {
+  color: white;
+  font-size: 35px;
+  margin-top: 70px;
+  padding: 50px 0px 0px 0px;
+  font-weight: 300;
+  text-align: center;
+  /* margin-left: 10px; */
+
+  /* text-decoration: overline; */
+}
+.technology {
+  /* color: #cccccc; */
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0px 60px;
+}
+
+.post:hover .post-s {
+  width: 100%;
+}
+.label {
+  color: white;
+  width: 30%;
+  font-size: 20px;
+  border: 1px solid white;
+  padding: 10px 40px;
+  margin-top: 30px;
+  margin-left: 21%;
+  margin-right: 70px;
+  transition: 0.3s;
+  font-weight: 300;
+}
+.label:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  opacity: 0.9;
+}
+.none {
+  text-decoration: none;
+}

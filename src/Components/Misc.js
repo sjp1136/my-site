@@ -11,6 +11,7 @@ import Footer from "./Footer.js";
 // import ListHeader from "@material-ui/core/ListHeader";
 
 import "./components.css";
+import "./misc.css";
 
 export default class Misc extends Component {
   render() {

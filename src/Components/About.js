@@ -17,6 +17,7 @@ import { Timeline, Event } from "react-timeline-scribble";
 import Paper from "@material-ui/core/Paper";
 
 import "./components.css";
+import "./about.css";
 
 export default class About extends Component {
   render() {
@@ -74,7 +75,8 @@ export default class About extends Component {
                       full-stack engineer and enjoy challenging myself to learn
                       and use new modern technologies and tools that software
                       development is revolving around today. My current
-                      interests lie in machine learning and cloud services.
+                      interests lie in learning more about machine learning and
+                      cloud services.
                     </p>
                     <p className="p">
                       Outside of academics, I enjoy hanging out with friends in

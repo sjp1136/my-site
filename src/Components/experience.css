@@ -1,0 +1,102 @@
+/* Experience */
+.experience {
+  padding-left: 5%;
+  padding-right: 5%;
+  min-height: 500px;
+  padding-bottom: 5%;
+  /* background-color: black; */
+  background-color: #dddddd;
+}
+.color {
+  color: white;
+}
+.experiencesplash1 {
+  /* padding-top: 10%; */
+  /* margin-top: 10%; */
+  /* padding-bottom: 50%; */
+  height: 175%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.2;
+  z-index: 0;
+}
+.experiencesplash2 {
+  /* padding-top: 32%; */
+  margin-top: 32.9%;
+  height: 45%;
+  width: 100%;
+  position: absolute;
+  opacity: 1;
+  z-index: 0;
+}
+
+.timelineavatar {
+  vertical-align: middle;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  transition: 0.1s ease-in-out;
+  transform-origin: center center;
+}
+/* .timelineavatar:hover {
+    transform-origin: center center;
+    transform: scale(1.4);
+    top: 0%;
+    left: 0%;
+  } */
+.timelineavatar3 {
+  /* vertical-align: middle; */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /* border: 1px solid #021a40; */
+}
+.padding {
+  padding: 0px 0px 15px 0px;
+}
+.none2 {
+  text-decoration: none;
+  color: black;
+  /* font-size: 30px; */
+}
+.title {
+  font-size: 30px;
+}
+.none3 {
+  text-decoration: none;
+  color: white;
+}
+.none3:hover {
+  color: black;
+}
+.none2:hover {
+  color: gray;
+  opacity: 1;
+}
+.role {
+  color: #777777;
+  font-size: 15px;
+}
+.vertical {
+  transition: 0.2s;
+  opacity: 1;
+  color: gray;
+  /* box-shadow: 3px 3px 1px 1px; */
+}
+.vertical:hover {
+  /* opacity: 0.7; */
+  /* border: 3px solid black; */
+  transform: scale(1.04);
+  /* padding: 3px; */
+}
+/* .vertical:hover .timelineavatar {
+    transform-origin: center center;
+    transform: scale(1.15);
+    top: 0%;
+    left: 0%;
+  } */

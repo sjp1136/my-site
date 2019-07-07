@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./components.css";
+import "./footer.css";
 import ReactSimpleTooltip from "react-simple-tooltip";
 import { Link, animateScroll as scroll } from "react-scroll";
 
