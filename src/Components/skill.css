@@ -25,6 +25,11 @@
   width: 100%;
   display: flex;
 }
+.center2 {
+  /* padding-top: 1050px; */
+  /* position: absolute; */
+  z-index: 5;
+}
 .height2 {
   height: 130px;
   width: 130px;

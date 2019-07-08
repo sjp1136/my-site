@@ -15,9 +15,9 @@
 }
 .flex {
   display: flex;
-  /* flex-direction: column; */
   margin: 0;
-  padding-top: 100px;
+  min-width: 100%;
+  padding-top: 120px;
 }
 .centered3 {
   display: flex;
@@ -48,17 +48,18 @@
   overflow: hidden;
   margin: auto;
   font-size: 20px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
 }
 .blackglass {
   /* REMEMBER TO SUBTRACT PAPER WIDTH - 2* PADDING for WIDTH & HEIGHT HERE! */
   height: 576px;
   width: 410px;
   padding: 20px;
+  width: 90%;
+  overflow-y: scroll;
 
   background: rgba(25, 25, 25, 0);
   position: absolute;
-  overflow: hidden;
   color: rgb(255, 255, 255, 0);
   font-size: 19px;
   margin: auto;
@@ -147,11 +148,6 @@
   z-index: -1;
   text-align: center;
   position: absolute;
-}
-.center2 {
-  /* padding-top: 1050px; */
-  /* position: absolute; */
-  z-index: 5;
 }
 
 .education {
