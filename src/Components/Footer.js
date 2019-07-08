@@ -67,7 +67,7 @@ export default class Footer extends Component {
                 </a>
               </div>
             </div>{" "}
-            <Link to="home" spy={true} smooth={true} duration={1500}>
+            <Link to="home" spy={true} smooth={true} duration={2000}>
               <div className="button">HOME</div>
             </Link>
             <div className="copyright">&copy;2019 SUNG JOON PARK</div>

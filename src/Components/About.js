@@ -26,16 +26,15 @@ export default class About extends Component {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <div class="about" id="about">
-          <div className="centered3">
-            <Typography variant="h3" className="">
-              ABOUT ME
-              <div className="subhead3" />
-            </Typography>
+          <Typography variant="h3" className="center">
+            ABOUT ME
+            <div className="subhead3" />
             <div className="quote">
               “Don’t let your happiness depend on something you may lose.”
             </div>
             <div className="author">-C.S. Lewis</div>
-          </div>
+          </Typography>
+
           <div className="flex">
             <div className="paper">
               <img src={require("../images/me2.jpg")} className="aboutpic" />

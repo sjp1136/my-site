@@ -24,31 +24,31 @@ export default class Misc extends Component {
         backgroundColor: theme.palette.background.paper
       },
       gridList: {
-        width: 800,
-        height: 450
+        width: 1500,
+        height: 500
       }
     }));
     const gcf = [
       {
         img: require("../images/group1.jpg"),
         author: "SJP",
-        cols: 3
+        cols: 4
       },
       {
         img: require("../images/group2.jpg"),
         author: "SJP",
         cols: 2
       },
-      {
-        img: require("../images/group3.jpg"),
-        author: "SJP",
-        cols: 2
-      },
       // {
-      //   img: require("../images/group4.jpg"),
+      //   img: require("../images/group3.jpg"),
       //   author: "SJP",
-      //   cols: 3
+      //   cols: 1
       // },
+      {
+        img: require("../images/group4.jpg"),
+        author: "SJP",
+        cols: 3
+      },
       {
         img: require("../images/group5.jpg"),
         author: "SJP",
@@ -203,7 +203,7 @@ export default class Misc extends Component {
       //   cols: 1
       // }
     ];
-    var height = 180;
+    var height = 350;
     return (
       <div class="misc" id="misc">
         <div className="background2" />
@@ -214,7 +214,7 @@ export default class Misc extends Component {
             <div className="subhead" />
           </Typography>
           <div className="limit">
-            <GridList cellHeight={height} className="overflow" cols={5}>
+            <GridList cellHeight={height} className="overflow" cols={6}>
               {gcf.map(tile => (
                 <GridListTile key={tile.img} cols={tile.cols || 1}>
                   <div className="picture">
@@ -223,12 +223,8 @@ export default class Misc extends Component {
                         <div className="download">VIEW</div>
                       </a>
                     </div>
-                    <ModalImage
-                      small={tile.img}
-                      large={tile.img}
-                      alt="Hello World!"
-                      className="picture2"
-                    />
+
+                    <img src={tile.img} alt={tile.title} className="picture2" />
                   </div>
                 </GridListTile>
               ))}
@@ -250,12 +246,13 @@ export default class Misc extends Component {
                         <div className="download">VIEW</div>
                       </a>
                     </div>
-                    <ModalImage
+                    {/* <ModalImage
                       small={tile.img}
                       large={tile.img}
                       alt="Hello World!"
                       className="picture2"
-                    />
+                    /> */}
+                    <img src={tile.img} alt={tile.title} className="picture2" />
                   </div>
                 </GridListTile>
               ))}
@@ -270,18 +267,19 @@ export default class Misc extends Component {
                         <div className="download">VIEW</div>
                       </a>
                     </div>
-                    <ModalImage
+                    {/* <ModalImage
                       small={tile.img}
                       large={tile.img}
                       alt="Hello World!"
                       className="picture2"
-                    />
+                    /> */}
+                    <img src={tile.img} alt={tile.title} className="picture2" />
                   </div>
                 </GridListTile>
               ))}
             </GridList>
 
-            <GridList cellHeight={height} className={classes.gridList} cols={5}>
+            <GridList cellHeight={height} className="overflow" cols={5}>
               {vw.map(tile => (
                 <GridListTile key={tile.img} cols={tile.cols || 1}>
                   <div className="picture">
@@ -290,12 +288,13 @@ export default class Misc extends Component {
                         <div className="download">VIEW</div>
                       </a>
                     </div>
-                    <ModalImage
+                    {/* <ModalImage
                       small={tile.img}
                       large={tile.img}
                       alt="Hello World!"
                       className="picture2"
-                    />
+                    /> */}
+                    <img src={tile.img} alt={tile.title} className="picture2" />
                   </div>
                 </GridListTile>
               ))}

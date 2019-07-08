@@ -8,11 +8,10 @@
   background-color: #dddddd;
 }
 .center {
-  /* padding-top: -20%; */
-  padding-top: 100px;
   text-align: center;
-  /* color: black; */
   z-index: 5;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .color {
   color: white;
