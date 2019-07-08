@@ -32,12 +32,12 @@ export default class Misc extends Component {
       {
         img: require("../images/group1.jpg"),
         author: "SJP",
-        cols: 4
+        cols: 3
       },
       {
         img: require("../images/group2.jpg"),
         author: "SJP",
-        cols: 2
+        cols: 3
       },
       // {
       //   img: require("../images/group3.jpg"),
@@ -203,7 +203,7 @@ export default class Misc extends Component {
       //   cols: 1
       // }
     ];
-    var height = 350;
+    var height = 250;
     return (
       <div class="misc" id="misc">
         <div className="background2" />
@@ -213,7 +213,7 @@ export default class Misc extends Component {
           PHOTOS
           <div className="subhead" />
         </Typography>
-        <div className="portfoliozindex">
+        <div className="misccontainer">
           <GridList cellHeight={height} className="overflow" cols={6}>
             {gcf.map(tile => (
               <GridListTile key={tile.img} cols={tile.cols || 1}>
