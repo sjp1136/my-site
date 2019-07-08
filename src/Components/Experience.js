@@ -5,6 +5,10 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import Chip from "@material-ui/core/Chip";
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
+import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
 import "react-vertical-timeline-component/style.min.css";
 import "./components.css";
 import "./experience.css";
@@ -15,8 +19,10 @@ export default class Experience extends Component {
       <div>
         <div class="experience" id="experience">
           <Typography variant="h3" className="center">
-            EXPERIENCE
-            <div className="subhead3" />
+            <Slide right>EXPERIENCE</Slide>
+            <Slide right>
+              <div className="subhead3" />
+            </Slide>
           </Typography>
 
           <VerticalTimeline>

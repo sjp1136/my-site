@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import Typing from "react-typing-animation";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
-// import Icon from "@material-ui/core/Icon";
 import Typography from "@material-ui/core/Typography";
 import ReactTooltip from "react-tooltip";
 import ReactSimpleTooltip from "react-simple-tooltip";
 import { Link, animateScroll as scroll } from "react-scroll";
-// import "./components.css";
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
+import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
+
 import "./home.css";
 
 export default class Home extends Component {
@@ -16,12 +19,20 @@ export default class Home extends Component {
       <div className="home" id="home">
         <div src={require("../images/touring4.JPG")} className="background" />
         <div className="centered">
-          <img src={require("../images/me.jpg")} className="me" />
+          <Fade>
+            <img src={require("../images/me.jpg")} className="me" />
+          </Fade>
+          <Fade bottom>
+            <div className="name">SUNG JOON PARK</div>
+          </Fade>
 
-          <div className="name">SUNG JOON PARK</div>
-          <div className="subhead0" />
+          <Fade bottom delay="300">
+            <div className="subhead0" />
+          </Fade>
+          <Fade bottom delay="300">
+            <div className="name2">STUDENT & SOFTWARE DEVELOPER</div>
+          </Fade>
 
-          <div className="name2">STUDENT & SOFTWARE DEVELOPER</div>
           <div className="icons">
             <ReactSimpleTooltip
               arrow={15}
@@ -40,51 +51,70 @@ export default class Home extends Component {
               radius={0}
               zIndex={1}
             >
-              <div className="icon1">
-                <a href="tel:7035776388">
-                  <img src={require("../images/phone.png")} className="icon" />
-                </a>
-              </div>
+              <Flip left delay="400">
+                <div className="icon1">
+                  <a href="tel:7035776388">
+                    <img
+                      src={require("../images/phone.png")}
+                      className="icon"
+                    />
+                  </a>
+                </div>
+              </Flip>
             </ReactSimpleTooltip>
 
             <div className="iconpadding" />
 
-            <div className="icon1">
-              <a href="mailto:sp3bk@virginia.edu">
-                <img src={require("../images/mail4.png")} className="icon" />
-              </a>
-            </div>
+            <Flip left delay="600">
+              <div className="icon1">
+                <a href="mailto:sp3bk@virginia.edu">
+                  <img src={require("../images/mail4.png")} className="icon" />
+                </a>
+              </div>
+            </Flip>
 
             <div className="iconpadding" />
-            <div className="icon1">
-              <a href="https://www.linkedin.com/in/sung-joon-park/">
-                <img
-                  src={require("../images/linkedin2.png")}
-                  className="icon"
-                />
-              </a>
-            </div>
+            <Flip left delay="800">
+              <div className="icon1">
+                <a href="https://www.linkedin.com/in/sung-joon-park/">
+                  <img
+                    src={require("../images/linkedin2.png")}
+                    className="icon"
+                  />
+                </a>
+              </div>
+            </Flip>
 
             <div className="iconpadding" />
-            <div className="icon1">
-              <a href="http://github.com/sp3bk/">
-                <img src={require("../images/github2.svg")} className="icon" />
-              </a>
-            </div>
+            <Flip left delay="1000">
+              <div className="icon1">
+                <a href="http://github.com/sp3bk/">
+                  <img
+                    src={require("../images/github2.svg")}
+                    className="icon"
+                  />
+                </a>
+              </div>
+            </Flip>
           </div>
         </div>
 
         <div className="centeredb">
-          <Link to="about" spy={true} smooth={true} duration={6500}>
-            <Typography className="toabout">ABOUT ME</Typography>
+          <Link to="about" spy={true} smooth={true} duration={7000}>
+            <Fade top delay="1100">
+              <Typography className="toabout">ABOUT ME</Typography>
+            </Fade>
           </Link>
         </div>
         <div className="centeredc">
-          <div className="quote2">
-            “Hardships often prepare ordinary people for an extraordinary
-            destiny.”
-          </div>
-          <div className="author2">-C.S. Lewis</div>
+          <Fade top>
+            <div className="quote2">
+              “Hardships often prepare ordinary people for an extraordinary
+              destiny.”
+            </div>
+
+            <div className="author2">-C.S. Lewis</div>
+          </Fade>
         </div>
       </div>
     );

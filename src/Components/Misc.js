@@ -7,6 +7,10 @@ import Grid from "@material-ui/core/Grid";
 import GridListTile from "@material-ui/core/GridListTile";
 import ModalImage from "react-modal-image";
 import Footer from "./Footer.js";
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
+import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
 // import tileData from "./tileData";
 // import ListHeader from "@material-ui/core/ListHeader";
 
@@ -210,81 +214,103 @@ export default class Misc extends Component {
 
         {/* <div className="centeredmisc"> */}
         <Typography variant="h3" className="center0">
-          PHOTOS
-          <div className="subhead" />
+          <Slide left>PHOTOS</Slide>
+          <Slide left>
+            <div className="subhead" />
+          </Slide>
         </Typography>
-        <div className="misccontainer">
-          <GridList cellHeight={height} className="overflow" cols={6}>
-            {gcf.map(tile => (
-              <GridListTile key={tile.img} cols={tile.cols || 1}>
-                <div className="picture">
-                  <div className="picture3">
-                    <a className="none2" href={tile.img} target="_blank">
-                      <div className="download">VIEW</div>
-                    </a>
-                  </div>
+        <Fade delay="200">
+          <Slide bottom>
+            <div className="misccontainer">
+              <GridList cellHeight={height} className="overflow" cols={6}>
+                {gcf.map(tile => (
+                  <GridListTile key={tile.img} cols={tile.cols || 1}>
+                    <div className="picture">
+                      <div className="picture3">
+                        <a className="none2" href={tile.img} target="_blank">
+                          <div className="download">VIEW</div>
+                        </a>
+                      </div>
 
-                  <img src={tile.img} alt={tile.title} className="picture2" />
-                </div>
-              </GridListTile>
-            ))}
-          </GridList>
-          <GridList cellHeight={height} className="overflow" cols={5}>
-            {nature.map(tile => (
-              <GridListTile
-                key={tile.img}
-                cols={tile.cols || 1}
-                className="overflow"
-              >
-                <div className="picture overflow">
-                  <div className="picture3 overflow">
-                    <a
-                      className="none2 overflow"
-                      href={tile.img}
-                      target="_blank"
-                    >
-                      <div className="download">VIEW</div>
-                    </a>
-                  </div>
+                      <img
+                        src={tile.img}
+                        alt={tile.title}
+                        className="picture2"
+                      />
+                    </div>
+                  </GridListTile>
+                ))}
+              </GridList>
+              <GridList cellHeight={height} className="overflow" cols={5}>
+                {nature.map(tile => (
+                  <GridListTile
+                    key={tile.img}
+                    cols={tile.cols || 1}
+                    className="overflow"
+                  >
+                    <div className="picture overflow">
+                      <div className="picture3 overflow">
+                        <a
+                          className="none2 overflow"
+                          href={tile.img}
+                          target="_blank"
+                        >
+                          <div className="download">VIEW</div>
+                        </a>
+                      </div>
 
-                  <img src={tile.img} alt={tile.title} className="picture2" />
-                </div>
-              </GridListTile>
-            ))}
-          </GridList>
+                      <img
+                        src={tile.img}
+                        alt={tile.title}
+                        className="picture2"
+                      />
+                    </div>
+                  </GridListTile>
+                ))}
+              </GridList>
 
-          <GridList cellHeight={height} className="overflow" cols={5}>
-            {touring.map(tile => (
-              <GridListTile key={tile.img} cols={tile.cols || 1}>
-                <div className="picture">
-                  <div className="picture3">
-                    <a className="none2" href={tile.img} target="_blank">
-                      <div className="download">VIEW</div>
-                    </a>
-                  </div>
+              <GridList cellHeight={height} className="overflow" cols={5}>
+                {touring.map(tile => (
+                  <GridListTile key={tile.img} cols={tile.cols || 1}>
+                    <div className="picture">
+                      <div className="picture3">
+                        <a className="none2" href={tile.img} target="_blank">
+                          <div className="download">VIEW</div>
+                        </a>
+                      </div>
 
-                  <img src={tile.img} alt={tile.title} className="picture2" />
-                </div>
-              </GridListTile>
-            ))}
-          </GridList>
+                      <img
+                        src={tile.img}
+                        alt={tile.title}
+                        className="picture2"
+                      />
+                    </div>
+                  </GridListTile>
+                ))}
+              </GridList>
 
-          <GridList cellHeight={height} className="overflow" cols={5}>
-            {vw.map(tile => (
-              <GridListTile key={tile.img} cols={tile.cols || 1}>
-                <div className="picture">
-                  <div className="picture3">
-                    <a className="none2" href={tile.img} target="_blank">
-                      <div className="download">VIEW</div>
-                    </a>
-                  </div>
+              <GridList cellHeight={height} className="overflow" cols={5}>
+                {vw.map(tile => (
+                  <GridListTile key={tile.img} cols={tile.cols || 1}>
+                    <div className="picture">
+                      <div className="picture3">
+                        <a className="none2" href={tile.img} target="_blank">
+                          <div className="download">VIEW</div>
+                        </a>
+                      </div>
 
-                  <img src={tile.img} alt={tile.title} className="picture2" />
-                </div>
-              </GridListTile>
-            ))}
-          </GridList>
-        </div>
+                      <img
+                        src={tile.img}
+                        alt={tile.title}
+                        className="picture2"
+                      />
+                    </div>
+                  </GridListTile>
+                ))}
+              </GridList>
+            </div>
+          </Slide>
+        </Fade>
       </div>
       // </div>
     );
