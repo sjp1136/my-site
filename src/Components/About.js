@@ -27,7 +27,7 @@ export default class About extends Component {
 
         <div class="about" id="about">
           <div className="centered3">
-            <Typography variant="h3" className="center2">
+            <Typography variant="h3" className="">
               ABOUT ME
               <div className="subhead3" />
             </Typography>

@@ -61,20 +61,6 @@
   z-index: 5;
   /* position: absolute; */
 }
-
-.center {
-  /* padding-top: -20%; */
-  padding-top: 100px;
-  text-align: center;
-  /* color: black; */
-  z-index: 5;
-}
-.center3 {
-  padding-top: 100px;
-  text-align: center;
-  z-index: 5;
-  font-weight: 900;
-}
 .cardcontainer {
   position: relative;
 }

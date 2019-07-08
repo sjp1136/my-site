@@ -10,14 +10,9 @@ import "./skill.css";
 export default class Skill extends Component {
   render() {
     return (
-      <div className="skill" id="skill">
-        {/* <img src={require("../images/me.jpg")} className="me" /> */}
-        {/* <div src={require("../images/touring4b.jpeg")} className="background" /> */}
-        {/* <Typing className="centered" speed={5} hideCursor={false}> */}
-        <div className="centered5">
-          {/* <div className="portfoliosplash" /> */}
-
-          <Typography variant="h3" className="center3">
+      <div>
+        <div className="skill" id="skill">
+          <Typography variant="h3" className="center">
             TECHNICAL SKILLS
             <div className="subhead3" />
             <div className="quote">
@@ -26,8 +21,7 @@ export default class Skill extends Component {
             </div>
             <div className="author">-Elon Musk</div>
           </Typography>
-        </div>
-        <div className="center2">
+
           <div className="container">
             <div className="eachskill">
               <img

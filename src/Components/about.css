@@ -41,7 +41,7 @@
 .flex {
   display: flex;
   /* min-width: 100%; */
-  padding-top: 120px;
+  padding-top: 140px;
   margin: auto;
   width: 100%;
 }
@@ -59,7 +59,6 @@
   padding: 20px;
   width: 95%;
   overflow-y: scroll;
-
   background: rgba(25, 25, 25, 0);
   position: absolute;
   color: rgb(255, 255, 255, 0);
@@ -86,15 +85,6 @@
   opacity: 1;
 }
 
-.centered5 {
-  position: absolute;
-  text-align: center;
-  margin: auto;
-  top: 15%;
-  padding-top: 60px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .who {
   text-align: center;
   font-weight: 300;

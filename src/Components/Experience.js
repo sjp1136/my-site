@@ -19,11 +19,6 @@ export default class Experience extends Component {
             <div className="subhead3" />
           </Typography>
 
-          {/* <img
-            src={require("../images/experience2.png")}
-            className="experiencesplash1"
-          /> */}
-
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
@@ -41,44 +36,13 @@ export default class Experience extends Component {
                 href="http://www.volkswagengroupofamerica.com/"
               >
                 <div className="padding">
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/react.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="React"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="React" clickable color="basic" />
                   &nbsp;
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/aws.jpg")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="AWS"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="AWS" clickable color="basic" />
                   &nbsp;
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/docker.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="Docker"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="Docker" clickable color="basic" />
                 </div>
-                {/* <br />
-              <br /> */}
+
                 <h2 className="vertical-timeline-element-title">
                   Volkswagen Credit
                 </h2>
@@ -107,41 +71,11 @@ export default class Experience extends Component {
             >
               <a className="none2" href="http://www.ridgebacknet.com/">
                 <div className="padding">
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/javascript.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="Javascript"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="Javascript" clickable color="basic" />
                   &nbsp;
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/visjs.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="visjs"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="visjs" clickable color="basic" />
                   &nbsp;
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/d3.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="d3"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="d3" clickable color="basic" />
                 </div>
                 <h2 className="vertical-timeline-element-title">
                   {" "}
@@ -173,31 +107,10 @@ export default class Experience extends Component {
               }
             >
               <a className="none2" href="http://www.tucows.com/">
-                {/* <div className="vertical"> */}
                 <div className="padding">
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/python.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="Python"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="Python" clickable color="basic" />
                   &nbsp;
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/jquery.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="jQuery"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="jQuery" clickable color="basic" />
                 </div>
                 <h2 className="vertical-timeline-element-title">Tucows</h2>
                 <h3 className="vertical-timeline-element-subtitle role">
@@ -215,10 +128,8 @@ export default class Experience extends Component {
                   these site. Gained experience with Python, shell scripts, and
                   jQuery.
                 </div>
-                {/* </div> */}
               </a>
             </VerticalTimelineElement>
-            {/* </div> */}
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
               date="May - Jun 2018"
@@ -231,31 +142,10 @@ export default class Experience extends Component {
               }
             >
               <a className="none2" href="http://www.hackcville.com/">
-                {/* <div className="vertical"> */}
                 <div className="padding">
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/react.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="React"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="React" clickable color="basic" />
                   &nbsp;
-                  <Chip
-                    // avatar={
-                    //   <img
-                    //     src={require("../images/firebase.png")}
-                    //     className="avatar2"
-                    //   />
-                    // }
-                    label="Firebase"
-                    clickable
-                    color="basic"
-                  />
+                  <Chip label="Firebase" clickable color="basic" />
                 </div>
                 <h2 className="vertical-timeline-element-title">Hackcville</h2>
                 <h3 className="vertical-timeline-element-subtitle role">
@@ -270,7 +160,6 @@ export default class Experience extends Component {
                   websites, FaceMe, Pomodoro, and Trenchtek. Gained first
                   experience using React.
                 </div>
-                {/* </div> */}
               </a>
             </VerticalTimelineElement>
 
