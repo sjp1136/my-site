@@ -2,7 +2,6 @@
 .home {
   height: 100%;
   background-color: black;
-  z-index: -1;
   text-align: center;
   margin: 0 auto;
   align-content: center;
@@ -85,7 +84,6 @@
   position: absolute;
   text-align: center;
   margin: auto;
-  /* padding-top: 60px; */
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);

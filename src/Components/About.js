@@ -26,543 +26,114 @@ export default class About extends Component {
     function handleClick() {}
     return (
       <div>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <div class="about" id="about">
-          {/* <img src={require("../images/uva4.jpg")} className="aboutsplash" /> */}
           <div className="centered3">
-            <Typography variant="h3" className="center3">
+            <Typography variant="h3" className="center2">
               ABOUT ME
               <div className="subhead3" />
-              <div className="quote">
-                “Don’t let your happiness depend on something you may lose.”
-              </div>
-              <div className="author">-C.S. Lewis</div>
             </Typography>
+            <div className="quote">
+              “Don’t let your happiness depend on something you may lose.”
+            </div>
+            <div className="author">-C.S. Lewis</div>
           </div>
-          <div className="center2">
-            <Grid container spacing={1}>
-              <Grid item xs={6}>
-                <div className="paper text">
-                  <div className="centered4">
-                    <img
-                      src={require("../images/me2.jpg")}
-                      className="aboutpic"
-                    />
-                  </div>
-                  <div className="blackglass">
-                    <h2 className="who">WHO AM I?</h2>
-                    <p className="p">
-                      I am a 3rd year student studying at the{" "}
-                      <a href="https://www.virginia.edu/" className="none4 p">
-                        University of Virginia
-                      </a>
-                      , majoring in Computer Science & Statistics in the School
-                      of Engineering. Currently, I am a Software Development
-                      Intern using AWS, Docker, React at{" "}
-                      <a
-                        href="https://www.vwcredit.com/Authentication/Login"
-                        className="none4 p"
-                      >
-                        Volkswagen Credit
-                      </a>
-                      , a financial subsidiary of{" "}
-                      <a
-                        href="http://www.volkswagengroupofamerica.com/"
-                        className="none4 p"
-                      >
-                        Volkswagen Group of America
-                      </a>{" "}
-                      based in Herndon VA. Down the road, I aspire to become a
-                      full-stack engineer and enjoy challenging myself to learn
-                      and use new modern technologies and tools that software
-                      development is revolving around today. My current
-                      interests lie in learning more about machine learning and
-                      cloud services.
-                    </p>
-                    <p className="p">
-                      Outside of academics, I enjoy hanging out with friends in
-                      my fellowship, playing tennis, and sometimes reading
-                      interesting books. I have recently started learning guitar
-                      as well.
-                    </p>
-                  </div>
+          <div className="flex">
+            <div className="paper">
+              {/* <div className="centered4"> */}
+              <img src={require("../images/me2.jpg")} className="aboutpic" />
+              {/* </div> */}
+              <div className="blackglass">
+                <h2 className="who">WHO AM I?</h2>
+                <p className="p">
+                  I am a 3rd year student studying at the{" "}
+                  <a href="https://www.virginia.edu/" className="none4 p">
+                    University of Virginia
+                  </a>
+                  , majoring in Computer Science & Statistics in the School of
+                  Engineering. Currently, I am a Software Development Intern
+                  using AWS, Docker, React at{" "}
+                  <a
+                    href="https://www.vwcredit.com/Authentication/Login"
+                    className="none4 p"
+                  >
+                    Volkswagen Credit
+                  </a>
+                  , a financial subsidiary of
+                  <a
+                    href="http://www.volkswagengroupofamerica.com/"
+                    className="none4 p"
+                  >
+                    Volkswagen Group of America
+                  </a>
+                  based in Herndon VA. Down the road, I aspire to become a
+                  full-stack engineer and enjoy challenging myself to learn and
+                  use new modern technologies and tools that software
+                  development is revolving around today. My current interests
+                  lie in learning more about machine learning and cloud
+                  services.
+                </p>
+                <p className="p">
+                  Outside of academics, I enjoy hanging out with friends in my
+                  fellowship, playing tennis, and sometimes reading interesting
+                  books. I have recently started learning guitar as well.
+                </p>
+              </div>
+            </div>
+
+            <div className="paper">
+              <div className="centered4">
+                <img
+                  src={require("../images/uva3.jpeg")}
+                  className="aboutpic"
+                />
+              </div>
+              <div className="blackglass">
+                <h2 className="who">
+                  <a href="https://www.virginia.edu/" className="none4 p">
+                    University of Virginia
+                  </a>
+                </h2>
+                <div className="p">
+                  3rd Year (School of Engineering) - CS & Statistics, '21.
                 </div>
-              </Grid>
-              <Grid item xs={6}>
-                <Fragment>
-                  {/* <br />
-                  <Typography variant="h3">
-                    <strong>EDUCATION</strong>
-                  </Typography>
-                  <br /> */}
-
-                  <VerticalTimeline layout="one-column">
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="2017 - Present"
-                      iconStyle={{
-                        background: "rgb(33, 150, 243)",
-                        color: "#fff"
-                      }}
-                      icon={
-                        <img
-                          src={require("../images/uva2.jpg")}
-                          className="timelineavatar2"
-                        />
-                      }
-                    >
-                      <a className="none2" href="http://www.virginia.edu/">
-                        <div className="vertical2">
-                          <h2 className="vertical-timeline-element-title">
-                            <a
-                              className="none2"
-                              href="https://www.virginia.edu/"
-                            >
-                              University of Virginia
-                            </a>
-                          </h2>
-                          <h4 className="vertical-timeline-element-subtitle role">
-                            2nd Year (SEAS) - CS & Statistics
-                          </h4>
-                          <div className="text2">
-                            <p>Activities:</p> Grace Christian Fellowship,
-                            Hackcville.
-                          </div>
-                          <div className="text2">
-                            <p>Coursework: </p>CS4774 Machine Learning, CS4501
-                            Computer Vision, CS4501 Internet Scale Applications,
-                            CS4102 Algorithms, CS3330 Computer Arhictecture,
-                            CS3240 Advanced Software Development, CS2150 Program
-                            and Data Representation, CS2102 Discrete
-                            Mathematics, CS2110 Software Development Methods,
-                            STAT3080 From Data to Knowledge
-                          </div>
-                        </div>
-                      </a>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
-                      date="2013 - 2017"
-                      iconStyle={{
-                        background: "rgb(33, 150, 243)",
-                        color: "#fff"
-                      }}
-                      icon={
-                        <img
-                          src={require("../images/tj.jpg")}
-                          className="timelineavatar2"
-                        />
-                      }
-                    >
-                      <a className="none2" href="https://tjhsst.fcps.edu/">
-                        <div className="vertical2">
-                          <h2 className="vertical-timeline-element-title">
-                            <a
-                              className="none2"
-                              href="https://tjhsst.fcps.edu/"
-                            >
-                              Thomas Jefferson HSST
-                            </a>
-                          </h2>
-                          <h4 className="vertical-timeline-element-subtitle role">
-                            Student
-                          </h4>
-                          <div className="text2">
-                            <p>Activities:</p> Varsity Tennis 2014-15, 2016-17.
-                          </div>
-                          <div className="text2">
-                            <p>Coursework: </p>AP Computer Science, Artificial
-                            Intelligence 1 & 2, Mobile App Development, Computer
-                            Vision
-                          </div>
-                        </div>
-                      </a>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                      className="vertical-timeline-element--work vertical-timeline-element--no-children"
-                      iconStyle={{
-                        background: "rgb(0, 200, 0)",
-                        color: "#fff"
-                      }}
-                      icon={
-                        <img
-                          src={require("../images/star.png")}
-                          className="timelineavatar2"
-                        />
-                      }
-                    />
-                  </VerticalTimeline>
-                </Fragment>
-              </Grid>
-              {/*  */}
-
-              {/* <Grid item xs={4} md={4}>
-                <div className="">
-                  <br />
-                  <Typography variant="h3">
-                    <strong>COURSES</strong>
-                  </Typography>
-                  <br />
-
-                  <Grid container spacing={0}>
-                    <Grid item xs={6} md={6}>
-                      <Typography variant="h4">TJHSST</Typography>
-
-                      <List>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/tj.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="AP CS" />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/tj.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="Artificial Intelligence" />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/tj.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="Mobile App Dev" />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/tj.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="Computer Vision" />
-                        </ListItem>
-                      </List>
-                    </Grid>
-                    <Grid item xs={6} md={6}>
-                      <Typography variant="h4">UVA</Typography>
-                      <List>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS2110 Software Dev. Methods" />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS2150 Data/Program Rep." />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS4102 Algorithms" />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS4501 Internet Scale App." />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS3240 Adv. Software Dev." />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS3330 Computer Architecture" />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS4774 Machine Learning (Curr.)" />
-                        </ListItem>
-                        <ListItem>
-                          <ListItemAvatar>
-                            <img
-                              src={require("../images/uva2.jpg")}
-                              className="avatar"
-                            />
-                          </ListItemAvatar>
-                          <ListItemText primary="CS4501 Computer Vision (Curr.)" />
-                        </ListItem>
-                      </List>
-                    </Grid>
-                  </Grid>
-                </div>
-              </Grid> */}
-              {/* <Grid item xs={4}>
                 <br />
-                <Typography variant="h3">
-                  <strong>TECH. SKILLS</strong>
-                </Typography>
+                <strong>Activities:</strong> Grace Christian Fellowship,
+                Hackcville.
+                <p className="p">
+                  <strong>Coursework:</strong> CS4774 Machine Learning, CS4501
+                  Computer Vision, CS4501 Internet Scale Applications, CS4102
+                  Algorithms, CS3330 Computer Arhictecture, CS3240 Advanced
+                  Software Development, CS2150 Program and Data Representation,
+                  CS2102 Discrete Mathematics, CS2110 Software Development
+                  Methods, STAT3080 From Data to Knowledge
+                </p>
+              </div>
+            </div>
+            <div className="paper">
+              <div className="centered4">
+                <img
+                  src={require("../images/tjhsst.png")}
+                  className="aboutpic"
+                />
+              </div>
+              <div className="blackglass">
+                <h2 className="who">
+                  <a className="none4 p" href="https://tjhsst.fcps.edu/">
+                    Thomas Jefferson HSST
+                  </a>
+                </h2>
+                <div className="p">Student 2013-2017.</div>
                 <br />
-                <Typography variant="h5">Languages</Typography>
-                <br />
-
-                <div className="">
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/python.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Python"
-                    clickable
-                    className="chip"
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                    className="size"
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/javascript.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Javascript"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/java.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Java"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/c++.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="C++"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/r.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="R"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-
-                  <br />
-                  <br />
-                  <br />
-                  <Typography variant="h5">Frameworks</Typography>
-                  <br />
-
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/react.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="React"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/visjs.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="vis.js"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/d3.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="d3.js"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/django.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Django"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <br />
-                  <br />
-                  <br />
-                  <Typography variant="h5">Tools</Typography>
-                  <br />
-
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/aws.jpg")}
-                        className="avatar2"
-                      />
-                    }
-                    label="AWS"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/docker.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Docker"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/unix.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Unix"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/git.png")}
-                        className="avatar2"
-                      />
-                    }
-                    label="GitHub"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/bitbucket.jpg")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Bitbucket"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                  <Chip
-                    avatar={
-                      <img
-                        src={require("../images/linux.jpeg")}
-                        className="avatar2"
-                      />
-                    }
-                    label="Linux"
-                    clickable
-                    className=""
-                    color="basic"
-                    onDelete={handleDelete}
-                    deleteIcon={<DoneIcon />}
-                  />
-                </div>
-              </Grid> */}
-            </Grid>
+                <strong>Activities:</strong> Varsity Tennis 2014-15, 2016-17,
+                Senior Research (NeuroLab).
+                <p className="p">
+                  <strong>Coursework:</strong> AP Computer Science, Artificial
+                  Intelligence 1 & 2, Mobile App Development, Computer Vision
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
