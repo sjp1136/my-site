@@ -88,7 +88,7 @@ export default class Home extends Component {
             <div className="iconpadding" />
             <Flip left delay="1000">
               <div className="icon1">
-                <a href="http://github.com/sp3bk/">
+                <a href="http://github.com/sjp1136/">
                   <img
                     src={require("../images/github2.svg")}
                     className="icon"
