@@ -53,7 +53,7 @@ export default class Skill extends Component {
           </div>
           <div className="container2">
             <div className="eachskill">
-              <Flip bottom delay="300">
+              <Flip bottom delay="200">
                 <img
                   src={require("../images/frameworks.png")}
                   className="height2"
@@ -71,7 +71,7 @@ export default class Skill extends Component {
 
           <div className="container3">
             <div className="eachskill">
-              <Flip bottom delay="600">
+              <Flip bottom delay="300">
                 <img src={require("../images/tools.png")} className="height2" />
                 <div className="skilllabel">TOOLS</div>
               </Flip>
