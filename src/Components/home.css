@@ -20,7 +20,7 @@
   transform: translate(-50%, -80%);
 }
 .background {
-  height: 130vh;
+  height: 140vh;
   width: 100%;
   opacity: 0.6;
   position: relative;
@@ -90,7 +90,7 @@
   position: absolute;
   text-align: center;
   margin: auto;
-  top: 67%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -98,7 +98,7 @@
   position: absolute;
   text-align: center;
   margin: auto;
-  top: 88%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -189,5 +189,35 @@
 @media only screen and (max-width: 600px) {
   .me {
     width: 180px;
+    margin-top: 100px;
+  }
+  .toabout {
+    margin: auto;
+    width: 100px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    transform: translate(0%, 50%);
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s ease;
+    font-weight: 300;
+  }
+  .centeredb {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centeredc {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
