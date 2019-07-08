@@ -27,6 +27,7 @@ export default class Portfolio extends Component {
           >
             <Grid container item xs={8}>
               <Grid item>
+                {/* <div className="firstrow"> */}
                 <div className="post">
                   <img
                     src={require("../images/shareit.png")}
@@ -106,10 +107,13 @@ export default class Portfolio extends Component {
                     </a>
                   </div>
                 </div>
+                {/* </div> */}
               </Grid>
             </Grid>
+
             <Grid container item xs={8}>
               <Grid item>
+                {/* <div className="secondrow"> */}
                 <div className="post">
                   <img
                     src={require("../images/faceme2.png")}
@@ -189,6 +193,7 @@ export default class Portfolio extends Component {
                     </a>
                   </div>
                 </div>
+                {/* </div> */}
               </Grid>
             </Grid>
           </Grid>

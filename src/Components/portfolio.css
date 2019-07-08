@@ -57,9 +57,20 @@
 }
 .portfoliozindex {
   padding-top: 200px;
-  /* padding-top: 40%; */
   z-index: 5;
-  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  /* 
+  margin: 0 auto;
+  align-content: center;
+  justify-content: center; */
+}
+.firstrow {
+  display: flex;
+}
+.secondrow {
+  display: flex;
 }
 .cardcontainer {
   position: relative;
@@ -79,6 +90,8 @@
 }
 .post {
   width: 300px;
+  /* width: 100%; */
+
   position: relative;
   overflow: hidden;
 }
