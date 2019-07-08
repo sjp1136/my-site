@@ -9,6 +9,7 @@ import Experience from "./Components/Experience";
 import Resume from "./Components/Resume";
 import Misc from "./Components/Misc";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <Portfolio />
         <Experience />
         <Misc />
+        <Footer />
       </div>
     );
   }

@@ -203,68 +203,65 @@ export default class Misc extends Component {
       //   cols: 1
       // }
     ];
-
+    var height = 180;
     return (
       <div class="misc" id="misc">
-        <div className="miscsplash" />
+        <div className="background2" />
 
-        <Typography variant="h3" className="center4">
-          PHOTOS
-          <div className="subhead" />
-        </Typography>
-        {/* Nature */}
-        {/* <Typography variant="h5" className="center">
-            <strong>Nature</strong>
-            <div className="subhead2" />
-          </Typography> */}
-        <div className="limit">
-          <GridList cellHeight={250} className={classes.gridList} cols={5}>
-            {gcf.map(tile => (
-              <GridListTile key={tile.img} cols={tile.cols || 1}>
-                <div className="picture">
-                  <div className="picture3">
-                    <a className="none2" href={tile.img} target="_blank">
-                      <div className="download">VIEW</div>
-                    </a>
+        <div className="centeredmisc">
+          <Typography variant="h3" className="center4">
+            PHOTOS
+            <div className="subhead" />
+          </Typography>
+          <div className="limit">
+            <GridList cellHeight={height} className="overflow" cols={5}>
+              {gcf.map(tile => (
+                <GridListTile key={tile.img} cols={tile.cols || 1}>
+                  <div className="picture">
+                    <div className="picture3">
+                      <a className="none2" href={tile.img} target="_blank">
+                        <div className="download">VIEW</div>
+                      </a>
+                    </div>
+                    <ModalImage
+                      small={tile.img}
+                      large={tile.img}
+                      alt="Hello World!"
+                      className="picture2"
+                    />
                   </div>
-                  <ModalImage
-                    small={tile.img}
-                    large={tile.img}
-                    alt="Hello World!"
-                    className="picture2"
-                  />
-                </div>
-                {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
-              </GridListTile>
-            ))}
-          </GridList>
-          <GridList cellHeight={250} className={classes.gridList} cols={5}>
-            {nature.map(tile => (
-              <GridListTile key={tile.img} cols={tile.cols || 1}>
-                <div className="picture">
-                  <div className="picture3">
-                    <a className="none2" href={tile.img} target="_blank">
-                      <div className="download">VIEW</div>
-                    </a>
+                </GridListTile>
+              ))}
+            </GridList>
+            <GridList cellHeight={height} className="overflow" cols={5}>
+              {nature.map(tile => (
+                <GridListTile
+                  key={tile.img}
+                  cols={tile.cols || 1}
+                  className="overflow"
+                >
+                  <div className="picture overflow">
+                    <div className="picture3 overflow">
+                      <a
+                        className="none2 overflow"
+                        href={tile.img}
+                        target="_blank"
+                      >
+                        <div className="download">VIEW</div>
+                      </a>
+                    </div>
+                    <ModalImage
+                      small={tile.img}
+                      large={tile.img}
+                      alt="Hello World!"
+                      className="picture2"
+                    />
                   </div>
-                  <ModalImage
-                    small={tile.img}
-                    large={tile.img}
-                    alt="Hello World!"
-                    className="picture2"
-                  />
-                </div>
-                {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
-              </GridListTile>
-            ))}
-          </GridList>
-          {/* Touring */}
-          <div className={classes.root}>
-            {/* <Typography variant="h5" className="center">
-                <strong>Touring</strong>
-                <div className="subhead2" />
-              </Typography> */}
-            <GridList cellHeight={250} className={classes.gridList} cols={5}>
+                </GridListTile>
+              ))}
+            </GridList>
+
+            <GridList cellHeight={height} className="overflow" cols={5}>
               {touring.map(tile => (
                 <GridListTile key={tile.img} cols={tile.cols || 1}>
                   <div className="picture">
@@ -280,18 +277,11 @@ export default class Misc extends Component {
                       className="picture2"
                     />
                   </div>
-                  {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
                 </GridListTile>
               ))}
             </GridList>
-          </div>
-          {/* Volkswagen Credit */}
-          <div className={classes.root}>
-            {/* <Typography variant="h5" className="center">
-                <strong>VW Group Of America</strong>
-                <div className="subhead2" />
-              </Typography> */}
-            <GridList cellHeight={250} className={classes.gridList} cols={5}>
+
+            <GridList cellHeight={height} className={classes.gridList} cols={5}>
               {vw.map(tile => (
                 <GridListTile key={tile.img} cols={tile.cols || 1}>
                   <div className="picture">
@@ -307,13 +297,11 @@ export default class Misc extends Component {
                       className="picture2"
                     />
                   </div>
-                  {/* <img src={tile.img} alt={tile.title} className="enlarge" /> */}
                 </GridListTile>
               ))}
             </GridList>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

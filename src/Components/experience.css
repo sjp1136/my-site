@@ -67,11 +67,7 @@
 .padding {
   padding: 0px 0px 15px 0px;
 }
-.none2 {
-  text-decoration: none;
-  color: black;
-  /* font-size: 30px; */
-}
+
 .title {
   font-size: 30px;
 }
@@ -82,10 +78,7 @@
 .none3:hover {
   color: black;
 }
-.none2:hover {
-  color: gray;
-  opacity: 1;
-}
+
 .role {
   color: #777777;
   font-size: 15px;
