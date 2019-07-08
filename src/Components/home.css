@@ -37,14 +37,14 @@
   border-radius: 50%;
   z-index: 2;
   border: 6px solid #cccccc;
-  box-shadow: 0 0 1px 15px rgba(255, 255, 255, 0.25),
-    0 0 1px 30px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 1px 13px rgba(255, 255, 255, 0.15),
+    0 0 1px 26px rgba(255, 255, 255, 0.1);
   transition: 0.2s;
   z-index: 5;
 }
 .me:hover {
-  box-shadow: 0 0 0px 5px rgba(255, 255, 255, 0.25),
-    0 0 0px 10px rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 0px 3px rgba(255, 255, 255, 0.12),
+    0 0 0px 6px rgba(255, 255, 255, 0.12);
 }
 
 .toabout {
