@@ -21,9 +21,6 @@ import "./about.css";
 
 export default class About extends Component {
   render() {
-    function handleDelete() {}
-
-    function handleClick() {}
     return (
       <div>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -41,9 +38,7 @@ export default class About extends Component {
           </div>
           <div className="flex">
             <div className="paper">
-              {/* <div className="centered4"> */}
               <img src={require("../images/me2.jpg")} className="aboutpic" />
-              {/* </div> */}
               <div className="blackglass">
                 <h2 className="who">WHO AM I?</h2>
                 <p className="p">
