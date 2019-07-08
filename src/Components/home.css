@@ -32,7 +32,7 @@
   background-repeat: no-repeat;
 }
 .me {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   width: 230px;
   border-radius: 50%;
   z-index: 2;
@@ -188,8 +188,9 @@
 }
 @media only screen and (max-width: 600px) {
   .me {
-    width: 180px;
+    width: 150px;
     margin-top: 100px;
+    margin-bottom: 10px;
   }
   .toabout {
     margin: auto;
@@ -208,7 +209,7 @@
     position: absolute;
     text-align: center;
     margin: auto;
-    top: 71%;
+    top: 66%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -219,5 +220,14 @@
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  .centered {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
   }
 }
