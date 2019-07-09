@@ -24,22 +24,80 @@ p {
   width: 100%;
   height: 75px;
   display: flex;
-  position: fixed;
-  top: 0%;
+
   margin: 0;
   padding: 0;
   z-index: 10005;
-  opacity: 0.5;
+  opacity: 0.9;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  /* transition: 0.2s; */
 }
 .nav2 {
   display: flex;
-  position: fixed;
-  top: 0%;
+  /* position: fixed; */
+  /* top: 0%; */
   z-index: 10005;
   font-size: 25px;
   color: white;
   height: 10%;
   /* width: 100%; */
+}
+.centered7 {
+  /* position: absolute; */
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  z-index: 5;
+}
+.centered7-scrolled {
+  /* position: absolute; */
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  /* top: 165%; */
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 5;
+}
+.nav-scrolled {
+  background-color: black;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  /* position: fixed; */
+  /* top: 0%; */
+  margin: 0;
+  padding: 0;
+  z-index: 10005;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+.nav2-scrolled {
+  display: flex;
+  /* position: fixed; */
+  /* top: 0%; */
+  z-index: 10005;
+  font-size: 25px;
+  color: white;
+  height: 10%;
+  /* width: 100%; */
+  position: fixed;
+  top: 0;
 }
 
 .link {
@@ -60,8 +118,21 @@ p {
 }
 @media only screen and (max-width: 600px) {
   .nav {
+    background-color: black;
     width: 100%;
     height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    padding: 0;
+    z-index: 10005;
+    opacity: 0.7;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
   }
   .nav2 {
     display: flex;
@@ -71,9 +142,40 @@ p {
     font-size: 10px;
     color: white;
     height: 50px;
-
+    display: flex;
+    position: fixed;
     overflow-x: scroll;
     width: 100%;
+  }
+  .nav2-scrolled {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    z-index: 10005;
+    font-size: 10px;
+    color: white;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .nav-scrolled {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+    z-index: 10005;
+    opacity: 0.7;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
   }
   .link {
     text-decoration: none;
@@ -82,7 +184,7 @@ p {
     width: 100%;
     height: 10px;
     padding: 20px 0px 20px 0px;
-    margin-left: 28px;
+    margin-left: 20px;
     text-align: center;
     transition: 0.3s;
   }

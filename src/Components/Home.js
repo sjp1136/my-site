@@ -10,7 +10,8 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
-
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 import "./home.css";
 
 export default class Home extends Component {
@@ -23,7 +24,9 @@ export default class Home extends Component {
             <img src={require("../images/me.jpg")} className="me" />
           </Fade>
           <Fade bottom>
-            <div className="name">SUNG JOON PARK</div>
+            <ScrollAnimation animateIn="fadeIn">
+              <div className="name">SUNG JOON PARK</div>
+            </ScrollAnimation>
           </Fade>
 
           <Fade bottom delay="300">

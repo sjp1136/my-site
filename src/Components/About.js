@@ -19,6 +19,8 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
+import Navbar from "./Navbar";
+
 import "./components.css";
 import "./about.css";
 
@@ -26,9 +28,8 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         <div class="about" id="about">
+          <Navbar />
           <Typography variant="h3" className="center">
             <Slide left>ABOUT ME</Slide>
             <Slide left>

@@ -18,7 +18,7 @@ export default class Portfolio extends Component {
         <Typography variant="h3" className="center0">
           <Slide left>PROJECTS</Slide>
           <Slide left>
-            <div className="subhead0" />
+            <div className="subhead" />
           </Slide>
         </Typography>
 
