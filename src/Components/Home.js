@@ -24,7 +24,7 @@ export default class Home extends Component {
             <img src={require("../images/me.jpg")} className="me" />
           </Fade>
           <Fade bottom>
-            <div className="name">SUN JOON PARK</div>
+            <div className="name">SUNG JOON PARK</div>
           </Fade>
 
           <Fade bottom delay="300">

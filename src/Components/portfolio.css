@@ -186,6 +186,19 @@
   text-decoration: none;
 }
 @media only screen and (max-width: 600px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 150px;
+    background-image: url("../images/coding.jpg");
+    background-size: 100% 20%;
+    z-index: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
   .portfoliozindex {
     padding-top: 200px;
     z-index: 5;
