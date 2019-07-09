@@ -24,9 +24,7 @@ export default class Home extends Component {
             <img src={require("../images/me.jpg")} className="me" />
           </Fade>
           <Fade bottom>
-            <ScrollAnimation animateIn="fadeIn">
-              <div className="name">SUNG JOON PARK</div>
-            </ScrollAnimation>
+            <div className="name">SUN JOON PARK</div>
           </Fade>
 
           <Fade bottom delay="300">
