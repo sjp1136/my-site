@@ -51,11 +51,12 @@ export default class Portfolio extends Component {
                       <div className="used">SHAREIT</div>
                       <div className="description">ECommercePlatform</div>
                       <div className="technology django"> DJANGO</div>
+                      {/* <div className="subhead4" /> */}
                       <a
                         className="none"
                         href="https://github.com/sp3bk/cs4501-internet-scale"
                       >
-                        <div className="label">VIEW</div>
+                        <div className="centered label">VIEW</div>
                       </a>
                     </div>
                   </div>
@@ -89,7 +90,7 @@ export default class Portfolio extends Component {
                         className="none"
                         href="https://lucky-13.herokuapp.com/"
                       >
-                        <div className="label">VIEW</div>
+                        <div className="centered label">VIEW</div>
                       </a>
                     </div>
                   </div>
@@ -122,7 +123,7 @@ export default class Portfolio extends Component {
                         className="none"
                         href="https://trenchtek.firebaseapp.com/"
                       >
-                        <div className="label">VIEW</div>
+                        <div className="centered label">VIEW</div>
                       </a>
                     </div>
                   </div>
@@ -156,7 +157,7 @@ export default class Portfolio extends Component {
                         className="none"
                         href="https://github.com/sp3bk/FaceMe-"
                       >
-                        <div className="label">VIEW</div>
+                        <div className="centered label">VIEW</div>
                       </a>
                     </div>
                   </div>
@@ -188,7 +189,7 @@ export default class Portfolio extends Component {
                           className="none"
                           href="https://github.com/sp3bk/sn_flask"
                         >
-                          <div className="label">VIEW</div>
+                          <div className="centered label">VIEW</div>
                         </a>
                       </div>
                     </div>
@@ -221,7 +222,7 @@ export default class Portfolio extends Component {
                         className="none"
                         href="https://pomodoro-18245.firebaseapp.com/login"
                       >
-                        <div className="label">VIEW</div>
+                        <div className="centered label">VIEW</div>
                       </a>
                     </div>
                   </div>

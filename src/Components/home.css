@@ -63,6 +63,8 @@
 .toabout:hover {
   background-color: white;
   color: black;
+  width: 120px;
+  cursor: grab;
 }
 
 .name {

@@ -124,10 +124,12 @@
   z-index: 10000;
   font-weight: 300;
   font-size: 18px;
+  transition: 0.3s;
 }
 .download:hover {
   background-color: rgb(255, 255, 255, 0.9);
   color: rgb(0, 0, 0, 1);
+  width: 35%;
 }
 .misccontainer {
   padding-top: 200px;
@@ -150,7 +152,7 @@
     position: absolute;
     opacity: 0.4;
     background-image: url("../images/uva.jpg");
-    background-size: 100% 20%;
+    background-size: 100% 100%;
     z-index: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
