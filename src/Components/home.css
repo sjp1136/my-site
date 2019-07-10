@@ -10,15 +10,6 @@
   position: relative;
   z-index: 5;
 }
-.centered6 {
-  position: absolute;
-  text-align: center;
-  margin: auto;
-  padding-top: 80px;
-  /* top: 60%; */
-  left: 50%;
-  transform: translate(-50%, -80%);
-}
 .background {
   height: 140vh;
   width: 100%;
@@ -30,6 +21,15 @@
 
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+.centered6 {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+  /* top: 60%; */
+  left: 50%;
+  transform: translate(-50%, -80%);
 }
 .me {
   margin-bottom: 40px;
@@ -218,6 +218,116 @@
     text-align: center;
     margin: auto;
     top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+  .background {
+    height: 140vh;
+    /* width: 100%; */
+    opacity: 0.6;
+    position: relative;
+    z-index: 0;
+    background-image: url("../images/touring4.JPG");
+    background-size: 100% 7%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .me {
+    width: 150px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+  }
+  .subhead0 {
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #eeeeee;
+    z-index: 4;
+    opacity: 0.8;
+  }
+  .name2 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: #dddddd;
+    font-weight: 300;
+  }
+  .icons {
+    display: flex;
+    margin-bottom: 500px;
+
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    /* padding: 10px; */
+  }
+  .home {
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+  }
+  .background {
+    height: 250vh;
+    width: 100%;
+    opacity: 0.6;
+    position: relative;
+    z-index: 0;
+    background-image: url("../images/touring4.JPG");
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .toabout {
+    margin: auto;
+    width: 100px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    transform: translate(0%, 200%);
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s ease;
+    font-weight: 300;
+  }
+  .centeredb {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centeredc {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
   }

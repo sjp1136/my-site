@@ -175,7 +175,7 @@
   top: 0%;
   left: 0%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .flex {
     display: flex;
     flex-direction: column;
