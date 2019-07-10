@@ -50,36 +50,79 @@ export default class Navbar extends Component {
                 : "nav2 centered7"
             }
           >
-            <Link to="home" spy={true} smooth={true} duration={500}>
+            <Link
+              activeClassName="active"
+              className="link"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <Fade>
-                <div className="link">HOME</div>
+                <div>HOME</div>
               </Fade>
             </Link>
-            <Link to="about" spy={true} smooth={true} duration={500}>
+            <Link
+              activeClassName="active"
+              className="link"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <Fade delay="100">
-                <div className="link">ABOUT</div>
+                <div>ABOUT</div>
               </Fade>
             </Link>
-            <Link to="skill" spy={true} smooth={true} duration={500}>
+            <Link
+              activeClassName="active"
+              className="link"
+              to="skill"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <Fade delay="200">
-                <div className="link">SKILLS</div>
+                <div>SKILLS</div>
               </Fade>
             </Link>
-            <Link to="portfolio" spy={true} smooth={true} duration={500}>
+            <Link
+              activeClassName="active"
+              className="link"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <Fade delay="300">
-                <div className="link">PROJECTS</div>
+                <div>PROJECTS</div>
               </Fade>
             </Link>
-            <Link to="experience" spy={true} smooth={true} duration={500}>
+            <Link
+              activeClassName="active"
+              className="link"
+              to="experience"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <Fade delay="400">
-                <div className="link">EXPERIENCE</div>
+                <div>EXPERIENCE</div>
               </Fade>
             </Link>
-            <Link to="misc" spy={true} smooth={true} duration={500}>
+            <Link
+              activeClassName="active"
+              className="link"
+              to="misc"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <Fade delay="500">
-                <div className="link">MISC</div>
+                <div>MISC</div>
               </Fade>
             </Link>
+
             <a
               className="none"
               href={require("../files/SungJoonParkResume.pdf")}

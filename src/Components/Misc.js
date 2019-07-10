@@ -36,23 +36,23 @@ export default class Misc extends Component {
       {
         img: require("../images/group1.jpg"),
         author: "SJP",
-        cols: 3
+        cols: 4
       },
       {
         img: require("../images/group2.jpg"),
         author: "SJP",
-        cols: 3
+        cols: 2
       },
-      // {
-      //   img: require("../images/group3.jpg"),
-      //   author: "SJP",
-      //   cols: 1
-      // },
       {
-        img: require("../images/group4.jpg"),
+        img: require("../images/group3.jpg"),
         author: "SJP",
         cols: 3
       },
+      // {
+      //   img: require("../images/group4.jpg"),
+      //   author: "SJP",
+      //   cols: 3
+      // },
       {
         img: require("../images/group5.jpg"),
         author: "SJP",
