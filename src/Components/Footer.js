@@ -1,17 +1,64 @@
 import React, { Component } from "react";
 import "./components.css";
 import "./footer.css";
+import Typography from "@material-ui/core/Typography";
+
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
+import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
 import ReactSimpleTooltip from "react-simple-tooltip";
 import { Link, animateScroll as scroll } from "react-scroll";
-
+// https://ciunkos.com/creating-contact-forms-with-nodemailer-and-react
 export default class Footer extends Component {
   render() {
     return (
       <div>
-        <div className="footer" id="">
+        <div className="footer" id="contact">
           <div className="center5">
-            {/* <div className="contact">CONTACT </div> */}
-            <div className="icons2">
+            <Typography variant="h3" className="gentlepadding">
+              <Fade bottom>CONTACT</Fade>
+              <Fade bottom>
+                <div className="subhead" />
+              </Fade>
+            </Typography>
+            <form method="POST" className="flex2">
+              {/* <label htmlFor="name">Name</label> */}
+              <Fade bottom>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  className="footername"
+                />
+              </Fade>
+              {/* <label htmlFor="email">Email</label> */}
+              <Fade bottom delay="200">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  className="footeremail"
+                />
+              </Fade>
+
+              {/* <label htmlFor="message">Message</label> */}
+              <Fade bottom delay="200">
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  rows="4"
+                  cols="35"
+                  className="footermessage"
+                />
+              </Fade>
+              <Fade bottom delay="600">
+                <div type="submit" className="button">
+                  Submit
+                </div>
+              </Fade>
+            </form>
+            <div className="icons">
               <ReactSimpleTooltip
                 arrow={15}
                 background="#000"
@@ -29,51 +76,63 @@ export default class Footer extends Component {
                 radius={0}
                 zIndex={1}
               >
-                <div className="icon1">
-                  <a href="tel:7035776388">
-                    <img
-                      src={require("../images/phone.png")}
-                      className="icon"
-                    />
-                  </a>
-                </div>
+                <Flip left delay="400">
+                  <div className="icon1">
+                    <a href="tel:7035776388">
+                      <img
+                        src={require("../images/phone.png")}
+                        className="icon"
+                      />
+                    </a>
+                  </div>
+                </Flip>
               </ReactSimpleTooltip>
 
               <div className="iconpadding" />
 
-              <div className="icon1">
-                <a href="mailto:sp3bk@virginia.edu">
-                  <img src={require("../images/mail4.png")} className="icon" />
-                </a>
-              </div>
+              <Flip left delay="600">
+                <div className="icon1">
+                  <a href="mailto:sp3bk@virginia.edu">
+                    <img
+                      src={require("../images/mail4.png")}
+                      className="icon"
+                    />
+                  </a>
+                </div>
+              </Flip>
 
               <div className="iconpadding" />
-              <div className="icon1">
-                <a href="https://www.linkedin.com/in/sung-joon-park/">
-                  <img
-                    src={require("../images/linkedin2.png")}
-                    className="icon"
-                  />
-                </a>
-              </div>
+              <Flip left delay="800">
+                <div className="icon1">
+                  <a href="https://www.linkedin.com/in/sung-joon-park/">
+                    <img
+                      src={require("../images/linkedin2.png")}
+                      className="icon"
+                    />
+                  </a>
+                </div>
+              </Flip>
 
               <div className="iconpadding" />
-              <div className="icon1">
-                <a href="http://github.com/sp3bk/">
-                  <img
-                    src={require("../images/github2.svg")}
-                    className="icon"
-                  />
-                </a>
-              </div>
-            </div>{" "}
+              <Flip left delay="1000">
+                <div className="icon1">
+                  <a href="http://github.com/sjp1136/">
+                    <img
+                      src={require("../images/github2.svg")}
+                      className="icon"
+                    />
+                  </a>
+                </div>
+              </Flip>
+            </div>
             <Link to="home" spy={true} smooth={true} duration={2000}>
-              <div className="button">HOME</div>
+              <div className="button2">BACK TO HOME</div>
             </Link>
             <div className="copyright">&copy;2019 SUNG JOON PARK</div>
           </div>
         </div>
       </div>
+      // </div>
     );
   }
 }

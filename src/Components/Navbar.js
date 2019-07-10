@@ -122,7 +122,18 @@ export default class Navbar extends Component {
                 <div>MISC</div>
               </Fade>
             </Link>
-
+            <Link
+              activeClassName="active"
+              className="link"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Fade delay="500">
+                <div>CONTACT</div>
+              </Fade>
+            </Link>
             <a
               className="none"
               href={require("../files/SungJoonParkResume.pdf")}
