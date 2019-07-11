@@ -173,7 +173,8 @@
   }
   .misccontainer {
     /* padding-top: 300x; */
-    z-index: 5;
+    position: relative;
+    z-index: 0;
     align-content: center;
     align-items: center;
     justify-content: center;
