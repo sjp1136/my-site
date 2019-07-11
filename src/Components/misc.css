@@ -132,7 +132,8 @@
   width: 35%;
 }
 .misccontainer {
-  padding-top: 430px;
+  /* padding-top: 430px;  */ /* if u have a quote*/
+  padding-top: 250px;
   z-index: 5;
   align-content: center;
   align-items: center;
@@ -145,7 +146,7 @@
 }
 .center1 {
   /* padding-top: 50px; */
-  top: 200px;
+  top: 150px;
   /* margin-right: 20px; */
   color: white;
   position: absolute;

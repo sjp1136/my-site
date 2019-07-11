@@ -218,12 +218,12 @@ export default class Misc extends Component {
           <Slide left>
             <div className="subhead" />
           </Slide>
-          <div className="quote2">
+          {/* <div className="quote2">
             “If I find in myself a desire which no experience in this world can
             satisfy, the most probable explanation is that I was made for
             another world.”
           </div>
-          <div className="author2">-C.S. Lewis</div>
+          <div className="author2">-C.S. Lewis</div> */}
         </Typography>
         <div className="misccontainer">
           <Fade delay="200">
