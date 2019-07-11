@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-site/static/css/main.a85f6aed.chunk.css",
-  "main.js": "/my-site/static/js/main.3950a48c.chunk.js",
-  "main.js.map": "/my-site/static/js/main.3950a48c.chunk.js.map",
+  "main.css": "/my-site/static/css/main.3a6a5827.chunk.css",
+  "main.js": "/my-site/static/js/main.bba72480.chunk.js",
+  "main.js.map": "/my-site/static/js/main.bba72480.chunk.js.map",
   "static/css/1.b90b1d2b.chunk.css": "/my-site/static/css/1.b90b1d2b.chunk.css",
   "static/js/1.d3479e9f.chunk.js": "/my-site/static/js/1.d3479e9f.chunk.js",
   "static/js/1.d3479e9f.chunk.js.map": "/my-site/static/js/1.d3479e9f.chunk.js.map",
@@ -28,7 +28,7 @@
   "static/media/aws.png": "/my-site/static/media/aws.a6c1d396.png",
   "static/media/docker.png": "/my-site/static/media/docker.82cbccbf.png",
   "static/media/unix.png": "/my-site/static/media/unix.fd880ec4.png",
-  "static/media/portfolio.css": "/my-site/static/media/coding.2b07e1a4.jpg",
+  "static/media/project.css": "/my-site/static/media/coding.2b07e1a4.jpg",
   "static/media/shareit.png": "/my-site/static/media/shareit.92313ec2.png",
   "static/media/lucky13b.png": "/my-site/static/media/lucky13b.9620589d.png",
   "static/media/trenchtekb.png": "/my-site/static/media/trenchtekb.e8aa4acd.png",
@@ -62,9 +62,9 @@
   "static/media/nature4.JPG": "/my-site/static/media/nature4.be9e0405.JPG",
   "static/media/nature5.JPG": "/my-site/static/media/nature5.c1fec98c.JPG",
   "static/media/nature6.JPG": "/my-site/static/media/nature6.c699a9fa.JPG",
-  "static/css/main.a85f6aed.chunk.css.map": "/my-site/static/css/main.a85f6aed.chunk.css.map",
   "static/css/1.b90b1d2b.chunk.css.map": "/my-site/static/css/1.b90b1d2b.chunk.css.map",
+  "static/css/main.3a6a5827.chunk.css.map": "/my-site/static/css/main.3a6a5827.chunk.css.map",
   "index.html": "/my-site/index.html",
-  "precache-manifest.b03010d40a3ffdc22f013aeb5fbc66c9.js": "/my-site/precache-manifest.b03010d40a3ffdc22f013aeb5fbc66c9.js",
+  "precache-manifest.664610dabccd6f3a24996566958a4163.js": "/my-site/precache-manifest.664610dabccd6f3a24996566958a4163.js",
   "service-worker.js": "/my-site/service-worker.js"
 }
