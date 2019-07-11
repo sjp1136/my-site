@@ -16,7 +16,8 @@ class App extends Component {
     return (
       <div className="column">
         <Home />
-        {/* <Navbar /> */}
+        <Navbar />
+
         <About />
         <Skill />
         <Portfolio />

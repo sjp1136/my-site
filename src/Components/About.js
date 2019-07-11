@@ -28,8 +28,9 @@ export default class About extends Component {
   render() {
     return (
       <div>
+        {/* <Navbar /> */}
+
         <div class="about" id="about">
-          <Navbar />
           <Typography variant="h3" className="center">
             <Slide left>ABOUT ME</Slide>
             <Slide left>
