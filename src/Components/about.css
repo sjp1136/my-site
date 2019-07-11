@@ -71,8 +71,6 @@
   transition: 0.3s ease;
 }
 .paper:hover .blackglass {
-  /* width: 450px; */
-  /* opacity: 0.8; */
   color: rgb(255, 255, 255, 1);
   background: rgba(25, 25, 25, 0.8);
 }
@@ -101,11 +99,6 @@
   color: gray;
   font-style: italic;
   font-weight: 300;
-  /* width: 1000px; */
-  /* font-size: 25px;
-  color: gray;
-  font-style: italic; */
-  /* font-weight: bold; */
 }
 
 .author {

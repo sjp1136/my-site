@@ -22,10 +22,11 @@ export default class Skill extends Component {
             </Slide>
             {/* <Fade bottom delay="300"> */}
             <div className="quote">
-              “When something is important enough, you do it even if the odds
-              are not in your favor.”
+              “Hardships often prepare ordinary people for an extraordinary
+              destiny.”
             </div>
-            <div className="author">-Elon Musk</div>
+
+            <div className="author">-C.S. Lewis</div>
             {/* </Fade> */}
           </Typography>
 

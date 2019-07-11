@@ -101,13 +101,13 @@ export default class Home extends Component {
         </div>
 
         <div className="centeredb">
-          <Link to="about" spy={true} smooth={true} duration={7000}>
+          <Link to="about" spy={true} smooth={true} duration={8000}>
             <Fade top delay="1100">
               <Typography className="toabout">ABOUT ME</Typography>
             </Fade>
           </Link>
         </div>
-        <div className="centeredc">
+        {/* <div className="centeredc">
           <Fade top>
             <div className="quote2">
               “Hardships often prepare ordinary people for an extraordinary
@@ -116,7 +116,7 @@ export default class Home extends Component {
 
             <div className="author2">-C.S. Lewis</div>
           </Fade>
-        </div>
+        </div> */}
       </div>
     );
   }

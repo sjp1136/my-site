@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Skill from "./Components/Skill";
-import Portfolio from "./Components/Portfolio";
+import Project from "./Components/Project";
 import Experience from "./Components/Experience";
 import Resume from "./Components/Resume";
 import Misc from "./Components/Misc";
@@ -16,11 +16,11 @@ class App extends Component {
     return (
       <div className="column">
         <Home />
-        <Navbar />
+        {/* <Navbar /> */}
 
         <About />
         <Skill />
-        <Portfolio />
+        <Project />
         <Experience />
         <Misc />
         <Footer />

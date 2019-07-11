@@ -8,9 +8,9 @@ import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import "./components.css";
-import "./portfolio.css";
+import "./project.css";
 
-export default class Portfolio extends Component {
+export default class Project extends Component {
   render() {
     return (
       <div className="portfolio" id="portfolio">
@@ -20,6 +20,11 @@ export default class Portfolio extends Component {
           <Slide left>
             <div className="subhead" />
           </Slide>
+          <div className="quote2">
+            “When something is important enough, you do it even if the odds are
+            not in your favor.”
+          </div>
+          <div className="author2">-Elon Musk</div>
         </Typography>
 
         <div className="portfoliozindex">

@@ -213,15 +213,21 @@ export default class Misc extends Component {
         <div className="background2" />
 
         {/* <div className="centeredmisc"> */}
-        <Typography variant="h3" className="center0">
+        <Typography variant="h3" className="center1">
           <Slide left>PHOTOS</Slide>
           <Slide left>
             <div className="subhead" />
           </Slide>
+          <div className="quote2">
+            “If I find in myself a desire which no experience in this world can
+            satisfy, the most probable explanation is that I was made for
+            another world.”
+          </div>
+          <div className="author2">-C.S. Lewis</div>
         </Typography>
-        <Fade delay="200">
-          <Slide bottom>
-            <div className="misccontainer">
+        <div className="misccontainer">
+          <Fade delay="200">
+            <Slide bottom>
               <GridList cellHeight={height} className="overflow" cols={6}>
                 {gcf.map(tile => (
                   <GridListTile key={tile.img} cols={tile.cols || 1}>
@@ -308,9 +314,9 @@ export default class Misc extends Component {
                   </GridListTile>
                 ))}
               </GridList>
-            </div>
-          </Slide>
-        </Fade>
+            </Slide>
+          </Fade>
+        </div>
       </div>
       // </div>
     );
