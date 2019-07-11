@@ -101,7 +101,7 @@ export default class Home extends Component {
         </div>
 
         <div className="centeredb">
-          <Link to="about" spy={true} smooth={true} duration={8000}>
+          <Link to="about" spy={true} smooth={true} duration={2500}>
             <Fade top delay="1100">
               <Typography className="toabout">ABOUT ME</Typography>
             </Fade>

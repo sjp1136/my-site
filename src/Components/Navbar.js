@@ -56,7 +56,7 @@ export default class Navbar extends Component {
               to="home"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >
               <Fade>
                 <div>HOME</div>
@@ -68,7 +68,7 @@ export default class Navbar extends Component {
               to="about"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >
               <Fade delay="100">
                 <div>ABOUT</div>
@@ -80,7 +80,7 @@ export default class Navbar extends Component {
               to="skill"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >
               <Fade delay="200">
                 <div>SKILLS</div>
@@ -92,7 +92,7 @@ export default class Navbar extends Component {
               to="portfolio"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >
               <Fade delay="300">
                 <div>PROJECTS</div>
@@ -104,7 +104,7 @@ export default class Navbar extends Component {
               to="experience"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >
               <Fade delay="400">
                 <div>EXPERIENCE</div>
