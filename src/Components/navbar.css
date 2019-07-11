@@ -19,32 +19,7 @@ p {
   left: 50%;
   transform: translate(-50%, 0%);
 }
-.nav {
-  background-color: black;
-  width: 100%;
-  height: 75px;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  z-index: 10005;
-  opacity: 0.9;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  /* transition: 0.2s; */
-}
-.nav2 {
-  display: flex;
-  /* position: fixed; */
-  /* top: 0%; */
-  z-index: 10005;
-  font-size: 25px;
-  color: white;
-  height: 10%;
-  /* width: 100%; */
-}
+
 .centered7 {
   /* position: absolute; */
   text-align: center;
@@ -63,14 +38,37 @@ p {
   align-self: center;
   justify-content: center;
   /* top: 165%; */
-  left: 50%;
-  transform: translate(-50%, 0%);
+  /* left: 50%; */
+  /* transform: translate(-50%, 0%); */
   z-index: 5;
+}
+.nav {
+  background-color: black;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  z-index: 10005;
+  opacity: 0.9;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.nav2 {
+  display: flex;
+  z-index: 10005;
+  font-size: 25px;
+  color: white;
+  height: 10%;
 }
 .nav-scrolled {
   background-color: rgb(0, 0, 0, 0.8);
   width: 100%;
-  height: 75px;
+  height: 69px;
   display: flex;
   margin: 0;
   padding: 0;
@@ -88,7 +86,7 @@ p {
   z-index: 10005;
   font-size: 25px;
   color: white;
-  height: 10%;
+  /* height: 10%; */
   position: fixed;
   top: 0;
 }
@@ -98,9 +96,7 @@ p {
   font-weight: 300;
   color: white;
   width: 100%;
-  height: 35px;
   padding: 20px 10px 20px 10px;
-  /* margin-left: 28px; */
   text-align: center;
   transition: 0.3s;
 }

@@ -11,6 +11,31 @@ import ReactSimpleTooltip from "react-simple-tooltip";
 import { Link, animateScroll as scroll } from "react-scroll";
 // https://ciunkos.com/creating-contact-forms-with-nodemailer-and-react
 export default class Footer extends Component {
+  // handleSubmit(e) {
+  //   e.preventDefault();
+  //   const name = document.getElementById("name").value;
+  //   const email = document.getElementById("email").value;
+  //   const message = document.getElementById("message").value;
+  //   axios({
+  //     method: "POST",
+  //     url: "http://localhost:3002/send",
+  //     data: {
+  //       name: name,
+  //       email: email,
+  //       messsage: message
+  //     }
+  //   }).then(response => {
+  //     if (response.data.msg === "success") {
+  //       alert("Message Sent.");
+  //       this.resetForm();
+  //     } else if (response.data.msg === "fail") {
+  //       alert("Message failed to send.");
+  //     }
+  //   });
+  // }
+  // resetForm() {
+  //   document.getElementById("contact-form").reset();
+  // }
   render() {
     return (
       <div>
@@ -22,10 +47,16 @@ export default class Footer extends Component {
                 <div className="subhead" />
               </Fade>
             </Typography>
-            <form method="POST" className="flex2">
+            <form
+              method="POST"
+              className="flex2"
+              id="contact-form"
+              // onSubmit={this.handleSubmit.bind(this)}
+            >
               {/* <label htmlFor="name">Name</label> */}
               <Fade bottom>
                 <input
+                  id="name"
                   type="text"
                   name="name"
                   placeholder="Name"
@@ -35,6 +66,7 @@ export default class Footer extends Component {
               {/* <label htmlFor="email">Email</label> */}
               <Fade bottom delay="200">
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -45,6 +77,7 @@ export default class Footer extends Component {
               {/* <label htmlFor="message">Message</label> */}
               <Fade bottom delay="200">
                 <textarea
+                  id="message"
                   name="message"
                   placeholder="Message"
                   rows="4"
