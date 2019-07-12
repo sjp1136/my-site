@@ -20,6 +20,7 @@ import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import Navbar from "./Navbar";
+import Drawer from "react-motion-drawer";
 
 import "./components.css";
 import "./about.css";
@@ -30,12 +31,25 @@ export default class About extends Component {
       <div>
         <div class="about" id="about">
           <Navbar />
-
+          <Drawer open={false}>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Settings</li>
+            </ul>
+          </Drawer>
           <Typography variant="h3" className="center">
             <Slide left>ABOUT ME</Slide>
             <Slide left>
               <div className="subhead3" />
             </Slide>
+            <Drawer open={true}>
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Settings</li>
+              </ul>
+            </Drawer>
 
             {/* <Fade bottom delay="300"> */}
             <div className="quote">

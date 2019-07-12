@@ -9,33 +9,36 @@ import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import ReactSimpleTooltip from "react-simple-tooltip";
 import { Link, animateScroll as scroll } from "react-scroll";
+import axios from "axios";
+
 // https://ciunkos.com/creating-contact-forms-with-nodemailer-and-react
 export default class Footer extends Component {
-  // handleSubmit(e) {
-  //   e.preventDefault();
-  //   const name = document.getElementById("name").value;
-  //   const email = document.getElementById("email").value;
-  //   const message = document.getElementById("message").value;
-  //   axios({
-  //     method: "POST",
-  //     url: "http://localhost:3002/send",
-  //     data: {
-  //       name: name,
-  //       email: email,
-  //       messsage: message
-  //     }
-  //   }).then(response => {
-  //     if (response.data.msg === "success") {
-  //       alert("Message Sent.");
-  //       this.resetForm();
-  //     } else if (response.data.msg === "fail") {
-  //       alert("Message failed to send.");
-  //     }
-  //   });
-  // }
-  // resetForm() {
-  //   document.getElementById("contact-form").reset();
-  // }
+  handleSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+    axios({
+      method: "POST",
+      url: "http://localhost:3002/send",
+      data: {
+        name: name,
+        email: email,
+        messsage: message
+      }
+    }).then(response => {
+      if (response.data.msg === "success") {
+        alert("Message Sent.");
+        this.resetForm();
+      } else if (response.data.msg === "fail") {
+        alert("Message failed to send.");
+      }
+    });
+  }
+
+  resetForm() {
+    document.getElementById("contact-form").reset();
+  }
   render() {
     return (
       <div>
@@ -51,34 +54,28 @@ export default class Footer extends Component {
               method="POST"
               className="flex2"
               id="contact-form"
-              // onSubmit={this.handleSubmit.bind(this)}
+              onSubmit={this.handleSubmit.bind(this)}
             >
-              {/* <label htmlFor="name">Name</label> */}
               <Fade bottom>
                 <input
                   id="name"
                   type="text"
-                  name="name"
                   placeholder="Name"
                   className="footername"
                 />
               </Fade>
-              {/* <label htmlFor="email">Email</label> */}
               <Fade bottom delay="200">
                 <input
                   id="email"
                   type="email"
-                  name="email"
                   placeholder="Email"
                   className="footeremail"
                 />
               </Fade>
 
-              {/* <label htmlFor="message">Message</label> */}
               <Fade bottom delay="200">
                 <textarea
                   id="message"
-                  name="message"
                   placeholder="Message"
                   rows="4"
                   cols="35"
@@ -86,11 +83,12 @@ export default class Footer extends Component {
                 />
               </Fade>
               <Fade bottom delay="600">
-                <div type="submit" className="button">
+                <button type="submit" className="button">
                   Submit
-                </div>
+                </button>
               </Fade>
             </form>
+
             <div className="icons">
               <ReactSimpleTooltip
                 arrow={15}
