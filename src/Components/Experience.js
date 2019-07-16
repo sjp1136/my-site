@@ -29,7 +29,7 @@ export default class Experience extends Component {
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
               date="May 2019 - Present"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
               icon={
                 <img
                   src={require("../images/volkswagen.png")}
@@ -41,12 +41,14 @@ export default class Experience extends Component {
                 className="none2"
                 href="http://www.volkswagengroupofamerica.com/"
               >
-                <div className="padding">
-                  <Chip label="React" clickable color="basic" />
-                  &nbsp;
+                <div className="padding padding1">
                   <Chip label="AWS" clickable color="basic" />
                   &nbsp;
+                  <Chip label="Kubernetes" clickable color="basic" />
+                  &nbsp;
                   <Chip label="Docker" clickable color="basic" />
+                  &nbsp;
+                  <Chip label="ConcourseCI" clickable color="basic" />
                 </div>
 
                 <h2 className="vertical-timeline-element-title">
@@ -56,11 +58,12 @@ export default class Experience extends Component {
                   Software Developer Intern
                 </h3>
                 <div className="text2">
-                  I am currently integrating and deploying the VCI React
-                  application with Docker and AWS (ECR, ECS Fargate, RDS,
-                  CloudFormation, CloudFront, S3)​. The projects are setup in
-                  sprint style formation. Gained some experience using Docker
-                  and AWS.
+                  I am currently integrating and automating deployment of the
+                  VCI React application with Docker, AWS (ECR, ECS Fargate, RDS,
+                  CloudFormation, CloudFront, S3)​, and ConcourseCI. The
+                  projects are setup in sprint style formation. Gained some
+                  experience using Docker and AWS. Currently, learning some
+                  Kubernetes with EKS.
                 </div>
               </a>
             </VerticalTimelineElement>
@@ -76,7 +79,7 @@ export default class Experience extends Component {
               }
             >
               <a className="none2" href="http://www.ridgebacknet.com/">
-                <div className="padding">
+                <div className="padding padding2">
                   <Chip label="Javascript" clickable color="basic" />
                   &nbsp;
                   <Chip label="visjs" clickable color="basic" />
@@ -113,7 +116,7 @@ export default class Experience extends Component {
               }
             >
               <a className="none2" href="http://www.tucows.com/">
-                <div className="padding">
+                <div className="padding padding3">
                   <Chip label="Python" clickable color="basic" />
                   &nbsp;
                   <Chip label="jQuery" clickable color="basic" />
@@ -148,10 +151,12 @@ export default class Experience extends Component {
               }
             >
               <a className="none2" href="http://www.hackcville.com/">
-                <div className="padding">
+                <div className="padding padding4">
                   <Chip label="React" clickable color="basic" />
                   &nbsp;
                   <Chip label="Firebase" clickable color="basic" />
+                  &nbsp;
+                  <Chip label="API" clickable color="basic" />
                 </div>
                 <h2 className="vertical-timeline-element-title">Hackcville</h2>
                 <h3 className="vertical-timeline-element-subtitle role">

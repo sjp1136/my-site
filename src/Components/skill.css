@@ -8,9 +8,10 @@
 }
 .container {
   /* background-color: yellow; */
+  margin-top: -50px;
   width: 100%;
   display: flex;
-  margin: 10px 0px 40px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 .centered5 {

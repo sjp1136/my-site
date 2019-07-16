@@ -36,7 +36,7 @@
   width: 230px;
   border-radius: 50%;
   z-index: 2;
-  border: 6px solid #cccccc;
+  border: 4px solid rgb(255, 255, 255, 0.9);
   box-shadow: 0 0 1px 13px rgba(255, 255, 255, 0.15),
     0 0 1px 26px rgba(255, 255, 255, 0.1);
   transition: 0.2s;
@@ -59,12 +59,15 @@
   color: white;
   transition: 0.2s ease;
   font-weight: 300;
+  /* border-radius: 10px; */
 }
 .toabout:hover {
   background-color: white;
   color: black;
   width: 120px;
+  /* height: 120px; */
   cursor: grab;
+  /* border-radius: 10px; */
 }
 
 .name {

@@ -36,17 +36,17 @@ export default class Misc extends Component {
       {
         img: require("../images/group1.jpg"),
         author: "SJP",
-        cols: 3
+        cols: 2.6
       },
       {
         img: require("../images/group2.jpg"),
         author: "SJP",
-        cols: 3
+        cols: 2.4
       },
       {
         img: require("../images/group3.jpg"),
         author: "SJP",
-        cols: 3
+        cols: 2.5
       },
       // {
       //   img: require("../images/group4.jpg"),
@@ -56,7 +56,7 @@ export default class Misc extends Component {
       {
         img: require("../images/group5.jpg"),
         author: "SJP",
-        cols: 3
+        cols: 2.5
       }
       // {
       //   img: require("../images/group6.jpg"),
@@ -107,53 +107,54 @@ export default class Misc extends Component {
 
     const touring = [
       {
-        img: require("../images/touring.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 2
-      },
-      {
         img: require("../images/touring2.JPG"),
         title: "VW",
         author: "SJP",
         cols: 1
       },
       {
-        img: require("../images/touring3.JPG"),
+        img: require("../images/touring.JPG"),
         title: "VW",
         author: "SJP",
         cols: 2
       },
+      {
+        img: require("../images/touring4.JPG"),
+        title: "VW",
+        author: "SJP",
+        cols: 2
+      }
+      // {
+      //   img: require("../images/touring3.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 2
+      // },
       // {
       //   img: require("../images/touring5.JPG"),
       //   title: "VW",
       //   author: "SJP",
       //   cols: 1
       // },
-      {
-        img: require("../images/touring6.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 2
-      },
+      // {
+      //   img: require("../images/touring6.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 2
+      // },
       // {
       //   img: require("../images/touring7.JPG"),
       //   title: "VW",
       //   author: "SJP",
       //   cols: 1
       // },
-      {
-        img: require("../images/touring4.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 2
-      },
-      {
-        img: require("../images/touring8.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 1
-      }
+
+      // {
+      //   img: require("../images/touring8.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 1
+      // }
     ];
 
     const nature = [
@@ -174,26 +175,26 @@ export default class Misc extends Component {
         title: "VW",
         author: "SJP",
         cols: 2
-      },
-
-      {
-        img: require("../images/nature4.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 2
-      },
-      {
-        img: require("../images/nature5.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 2
-      },
-      {
-        img: require("../images/nature6.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 1
       }
+      // {
+      //   img: require("../images/nature6.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 1
+      // }
+      // {
+      //   img: require("../images/nature4.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 2
+      // },
+      // {
+      //   img: require("../images/nature5.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 2
+      // },
+
       // {
       //   img: require("../images/nature7.JPG"),
       //   title: "VW",
@@ -228,7 +229,7 @@ export default class Misc extends Component {
         <div className="misccontainer">
           <Fade delay="200">
             <Slide bottom>
-              <GridList cellHeight={height} className="overflow" cols={6}>
+              <GridList cellHeight={height} className="overflow" cols={5}>
                 {gcf.map(tile => (
                   <GridListTile key={tile.img} cols={tile.cols || 1}>
                     <div className="picture">
@@ -246,8 +247,8 @@ export default class Misc extends Component {
                     </div>
                   </GridListTile>
                 ))}
-              </GridList>
-              <GridList cellHeight={height} className="overflow" cols={5}>
+                {/* </GridList> */}
+                {/* <GridList cellHeight={height} className="overflow" cols={5}> */}
                 {nature.map(tile => (
                   <GridListTile
                     key={tile.img}
@@ -273,9 +274,9 @@ export default class Misc extends Component {
                     </div>
                   </GridListTile>
                 ))}
-              </GridList>
+                {/* </GridList> */}
 
-              <GridList cellHeight={height} className="overflow" cols={5}>
+                {/* <GridList cellHeight={height} className="overflow" cols={5}> */}
                 {touring.map(tile => (
                   <GridListTile key={tile.img} cols={tile.cols || 1}>
                     <div className="picture">
@@ -293,9 +294,9 @@ export default class Misc extends Component {
                     </div>
                   </GridListTile>
                 ))}
-              </GridList>
+                {/* </GridList> */}
 
-              <GridList cellHeight={height} className="overflow" cols={5}>
+                {/* <GridList cellHeight={height} className="overflow" cols={5}> */}
                 {vw.map(tile => (
                   <GridListTile key={tile.img} cols={tile.cols || 1}>
                     <div className="picture">

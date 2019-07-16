@@ -20,19 +20,17 @@ export default class Skill extends Component {
             <Slide right>
               <div className="subhead3" />
             </Slide>
-            {/* <Fade bottom delay="300"> */}
             <div className="quote">
               “Hardships often prepare ordinary people for an extraordinary
               destiny.”
             </div>
 
             <div className="author">-C.S. Lewis</div>
-            {/* </Fade> */}
           </Typography>
 
           <div className="container">
             <div className="eachskill">
-              <Flip bottom>
+              <Flip left>
                 <img
                   src={require("../images/languages.png")}
                   className="height2"
@@ -41,20 +39,26 @@ export default class Skill extends Component {
                 <div className="skilllabel">LANGUAGES</div>
               </Flip>
             </div>
-            <div className="skills">
-              <img src={require("../images/python.png")} className="height3" />
-              <img
-                src={require("../images/javascript.png")}
-                className="height3"
-              />
-              <img src={require("../images/java.png")} className="height3" />
-              <img src={require("../images/c++.png")} className="height3" />
-              <img src={require("../images/r.png")} className="height3" />
-            </div>
+            <Fade bottom>
+              <div className="skills">
+                <img
+                  src={require("../images/python.png")}
+                  className="height3"
+                />{" "}
+                <img
+                  src={require("../images/javascript.png")}
+                  className="height3"
+                />
+                <img src={require("../images/java.png")} className="height3" />{" "}
+                <img src={require("../images/c++.png")} className="height3" />
+                <img src={require("../images/r.png")} className="height3" />
+              </div>
+            </Fade>
           </div>
+
           <div className="container2">
             <div className="eachskill">
-              <Flip bottom delay="200">
+              <Flip left delay="200">
                 <img
                   src={require("../images/frameworks.png")}
                   className="height2"
@@ -62,32 +66,42 @@ export default class Skill extends Component {
                 <div className="skilllabel">FRAMEWORKS</div>
               </Flip>
             </div>
-            <div className="skills">
-              <img src={require("../images/react.png")} className="height3" />
-              <img src={require("../images/django.png")} className="height3" />
-              <img src={require("../images/visjs.png")} className="height3" />
-              <img src={require("../images/d3.png")} className="height3" />
-            </div>
+            <Fade bottom delay="200">
+              <div className="skills">
+                <img src={require("../images/react.png")} className="height3" />
+                <img
+                  src={require("../images/django.png")}
+                  className="height3"
+                />
+                <img src={require("../images/visjs.png")} className="height3" />
+                <img src={require("../images/d3.png")} className="height3" />
+              </div>
+            </Fade>
           </div>
 
           <div className="container3">
             <div className="eachskill">
-              <Flip bottom delay="300">
+              <Flip left delay="300">
                 <img src={require("../images/tools.png")} className="height2" />
                 <div className="skilllabel">TOOLS</div>
               </Flip>
             </div>
-            <div className="skills">
-              <img src={require("../images/aws.png")} className="height3" />
-              <img src={require("../images/docker.png")} className="height3" />
-              <img
-                src={require("../images/concourse.png")}
-                className="height3"
-              />
-              <img src={require("../images/git.png")} className="height3" />
+            <Fade bottom delay="300">
+              <div className="skills">
+                <img src={require("../images/aws.png")} className="height3" />
+                <img
+                  src={require("../images/docker.png")}
+                  className="height3"
+                />
+                <img
+                  src={require("../images/concourse.png")}
+                  className="height3"
+                />
+                <img src={require("../images/git.png")} className="height3" />
 
-              <img src={require("../images/unix.png")} className="height3" />
-            </div>
+                <img src={require("../images/unix.png")} className="height3" />
+              </div>
+            </Fade>
           </div>
         </div>
       </div>

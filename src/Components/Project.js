@@ -35,10 +35,9 @@ export default class Project extends Component {
             alignContent="center"
             justify="center"
           >
-            {/* <Grid container item xs={8}> */}
-            <Fade delay="100">
-              <Slide bottom>
-                <Grid item>
+            <Grid item>
+              <Fade delay="100">
+                <Slide bottom>
                   <div className="post">
                     <img
                       src={require("../images/shareit.png")}
@@ -56,7 +55,6 @@ export default class Project extends Component {
                       <div className="used">SHAREIT</div>
                       <div className="description">ECommercePlatform</div>
                       <div className="technology django"> DJANGO</div>
-                      {/* <div className="subhead4" /> */}
                       <a
                         className="none"
                         href="https://github.com/sp3bk/cs4501-internet-scale"
@@ -65,10 +63,11 @@ export default class Project extends Component {
                       </a>
                     </div>
                   </div>
-                </Grid>
-              </Slide>
-            </Fade>
-            <Fade delay="200">
+                </Slide>
+              </Fade>
+            </Grid>
+
+            <Fade delay="400">
               <Slide bottom>
                 <Grid item>
                   <div className="post">
@@ -76,6 +75,7 @@ export default class Project extends Component {
                       src={require("../images/lucky13b.png")}
                       className="height"
                     />
+
                     <div className="github">
                       <a href="https://github.com/sp3bk/lucky13-skillmatcher">
                         <img
@@ -102,7 +102,7 @@ export default class Project extends Component {
                 </Grid>
               </Slide>
             </Fade>
-            <Fade delay="300">
+            <Fade delay="200">
               <Slide bottom>
                 <Grid item>
                   <div className="post">
@@ -135,10 +135,8 @@ export default class Project extends Component {
                 </Grid>
               </Slide>
             </Fade>
-            {/* </Grid> */}
 
-            {/* <Grid container item xs={8}> */}
-            <Fade delay="400">
+            <Fade delay="500">
               <Slide bottom>
                 <Grid item>
                   <div className="post">
@@ -169,7 +167,7 @@ export default class Project extends Component {
                 </Grid>
               </Slide>
             </Fade>
-            <Fade delay="500">
+            <Fade delay="700">
               <Slide bottom>
                 <Grid item>
                   <div className="post">
