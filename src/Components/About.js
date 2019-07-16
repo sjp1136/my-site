@@ -31,25 +31,12 @@ export default class About extends Component {
       <div>
         <div class="about" id="about">
           <Navbar />
-          {/* <Drawer open={false}>
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Settings</li>
-            </ul>
-          </Drawer> */}
+
           <Typography variant="h3" className="center">
             <Slide left>ABOUT ME</Slide>
             <Slide left>
               <div className="subhead3" />
             </Slide>
-            {/* <Drawer open={true}>
-              <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Settings</li>
-              </ul>
-            </Drawer> */}
 
             <div className="quote">
               “Don’t let your happiness depend on something you may lose.”

@@ -52,7 +52,7 @@ export default class Home extends Component {
               radius={0}
               zIndex={1}
             >
-              <Flip left delay="400">
+              <Flip left delay="400" duration="1500">
                 <div className="icon1">
                   <a href="tel:7035776388">
                     <img
@@ -66,7 +66,7 @@ export default class Home extends Component {
 
             <div className="iconpadding" />
 
-            <Flip left delay="600">
+            <Flip left delay="600" duration="1500">
               <div className="icon1">
                 <a href="mailto:sp3bk@virginia.edu">
                   <img src={require("../images/mail4.png")} className="icon" />
@@ -75,7 +75,7 @@ export default class Home extends Component {
             </Flip>
 
             <div className="iconpadding" />
-            <Flip left delay="800">
+            <Flip left delay="800" duration="1500">
               <div className="icon1">
                 <a href="https://www.linkedin.com/in/sung-joon-park/">
                   <img
@@ -87,7 +87,7 @@ export default class Home extends Component {
             </Flip>
 
             <div className="iconpadding" />
-            <Flip left delay="1000">
+            <Flip left delay="1000" duration="1500">
               <div className="icon1">
                 <a href="http://github.com/sjp1136/">
                   <img

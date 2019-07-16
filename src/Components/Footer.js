@@ -81,7 +81,7 @@ export default class Footer extends Component {
                   id="message"
                   placeholder="Message"
                   rows="4"
-                  cols="35"
+                  cols="20"
                   className="footermessage"
                 />
               </Fade>
@@ -162,7 +162,7 @@ export default class Footer extends Component {
             <Link to="home" spy={true} smooth={true} duration={2000}>
               <div className="button2">BACK TO HOME</div>
             </Link>
-            <div className="copyright">&copy;2019 SUNG JOON PARK</div>
+            <div className="copyright">JULY&copy; 2019 SUNG JOON PARK</div>
           </div>
         </div>
       </div>

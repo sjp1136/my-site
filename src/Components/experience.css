@@ -15,6 +15,9 @@
 .color {
   color: white;
 }
+.chip {
+  padding: 5px 0px 5px 0px;
+}
 .experiencesplash1 {
   height: 175%;
   width: 100%;
@@ -55,6 +58,7 @@
   padding: 10px 10px 10px 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+  /* display: flex; */
 }
 .padding1 {
   background-color: rgb(51, 81, 133, 1);
@@ -106,8 +110,11 @@
   /* transform: scale(1.5); */
 }
 .vertical:hover .padding {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
+/* .vertical:hover .padding1 {
+  background-color: rgb(51, 81, 133, 1);
+} */
 
 @media only screen and (max-width: 800px) {
   .vertical:hover .timelineavatar {
