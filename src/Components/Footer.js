@@ -21,7 +21,7 @@ export default class Footer extends Component {
     axios({
       method: "POST",
       // url: "http://localhost/send",
-      url: "http://fathomless-reaches-11670.herokuapp.com/send",
+      url: "https://fathomless-reaches-11670.herokuapp.com/send",
       data: {
         name: name,
         email: email,
@@ -76,7 +76,7 @@ export default class Footer extends Component {
               </Fade>
 
               <Fade bottom delay="200">
-                <input
+                <textarea
                   id="message"
                   type="text"
                   rows="4"
