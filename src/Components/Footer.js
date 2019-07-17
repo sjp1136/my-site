@@ -29,11 +29,13 @@ export default class Footer extends Component {
       }
     }).then(response => {
       if (response.data.msg === "success") {
-        alert("Message Sent!");
+        // alert("Message Sent!");
+        document.getElementById("response").innerHTML = "Submitted!";
 
         this.resetForm();
       } else if (response.data.msg === "fail") {
-        alert("Message failed to send.");
+        // alert("Message failed to send.");
+        document.getElementById("response").innerHTML = "Fail to submit!";
       }
     });
   }
@@ -51,6 +53,7 @@ export default class Footer extends Component {
               <Fade bottom>
                 <div className="subhead" />
               </Fade>
+              <div id="response" />
             </Typography>
             <form
               method="POST"

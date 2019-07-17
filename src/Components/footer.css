@@ -8,6 +8,11 @@
   z-index: 0;
   overflow: hidden;
 }
+#response {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
 .center5 {
   position: absolute;
   text-align: center;
