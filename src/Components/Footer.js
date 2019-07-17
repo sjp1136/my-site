@@ -25,7 +25,7 @@ export default class Footer extends Component {
       data: {
         name: name,
         email: email,
-        messsage: message
+        message: message
       }
     }).then(response => {
       if (response.data.msg === "success") {
@@ -76,13 +76,21 @@ export default class Footer extends Component {
               </Fade>
 
               <Fade bottom delay="200">
-                <textarea
+                <input
+                  id="message"
+                  type="text"
+                  rows="4"
+                  cols="20"
+                  placeholder="Message"
+                  className="footermessage"
+                />
+                {/* <input
                   id="message"
                   placeholder="Message"
                   rows="4"
                   cols="20"
                   className="footermessage"
-                />
+                /> */}
               </Fade>
               <Fade bottom delay="600">
                 <button type="submit" className="button">
