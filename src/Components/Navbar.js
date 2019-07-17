@@ -137,7 +137,7 @@ export default class Navbar extends Component {
             <a
               className="none"
               href={require("../files/SungJoonParkResume.pdf")}
-              target="SungJoonParkResume"
+              target="SungJoonParkResume.pdf"
             >
               <Fade delay="600">
                 <div className="link">RESUME</div>

@@ -20,8 +20,8 @@ export default class Footer extends Component {
     const message = document.getElementById("message").value;
     axios({
       method: "POST",
-      url: "http://localhost:3002/send",
-      // url: "https://sjp1136.github.io/my-site:3002/send",
+      // url: "http://localhost/send",
+      url: "http://fathomless-reaches-11670.herokuapp.com/send",
       data: {
         name: name,
         email: email,
@@ -29,8 +29,7 @@ export default class Footer extends Component {
       }
     }).then(response => {
       if (response.data.msg === "success") {
-        alert("Message Sent.");
-        window.prompt("sometext", "defaultText");
+        alert("Message Sent!");
 
         this.resetForm();
       } else if (response.data.msg === "fail") {

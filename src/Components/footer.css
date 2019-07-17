@@ -57,6 +57,9 @@
   width: 100%;
   cursor: grab;
 }
+.button2:hover {
+  color: #bbbbbb;
+}
 .button {
   margin: 10px;
   padding: 10px;
