@@ -62,8 +62,8 @@ export default class Experience extends Component {
                   VCI React application with Docker, AWS (ECR, ECS Fargate, RDS,
                   CloudFormation, CloudFront, S3)​, and ConcourseCI. The
                   projects are setup in sprint style formation. Gained some
-                  experience using Docker and AWS. Currently, learning some
-                  Kubernetes with EKS.
+                  experience using Docker and AWS. Currently working on EKS
+                  Kubernetes POC. Kubernetes with EKS.
                 </div>
               </a>
             </VerticalTimelineElement>
@@ -82,9 +82,9 @@ export default class Experience extends Component {
                 <div className="padding padding2">
                   <Chip label="Javascript" clickable color="basic" />
                   &nbsp;
-                  <Chip label="visjs" clickable color="basic" />
+                  <Chip label="Vis.js" clickable color="basic" />
                   &nbsp;
-                  <Chip label="d3" clickable color="basic" />
+                  <Chip label="D3.js" clickable color="basic" />
                 </div>
                 <h2 className="vertical-timeline-element-title bold2">
                   {" "}
