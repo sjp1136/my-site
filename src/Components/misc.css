@@ -26,7 +26,7 @@
   color: black;
 }
 .none2:hover {
-  color: gray;
+  /* color: gray; */
   opacity: 1;
 }
 .centeredmisc {
@@ -106,6 +106,7 @@
 .picture:hover .download {
   border: 1px solid rgb(255, 255, 255, 1);
   color: rgb(255, 255, 255, 1);
+  z-index: 20000;
 }
 
 .download {

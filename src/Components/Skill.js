@@ -30,14 +30,34 @@ export default class Skill extends Component {
 
           <div className="container">
             <div className="eachskill">
-              <Flip left>
-                <img
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <Flip left>
+                      <img
+                        src={require("../images/languages.png")}
+                        className="height2"
+                      />
+                    </Flip>
+                    <div className="skilllabel">LANGUAGES</div>
+                  </div>
+                  <div class="flip-card-back">
+                    <img
+                      src={require("../images/languages.png")}
+                      className="height2"
+                    />
+
+                    <div className="skilllabel">LANGUAGES</div>
+                  </div>
+                </div>
+              </div>
+              {/* <img
                   src={require("../images/languages.png")}
                   className="height2"
                 />
 
-                <div className="skilllabel">LANGUAGES</div>
-              </Flip>
+                <div className="skilllabel">LANGUAGES</div> */}
+              {/* </Flip> */}
             </div>
             <Fade bottom>
               <div className="skills">
@@ -58,13 +78,34 @@ export default class Skill extends Component {
 
           <div className="container2">
             <div className="eachskill">
-              <Flip left delay="200">
+              {/* <Flip left delay="200">
                 <img
                   src={require("../images/frameworks.png")}
                   className="height2"
                 />
                 <div className="skilllabel">FRAMEWORKS</div>
-              </Flip>
+              </Flip> */}
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <Flip left delay="200">
+                      <img
+                        src={require("../images/frameworks.png")}
+                        className="height2"
+                      />
+                    </Flip>
+                    <div className="skilllabel">FRAMEWORKS</div>
+                  </div>
+                  <div class="flip-card-back">
+                    <img
+                      src={require("../images/frameworks.png")}
+                      className="height2"
+                    />
+
+                    <div className="skilllabel">FRAMEWORKS</div>
+                  </div>
+                </div>
+              </div>
             </div>
             <Fade bottom delay="200">
               <div className="skills">
@@ -81,10 +122,31 @@ export default class Skill extends Component {
 
           <div className="container3">
             <div className="eachskill">
-              <Flip left delay="300">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <Flip left delay="300">
+                      <img
+                        src={require("../images/tools.png")}
+                        className="height2"
+                      />
+                    </Flip>
+                    <div className="skilllabel">TOOLS</div>
+                  </div>
+                  <div class="flip-card-back">
+                    <img
+                      src={require("../images/tools.png")}
+                      className="height2"
+                    />
+
+                    <div className="skilllabel">TOOLS</div>
+                  </div>
+                </div>
+              </div>
+              {/* <Flip left delay="300">
                 <img src={require("../images/tools.png")} className="height2" />
                 <div className="skilllabel">TOOLS</div>
-              </Flip>
+              </Flip> */}
             </div>
             <Fade bottom delay="300">
               <div className="skills">

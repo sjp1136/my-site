@@ -51,7 +51,7 @@ export default class Experience extends Component {
                   <Chip label="ConcourseCI" clickable color="basic" />
                 </div>
 
-                <h2 className="vertical-timeline-element-title">
+                <h2 className="vertical-timeline-element-title bold1">
                   Volkswagen Credit
                 </h2>
                 <h3 className="vertical-timeline-element-subtitle role">
@@ -86,7 +86,7 @@ export default class Experience extends Component {
                   &nbsp;
                   <Chip label="d3" clickable color="basic" />
                 </div>
-                <h2 className="vertical-timeline-element-title">
+                <h2 className="vertical-timeline-element-title bold2">
                   {" "}
                   Ridgeback Network Defense
                 </h2>
@@ -121,7 +121,9 @@ export default class Experience extends Component {
                   &nbsp;
                   <Chip label="jQuery" clickable color="basic" />
                 </div>
-                <h2 className="vertical-timeline-element-title">Tucows</h2>
+                <h2 className="vertical-timeline-element-title bold3">
+                  Tucows
+                </h2>
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
                 </h3>
@@ -158,7 +160,9 @@ export default class Experience extends Component {
                   &nbsp;
                   <Chip label="API" clickable color="basic" />
                 </div>
-                <h2 className="vertical-timeline-element-title">Hackcville</h2>
+                <h2 className="vertical-timeline-element-title bold4">
+                  Hackcville
+                </h2>
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
                 </h3>
@@ -180,7 +184,7 @@ export default class Experience extends Component {
               icon={
                 <img
                   src={require("../images/star.png")}
-                  className="timelineavatar"
+                  className="timelineavatar4"
                 />
               }
             />
