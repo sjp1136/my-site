@@ -193,9 +193,22 @@
 }
 @media only screen and (max-width: 600px) {
   .me {
-    width: 150px;
+    width: 175px;
     margin-top: 100px;
     margin-bottom: 10px;
+  }
+  .name {
+    /* top:100px; */
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+  }
+  .name2 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: #dddddd;
+    font-weight: 300;
   }
   .toabout {
     margin: auto;
@@ -204,7 +217,7 @@
     justify-content: center;
     text-align: center;
     padding: 5px;
-    transform: translate(0%, 50%);
+    /* transform: translate(0%, -50%); */
     border: 1px solid white;
     color: white;
     transition: 0.2s ease;
@@ -214,9 +227,9 @@
     position: absolute;
     text-align: center;
     margin: auto;
-    top: 620px;
+    top: 500px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -275%); */
   }
   .centeredc {
     position: absolute;
@@ -230,7 +243,7 @@
     position: absolute;
     text-align: center;
     margin: auto;
-    top: 31%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
