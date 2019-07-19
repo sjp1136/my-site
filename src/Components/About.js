@@ -65,19 +65,19 @@ export default class About extends Component {
                         </a>
                         , majoring in Computer Science & Statistics in the
                         School of Engineering. Currently, I am a Software
-                        Development Intern using AWS, Docker, React at{" "}
+                        Development Intern using AWS, Docker, React at
                         <a
                           href="https://www.vwcredit.com/Authentication/Login"
                           className="none4 p"
                         >
-                          Volkswagen Credit
+                          &nbsp;Volkswagen Credit
                         </a>
                         , a financial subsidiary of
                         <a
                           href="http://www.volkswagengroupofamerica.com/"
                           className="none4 p"
                         >
-                          Volkswagen Group of America
+                          &nbsp;Volkswagen Group of America&nbsp;
                         </a>
                         based in Herndon VA. Down the road, I aspire to become a
                         full-stack engineer and enjoy challenging myself to
