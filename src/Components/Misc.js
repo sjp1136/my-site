@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 
 import GridListTile from "@material-ui/core/GridListTile";
 import ModalImage from "react-modal-image";
-import Footer from "./Footer.js";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";

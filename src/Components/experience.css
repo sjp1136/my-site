@@ -6,12 +6,12 @@
   padding-bottom: 5%;
   background-color: #dddddd;
 }
-.center {
+/* .center {
   text-align: center;
   z-index: 5;
   padding-right: 5px;
   padding-left: 5px;
-}
+} */
 .color {
   color: white;
 }
@@ -47,7 +47,7 @@
   height: 60px;
   transition: 0.2s ease-in-out;
   transform-origin: center center;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   /* filter: grayscale(50%); */
 }
 .timelineavatar4 {

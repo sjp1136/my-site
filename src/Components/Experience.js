@@ -63,7 +63,7 @@ export default class Experience extends Component {
                   CloudFormation, CloudFront, S3)​, and ConcourseCI. The
                   projects are setup in sprint style formation. Gained some
                   experience using Docker and AWS. Currently working on EKS
-                  Kubernetes POC. Kubernetes with EKS.
+                  Kubernetes POC.
                 </div>
               </a>
             </VerticalTimelineElement>

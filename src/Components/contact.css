@@ -1,10 +1,17 @@
-/* Footer */
+/* contact */
 div {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-.footer {
+.icon3 {
+  width: 20px;
+  height: 20px;
+  transition: 0.2s ease;
+
+  transform: translate(0%, -10%);
+}
+.contact {
   color: white;
   background-color: rgb(0, 0, 0, 1);
   width: 100%;
@@ -53,6 +60,7 @@ div {
   padding: 20px;
   margin: auto;
 }
+
 .centered8 {
   position: absolute;
   text-align: center;
@@ -66,6 +74,7 @@ div {
 .button2 {
   width: 100%;
   cursor: grab;
+  font-size: 15px;
 }
 .button2:hover {
   color: #bbbbbb;
@@ -94,34 +103,34 @@ div {
   width: 60%;
   background-color: white;
 }
-.footername {
+.contactname {
   margin: 5px 10px 30px 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   background-color: white;
   border: none;
   border-radius: 3px;
   padding: 5px;
-  width: 100%;
+  width: 140%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-.footeremail {
+.contactemail {
   margin: 5px 10px 30px 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   background-color: white;
   border: none;
   border-radius: 3px;
   padding: 5px;
-  width: 100%;
+  width: 140%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-.footermessage {
-  font-size: 20px;
+.contactmessage {
+  font-size: 18px;
   font-weight: 300;
   background-color: white;
   border: none;
@@ -129,19 +138,22 @@ div {
   border-radius: 3px;
   padding: 5px;
   line-height: 45px;
-  width: 100%;
+  width: 140%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 @media only screen and (max-width: 800px) {
-  .footer {
+  .contact {
     color: white;
     background-color: rgb(0, 0, 0, 1);
     width: 100%;
-    height: 750px;
+    height: 700px;
     position: absolute;
     z-index: 0;
+  }
+  .gentlepadding {
+    padding-top: 20px;
   }
   .button {
     margin: 10px;
@@ -156,15 +168,44 @@ div {
     font-size: 16px;
     background-color: black;
   }
-}
-@media only screen and (max-width: 700px) and (max-height: 400px) {
-  .footer {
-    /* margin-top: 50px; */
-    color: white;
-    background-color: rgb(0, 0, 0, 1);
-    width: 100%;
-    height: 750px;
-    position: absolute;
-    z-index: 0;
+  .contactname {
+    margin: 5px 10px 30px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .contactemail {
+    margin: 5px 10px 30px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .contactmessage {
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    line-height: 45px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
   }
 }
