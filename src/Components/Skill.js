@@ -33,12 +33,12 @@ export default class Skill extends Component {
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <Flip left>
-                      <img
-                        src={require("../images/languages.png")}
-                        className="height2"
-                      />
-                    </Flip>
+                    {/* <Flip left> */}
+                    <img
+                      src={require("../images/languages.png")}
+                      className="height2"
+                    />
+                    {/* </Flip> */}
                     <div className="skilllabel">LANGUAGES</div>
                   </div>
                   <div class="flip-card-back">
@@ -88,12 +88,12 @@ export default class Skill extends Component {
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <Flip left delay="200">
-                      <img
-                        src={require("../images/frameworks.png")}
-                        className="height2"
-                      />
-                    </Flip>
+                    {/* <Flip left delay="200"> */}
+                    <img
+                      src={require("../images/frameworks.png")}
+                      className="height2"
+                    />
+                    {/* </Flip> */}
                     <div className="skilllabel">FRAMEWORKS</div>
                   </div>
                   <div class="flip-card-back">
@@ -125,12 +125,12 @@ export default class Skill extends Component {
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <Flip left delay="300">
-                      <img
-                        src={require("../images/tools.png")}
-                        className="height2"
-                      />
-                    </Flip>
+                    {/* <Flip left delay="300"> */}
+                    <img
+                      src={require("../images/tools.png")}
+                      className="height2"
+                    />
+                    {/* </Flip> */}
                     <div className="skilllabel">TOOLS</div>
                   </div>
                   <div class="flip-card-back">
@@ -148,7 +148,7 @@ export default class Skill extends Component {
                 <div className="skilllabel">TOOLS</div>
               </Flip> */}
             </div>
-            <Fade bottom delay="300">
+            <Fade bottom delay="400">
               <div className="skills">
                 <img src={require("../images/aws.png")} className="height3" />
                 <img
