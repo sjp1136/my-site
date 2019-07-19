@@ -116,7 +116,11 @@
 }
 .p {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 11.89px;
+}
+.p2{
+  font-weight: 300;
+  font-size: 22px;
 }
 
 .quote {
@@ -236,14 +240,14 @@
     /* height: 576px;
     width: 410px; */
     height: 450px;
-    width: 300px;
-    padding: 20px;
-    width: 95%;
+    width: 200px;
+    padding: 70px;
+    width: 70%;
     overflow-y: scroll;
     background: rgba(25, 25, 25, 0);
     position: absolute;
     color: rgb(255, 255, 255, 0);
-    font-size: 15px;
+    /* font-size: 15px; */
     margin: auto;
     /* top: 50%; */
     /* left: 50%; */

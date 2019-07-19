@@ -111,16 +111,18 @@ export default class About extends Component {
 
                     <div className="blackglass">
                       <h2 className="who">
-                        <a href="https://www.virginia.edu/" className="none4 p">
+                        <a href="https://www.virginia.edu/" className="none4 p2">
                           University of Virginia
                         </a>
                       </h2>
                       <div className="p">
                         3rd Year (School of Engineering) - CS & Statistics, '21.
                       </div>
-                      <br />
-                      <strong>Activities:</strong> Grace Christian Fellowship,
-                      Hackcville.
+                      <p className="p">
+                        <strong>Activities:</strong> Grace Christian Fellowship,
+                        Hackcville.
+                      </p>
+
                       <p className="p">
                         <strong>Coursework:</strong> CS4774 Machine Learning,
                         CS4501 Computer Vision, CS4501 Internet Scale
@@ -148,14 +150,17 @@ export default class About extends Component {
 
                     <div className="blackglass">
                       <h2 className="who">
-                        <a className="none4 p" href="https://tjhsst.fcps.edu/">
+                        <a className="none4 p2" href="https://tjhsst.fcps.edu/">
                           Thomas Jefferson HSST
                         </a>
                       </h2>
                       <div className="p">Student 2013-2017.</div>
-                      <br />
-                      <strong>Activities:</strong> Varsity Tennis 2014-15,
-                      2016-17, Senior Research (NeuroLab).
+                      <p className="p">
+
+                        <strong>Activities:</strong> Varsity Tennis 2014-15,
+                        2016-17, Senior Research (NeuroLab).
+                      </p>
+
                       <p className="p">
                         <strong>Coursework:</strong> AP Computer Science,
                         Artificial Intelligence 1 & 2, Mobile App Development,
