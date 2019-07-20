@@ -55,6 +55,7 @@
 .limit {
   padding-top: 200px;
   z-index: 5;
+  trans
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -135,6 +136,7 @@
 .misccontainer {
   /* padding-top: 430px;  */ /* if u have a quote*/
   padding-top: 250px;
+
   z-index: 5;
   align-content: center;
   align-items: center;
@@ -188,7 +190,9 @@
     transform: translate(-50%, -25%);
   }
   .misccontainer {
-    /* padding-top: 300x; */
+    /* padding-top: -500px; */
+    transform: translate(0%, -5%);
+
     position: relative;
     z-index: 0;
     align-content: center;
