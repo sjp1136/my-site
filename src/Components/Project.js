@@ -44,7 +44,7 @@ export default class Project extends Component {
                     className="height"
                   />
                   <div className="github">
-                    <a href="https://github.com/sp3bk/cs4501-internet-scale">
+                    <a href="https://github.com/sjp1136/cs4501-internet-scale">
                       <img
                         src={require("../images/github.png")}
                         className="github2"
@@ -57,7 +57,7 @@ export default class Project extends Component {
                     <div className="technology django"> DJANGO</div>
                     <a
                       className="none"
-                      href="https://github.com/sp3bk/cs4501-internet-scale"
+                      href="https://github.com/sjp1136/cs4501-internet-scale"
                     >
                       <div className="centered label">VIEW</div>
                     </a>
@@ -77,7 +77,7 @@ export default class Project extends Component {
                   />
 
                   <div className="github">
-                    <a href="https://github.com/sp3bk/lucky13-skillmatcher">
+                    <a href="https://github.com/sjp1136/lucky13-skillmatcher">
                       <img
                         src={require("../images/github.png")}
                         className="github2"
@@ -108,7 +108,7 @@ export default class Project extends Component {
                     className="height"
                   />
                   <div className="github">
-                    <a href="https://github.com/sp3bk/trenchtek">
+                    <a href="https://github.com/sjp1136/trenchtek">
                       <img
                         src={require("../images/github.png")}
                         className="github2"
@@ -140,7 +140,7 @@ export default class Project extends Component {
                     className="height"
                   />
                   <div className="github">
-                    <a href="https://github.com/sp3bk/FaceMe-">
+                    <a href="https://github.com/sjp1136/FaceMe-">
                       <img
                         src={require("../images/github.png")}
                         className="github2"
@@ -151,7 +151,7 @@ export default class Project extends Component {
                     <div className="used">FACEME</div>
                     <div className="description">YourFBProfile</div>
                     <div className="technology react"> REACT</div>
-                    <a className="none" href="https://github.com/sp3bk/FaceMe-">
+                    <a className="none" href="https://github.com/sjp1136/FaceMe-">
                       <div className="centered label">VIEW</div>
                     </a>
                   </div>
@@ -168,7 +168,7 @@ export default class Project extends Component {
                     className="height"
                   />
                   <div className="github">
-                    <a href="https://github.com/sp3bk/sn_flask">
+                    <a href="https://github.com/sjp1136/sn_flask">
                       <img
                         src={require("../images/github.png")}
                         className="github2"
@@ -182,7 +182,7 @@ export default class Project extends Component {
                     <div className="label2">
                       <a
                         className="none"
-                        href="https://github.com/sp3bk/sn_flask"
+                        href="https://github.com/sjp1136/sn_flask"
                       >
                         <div className="centered label">VIEW</div>
                       </a>
@@ -201,7 +201,7 @@ export default class Project extends Component {
                     className="height"
                   />
                   <div className="github">
-                    <a href="https://github.com/sp3bk/Pomodoro">
+                    <a href="https://github.com/sjp1136/Pomodoro">
                       <img
                         src={require("../images/github.png")}
                         className="github2"
