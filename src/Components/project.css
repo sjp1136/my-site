@@ -231,15 +231,23 @@
   .label {
     text-align: center;
     color: white;
-    width: 20%;
-    font-size: 20px;
+    width: 15%;
+    font-size: 15px;
     border: 1px solid white;
-    padding: 10px 40px;
-    margin-top: 125px;
+    padding: 5px 40px;
+    margin-top: 135px;
     /* margin-left: 21%; */
     /* margin-right: 70px; */
     transition: 0.3s;
     font-weight: 300;
+  }
+  .label:hover {
+    width: 20%;
+    /* margin-left: 14%; */
+  
+    background-color: rgb(255, 255, 255);
+    color: black;
+    /* opacity: 0.9; */
   }
   .portfoliozindex {
     padding-top: 320px;
@@ -306,4 +314,5 @@
 
     /* text-decoration: overline; */
   }
+
 }

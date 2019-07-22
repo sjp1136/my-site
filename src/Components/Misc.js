@@ -118,7 +118,7 @@ export default class Misc extends Component {
         cols: 2
       },
       {
-        img: require("../images/touring4.JPG"),
+        img: require("../images/touring.jpeg"),
         title: "VW",
         author: "SJP",
         cols: 2

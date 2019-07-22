@@ -18,10 +18,10 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home" id="home">
-        <div src={require("../images/touring4.JPG")} className="background" />
+        <div className="background" />
         <div className="centered">
           <Fade>
-            <img src={require("../images/me.jpg")} className="me" />
+            <img src={require("../images/me.png")} className="me" />
           </Fade>
           <Fade bottom>
             <div className="name">SUNG JOON PARK</div>
