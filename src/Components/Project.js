@@ -53,7 +53,7 @@ export default class Project extends Component {
                   </div>
                   <div class="post-s">
                     <div className="used">SHAREIT</div>
-                    <div className="description">ECommercePlatform</div>
+                    <div className="description">3TierECommercePlatform</div>
                     <div className="technology django"> DJANGO</div>
                     <a
                       className="none"
