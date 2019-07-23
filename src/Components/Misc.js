@@ -70,12 +70,12 @@ export default class Misc extends Component {
         author: "SJP",
         cols: 1
       },
-      {
-        img: require("../images/vw3.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 2
-      },
+      // {
+      //   img: require("../images/vw3.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 2
+      // },
       {
         img: require("../images/vw14.JPG"),
         title: "VW",
@@ -90,18 +90,18 @@ export default class Misc extends Component {
         cols: 2
       },
 
-      {
-        img: require("../images/vw9.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 2
-      },
-      {
-        img: require("../images/vw8.JPG"),
-        title: "VW",
-        author: "SJP",
-        cols: 1
-      }
+      // {
+      //   img: require("../images/vw9.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 2
+      // },
+      // {
+      //   img: require("../images/vw8.JPG"),
+      //   title: "VW",
+      //   author: "SJP",
+      //   cols: 1
+      // }
     ];
 
     const touring = [
