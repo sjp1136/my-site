@@ -44,8 +44,8 @@ export default class Navbar extends Component {
           }
         >
           <Link
-            activeClassName="active"
             className="link"
+            activeClassName="active"
             to="home"
             spy={true}
             smooth={true}
@@ -56,8 +56,8 @@ export default class Navbar extends Component {
             </Fade>
           </Link>
           <Link
-            activeClassName="active"
             className="link"
+            activeClassName="active"
             to="about"
             spy={true}
             smooth={true}
@@ -68,8 +68,8 @@ export default class Navbar extends Component {
             </Fade>
           </Link>
           <Link
-            activeClassName="active"
             className="link"
+            activeClassName="active"
             to="skill"
             spy={true}
             smooth={true}
@@ -80,8 +80,8 @@ export default class Navbar extends Component {
             </Fade>
           </Link>
           <Link
-            activeClassName="active"
             className="link"
+            activeClassName="active"
             to="portfolio"
             spy={true}
             smooth={true}
@@ -94,8 +94,8 @@ export default class Navbar extends Component {
             </Fade>
           </Link>
           <Link
-            activeClassName="active"
             className="link"
+            activeClassName="active"
             to="experience"
             spy={true}
             smooth={true}
@@ -106,8 +106,8 @@ export default class Navbar extends Component {
             </Fade>
           </Link>
           <Link
-            activeClassName="active"
             className="link"
+            activeClassName="active"
             to="misc"
             spy={true}
             smooth={true}
@@ -118,8 +118,8 @@ export default class Navbar extends Component {
             </Fade>
           </Link>
           <Link
-            activeClassName="active"
             className="link"
+            activeClassName="active"
             to="contact"
             spy={true}
             smooth={true}

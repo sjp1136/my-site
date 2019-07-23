@@ -102,7 +102,7 @@
 }
 .none4 {
   text-decoration: none;
-  color: #0066cc;
+  color: #0066ff;
   opacity: 0;
   transition: 0.3s ease;
 }
@@ -113,6 +113,7 @@
 .who {
   text-align: center;
   font-weight: 300;
+  font-size: 30px;
 }
 .p {
   font-weight: 300;
@@ -120,7 +121,7 @@
 }
 .p2{
   font-weight: 300;
-  font-size: 22px;
+  /* font-size: 22px; */
 }
 
 .quote {

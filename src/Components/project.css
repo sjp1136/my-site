@@ -107,7 +107,7 @@
 }
 .github:hover {
   opacity: 1;
-  transform: scale(1.2);
+  transform: scale(1.12);
 }
 
 .github2 {
@@ -176,8 +176,8 @@
 .label {
   text-align: center;
   color: white;
-  width: 20%;
-  font-size: 20px;
+  width: 15%;
+  font-size: 18px;
   border: 1px solid white;
   padding: 10px 40px;
   margin-top: 150px;
@@ -187,7 +187,7 @@
   font-weight: 300;
 }
 .label:hover {
-  width: 30%;
+  width: 20%;
   /* margin-left: 14%; */
 
   background-color: rgb(255, 255, 255);

@@ -51,9 +51,11 @@ export default class Experience extends Component {
                   <Chip label="ConcourseCI" clickable color="basic" />
                 </div>
 
+
                 <h2 className="vertical-timeline-element-title bold1">
                   Volkswagen Credit
                 </h2>
+                <div className="underline1"></div>
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Developer Intern
                 </h3>
@@ -90,6 +92,8 @@ export default class Experience extends Component {
                   {" "}
                   Ridgeback Network Defense
                 </h2>
+                <div className="underline2"></div>
+
 
                 <h3 className="vertical-timeline-element-subtitle role">
                   Javascript Developer Intern (Remote)
@@ -119,11 +123,21 @@ export default class Experience extends Component {
                 <div className="padding padding3">
                   <Chip label="Python" clickable color="basic" />
                   &nbsp;
+
                   <Chip label="jQuery" clickable color="basic" />
+                  &nbsp;
+
+                  <Chip label="Selenium" clickable color="basic" />
+                  &nbsp;
+
+                  <Chip label="BeautifulSpoon" clickable color="basic" />
+
                 </div>
                 <h2 className="vertical-timeline-element-title bold3">
                   Tucows
                 </h2>
+                <div className="underline3"></div>
+
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
                 </h3>
@@ -137,7 +151,7 @@ export default class Experience extends Component {
                   site for the internet installation team database. Using
                   jQuery, I worked on facilitating the user functionalities on
                   these site. Gained experience with Python, shell scripts, and
-                  jQuery.
+                  jQuery, while also learning Selenium and BeautifulSpoon on the side.
                 </div>
               </a>
             </VerticalTimelineElement>
@@ -158,11 +172,13 @@ export default class Experience extends Component {
                   &nbsp;
                   <Chip label="Firebase" clickable color="basic" />
                   &nbsp;
-                  <Chip label="API" clickable color="basic" />
+                  <Chip label="RestAPI" clickable color="basic" />
                 </div>
                 <h2 className="vertical-timeline-element-title bold4">
                   Hackcville
                 </h2>
+                <div className="underline4"></div>
+
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
                 </h3>

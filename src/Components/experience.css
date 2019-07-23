@@ -64,15 +64,79 @@
   border-radius: 50%;
 }
 .padding {
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
   padding: 10px 10px 10px 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  /* display: flex; */
-  filter: grayscale(100%);
+  background-color: gray; 
+}
+.vertical:hover .padding1 {
+  background-color: rgb(51, 81, 133, 1);
+}
+.vertical:hover .padding2 {
+  
+  background-color: #19b4f3;
+}
+.vertical:hover .padding3 {
+  
+  background-color: #222222;
+}
+.vertical:hover .padding4 {
+
+  background-color: #1f72be;;
+}
+.padding1 {
+  background-color: gray;
+}
+.padding2 {
+  background-color: gray;
+}
+.padding3 {
+  background-color: gray;
+}
+.padding4 {
+  background-color: gray;
+}
+.underline1{
+  background-color: rgb(51, 81, 133, 1);
+  height:3px;
+  width: 0px;
+  transition: 0.3s;
+}
+.underline2{
+  background-color:  #19b4f3;
+  height:3px;
+  width: 0px;
+  transition: 0.3s;
+}
+.underline3{
+  background-color: #222222;
+  height:3px;
+  width: 0px;
+  transition: 0.3s;
+}
+.underline4{
+  background-color: #1f72be;;
+  height:3px;
+  width: 0px;
+  transition: 0.3s;
+}
+.vertical:hover .underline1 {
+  width: 177px;
+}
+.vertical:hover .underline2 {
+  width: 268px;
+}
+.vertical:hover .underline3 {
+  width: 72px;
+}
+.vertical:hover .underline4 {
+  width: 98px;
 }
 .bold1 {
   transition: 0.2s;
+  /* font-weight: 700; */
+
 }
 .vertical:hover .bold1 {
   color: rgb(51, 81, 133, 1);
@@ -98,18 +162,6 @@
 .vertical:hover .bold4 {
   color: #1f72be;
   font-weight: 700;
-}
-.padding1 {
-  background-color: rgb(51, 81, 133, 1);
-}
-.padding2 {
-  background-color: #19b4f3;
-}
-.padding3 {
-  background-color: #222222;
-}
-.padding4 {
-  background-color: #1f72be;
 }
 
 .title {
@@ -148,13 +200,7 @@
   height: 80px;
   filter: grayscale(0%);
 }
-.vertical:hover .padding {
-  transform: scale(1.03);
-  filter: grayscale(0%);
-}
-/* .vertical:hover .padding1 {
-  background-color: rgb(51, 81, 133, 1);
-} */
+
 
 @media only screen and (max-width: 800px) {
   .vertical:hover .timelineavatar {
