@@ -119,7 +119,7 @@ export default class Contact extends Component {
                   zIndex={1}
                 >
                   <Flip left delay="800" duration="1500">
-                    <div className="icon1">
+                    <div className="icon2">
                       <a href="tel:7035776388">
                         <img
                           src={require("../images/phone.png")}
@@ -133,7 +133,7 @@ export default class Contact extends Component {
                 <div className="iconpadding" />
 
                 <Flip left delay="1000" duration="1500">
-                  <div className="icon1">
+                  <div className="icon2">
                     <a href="mailto:sp3bk@virginia.edu">
                       <img
                         src={require("../images/mail4.png")}
@@ -145,7 +145,7 @@ export default class Contact extends Component {
 
                 <div className="iconpadding" />
                 <Flip left delay="1200" duration="1500">
-                  <div className="icon1">
+                  <div className="icon2">
                     <a href="https://www.linkedin.com/in/sung-joon-park/">
                       <img
                         src={require("../images/linkedin2.png")}
@@ -157,7 +157,7 @@ export default class Contact extends Component {
 
                 <div className="iconpadding" />
                 <Flip left delay="1400" duration="1500">
-                  <div className="icon1">
+                  <div className="icon2">
                     <a href="http://github.com/sjp1136/">
                       <img
                         src={require("../images/github2.svg")}
