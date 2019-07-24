@@ -89,7 +89,6 @@ export default class Experience extends Component {
                   <Chip label="D3.js" clickable color="basic" />
                 </div>
                 <h2 className="vertical-timeline-element-title bold2">
-                  {" "}
                   Ridgeback Network Defense
                 </h2>
                 <div className="underline2"></div>

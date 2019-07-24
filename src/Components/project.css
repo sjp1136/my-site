@@ -64,6 +64,7 @@
   flex-direction: column;
   padding-right: 15%;
   padding-left: 15%;
+  z-index:2;
 }
 .firstrow {
   display: flex;
@@ -103,7 +104,7 @@
   top: 0%;
   right: 0%;
   z-index: 2;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 .github:hover {
   opacity: 1;
@@ -111,8 +112,8 @@
 }
 
 .github2 {
-  width: 23px;
-  padding: 12px;
+  width: 18px;
+  padding: 10px;
   opacity: 1;
 
   /* padding-top: 5px; */
@@ -231,15 +232,14 @@
   .label {
     text-align: center;
     color: white;
-    width: 15%;
+    /* width: 7%; */
     font-size: 15px;
     border: 1px solid white;
-    padding: 5px 40px;
+    padding: 5px 30px 5px 30px;
     margin-top: 135px;
-    /* margin-left: 21%; */
-    /* margin-right: 70px; */
     transition: 0.3s;
     font-weight: 300;
+    text-align: center;
   }
   .label:hover {
     width: 20%;
@@ -268,8 +268,8 @@
     overflow: hidden;
   }
   .github2 {
-    width: 19px;
-    padding: 12px;
+    width: 15px;
+    padding: 9px;
     opacity: 1;
   }
   .height {
@@ -305,7 +305,7 @@
   }
   .used {
     color: white;
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 20px;
     padding: 50px 0px 0px 0px;
     font-weight: 300;

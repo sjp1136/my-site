@@ -29,8 +29,9 @@ export default class About extends Component {
   render() {
     return (
       <div>
+        <Navbar />
+
         <div class="about" id="about">
-          <Navbar />
 
           <Typography variant="h3" className="center">
             <Slide left>ABOUT ME</Slide>
@@ -64,26 +65,26 @@ export default class About extends Component {
                         </a>
                       , majoring in Computer Science & Statistics in the
                       School of Engineering. Currently, I am a Software
-                      Development Intern using AWS, Docker, React at
+                      Development Intern using AWS, Docker, React at&nbsp;
                         <a
                         href="https://www.vwcredit.com/Authentication/Login"
                         className="none4 p"
                       >
-                        &nbsp;Volkswagen Credit
+                        Volkswagen Credit
                         </a>
-                      , a financial subsidiary of
+                      , a financial subsidiary of the&nbsp;
                         <a
                         href="http://www.volkswagengroupofamerica.com/"
                         className="none4 p"
                       >
-                        &nbsp;Volkswagen Group of America&nbsp;
+                        Volkswagen Group
                         </a>
-                      based in Herndon VA. Down the road, I aspire to become a
-                      full-stack engineer and enjoy challenging myself to
-                      learn and use new modern technologies and tools that
-                      software development is revolving around today. My
-                      current interests lie in learning more about machine
-                      learning and cloud services.
+                      &nbsp;based in Herndon VA. Down the road, I aspire to become a
+                    full-stack engineer and enjoy challenging myself to
+                    learn and use new modern technologies and tools that
+                    software development is revolving around today. My
+                    current interests lie in learning more about machine
+                    learning and cloud services.
                       </p>
                     <p className="p">
                       Outside of academics, I enjoy hanging out with friends

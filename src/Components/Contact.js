@@ -93,84 +93,88 @@ export default class Contact extends Component {
                   wrap="hard"
                 />
               </Fade>
-              <Fade bottom delay="600">
+              <Fade top delay="800">
                 <button type="submit" className="button">
                   Submit
                 </button>
               </Fade>
             </form>
 
-            <div className="icons">
-              <ReactSimpleTooltip
-                arrow={15}
-                background="#000"
-                border="#000"
-                color="#fff"
-                content="703-577-6388"
-                fadeDuration={0}
-                fadeEasing="linear"
-                fixed={false}
-                fontFamily="inherit"
-                fontSize="15px"
-                offset={0}
-                padding={10}
-                placement="top"
-                radius={0}
-                zIndex={1}
-              >
-                <Flip left delay="400" duration="1500">
+            <div className="footer">
+              <div className="icons2">
+                <ReactSimpleTooltip
+                  arrow={15}
+                  background="#000"
+                  border="#000"
+                  color="#fff"
+                  content="703-577-6388"
+                  fadeDuration={0}
+                  fadeEasing="linear"
+                  fixed={false}
+                  fontFamily="inherit"
+                  fontSize="15px"
+                  offset={0}
+                  padding={10}
+                  placement="top"
+                  radius={0}
+                  zIndex={1}
+                >
+                  <Flip left delay="800" duration="1500">
+                    <div className="icon1">
+                      <a href="tel:7035776388">
+                        <img
+                          src={require("../images/phone.png")}
+                          className="icon3"
+                        />
+                      </a>
+                    </div>
+                  </Flip>
+                </ReactSimpleTooltip>
+
+                <div className="iconpadding" />
+
+                <Flip left delay="1000" duration="1500">
                   <div className="icon1">
-                    <a href="tel:7035776388">
+                    <a href="mailto:sp3bk@virginia.edu">
                       <img
-                        src={require("../images/phone.png")}
+                        src={require("../images/mail4.png")}
                         className="icon3"
                       />
                     </a>
                   </div>
                 </Flip>
-              </ReactSimpleTooltip>
 
-              <div className="iconpadding" />
+                <div className="iconpadding" />
+                <Flip left delay="1200" duration="1500">
+                  <div className="icon1">
+                    <a href="https://www.linkedin.com/in/sung-joon-park/">
+                      <img
+                        src={require("../images/linkedin2.png")}
+                        className="icon3"
+                      />
+                    </a>
+                  </div>
+                </Flip>
 
-              <Flip left delay="600" duration="1500">
-                <div className="icon1">
-                  <a href="mailto:sp3bk@virginia.edu">
-                    <img
-                      src={require("../images/mail4.png")}
-                      className="icon3"
-                    />
-                  </a>
-                </div>
-              </Flip>
-
-              <div className="iconpadding" />
-              <Flip left delay="800" duration="1500">
-                <div className="icon1">
-                  <a href="https://www.linkedin.com/in/sung-joon-park/">
-                    <img
-                      src={require("../images/linkedin2.png")}
-                      className="icon3"
-                    />
-                  </a>
-                </div>
-              </Flip>
-
-              <div className="iconpadding" />
-              <Flip left delay="1000" duration="1500">
-                <div className="icon1">
-                  <a href="http://github.com/sjp1136/">
-                    <img
-                      src={require("../images/github2.svg")}
-                      className="icon3"
-                    />
-                  </a>
-                </div>
-              </Flip>
+                <div className="iconpadding" />
+                <Flip left delay="1400" duration="1500">
+                  <div className="icon1">
+                    <a href="http://github.com/sjp1136/">
+                      <img
+                        src={require("../images/github2.svg")}
+                        className="icon3"
+                      />
+                    </a>
+                  </div>
+                </Flip>
+              </div>
+              <Link to="home" spy={true} smooth={true} duration={2000}>
+                <Fade bottom delay="1600">
+                  <div className="button2container"><div className="button2">BACK TO HOME</div></div>
+                </Fade>
+              </Link>
+              <div className="copyright">JULY&copy; 2019 SUNG JOON PARK</div>
             </div>
-            <Link to="home" spy={true} smooth={true} duration={2000}>
-              <div className="button2">BACK TO HOME</div>
-            </Link>
-            <div className="copyright">JULY&copy; 2019 SUNG JOON PARK</div>
           </div>
         </div>
       </div>

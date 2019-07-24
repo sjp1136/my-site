@@ -13,9 +13,8 @@ import Contact from "./Components/Contact";
 class App extends Component {
   render() {
     return (
-      <div className="column">
+      <div className="">
         <Home />
-        {/* <Navbar /> */}
         <About />
         <Skill />
         <Project />

@@ -38,106 +38,108 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav>
-        <div
-          className={
-            this.state.scroll > this.state.top ? "nav-scrolled" : "nav"
-          }
-        >
-          <Link
-            className="link"
-            activeClassName="active"
-            to="home"
-            spy={true}
-            smooth={true}
-            duration={1000}
+        <div className="navcontainer">
+          <div
+            className={
+              this.state.scroll > this.state.top ? "nav-scrolled" : "nav"
+            }
           >
-            <Fade>
-              <div>HOME</div>
-            </Fade>
-          </Link>
-          <Link
-            className="link"
-            activeClassName="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            <Fade delay="100">
-              <div>ABOUT</div>
-            </Fade>
-          </Link>
-          <Link
-            className="link"
-            activeClassName="active"
-            to="skill"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            <Fade delay="200">
-              <div>SKILLS</div>
-            </Fade>
-          </Link>
-          <Link
-            className="link"
-            activeClassName="active"
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            <Fade delay="300">
-              <div className="projectsname">
-                <span>PROJECTS</span>
-              </div>
-            </Fade>
-          </Link>
-          <Link
-            className="link"
-            activeClassName="active"
-            to="experience"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            <Fade delay="400">
-              <div className="experiencename">EXPERIENCE</div>
-            </Fade>
-          </Link>
-          <Link
-            className="link"
-            activeClassName="active"
-            to="misc"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            <Fade delay="500">
-              <div>MISC</div>
-            </Fade>
-          </Link>
-          <Link
-            className="link"
-            activeClassName="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            <Fade delay="500">
-              <div className="">CONTACT</div>
-            </Fade>
-          </Link>
-          <a
-            className="none"
-            href={require("../files/SungJoonParkResume.pdf")}
-            target="SungJoonParkResume.pdf"
-          >
-            <Fade delay="600">
-              <div className="link">RESUME</div>
-            </Fade>
-          </a>
+            <Link
+              className="link"
+              activeClassName="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <Fade>
+                <div>HOME</div>
+              </Fade>
+            </Link>
+            <Link
+              className="link"
+              activeClassName="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <Fade delay="100">
+                <div>ABOUT</div>
+              </Fade>
+            </Link>
+            <Link
+              className="link"
+              activeClassName="active"
+              to="skill"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <Fade delay="200">
+                <div>SKILLS</div>
+              </Fade>
+            </Link>
+            <Link
+              className="link"
+              activeClassName="active"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <Fade delay="300">
+                <div className="projectsname">
+                  <span>PROJECTS</span>
+                </div>
+              </Fade>
+            </Link>
+            <Link
+              className="link"
+              activeClassName="active"
+              to="experience"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <Fade delay="400">
+                <div className="experiencename">EXPERIENCE</div>
+              </Fade>
+            </Link>
+            <Link
+              className="link"
+              activeClassName="active"
+              to="misc"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Fade delay="500">
+                <div>MISC</div>
+              </Fade>
+            </Link>
+            <Link
+              className="link"
+              activeClassName="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <Fade delay="500">
+                <div className="">CONTACT</div>
+              </Fade>
+            </Link>
+            <a
+              className="none"
+              href={require("../files/SungJoonParkResume.pdf")}
+              target="SungJoonParkResume.pdf"
+            >
+              <Fade delay="600">
+                <div className="link">RESUME</div>
+              </Fade>
+            </a>
+          </div>
         </div>
       </nav>
     );

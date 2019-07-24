@@ -35,8 +35,8 @@ export default class Project extends Component {
             alignContent="center"
             justify="center"
           >
-            <Slide bottom delay="100">
-              {/* <Slide> */}
+            <Fade bottom delay="100">
+              {/* <Fade> */}
               <Grid item>
                 <div className="post">
                   <img
@@ -64,11 +64,11 @@ export default class Project extends Component {
                   </div>
                 </div>
               </Grid>
-              {/* </Slide> */}
-            </Slide>
+              {/* </Fade> */}
+            </Fade>
 
-            {/* <Slide delay="400"> */}
-            <Slide bottom delay="200">
+            {/* <Fade delay="400"> */}
+            <Fade bottom delay="200">
               <Grid item>
                 <div className="post">
                   <img
@@ -97,10 +97,10 @@ export default class Project extends Component {
                   </div>
                 </div>
               </Grid>
-            </Slide>
-            {/* </Slide> */}
-            {/* <Slide delay="200"> */}
-            <Slide bottom delay="300">
+            </Fade>
+            {/* </Fade> */}
+            {/* <Fade delay="200"> */}
+            <Fade bottom delay="300">
               <Grid item>
                 <div className="post">
                   <img
@@ -128,11 +128,11 @@ export default class Project extends Component {
                   </div>
                 </div>
               </Grid>
-            </Slide>
-            {/* </Slide> */}
+            </Fade>
+            {/* </Fade> */}
 
-            {/* <Slide delay="500"> */}
-            <Slide bottom delay="100">
+            {/* <Fade delay="500"> */}
+            <Fade bottom delay="400">
               <Grid item>
                 <div className="post">
                   <img
@@ -157,10 +157,10 @@ export default class Project extends Component {
                   </div>
                 </div>
               </Grid>
-            </Slide>
-            {/* </Slide> */}
-            {/* <Slide delay="700"> */}
-            <Slide bottom delay="200">
+            </Fade>
+            {/* </Fade> */}
+            {/* <Fade delay="700"> */}
+            <Fade bottom delay="500">
               <Grid item>
                 <div className="post">
                   <img
@@ -190,10 +190,10 @@ export default class Project extends Component {
                   </div>
                 </div>
               </Grid>
-            </Slide>
-            {/* </Slide> */}
-            {/* <Slide delay="600"> */}
-            <Slide bottom delay="300">
+            </Fade>
+            {/* </Fade> */}
+            {/* <Fade delay="600"> */}
+            <Fade bottom delay="600">
               <Grid item>
                 <div className="post">
                   <img
@@ -222,7 +222,7 @@ export default class Project extends Component {
                   </div>
                 </div>
               </Grid>
-            </Slide>
+            </Fade>
             {/* </Slide> */}
           </Grid>
           {/* </Slide>
