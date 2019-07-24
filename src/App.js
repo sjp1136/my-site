@@ -12,7 +12,7 @@ import Contact from "./Components/Contact";
 class App extends Component {
   render() {
     return (
-      <div className="">
+      <div>
         <Home />
         <About />
         <Skill />

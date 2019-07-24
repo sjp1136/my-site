@@ -7,21 +7,26 @@
 }
 
 .flip-card-inner {
+  z-index:0;
+
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
+
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+
 }
 
 .flip-card-front,
 .flip-card-back {
+  z-index:0;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -46,6 +51,8 @@
   /* min-height: 500px; */
   padding-bottom: 5%;
   background-color: #dddddd;
+  /* position: relative; */
+  /* z-index:0; */
 }
 .container {
   /* background-color: yellow; */
@@ -87,23 +94,24 @@
 /* .center {
   padding-top: 100px;
   text-align: center;
-  z-index: 5;
 } */
 .center3 {
   padding-top: 100px;
   text-align: center;
-  z-index: 5;
+  z-index: 0;
   font-weight: 900;
 }
 .center2 {
   padding-top: 400px;
   /* position: absolute; */
-  z-index: 5;
+  z-index: 0;
 }
 .height2 {
   height: 130px;
   width: 130px;
   padding: 0px 0px 10px 0px;
+  z-index: 0;
+
   /* box-shadow: 5px 5px 0px 0px black; */
 }
 .skilllabel {
@@ -157,17 +165,23 @@
     height: 50%;
     width: 50%;
     padding: 10px;
+    z-index: 0;
+
     transition: 0.2s;
   }
   .skilllabel {
     font-size: 20px;
     text-align: center;
     font-weight: 300;
+    z-index:-5;
+
   }
   .height2 {
     height: 90px;
     width: 90px;
     padding: 0px 0px 10px 0px;
+    z-index: 0;
+
     /* box-shadow: 5px 5px 0px 0px black; */
   }
 }

@@ -7,6 +7,7 @@
   position: relative;
   padding-bottom: 150px;
   background-color: black;
+  z-index: -0.5;
 }
 .portfoliosplash {
   min-height: 100%;
@@ -19,6 +20,8 @@
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  z-index: 0;
+
 }
 .description {
   color: white;
@@ -98,7 +101,7 @@
   margin: auto;
   top: 0%;
   right: 0%;
-  z-index: 2;
+  z-index: 1;
   transition: 0.4s;
 }
 .github:hover {
@@ -200,7 +203,7 @@
     /* margin-right: 20px; */
     color: white;
     position: absolute;
-    z-index: 2;
+    z-index: 0;
     text-align: center;
     margin: auto;
     padding-bottom: 0px;

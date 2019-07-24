@@ -7,9 +7,11 @@
   position: relative;
   padding-bottom: 150px;
   background-color: black;
+  z-index: 0;
+
 }
 .modalpopup{
-  z-index:10000;
+  z-index:2;
 }
 .background2 {
   min-height: 100%;
@@ -230,7 +232,7 @@
     /* top: 1550px; */
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 5;
+    z-index: 0;
     width: 70%;
     overflow: hidden;
   }
