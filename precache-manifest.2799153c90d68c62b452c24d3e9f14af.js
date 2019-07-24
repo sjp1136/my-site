@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/unix.fd880ec4.png"
   },
   {
-    "revision": "e2dc21d60f05317b0e13",
-    "url": "/my-site/static/css/main.bf30797c.chunk.css"
+    "revision": "0095e66ad60f6bb5d51d",
+    "url": "/my-site/static/css/main.fee20d73.chunk.css"
   },
   {
     "revision": "5b5453dbaac3b8e4d9fe842ddef54642",
     "url": "/my-site/static/media/nature2.5b5453db.JPG"
   },
   {
-    "revision": "65e0865122d2232779ff",
-    "url": "/my-site/static/js/1.65e08651.chunk.js"
+    "revision": "c7b6b4efe49a7d599a69",
+    "url": "/my-site/static/js/1.c7b6b4ef.chunk.js"
   },
   {
     "revision": "5c22e95fac8b423985b8",
@@ -104,8 +104,8 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/docker.82cbccbf.png"
   },
   {
-    "revision": "e2dc21d60f05317b0e13",
-    "url": "/my-site/static/js/main.e2dc21d6.chunk.js"
+    "revision": "0095e66ad60f6bb5d51d",
+    "url": "/my-site/static/js/main.0095e66a.chunk.js"
   },
   {
     "revision": "2b07e1a48c31be4f1302e63dffae6d3e",
@@ -188,27 +188,27 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/vw11.c9cfaca8.JPG"
   },
   {
-    "revision": "302dbee8925814ef27e903b23226ed66",
-    "url": "/my-site/static/media/touring2.302dbee8.JPG"
-  },
-  {
     "revision": "889607637f41c5a7a02e3661f5fa90a2",
     "url": "/my-site/static/media/touring.88960763.JPG"
   },
   {
-    "revision": "4e544e2da836ead166d859cccd65f3ad",
-    "url": "/my-site/static/media/nature1.4e544e2d.JPG"
+    "revision": "302dbee8925814ef27e903b23226ed66",
+    "url": "/my-site/static/media/touring2.302dbee8.JPG"
   },
   {
     "revision": "13ee3a4327e53f2f61899b4b67fd6001",
     "url": "/my-site/static/media/nature3.13ee3a43.JPG"
   },
   {
-    "revision": "65e0865122d2232779ff",
-    "url": "/my-site/static/css/1.ededc902.chunk.css"
+    "revision": "4e544e2da836ead166d859cccd65f3ad",
+    "url": "/my-site/static/media/nature1.4e544e2d.JPG"
   },
   {
-    "revision": "19d5d90d8a3b95a0cf36294961d7ad92",
+    "revision": "c7b6b4efe49a7d599a69",
+    "url": "/my-site/static/css/1.0d68c961.chunk.css"
+  },
+  {
+    "revision": "4ce5055b2535eb742e69822e92e7b5db",
     "url": "/my-site/index.html"
   }
 ];
