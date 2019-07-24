@@ -26,7 +26,7 @@ p {
   display: flex;
   margin: 0;
   padding: 0;
-  z-index: 10005;
+  z-index: 1;
   position: fixed;
   top: 0;
   text-align: center;
@@ -35,7 +35,6 @@ p {
   align-items: center;
   align-self: center;
   justify-content: center;
-  z-index: 10;
   height: 70px;
 }
 .nav {
@@ -44,7 +43,7 @@ p {
   display: flex;
   margin: 0;
   padding: 0;
-  z-index: 10005;
+  z-index: 1;
   opacity: 0.9;
   text-align: center;
   margin: auto;
@@ -52,7 +51,6 @@ p {
   align-items: center;
   align-self: center;
   justify-content: center;
-  z-index: 100;
   height: 70px;
   transition: 0.2s;
 }
@@ -94,7 +92,6 @@ p {
     left: 10px;
     top: 25%;
     position: fixed;
-    z-index: 10005;
     opacity: 0.9;
     text-align: center;
     align-content: center;
@@ -103,7 +100,6 @@ p {
     justify-content: center;
     overflow: hidden;
     box-shadow: 7px 7px 0px 0px rgb(0, 0, 0, 0.5);
-    z-index: 10;
   }
   .link {
     text-decoration: none;
@@ -139,7 +135,6 @@ p {
     display: flex;
     margin: 0;
     padding: 0;
-    z-index: 10005;
     position: fixed;
     top: 0;
     text-align: center;
@@ -148,7 +143,6 @@ p {
     align-items: center;
     align-self: center;
     justify-content: center;
-    z-index: 100;
     height: 70px;
   }
   .nav {
@@ -157,7 +151,6 @@ p {
     display: flex;
     margin: 0;
     padding: 0;
-    z-index: 10005;
     opacity: 0.9;
     text-align: center;
     margin: auto;
@@ -165,7 +158,6 @@ p {
     align-items: center;
     align-self: center;
     justify-content: center;
-    z-index: 100;
     height: 70px;
     transition: 0.2s;
   }
@@ -180,11 +172,6 @@ p {
     font-size: 15px;
     transition: 0.3s;
   }
-  /* .link:hover {
-    color: black;
-    background-color: #dddddd;
-    cursor: grab;
-  } */
   .active {
     color: black;
     background-color: white;

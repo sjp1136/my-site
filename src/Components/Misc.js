@@ -22,6 +22,7 @@ function Misc() {
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
   const openLightbox = useCallback((event, { photo, index }) => {
+    console.log(photo);
     setCurrentImage(index);
     setViewerIsOpen(true);
   }, []);
@@ -192,7 +193,7 @@ function Misc() {
     {
       src: require("../images/vw11.JPG"),
       width: 7,
-      height: 5
+      height: 5,
     },
   ];
 
