@@ -6,7 +6,6 @@ import About from "./Components/About";
 import Skill from "./Components/Skill";
 import Project from "./Components/Project";
 import Experience from "./Components/Experience";
-import Resume from "./Components/Resume";
 import Misc from "./Components/Misc";
 import Contact from "./Components/Contact";
 

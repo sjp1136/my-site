@@ -4,8 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import $ from "jquery";
-
-import "./components.css";
 import "./navbar.css";
 
 export default class Navbar extends Component {

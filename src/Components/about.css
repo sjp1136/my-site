@@ -101,9 +101,7 @@
   color: white;
   width:0px;
   opacity: 0;
-  /* transition: 0.2s ease; */
   position: relative;
-  /* font-weight: 900; */
 }
 .none4:after {
   content: '';
@@ -113,17 +111,8 @@
   width: 0%;
   border-bottom: 1px solid white;
   transition: 0.5s;
-  /* margin-left:5px; */
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-
-  font-weight: bold;
-
 }
 .blackglass:hover .none4:after {
-  /* margin-left:5px; */
   width: 100%;
 }
 
@@ -254,7 +243,11 @@
     overflow: hidden;
     transition: 0.3s ease;
     box-shadow: 6px 6px 0px 6px rgb(0, 0, 0, 0.8);
-
+  }
+  .who {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
   }
   .blackglass {
     /* REMEMBER TO SUBTRACT PAPER WIDTH - 2* PADDING for WIDTH & HEIGHT HERE! */

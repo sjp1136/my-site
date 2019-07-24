@@ -10,7 +10,6 @@ import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import "react-vertical-timeline-component/style.min.css";
-import "./components.css";
 import "./experience.css";
 
 export default class Experience extends Component {

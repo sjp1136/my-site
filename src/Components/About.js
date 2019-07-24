@@ -22,7 +22,6 @@ import Slide from "react-reveal/Slide";
 import Navbar from "./Navbar";
 import Drawer from "react-motion-drawer";
 
-import "./components.css";
 import "./about.css";
 
 export default class About extends Component {
@@ -66,6 +65,7 @@ export default class About extends Component {
                       , majoring in Computer Science & Statistics in the
                       School of Engineering. Currently, I am a Software
                       Development Intern using AWS, Docker, React at&nbsp;
+
                         <a
                         href="https://www.vwcredit.com/Authentication/Login"
                         className="none4 p"

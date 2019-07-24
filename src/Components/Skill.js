@@ -4,7 +4,6 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
-import "./components.css";
 import "./skill.css";
 
 // - Languages: Python, Javascript, Java, C++, R

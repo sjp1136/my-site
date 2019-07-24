@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./components.css";
 import "./contact.css";
 import "./home.css";
 
