@@ -59,12 +59,11 @@ export default class Experience extends Component {
                   Software Developer Intern
                 </h3>
                 <div className="text2">
-                  I am currently integrating and automating deployment of the
+                  I worked on integrating and automating deployment of the
                   VCI React application with Docker, AWS (ECR, ECS Fargate, RDS,
                   CloudFormation, CloudFront, S3)​, and ConcourseCI. The
-                  projects are setup in sprint style formation. Gained some
-                  experience using Docker and AWS. Currently working on EKS
-                  Kubernetes POC.
+                  projects are setup in sprint style formation. I also worked on the Proof of Concept using AWS EKS
+                  and Kubernetes. Gained experience using AWS, Docker, and Kubernetes.
                 </div>
               </a>
             </VerticalTimelineElement>
@@ -149,7 +148,7 @@ export default class Experience extends Component {
                   site for the internet installation team database. Using
                   jQuery, I worked on facilitating the user functionalities on
                   these site. Gained experience with Python, shell scripts, and
-                  jQuery, while also learning Selenium and BeautifulSpoon on the side.
+                  jQuery, while also learning Selenium, BeautifulSpoon, and RubyOnRails on the side.
                 </div>
               </a>
             </VerticalTimelineElement>
@@ -186,7 +185,7 @@ export default class Experience extends Component {
                   and incorporating different REST APIs in agile development
                   teams. Each project completed was completed in different teams
                   to introduce new team dynamics. In total, we deployed 3
-                  websites, FaceMe, Pomodoro, and Trenchtek. Gained first
+                  websites, FaceMe, Pomodoro, and Trenchtek. Gained
                   experience using React.
                 </div>
               </a>

@@ -31,93 +31,93 @@ function Misc() {
     setCurrentImage(0);
     setViewerIsOpen(false);
   };
-  const gcf = [
-    {
-      img: require("../images/group1.jpg"),
-      author: "SJP",
-      cols: 2.6
-    },
-    {
-      img: require("../images/group2.jpg"),
-      author: "SJP",
-      cols: 2.4
-    },
-    {
-      img: require("../images/group3.jpg"),
-      author: "SJP",
-      cols: 2.5
-    },
-    {
-      img: require("../images/group5.jpg"),
-      author: "SJP",
-      cols: 2.5
-    }
-  ];
-  const vw = [
-    {
-      img: require("../images/vw1.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 1
-    },
-    {
-      img: require("../images/vw14.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 2
-    },
+  // const gcf = [
+  //   {
+  //     img: require("../images/group1.jpg"),
+  //     author: "SJP",
+  //     cols: 2.6
+  //   },
+  //   {
+  //     img: require("../images/group2.jpg"),
+  //     author: "SJP",
+  //     cols: 2.4
+  //   },
+  //   {
+  //     img: require("../images/group3.jpg"),
+  //     author: "SJP",
+  //     cols: 2.5
+  //   },
+  //   {
+  //     img: require("../images/group5.jpg"),
+  //     author: "SJP",
+  //     cols: 2.5
+  //   }
+  // ];
+  // const vw = [
+  //   {
+  //     img: require("../images/vw1.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 1
+  //   },
+  //   {
+  //     img: require("../images/vw14.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 2
+  //   },
 
-    {
-      img: require("../images/vw11.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 2
-    },
-  ];
+  //   {
+  //     img: require("../images/vw11.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 2
+  //   },
+  // ];
 
-  const touring = [
-    {
-      img: require("../images/touring.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 2
-    },
-    {
-      img: require("../images/touring.jpeg"),
-      title: "VW",
-      author: "SJP",
-      cols: 2
-    },
-    {
-      img: require("../images/touring2.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 1
-    }
-  ];
+  // const touring = [
+  //   {
+  //     img: require("../images/touring.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 2
+  //   },
+  //   {
+  //     img: require("../images/touring.jpeg"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 2
+  //   },
+  //   {
+  //     img: require("../images/touring2.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 1
+  //   }
+  // ];
 
-  const nature = [
-    {
-      img: require("../images/nature3.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 1
-    },
-    {
-      img: require("../images/nature1.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 2
-    },
-    {
-      img: require("../images/nature2.JPG"),
-      title: "VW",
-      author: "SJP",
-      cols: 2
-    }
+  // const nature = [
+  //   {
+  //     img: require("../images/nature3.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 1
+  //   },
+  //   {
+  //     img: require("../images/nature1.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 2
+  //   },
+  //   {
+  //     img: require("../images/nature2.JPG"),
+  //     title: "VW",
+  //     author: "SJP",
+  //     cols: 2
+  //   }
 
-  ];
-  const img = gcf.concat(nature.concat(touring.concat(vw)));
+  // ];
+  // const img = gcf.concat(nature.concat(touring.concat(vw)));
 
   const gcf2 = [
     {
@@ -125,31 +125,36 @@ function Misc() {
       width: 4,
       height: 2
     },
-    {
-      src: require("../images/group2.jpg"),
-      width: 3,
-      height: 2
+    // {
+    //   src: require("../images/group2.jpg"),
+    //   width: 3,
+    //   height: 2
 
-    },
-    {
-      src: require("../images/group3.jpg"),
-      width: 3,
-      height: 2
+    // },
+    // {
+    //   src: require("../images/group3.jpg"),
+    //   width: 3,
+    //   height: 2
 
-    },
+    // },
     {
       src: require("../images/group5.jpg"),
-      width: 3,
-      height: 2
+      width: 6,
+      height: 4
 
     }
   ];
   const nature2 = [
     {
       src: require("../images/nature3.JPG"),
-      width: 3,
-      height: 4
+      width: 5,
+      height: 7
     },
+    // {
+    //   src: require("../images/nature4.JPG"),
+    //   width: 5,
+    //   height: 7
+    // },
     {
       src: require("../images/nature1.JPG"),
       width: 3,
@@ -159,13 +164,25 @@ function Misc() {
       src: require("../images/nature2.JPG"),
       width: 5,
       height: 4
-    }
+    },
+    // {
+    //   src: require("../images/nature8.JPG"),
+    //   width: 5,
+    //   height: 4
+    // },
+
+
   ];
   const touring2 = [
     {
       src: require("../images/touring.JPG"),
       width: 7,
       height: 5
+    },
+    {
+      src: require("../images/2.JPG"),
+      width: 5,
+      height: 7
     },
     {
       src: require("../images/touring.jpeg"),
@@ -176,7 +193,23 @@ function Misc() {
       src: require("../images/touring2.JPG"),
       width: 5,
       height: 7
-    }
+    },
+    {
+      src: require("../images/5.JPG"),
+      width: 5,
+      height: 7
+    },
+    {
+      src: require("../images/6.JPG"),
+      width: 7,
+      height: 5
+    },
+    {
+      src: require("../images/7.JPG"),
+      width: 7,
+      height: 5
+    },
+
   ];
   const vw2 = [
     {
@@ -191,7 +224,7 @@ function Misc() {
     },
 
     {
-      src: require("../images/vw11.JPG"),
+      src: require("../images/vw3.JPG"),
       width: 7,
       height: 5,
     },
@@ -235,7 +268,9 @@ function Misc() {
             </Slide>
           </Fade> */}
         <Fade >
-          <Gallery photos={src} onClick={openLightbox} />
+          <div className="gallery">
+            <Gallery photos={src} onClick={openLightbox} />
+          </div>
           <ModalGateway>
             {viewerIsOpen ? (
               <Modal onClose={closeLightbox}>
