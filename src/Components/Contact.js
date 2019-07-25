@@ -16,6 +16,8 @@ import axios from "axios";
 export default class Contact extends Component {
   handleSubmit(e) {
     e.preventDefault();
+    document.getElementById("response").innerHTML = "Please wait a few seconds..";
+
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
@@ -36,7 +38,7 @@ export default class Contact extends Component {
         this.resetForm();
       } else if (response.data.msg === "fail") {
         // alert("Message failed to send.");
-        document.getElementById("response").innerHTML = "Fail to submit!";
+        document.getElementById("response").innerHTML = "Failed to submit!";
       }
     });
   }
