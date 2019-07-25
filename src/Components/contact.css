@@ -50,7 +50,7 @@ div {
   font-size: 30px;
 }
 .gentlepadding {
-  padding-top: 120px;
+  padding-top: 50%;
 }
 .flex2 {
   display: flex;
@@ -373,6 +373,8 @@ div {
   }
   .gentlepadding {
     padding-top: 70px;
+    /* padding-top: 50%; */
+
   }
   .button {
     margin: 10px;
