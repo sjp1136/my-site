@@ -36,11 +36,11 @@
 
 .flip-card-front {
   color: black;
-  background-color: #dddddd;
+  background-color: #eeeeee;
 }
 
 .flip-card-back {
-  background-color: #dddddd;
+  background-color: #eeeeee;
   color: black;
   transform: rotateY(180deg);
 }
@@ -48,11 +48,10 @@
 .skill {
   padding-left: 5%;
   padding-right: 5%;
-  /* min-height: 500px; */
   padding-bottom: 5%;
-  background-color: #dddddd;
-  /* position: relative; */
-  /* z-index:0; */
+  /* background-color: #eeeeee; */
+  background-color: #eeeeee;
+
 }
 .container {
   /* background-color: yellow; */
