@@ -1,5 +1,9 @@
 /* Experience */
-div {
+div,
+h2,
+h3,
+h4,
+p {
   font-weight: 300;
 }
 .underline {
@@ -225,6 +229,23 @@ div {
 }
 
 @media only screen and (max-width: 800px) {
+  .timelineavatar {
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 1px 0px 3px 1px rgb(0, 0, 0, 0.4);
+    transition: 0.2s ease-in-out;
+    transform-origin: center center;
+    /* filter: grayscale(100%); */
+    /* filter: grayscale(50%); */
+  }
   .vertical:hover .timelineavatar {
     vertical-align: middle;
     position: absolute;
@@ -232,9 +253,9 @@ div {
     margin: auto;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 68px;
-    height: 68px;
+    transform: translate(-30%, -50%);
+    width: 80px;
+    height: 80px;
     /* transform: scale(1.5); */
   }
   .vertical:hover .padding {

@@ -14,17 +14,17 @@ export default class Skill extends Component {
     return (
       <div>
         <div className="skill" id="skill">
-          <Typography variant="h3" className="center">
+          <Typography variant="h3" className="centerskill">
             <Slide right>TECHNICAL SKILLS</Slide>
             <Slide right>
-              <div className="subhead3" />
+              <div className="subhead3skill" />
             </Slide>
-            <div className="quote">
+            <div className="quoteskill">
               “Hardships often prepare ordinary people for an extraordinary
               destiny.”
             </div>
 
-            <div className="author">-C.S. Lewis</div>
+            <div className="authorskill">-C.S. Lewis</div>
           </Typography>
           <div className="containercontainer">
             <div className="container">

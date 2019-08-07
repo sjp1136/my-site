@@ -1,12 +1,5 @@
 /* NavBar */
-div,
-h2,
-h3,
-h4,
-p {
-  font-weight: 300;
-}
-.navz{
+.navz {
   z-index: 1;
 }
 .headpadding {
@@ -67,7 +60,6 @@ p {
   text-align: center;
   font-size: 20px;
   transition: 0.5s;
-
 }
 .link:hover {
   color: black;
@@ -98,7 +90,6 @@ p {
     justify-content: center;
     height: 70px;
     z-index: 1;
-
   }
   .nav {
     background-color: black;
@@ -116,7 +107,6 @@ p {
     height: 70px;
     transition: 0.2s;
     z-index: 1;
-
   }
   .link {
     text-decoration: none;
@@ -160,7 +150,6 @@ p {
     box-shadow: 7px 7px 0px 0px rgb(0, 0, 0, 0.5);
     position: fixed;
     z-index: 1;
-
   }
   .link {
     text-decoration: none;

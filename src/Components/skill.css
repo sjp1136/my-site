@@ -5,6 +5,38 @@
   height: 170px;
   perspective: 1000px;
 }
+.subhead3skill {
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  opacity: 0.8;
+}
+.centerskill {
+  padding-top: 80px;
+  text-align: center;
+  z-index: 0;
+  font-weight: 200;
+  color: black;
+}
+.quoteskill {
+  text-align: center;
+  max-width: 100%;
+  font-size: 25px;
+  color: black;
+  /* font-style: italic; */
+  font-weight: 200;
+}
+
+.authorskill {
+  font-size: 25px;
+  /* color: gray; */
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 200;
+  /* font-style: italic; */
+}
 .containercontainer {
   text-align: center;
   align-content: center;
@@ -41,11 +73,11 @@
 
 .flip-card-front {
   color: black;
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 .flip-card-back {
-  background-color: #eeeeee;
+  background-color: white;
   color: black;
   transform: rotateY(180deg);
 }
@@ -53,9 +85,7 @@
 .skill {
   padding-left: 10%;
   padding-right: 10%;
-  /* padding-bottom: 5%; */
-  /* background-color: #eeeeee; */
-  background-color: #eeeeee;
+  background-color: white;
 }
 .container {
   /* background-color: yellow; */
@@ -71,7 +101,6 @@
   position: absolute;
   text-align: center;
   margin: auto;
-
   top: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
