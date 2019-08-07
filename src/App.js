@@ -14,6 +14,7 @@ class App extends Component {
     return (
       <div>
         <Home />
+        {/* <Navbar /> */}
         <About />
         <Skill />
         <Project />

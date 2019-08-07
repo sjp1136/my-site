@@ -150,7 +150,10 @@ export default class Project extends Component {
                     <div className="used">FACEME</div>
                     <div className="description">YourFBProfile</div>
                     <div className="technology react"> REACT</div>
-                    <a className="none" href="https://github.com/sjp1136/FaceMe-">
+                    <a
+                      className="none"
+                      href="https://github.com/sjp1136/FaceMe-"
+                    >
                       <div className="centered label">VIEW</div>
                     </a>
                   </div>

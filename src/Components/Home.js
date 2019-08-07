@@ -11,6 +11,7 @@ import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import ScrollAnimation from "react-animate-on-scroll";
+import Navbar from "./Navbar";
 import "animate.css/animate.min.css";
 import "./home.css";
 
@@ -117,6 +118,7 @@ export default class Home extends Component {
             <div className="author2">-C.S. Lewis</div>
           </Fade>
         </div> */}
+        <Navbar />
       </div>
     );
   }

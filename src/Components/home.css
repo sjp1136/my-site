@@ -8,12 +8,12 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index:0;
+  /* z-index:0; */
 }
 .background {
-  height: 110vh;
+  height: 100vh;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.7;
   position: relative;
   z-index: 0;
   /* background-image: url("../images/touring.jpeg"); */
@@ -38,9 +38,9 @@
   width: 230px;
   border-radius: 50%;
   z-index: 2;
-  border: 4px solid rgb(255, 255, 255, 0.9);
-  box-shadow: 0 0 1px 13px rgba(255, 255, 255, 0.15),
-    0 0 1px 26px rgba(255, 255, 255, 0.1);
+  border: 4px solid white;
+  box-shadow: 0 0 1px 13px rgba(255, 255, 255, 0.2),
+    0 0 1px 26px rgba(255, 255, 255, 0.15);
   transition: 0.2s;
   z-index: 5;
 }
@@ -52,21 +52,24 @@
 .toabout {
   margin: auto;
   width: 100px;
+  height: 20px;
   align-content: center;
   justify-content: center;
   text-align: center;
-  padding: 10px;
+  padding: 13px;
   transform: translate(0%, 50%);
   border: 1px solid white;
   color: white;
-  transition: 0.2s ease;
+  transition: 0.4s ease;
   font-weight: 300;
+
   /* border-radius: 10px; */
 }
 .toabout:hover {
   background-color: white;
   color: black;
-  width: 120px;
+  /* width: 120px; */
+  font-size: 14px;
   /* height: 120px; */
   cursor: grab;
   /* border-radius: 10px; */
@@ -81,7 +84,7 @@
   font-size: 20px;
   font-weight: 500;
   padding-top: 10px;
-  color: #dddddd;
+  color: white;
   font-weight: 300;
 }
 .centered {
@@ -113,16 +116,16 @@
   text-align: center;
   width: 100%;
   font-size: 25px;
-  color: #cccccc;
-  font-style: italic;
-  font-weight: 300;
+  color: white;
+  /* font-style: italic; */
+  font-weight: 200;
 }
 .author2 {
   font-size: 25px;
-  color: #cccccc;
+  color: white;
   padding: 10px;
   margin-bottom: 10%;
-  font-weight: 300;
+  font-weight: 200;
 }
 .icons {
   display: flex;
@@ -147,8 +150,8 @@
   width: 30px;
   height: 30px;
   transition: 0.2s ease;
-  background-color: #cccccc;
-  border: 3px solid #cccccc;
+  background-color: white;
+  border: 3px solid white;
   border-radius: 50%;
   text-align: center;
   box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.25),
@@ -166,7 +169,7 @@
   margin: 0 auto;
   padding-top: 10px;
   margin-bottom: 0px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid white;
   z-index: 4;
   opacity: 0.8;
 }
@@ -196,7 +199,7 @@
 @media only screen and (min-width: 300px) and (max-width: 400px) {
   .me {
     width: 175px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 10px;
   }
   .name {
@@ -209,16 +212,18 @@
     font-size: 15px;
     font-weight: 500;
     padding-top: 10px;
-    color: #dddddd;
+    color: white;
     font-weight: 300;
   }
+
   .toabout {
     margin: auto;
     width: 100px;
+    /* height: 25px; */
     align-content: center;
     justify-content: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     /* transform: translate(0%, -50%); */
     border: 1px solid white;
     color: white;
@@ -251,7 +256,7 @@
     z-index: 5;
   }
   .background {
-    height: 140vh;
+    height: 100vh;
     /* width: 100%; */
     opacity: 0.6;
     position: relative;
@@ -268,7 +273,7 @@
 @media only screen and (min-width: 400px) and (max-width: 500px) {
   .me {
     width: 175px;
-    margin-top: 100px;
+    margin-top: 250px;
     margin-bottom: 10px;
   }
   .name {
@@ -281,16 +286,19 @@
     font-size: 15px;
     font-weight: 500;
     padding-top: 10px;
-    color: #dddddd;
+    color: white;
     font-weight: 300;
   }
   .toabout {
     margin: auto;
     width: 100px;
+    /* height: 25px; */
+
+    align-items: center;
     align-content: center;
     justify-content: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     /* transform: translate(0%, -50%); */
     border: 1px solid white;
     color: white;
@@ -323,7 +331,7 @@
     z-index: 5;
   }
   .background {
-    height: 140vh;
+    height: 100vh;
     /* width: 100%; */
     opacity: 0.6;
     position: relative;
@@ -340,7 +348,7 @@
 @media only screen and (min-width: 350px) and (max-width: 400px) and (min-height: 800px) and (max-height: 850px) {
   .me {
     width: 175px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 10px;
   }
   .name {
@@ -353,16 +361,18 @@
     font-size: 15px;
     font-weight: 500;
     padding-top: 10px;
-    color: #dddddd;
+    color: white;
     font-weight: 300;
   }
   .toabout {
     margin: auto;
     width: 100px;
+    /* height: 25px; */
+
     align-content: center;
     justify-content: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     /* transform: translate(0%, -50%); */
     border: 1px solid white;
     color: white;
@@ -395,7 +405,7 @@
     z-index: 5;
   }
   .background {
-    height: 140vh;
+    height: 100vh;
     /* width: 100%; */
     opacity: 0.6;
     position: relative;
@@ -425,7 +435,7 @@
     margin: 0 auto;
     padding-top: 10px;
     margin-bottom: 0px;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid white;
     z-index: 4;
     opacity: 0.8;
   }
@@ -433,7 +443,7 @@
     font-size: 15px;
     font-weight: 500;
     padding-top: 10px;
-    color: #dddddd;
+    color: white;
     font-weight: 300;
   }
   .icons {
@@ -457,7 +467,7 @@
     z-index: 5;
   }
   .background {
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     opacity: 0.6;
     position: relative;
@@ -473,10 +483,12 @@
   .toabout {
     margin: auto;
     width: 100px;
+    /* height: 25px; */
+
     align-content: center;
     justify-content: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     transform: translate(0%, 200%);
     border: 1px solid white;
     color: white;
@@ -517,5 +529,107 @@
     top: 330px;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+@media only screen and (max-width: 850px) and (max-height: 400px) {
+  .me {
+    width: 120px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+  }
+  .subhead0 {
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+    z-index: 4;
+    opacity: 0.8;
+  }
+  .name2 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: white;
+    font-weight: 300;
+  }
+  .icons {
+    display: flex;
+    margin-bottom: 500px;
+
+    margin: 5px;
+    align-content: center;
+    justify-content: center;
+    /* padding: 10px; */
+  }
+  .home {
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+  }
+  .background {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    position: relative;
+    z-index: 0;
+    /* background-image: url("../images/touring.jpeg"); */
+    background-image: url("../images/touring4a.jpeg");
+
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .toabout {
+    margin: auto;
+    width: 100px;
+    /* height: 25px; */
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    transform: translate(0%, 200%);
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s ease;
+    font-weight: 300;
+  }
+  .centeredb {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centeredc {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
   }
 }

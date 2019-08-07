@@ -27,7 +27,7 @@ export default class Experience extends Component {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
-              date="May 2019 - Present"
+              // date="May 2019 - Present"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
               icon={
                 <img
@@ -50,26 +50,34 @@ export default class Experience extends Component {
                   <Chip label="ConcourseCI" clickable color="basic" />
                 </div>
 
-
                 <h2 className="vertical-timeline-element-title bold1">
                   Volkswagen Credit
                 </h2>
-                <div className="underline1"></div>
+                <div className="underline1" />
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Developer Intern
                 </h3>
+                {/* <div className="underline" /> */}
                 <div className="text2">
-                  I worked on integrating and automating deployment of the
-                  VCI React application with Docker, AWS (ECR, ECS Fargate, RDS,
-                  CloudFormation, CloudFront, S3)​, and ConcourseCI. The
-                  projects are setup in sprint style formation. I also worked on the Proof of Concept using AWS EKS
-                  and Kubernetes. Gained experience using AWS, Docker, and Kubernetes.
+                  I integrated and automated deployment of the VCI React
+                  application with Docker, AWS (ECR, ECS Fargate, RDS,
+                  CloudFormation, CloudFront, S3)​, and ConcourseCI. Docker was
+                  used to host up WordPress using ECR and ECS, which
+                  communicated with the RDS as a database. ConcourseCI automated
+                  the deployment to the S3 bucket, making changes to the
+                  CloudFront, which allowed the website to update periodically.
+                  CloudFormation templates were written and used to efficiently
+                  host up services. I also worked on the Proof of Concept
+                  running a VCI React application. using AWS EKS and Kubernetes
+                  and presented to the dev team for future scalability. Gained
+                  experience using AWS, Docker, and Kubernetes.
                 </div>
+                <div className="text3">May - Aug 2019</div>
               </a>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
-              date="Aug 2018 - Apr 2019"
+              // date="Aug 2018 - Apr 2019"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <img
@@ -89,8 +97,7 @@ export default class Experience extends Component {
                 <h2 className="vertical-timeline-element-title bold2">
                   Ridgeback Network Defense
                 </h2>
-                <div className="underline2"></div>
-
+                <div className="underline2" />
 
                 <h3 className="vertical-timeline-element-subtitle role">
                   Javascript Developer Intern (Remote)
@@ -103,11 +110,12 @@ export default class Experience extends Component {
                   application and using the two data visualization libraries,
                   vis.js and d3.js.
                 </div>
+                <div className="text3">Aug 2018 - Apr 2019</div>
               </a>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
-              date="Jun - Aug 2018"
+              // date="Jun - Aug 2018"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <img
@@ -120,20 +128,16 @@ export default class Experience extends Component {
                 <div className="padding padding3">
                   <Chip label="Python" clickable color="basic" />
                   &nbsp;
-
                   <Chip label="jQuery" clickable color="basic" />
                   &nbsp;
-
                   <Chip label="Selenium" clickable color="basic" />
                   &nbsp;
-
                   <Chip label="BeautifulSpoon" clickable color="basic" />
-
                 </div>
                 <h2 className="vertical-timeline-element-title bold3">
                   Tucows
                 </h2>
-                <div className="underline3"></div>
+                <div className="underline3" />
 
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
@@ -148,13 +152,15 @@ export default class Experience extends Component {
                   site for the internet installation team database. Using
                   jQuery, I worked on facilitating the user functionalities on
                   these site. Gained experience with Python, shell scripts, and
-                  jQuery, while also learning Selenium, BeautifulSpoon, and RubyOnRails on the side.
+                  jQuery, while also learning Selenium, BeautifulSpoon, and
+                  RubyOnRails on the side.
                 </div>
+                <div className="text3">Jun - Aug 2018</div>
               </a>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
-              date="May - Jun 2018"
+              // date="May - Jun 2018"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={
                 <img
@@ -174,7 +180,7 @@ export default class Experience extends Component {
                 <h2 className="vertical-timeline-element-title bold4">
                   Hackcville
                 </h2>
-                <div className="underline4"></div>
+                <div className="underline4" />
 
                 <h3 className="vertical-timeline-element-subtitle role">
                   Software Engineering Intern
@@ -185,13 +191,14 @@ export default class Experience extends Component {
                   and incorporating different REST APIs in agile development
                   teams. Each project completed was completed in different teams
                   to introduce new team dynamics. In total, we deployed 3
-                  websites, FaceMe, Pomodoro, and Trenchtek. Gained
-                  experience using React.
+                  websites, FaceMe, Pomodoro, and Trenchtek. Gained experience
+                  using React.
                 </div>
+                <div className="text3">May - Jun 2018</div>
               </a>
             </VerticalTimelineElement>
 
-            <VerticalTimelineElement
+            {/* <VerticalTimelineElement
               className="vertical-timeline-element--work vertical-timeline-element--no-children"
               iconStyle={{ background: "rgb(0, 200, 0)", color: "#fff" }}
               icon={
@@ -200,7 +207,7 @@ export default class Experience extends Component {
                   className="timelineavatar4"
                 />
               }
-            />
+            /> */}
           </VerticalTimeline>
           <p />
         </div>

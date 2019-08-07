@@ -16,31 +16,31 @@ import axios from "axios";
 export default class Contact extends Component {
   handleSubmit(e) {
     e.preventDefault();
-    document.getElementById("response").innerHTML = "Please wait a few seconds..";
+    // document.getElementById("response").innerHTML = "Please wait a few seconds..";
 
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
     axios({
       method: "POST",
-      // url: "http://localhost/send",
       url: "https://fathomless-reaches-11670.herokuapp.com/send",
       data: {
         name: name,
         email: email,
         message: message
       }
-    }).then(response => {
-      if (response.data.msg === "success") {
-        // alert("Message Sent!");
-        document.getElementById("response").innerHTML = "Submitted!";
+    })
+    // .then(response => {
+    //   if (response.data.msg === "success") {
+    //     document.getElementById("response").innerHTML = "Submitted!";
 
-        this.resetForm();
-      } else if (response.data.msg === "fail") {
-        // alert("Message failed to send.");
-        document.getElementById("response").innerHTML = "Failed to submit!";
-      }
-    });
+
+    //   } else if (response.data.msg === "fail") {
+    //     document.getElementById("response").innerHTML = "Failed to submit!";
+    //   }
+    // });
+    document.getElementById("response").innerHTML = "Submitted!";
+    this.resetForm();
   }
 
   resetForm() {
@@ -56,7 +56,7 @@ export default class Contact extends Component {
               <Fade bottom>
                 <div className="subhead" />
               </Fade>
-              <div id="response" />
+              <div id="response">Please let me know that you were here!</div>
             </Typography>
             <form
               method="POST"
@@ -64,7 +64,7 @@ export default class Contact extends Component {
               id="contact-form"
               onSubmit={this.handleSubmit.bind(this)}
             >
-              <Fade bottom>
+              <Fade delay="200">
                 <input
                   id="name"
                   type="text"
@@ -73,7 +73,7 @@ export default class Contact extends Component {
                   required="required"
                 />
               </Fade>
-              <Fade bottom delay="200">
+              <Fade delay="200">
                 <input
                   id="email"
                   type="email"
@@ -83,7 +83,7 @@ export default class Contact extends Component {
                 />
               </Fade>
 
-              <Fade bottom delay="200">
+              <Fade delay="200">
                 <textarea
                   id="message"
                   type="text"
@@ -94,9 +94,9 @@ export default class Contact extends Component {
                   wrap="hard"
                 />
               </Fade>
-              <Fade top delay="800">
+              <Fade top delay="600">
                 <button type="submit" className="button">
-                  Submit
+                  SUBMIT
                 </button>
               </Fade>
             </form>

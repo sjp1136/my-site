@@ -1,14 +1,30 @@
 /* Experience */
+div {
+  font-weight: 300;
+}
+.underline {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid gray;
+  z-index: 4;
+  opacity: 0.8;
+}
 .experience {
   padding-left: 5%;
   padding-right: 5%;
   min-height: 500px;
   padding-bottom: 5%;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   /* position: relative;
   z-index:0; */
 }
-
+.text3 {
+  margin-top: 20px;
+  font-size: 13px;
+  color: gray;
+}
 .color {
   color: white;
 }
@@ -40,8 +56,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 1px 0px 3px 1px rgb(0, 0, 0, 0.4);
   transition: 0.2s ease-in-out;
   transform-origin: center center;
   /* filter: grayscale(100%); */
@@ -70,112 +88,101 @@
   padding: 10px 10px 10px 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  background-color: #999999; 
-  background-color: gray; 
-
+  background-color: #999999;
+  background-color: gray;
 }
 .vertical:hover .padding1 {
   background-color: rgb(51, 81, 133, 1);
 }
 .vertical:hover .padding2 {
-  
   background-color: #19b4f3;
 }
 .vertical:hover .padding3 {
-  
   background-color: #222222;
 }
 .vertical:hover .padding4 {
-
-  background-color: #1f72be;;
+  background-color: #1f72be;
 }
 
-.underline1{
+.underline1 {
   background-color: rgb(51, 81, 133, 1);
   margin-left: 2px;
-  height:1px;
+  height: 1px;
   width: 0px;
   transition: 0.3s;
 }
-.underline2{
-  background-color:  #19b4f3;
+.underline2 {
+  background-color: #19b4f3;
   margin-left: 1px;
 
-  height:1px;
+  height: 1px;
   width: 0px;
   transition: 0.3s;
 }
-.underline3{
+.underline3 {
   background-color: #222222;
   margin-left: 2px;
 
-  height:1px;
+  height: 1px;
   width: 0px;
   transition: 0.3s;
 }
-.underline4{
+.underline4 {
   background-color: #1f72be;
   margin-left: 1px;
 
-  height:0px;
+  height: 0px;
   width: 0px;
   transition: 0.3s;
 }
 .vertical:hover .underline1 {
-  width: 177px;
-  height:2px;
-
+  width: 158px;
+  height: 1px;
 }
 .vertical:hover .underline2 {
-  width: 268px;
-  height:2px;
-
+  width: 243px;
+  height: 1px;
 }
 .vertical:hover .underline3 {
-  width: 72px;
-  height:2px;
+  width: 65px;
+  height: 1px;
 }
 .vertical:hover .underline4 {
-  width: 98px;
-  height:2px;
-
+  width: 87px;
+  height: 1px;
 }
 .bold1 {
   transition: 0.2s;
-  font-size:16px;
+  font-size: 16px;
   /* font-weight: 700; */
-
 }
 .vertical:hover .bold1 {
   color: rgb(51, 81, 133, 1);
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .bold2 {
   transition: 0.2s;
-  font-size:16px;
-
+  font-size: 16px;
 }
 .vertical:hover .bold2 {
   color: #19b4f3;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .bold3 {
   transition: 0.2s;
-  font-size:16px;
-
+  font-size: 16px;
 }
 .vertical:hover .bold3 {
   color: #222222;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .bold4 {
   transition: 0.2s;
-  font-size:16px;
-
+  font-size: 16px;
 }
 .vertical:hover .bold4 {
   color: #1f72be;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .title {
@@ -212,11 +219,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   filter: grayscale(0%);
 }
-
 
 @media only screen and (max-width: 800px) {
   .vertical:hover .timelineavatar {
@@ -235,21 +241,19 @@
     transform: scale(1.02);
   }
   .vertical:hover .underline1 {
-    width: 145px;
-    height:2px;
-  
+    width: 132px;
+    height: 1px;
   }
   .vertical:hover .underline2 {
-    width: 220px;
-    height:2px;
-  
+    width: 204px;
+    height: 1px;
   }
   .vertical:hover .underline3 {
-    width: 58px;
-    height:2px;
+    width: 53px;
+    height: 1px;
   }
   .vertical:hover .underline4 {
-    width: 80px;
-    height:2px;
+    width: 72px;
+    height: 1px;
   }
 }

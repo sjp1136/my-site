@@ -25,9 +25,9 @@ div {
   width: 100%;
   height: 100%;
 }
-.footer{
+.footer {
   /* bottom:5%; */
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 #response {
   color: white;
@@ -44,13 +44,12 @@ div {
   width: 20%;
   /* transform: translate(-50%, 0); */
   /* background-color: rgb(0, 0, 0, 1); */
-
 }
 .contact {
   font-size: 30px;
 }
 .gentlepadding {
-  padding-top: 50%;
+  padding-top: 30%;
 }
 .flex2 {
   display: flex;
@@ -76,8 +75,8 @@ div {
   width: 20px;
   height: 20px;
   transition: 0.2s ease;
-  background-color: #cccccc;
-  border: 3px solid #cccccc;
+  background-color: white;
+  border: 3px solid white;
   border-radius: 50%;
   text-align: center;
   box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.25),
@@ -101,7 +100,7 @@ div {
   z-index: 0;
 }
 .button2:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -123,7 +122,7 @@ div {
 .button2:hover {
   color: #bbbbbb;
 }
-.button2container{
+.button2container {
   width: 110px;
   margin: 0 auto;
 }
@@ -132,6 +131,7 @@ div {
   padding: 10px;
   margin-top: 20px;
   width: 50%;
+  height: 40px;
   text-align: center;
   border: 1px solid white;
   font-weight: 300;
@@ -147,8 +147,9 @@ div {
 .button:hover {
   color: black;
   opacity: 1;
-  width: 55%;
+  /* width: 55%; */
   background-color: white;
+  font-size: 14px;
 }
 .contactname {
   margin: 5px 10px 30px 10px;
@@ -185,92 +186,92 @@ div {
   border-radius: 3px;
   padding: 5px;
   line-height: 20px;
-  height:200px;
+  height: 200px;
   width: 140%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 @media only screen and (min-height: 550px) and (max-height: 600px) and (min-width: 300px) and (max-width: 350px) {
-.contact {
-  color: white;
-  background-color: rgb(0, 0, 0, 1);
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-.gentlepadding {
-  padding-top: 30px;
-}
-.button {
-  margin: 10px;
-  padding: 10px;
-  width: 100px;
-  text-align: center;
-  border: 1px solid white;
-  font-weight: 300;
-  color: white;
-  cursor: grab;
-  transition: 0.2s;
-  font-size: 16px;
-  background-color: black;
-}
-.contactname {
-  margin: 5px 10px 30px 10px;
-  font-size: 14px;
-  font-weight: 300;
-  background-color: white;
-  border: none;
-  border-radius: 3px;
-  padding: 5px;
-  width: 88%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-}
-.contactemail {
-  margin: 5px 10px 30px 10px;
-  font-size: 14px;
-  font-weight: 300;
-  background-color: white;
-  border: none;
-  border-radius: 3px;
-  padding: 5px;
-  width: 88%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-}
-.contactmessage {
-  font-size: 14px;
-  font-weight: 300;
-  background-color: white;
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  padding: 5px;
-  line-height: 15px;
-  height:180px;
-  width: 88%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-}
-.center5 {
-  /* position: absolute; */
-  text-align: center;
-  margin: auto;
-  /* left: 50%; */
-  display: flex;
-  flex-direction: column;
-  /* height: 500px; */
-  width: 180px;
-  /* transform: translate(-50%, 0); */
-  /* background-color: rgb(0, 0, 0, 1); */
-}
+  .contact {
+    color: white;
+    background-color: rgb(0, 0, 0, 1);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .gentlepadding {
+    padding-top: 30px;
+  }
+  .button {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid white;
+    font-weight: 300;
+    color: white;
+    cursor: grab;
+    transition: 0.2s;
+    font-size: 16px;
+    background-color: black;
+  }
+  .contactname {
+    margin: 5px 10px 30px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .contactemail {
+    margin: 5px 10px 30px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .contactmessage {
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    line-height: 15px;
+    height: 180px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .center5 {
+    /* position: absolute; */
+    text-align: center;
+    margin: auto;
+    /* left: 50%; */
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    width: 180px;
+    /* transform: translate(-50%, 0); */
+    /* background-color: rgb(0, 0, 0, 1); */
+  }
 }
 @media only screen and (min-height: 600px) and (max-height: 725px) and (min-width: 350px) and (max-width: 400px) {
-  .contact {
+  /* .contact {
     color: white;
     background-color: rgb(0, 0, 0, 1);
     width: 100%;
@@ -307,18 +308,11 @@ div {
       "Helvetica Neue", sans-serif;
   }
   .center5 {
-    /* position: absolute; */
     text-align: center;
     margin: auto;
-    /* left: 50%; */
     display: flex;
     flex-direction: column;
-    /* height: 500px; */
     width: 230px;
-    /* transform: translate(-50%, 0); */
-    /* background-color: rgb(0, 0, 0, 1); */
-  
-  
   }
   .contactemail {
     margin: 5px 10px 30px 10px;
@@ -342,39 +336,30 @@ div {
     border-radius: 3px;
     padding: 5px;
     line-height: 15px;
-    height:220px;
+    height: 220px;
     width: 88%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
-  }
+  } */
 }
 @media only screen and (min-height: 725px) and (max-height: 800px) and (min-width: 370px) and (max-width: 420px) {
-  .contact {
+  /* .contact {
     color: white;
     background-color: rgb(0, 0, 0, 1);
     width: 100%;
     height: 100%;
-    /* position: absolute; */
     z-index: 0;
   }
   .center5 {
-    /* position: absolute; */
     text-align: center;
     margin: auto;
-    /* left: 50%; */
     display: flex;
     flex-direction: column;
-    /* height: 500px; */
     width: 250px;
-    /* transform: translate(-50%, 0); */
-    /* background-color: rgb(0, 0, 0, 1); */
-  
   }
   .gentlepadding {
     padding-top: 70px;
-    /* padding-top: 50%; */
-
   }
   .button {
     margin: 10px;
@@ -429,7 +414,7 @@ div {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
-  }
+  } */
 }
 @media only screen and (min-height: 800px) and (max-height: 850px) and (min-width: 370px) and (max-width: 420px) {
   .contact {
@@ -437,21 +422,88 @@ div {
     background-color: rgb(0, 0, 0, 1);
     width: 100%;
     height: 100%;
-    /* position: absolute; */
     z-index: 0;
   }
   .center5 {
-    /* position: absolute; */
     text-align: center;
     margin: auto;
-    /* left: 50%; */
     display: flex;
     flex-direction: column;
-    /* height: 500px; */
     width: 250px;
-    /* transform: translate(-50%, 0); */
-    /* background-color: rgb(0, 0, 0, 1); */
-  
+  }
+  .gentlepadding {
+    padding-top: 50px;
+  }
+  .button {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid white;
+    font-weight: 300;
+    color: white;
+    cursor: grab;
+    transition: 0.2s;
+    font-size: 16px;
+    background-color: black;
+  }
+  .contactname {
+    margin: 5px 10px 30px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .contactemail {
+    margin: 5px 10px 30px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 88%;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .contactmessage {
+    font-size: 14px;
+    font-weight: 300;
+    height: 370px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    line-height: 15px;
+    width: 88%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 900px) {
+  .contact {
+    color: white;
+    background-color: rgb(0, 0, 0, 1);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .center5 {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
   }
   .gentlepadding {
     padding-top: 50px;

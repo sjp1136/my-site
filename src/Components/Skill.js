@@ -26,143 +26,147 @@ export default class Skill extends Component {
 
             <div className="author">-C.S. Lewis</div>
           </Typography>
+          <div className="containercontainer">
+            <div className="container">
+              <div className="eachskill">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      {/* <Flip left> */}
+                      <img
+                        src={require("../images/language2.png")}
+                        className="height2"
+                      />
+                      {/* </Flip> */}
+                      <div className="skilllabel">LANGUAGES</div>
+                    </div>
+                    <div class="flip-card-back">
+                      <img
+                        src={require("../images/language2.png")}
+                        className="height2"
+                      />
 
-          <div className="container">
-            <div className="eachskill">
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    {/* <Flip left> */}
-                    <img
-                      src={require("../images/languages.png")}
-                      className="height2"
-                    />
-                    {/* </Flip> */}
-                    <div className="skilllabel">LANGUAGES</div>
-                  </div>
-                  <div class="flip-card-back">
-                    <img
-                      src={require("../images/languages.png")}
-                      className="height2"
-                    />
-
-                    <div className="skilllabel">LANGUAGES</div>
+                      <div className="skilllabel">LANGUAGES</div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              {/* <img
+                {/* <img
                   src={require("../images/languages.png")}
                   className="height2"
                 />
 
                 <div className="skilllabel">LANGUAGES</div> */}
-              {/* </Flip> */}
-            </div>
-            <Fade bottom>
-              <div className="skills">
-                <img
-                  src={require("../images/python.png")}
-                  className="height3"
-                />{" "}
-                <img
-                  src={require("../images/javascript.png")}
-                  className="height3"
-                />
-                <img src={require("../images/java.png")} className="height3" />{" "}
-                <img src={require("../images/c++.png")} className="height3" />
-                <img src={require("../images/r.png")} className="height3" />
+                {/* </Flip> */}
               </div>
-            </Fade>
-          </div>
+              <Fade bottom>
+                <div className="skills">
+                  <img
+                    src={require("../images/python.png")}
+                    className="height3"
+                  />{" "}
+                  <img
+                    src={require("../images/javascript.png")}
+                    className="height3"
+                  />
+                  <img
+                    src={require("../images/java.png")}
+                    className="height3"
+                  />{" "}
+                  <img src={require("../images/c++.png")} className="height3" />
+                  <img src={require("../images/r.png")} className="height3" />
+                </div>
+              </Fade>
+            </div>
 
-          <div className="container2">
-            <div className="eachskill">
-              {/* <Flip left delay="200">
-                <img
-                  src={require("../images/frameworks.png")}
-                  className="height2"
-                />
-                <div className="skilllabel">FRAMEWORKS</div>
-              </Flip> */}
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    {/* <Flip left delay="200"> */}
-                    <img
-                      src={require("../images/frameworks.png")}
-                      className="height2"
-                    />
-                    {/* </Flip> */}
-                    <div className="skilllabel">FRAMEWORKS</div>
-                  </div>
-                  <div class="flip-card-back">
-                    <img
-                      src={require("../images/frameworks.png")}
-                      className="height2"
-                    />
+            <div className="container2">
+              <div className="eachskill">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src={require("../images/framework2.png")}
+                        className="height2"
+                      />
+                      <div className="skilllabel">FRAMEWORKS</div>
+                    </div>
+                    <div class="flip-card-back">
+                      <img
+                        src={require("../images/framework2.png")}
+                        className="height2"
+                      />
 
-                    <div className="skilllabel">FRAMEWORKS</div>
+                      <div className="skilllabel">FRAMEWORKS</div>
+                    </div>
                   </div>
                 </div>
               </div>
+              <Fade bottom delay="200">
+                <div className="skills">
+                  <img
+                    src={require("../images/react.png")}
+                    className="height3"
+                  />
+                  <img
+                    src={require("../images/django.png")}
+                    className="height3"
+                  />
+                  <img
+                    src={require("../images/visjs.png")}
+                    className="height3"
+                  />
+                  <img src={require("../images/d3.png")} className="height3" />
+                </div>
+              </Fade>
             </div>
-            <Fade bottom delay="200">
-              <div className="skills">
-                <img src={require("../images/react.png")} className="height3" />
-                <img
-                  src={require("../images/django.png")}
-                  className="height3"
-                />
-                <img src={require("../images/visjs.png")} className="height3" />
-                <img src={require("../images/d3.png")} className="height3" />
-              </div>
-            </Fade>
-          </div>
 
-          <div className="container3">
-            <div className="eachskill">
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    {/* <Flip left delay="300"> */}
-                    <img
-                      src={require("../images/tools.png")}
-                      className="height2"
-                    />
-                    {/* </Flip> */}
-                    <div className="skilllabel">TOOLS</div>
-                  </div>
-                  <div class="flip-card-back">
-                    <img
-                      src={require("../images/tools.png")}
-                      className="height2"
-                    />
+            <div className="container3">
+              <div className="eachskill">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      {/* <Flip left delay="300"> */}
+                      <img
+                        src={require("../images/tool2.png")}
+                        className="height2"
+                      />
+                      {/* </Flip> */}
+                      <div className="skilllabel">TOOLS</div>
+                    </div>
+                    <div class="flip-card-back">
+                      <img
+                        src={require("../images/tool2.png")}
+                        className="height2"
+                      />
 
-                    <div className="skilllabel">TOOLS</div>
+                      <div className="skilllabel">TOOLS</div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              {/* <Flip left delay="300">
+                {/* <Flip left delay="300">
                 <img src={require("../images/tools.png")} className="height2" />
                 <div className="skilllabel">TOOLS</div>
               </Flip> */}
-            </div>
-            <Fade bottom delay="400">
-              <div className="skills">
-                <img src={require("../images/aws.png")} className="height3" />
-                <img
-                  src={require("../images/docker.png")}
-                  className="height3"
-                />
-                <img
-                  src={require("../images/concourse.png")}
-                  className="height3"
-                />
-                <img src={require("../images/git.png")} className="height3" />
-
-                <img src={require("../images/unix.png")} className="height3" />
               </div>
-            </Fade>
+              <Fade bottom delay="400">
+                <div className="skills">
+                  <img src={require("../images/aws.png")} className="height3" />
+                  <img
+                    src={require("../images/docker.png")}
+                    className="height3"
+                  />
+                  <img
+                    src={require("../images/concourse.png")}
+                    className="height3"
+                  />
+                  <img src={require("../images/git.png")} className="height3" />
+
+                  <img
+                    src={require("../images/unix.png")}
+                    className="height3"
+                  />
+                </div>
+              </Fade>
+            </div>
           </div>
         </div>
       </div>

@@ -6,6 +6,9 @@ h4,
 p {
   font-weight: 300;
 }
+.navz{
+  z-index: 1;
+}
 .headpadding {
   width: 100%;
   height: 70px;

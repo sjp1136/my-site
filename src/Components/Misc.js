@@ -120,11 +120,11 @@ function Misc() {
   // const img = gcf.concat(nature.concat(touring.concat(vw)));
 
   const gcf2 = [
-    {
-      src: require("../images/group1.jpg"),
-      width: 4,
-      height: 2
-    },
+    // {
+    //   src: require("../images/group1.jpg"),
+    //   width: 4,
+    //   height: 2
+    // },
     // {
     //   src: require("../images/group2.jpg"),
     //   width: 3,
@@ -137,12 +137,12 @@ function Misc() {
     //   height: 2
 
     // },
-    {
-      src: require("../images/group5.jpg"),
-      width: 6,
-      height: 4
+    // {
+    //   src: require("../images/group5.jpg"),
+    //   width: 6,
+    //   height: 4
 
-    }
+    // }
   ];
   const nature2 = [
     {
@@ -174,10 +174,16 @@ function Misc() {
 
   ];
   const touring2 = [
+
     {
       src: require("../images/touring.JPG"),
       width: 7,
       height: 5
+    },
+    {
+      src: require("../images/touring2.JPG"),
+      width: 5,
+      height: 7
     },
     {
       src: require("../images/2.JPG"),
@@ -189,26 +195,23 @@ function Misc() {
       width: 7,
       height: 5
     },
-    {
-      src: require("../images/touring2.JPG"),
-      width: 5,
-      height: 7
-    },
+
     {
       src: require("../images/5.JPG"),
       width: 5,
       height: 7
     },
     {
-      src: require("../images/6.JPG"),
-      width: 7,
-      height: 5
-    },
-    {
       src: require("../images/7.JPG"),
       width: 7,
       height: 5
     },
+    {
+      src: require("../images/6.JPG"),
+      width: 7,
+      height: 5
+    },
+
 
   ];
   const vw2 = [
