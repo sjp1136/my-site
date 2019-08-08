@@ -62,7 +62,7 @@ export default class About extends Component {
                         University of Virginia
                       </a>
                       , majoring in Computer Science & Statistics in the School
-                      of Engineering. Currently, I am a Software Intern at&nbsp;
+                      of Engineering. Currently, I am a SDE Intern at&nbsp;
                       <a
                         href="https://www.vwcredit.com/Authentication/Login"
                         className="none4 p"
@@ -76,7 +76,8 @@ export default class About extends Component {
                       >
                         Volkswagen Group
                       </a>
-                      &nbsp;based in Herndon VA.
+                      &nbsp;based in Herndon VA based in the Washington D.C
+                      metro area.
                       <p className="p">
                         Down the road, I aspire to become a full-stack engineer
                         and enjoy challenging myself to learn and use new modern
