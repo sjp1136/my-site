@@ -28,7 +28,7 @@ export default class Home extends Component {
             <div className="name">SUNG JOON PARK</div>
           </Fade>
 
-          <Fade bottom delay="1500" >
+          <Fade bottom delay="1500">
             <div className="subhead0" />
           </Fade>
           <Fade bottom delay="300">

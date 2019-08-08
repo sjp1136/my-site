@@ -61,16 +61,17 @@ export default class Experience extends Component {
                 <div className="text2">
                   I integrated and automated deployment of the VCI React
                   application with Docker, AWS (ECR, ECS Fargate, RDS,
-                  CloudFormation, CloudFront, S3)​, and ConcourseCI. Docker was
-                  used to host up WordPress using ECR and ECS, which
-                  communicated with the RDS as a database. ConcourseCI automated
-                  the deployment to the S3 bucket, making changes to the
-                  CloudFront, which allowed the website to update periodically.
-                  CloudFormation templates were written and used to efficiently
-                  host up services. I also worked on the Proof of Concept
-                  running a VCI React application. using AWS EKS and Kubernetes
-                  and presented to the dev team for future scalability. Gained
-                  experience using AWS, Docker, and Kubernetes.
+                  CloudFormation, CloudFront, CloudWatch, Lambda, S3)​, and
+                  ConcourseCI. Docker was used to host up WordPress using ECR
+                  and ECS, which communicated with the RDS as a database.
+                  ConcourseCI automated the deployment to the S3 bucket, making
+                  changes to the CloudFront, which allowed the website to update
+                  periodically. CloudFormation templates were written and used
+                  to efficiently host up services. I also worked on the Proof of
+                  Concept running a VCI React application. using AWS EKS and
+                  Kubernetes and presented to the dev team for future
+                  scalability. Gained experience using AWS, Docker, and
+                  Kubernetes.
                 </div>
                 <div className="text3">May - Aug 2019</div>
               </a>
