@@ -137,14 +137,14 @@
 .quote {
   text-align: center;
   max-width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   /* font-style: italic; */
   font-weight: 200;
 }
 
 .author {
-  font-size: 25px;
+  font-size: 20px;
   /* color: gray; */
   padding: 10px;
   margin-bottom: 10px;
@@ -164,8 +164,9 @@
 }
 
 .text2 {
-  margin-top: 20px;
+  margin-top: 5px;
   font-size: 15px;
+  color: black;
 }
 .aboutsplash {
   height: 120vh;

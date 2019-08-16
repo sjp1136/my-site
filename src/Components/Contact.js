@@ -29,11 +29,10 @@ export default class Contact extends Component {
         email: email,
         message: message
       }
-    })
+    });
     // .then(response => {
     //   if (response.data.msg === "success") {
     //     document.getElementById("response").innerHTML = "Submitted!";
-
 
     //   } else if (response.data.msg === "fail") {
     //     document.getElementById("response").innerHTML = "Failed to submit!";
@@ -108,7 +107,7 @@ export default class Contact extends Component {
                   background="#000"
                   border="#000"
                   color="#fff"
-                  content="703-577-6388"
+                  content="7035776388"
                   fadeDuration={0}
                   fadeEasing="linear"
                   fixed={false}
@@ -133,48 +132,103 @@ export default class Contact extends Component {
                 </ReactSimpleTooltip>
 
                 <div className="iconpadding" />
-
-                <Flip left delay="1000" duration="1500">
-                  <div className="icon2">
-                    <a href="mailto:sp3bk@virginia.edu">
-                      <img
-                        src={require("../images/mail4.png")}
-                        className="icon3"
-                      />
-                    </a>
-                  </div>
-                </Flip>
+                <ReactSimpleTooltip
+                  arrow={15}
+                  background="#000"
+                  border="#000"
+                  color="#fff"
+                  content="sp3bk@virginia.edu"
+                  fadeDuration={0}
+                  fadeEasing="linear"
+                  fixed={false}
+                  fontFamily="inherit"
+                  fontSize="15px"
+                  offset={0}
+                  padding={10}
+                  placement="top"
+                  radius={0}
+                  zIndex={1}
+                >
+                  <Flip left delay="1000" duration="1500">
+                    <div className="icon2">
+                      <a href="mailto:sp3bk@virginia.edu">
+                        <img
+                          src={require("../images/mail4.png")}
+                          className="icon3"
+                        />
+                      </a>
+                    </div>
+                  </Flip>
+                </ReactSimpleTooltip>
 
                 <div className="iconpadding" />
-                <Flip left delay="1200" duration="1500">
-                  <div className="icon2">
-                    <a href="https://www.linkedin.com/in/sung-joon-park/">
-                      <img
-                        src={require("../images/linkedin2.png")}
-                        className="icon3"
-                      />
-                    </a>
-                  </div>
-                </Flip>
+                <ReactSimpleTooltip
+                  arrow={15}
+                  background="#000"
+                  border="#000"
+                  color="#fff"
+                  content="linkedin.com/in/sjp/"
+                  fadeDuration={0}
+                  fadeEasing="linear"
+                  fixed={false}
+                  fontFamily="inherit"
+                  fontSize="15px"
+                  offset={0}
+                  padding={10}
+                  placement="top"
+                  radius={0}
+                  zIndex={1}
+                >
+                  <Flip left delay="1200" duration="1500">
+                    <div className="icon2">
+                      <a href="https://www.linkedin.com/in/sung-joon-park/">
+                        <img
+                          src={require("../images/linkedin2.png")}
+                          className="icon3"
+                        />
+                      </a>
+                    </div>
+                  </Flip>
+                </ReactSimpleTooltip>
 
                 <div className="iconpadding" />
-                <Flip left delay="1400" duration="1500">
-                  <div className="icon2">
-                    <a href="http://github.com/sjp1136/">
-                      <img
-                        src={require("../images/github2.svg")}
-                        className="icon3"
-                      />
-                    </a>
-                  </div>
-                </Flip>
+                <ReactSimpleTooltip
+                  arrow={15}
+                  background="#000"
+                  border="#000"
+                  color="#fff"
+                  content="github.com/sjp1136/"
+                  fadeDuration={0}
+                  fadeEasing="linear"
+                  fixed={false}
+                  fontFamily="inherit"
+                  fontSize="15px"
+                  offset={0}
+                  padding={10}
+                  placement="top"
+                  radius={0}
+                  zIndex={1}
+                >
+                  <Flip left delay="1400" duration="1500">
+                    <div className="icon2">
+                      <a href="http://github.com/sjp1136/">
+                        <img
+                          src={require("../images/github2.svg")}
+                          className="icon3"
+                        />
+                      </a>
+                    </div>
+                  </Flip>
+                </ReactSimpleTooltip>
               </div>
               <Link to="home" spy={true} smooth={true} duration={2000}>
                 <Fade bottom delay="1600">
-                  <div className="button2container"><div className="button2">BACK TO HOME</div></div>
+                  <div className="button2container">
+                    <div className="button2">BACK TO HOME</div>
+                  </div>
                 </Fade>
               </Link>
-              <div className="copyright">JULY&copy; 2019 SUNG JOON PARK</div>
+              <div className="copyright">&copy;2019 SUNG JOON PARK</div>
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@ export default class Home extends Component {
             <div className="name">SUNG JOON PARK</div>
           </Fade>
 
-          <Fade bottom delay="1500">
+          <Fade bottom delay="300">
             <div className="subhead0" />
           </Fade>
           <Fade bottom delay="300">
@@ -41,7 +41,7 @@ export default class Home extends Component {
               background="#000"
               border="#000"
               color="#fff"
-              content="703-577-6388"
+              content="7035776388"
               fadeDuration={0}
               fadeEasing="linear"
               fixed={false}
@@ -66,38 +66,94 @@ export default class Home extends Component {
             </ReactSimpleTooltip>
 
             <div className="iconpadding" />
-
-            <Flip left delay="600" duration="1500">
-              <div className="icon1">
-                <a href="mailto:sp3bk@virginia.edu">
-                  <img src={require("../images/mail4.png")} className="icon" />
-                </a>
-              </div>
-            </Flip>
+            <ReactSimpleTooltip
+              arrow={15}
+              background="#000"
+              border="#000"
+              color="#fff"
+              content="sp3bk@virginia.edu"
+              fadeDuration={0}
+              fadeEasing="linear"
+              fixed={false}
+              fontFamily="inherit"
+              fontSize="inherit"
+              offset={0}
+              padding={10}
+              placement="top"
+              radius={0}
+              zIndex={1}
+            >
+              <Flip left delay="600" duration="1500">
+                <div className="icon1">
+                  <a href="mailto:sp3bk@virginia.edu">
+                    <img
+                      src={require("../images/mail4.png")}
+                      className="icon"
+                    />
+                  </a>
+                </div>
+              </Flip>
+            </ReactSimpleTooltip>
 
             <div className="iconpadding" />
-            <Flip left delay="800" duration="1500">
-              <div className="icon1">
-                <a href="https://www.linkedin.com/in/sung-joon-park/">
-                  <img
-                    src={require("../images/linkedin2.png")}
-                    className="icon"
-                  />
-                </a>
-              </div>
-            </Flip>
+            <ReactSimpleTooltip
+              arrow={15}
+              background="#000"
+              border="#000"
+              color="#fff"
+              content="linkedin.com/in/sjp/"
+              fadeDuration={0}
+              fadeEasing="linear"
+              fixed={false}
+              fontFamily="inherit"
+              fontSize="inherit"
+              offset={0}
+              padding={10}
+              placement="top"
+              radius={0}
+              zIndex={1}
+            >
+              <Flip left delay="800" duration="1500">
+                <div className="icon1">
+                  <a href="https://www.linkedin.com/in/sung-joon-park/">
+                    <img
+                      src={require("../images/linkedin2.png")}
+                      className="icon"
+                    />
+                  </a>
+                </div>
+              </Flip>
+            </ReactSimpleTooltip>
 
             <div className="iconpadding" />
-            <Flip left delay="1000" duration="1500">
-              <div className="icon1">
-                <a href="http://github.com/sjp1136/">
-                  <img
-                    src={require("../images/github2.svg")}
-                    className="icon"
-                  />
-                </a>
-              </div>
-            </Flip>
+            <ReactSimpleTooltip
+              arrow={15}
+              background="#000"
+              border="#000"
+              color="#fff"
+              content="github.com/sjp1136/"
+              fadeDuration={0}
+              fadeEasing="linear"
+              fixed={false}
+              fontFamily="inherit"
+              fontSize="inherit"
+              offset={0}
+              padding={10}
+              placement="top"
+              radius={0}
+              zIndex={1}
+            >
+              <Flip left delay="1000" duration="1500">
+                <div className="icon1">
+                  <a href="http://github.com/sjp1136/">
+                    <img
+                      src={require("../images/github2.svg")}
+                      className="icon"
+                    />
+                  </a>
+                </div>
+              </Flip>
+            </ReactSimpleTooltip>
           </div>
         </div>
 
