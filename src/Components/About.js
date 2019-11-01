@@ -21,6 +21,7 @@ import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import Navbar from "./Navbar";
 import Drawer from "react-motion-drawer";
+import { Parallax } from "react-scroll-parallax";
 
 import "./about.css";
 
@@ -42,14 +43,52 @@ export default class About extends Component {
             </div>
             <div className="author">-C.S. Lewis</div>
           </Typography>
-
           <div className="flex">
+            <div className="paper2">
+              <Fade delay="100">
+                {/* <Slide bottom delay="200"> */}
+                <div className="paper">
+                  <div className="">
+                    <img
+                      src={require("../images/uva3.jpeg")}
+                      className="aboutpic"
+                    />
+                  </div>
+
+                  <div className="blackglass">
+                    <h2 className="who">
+                      <a href="https://www.virginia.edu/" className="none4 p2">
+                        University of Virginia
+                      </a>
+                    </h2>
+                    <div className="p">
+                      3rd Year (School of Engineering) - CS & Statistics, '21.
+                    </div>
+                    <p className="p">
+                      <strong>Activities:</strong> Grace Christian Fellowship,
+                      Hackcville.
+                    </p>
+
+                    <p className="p">
+                      <strong>Coursework:</strong> CS4774 Machine Learning,
+                      CS4501 Computer Vision, CS4501 Internet Scale
+                      Applications, CS4102 Algorithms, CS3330 Computer
+                      Arhictecture, CS3240 Advanced Software Development, CS2150
+                      Program and Data Representation, CS2102 Discrete
+                      Mathematics, CS2110 Software Development Methods, STAT3080
+                      From Data to Knowledge
+                    </p>
+                  </div>
+                </div>
+                {/* </Slide> */}
+              </Fade>
+            </div>
             <div className="paper2">
               <Fade delay="100">
                 <div className="paper">
                   <div className="">
                     <img
-                      src={require("../images/me2.jpg")}
+                      src={require("../images/me4.JPG")}
                       className="aboutpic"
                     />
                   </div>
@@ -95,46 +134,6 @@ export default class About extends Component {
                     </p>
                   </div>
                 </div>
-              </Fade>
-            </div>
-
-            <div className="paper2">
-              <Fade delay="100">
-                {/* <Slide bottom delay="200"> */}
-                <div className="paper">
-                  <div className="">
-                    <img
-                      src={require("../images/uva3.jpeg")}
-                      className="aboutpic"
-                    />
-                  </div>
-
-                  <div className="blackglass">
-                    <h2 className="who">
-                      <a href="https://www.virginia.edu/" className="none4 p2">
-                        University of Virginia
-                      </a>
-                    </h2>
-                    <div className="p">
-                      3rd Year (School of Engineering) - CS & Statistics, '21.
-                    </div>
-                    <p className="p">
-                      <strong>Activities:</strong> Grace Christian Fellowship,
-                      Hackcville.
-                    </p>
-
-                    <p className="p">
-                      <strong>Coursework:</strong> CS4774 Machine Learning,
-                      CS4501 Computer Vision, CS4501 Internet Scale
-                      Applications, CS4102 Algorithms, CS3330 Computer
-                      Arhictecture, CS3240 Advanced Software Development, CS2150
-                      Program and Data Representation, CS2102 Discrete
-                      Mathematics, CS2110 Software Development Methods, STAT3080
-                      From Data to Knowledge
-                    </p>
-                  </div>
-                </div>
-                {/* </Slide> */}
               </Fade>
             </div>
             <div className="paper2">

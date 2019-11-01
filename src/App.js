@@ -9,10 +9,12 @@ import Experience from "./Components/Experience";
 import Misc from "./Components/Misc";
 import Contact from "./Components/Contact";
 
+import { ParallaxProvider } from "react-scroll-parallax";
+
 class App extends Component {
   render() {
     return (
-      <div>
+      <ParallaxProvider>
         <Home />
         {/* <Navbar /> */}
         <About />
@@ -21,7 +23,7 @@ class App extends Component {
         <Experience />
         <Misc />
         <Contact />
-      </div>
+      </ParallaxProvider>
     );
   }
 }

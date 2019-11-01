@@ -11,6 +11,8 @@ import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Parallax } from "react-scroll-parallax";
+
 import Navbar from "./Navbar";
 import "animate.css/animate.min.css";
 import "./home.css";
@@ -160,7 +162,9 @@ export default class Home extends Component {
         <div className="centeredb">
           <Link to="about" spy={true} smooth={true} duration={1250}>
             <Fade top delay="1100">
-              <Typography className="toabout">ABOUT ME</Typography>
+              <Parallax y={[-40, 100]} tagOuter="figure">
+                <Typography className="toabout">ABOUT ME</Typography>
+              </Parallax>
             </Fade>
           </Link>
         </div>
