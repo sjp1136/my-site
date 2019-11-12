@@ -56,14 +56,14 @@ export default class Home extends Component {
               zIndex={1}
             >
               <Flip left delay="400" duration="1500">
-                <div className="icon1">
-                  <a href="tel:7035776388">
+                <a href="tel:7035776388">
+                  <div className="icon1">
                     <img
                       src={require("../images/phone.png")}
                       className="icon"
                     />
-                  </a>
-                </div>
+                  </div>
+                </a>
               </Flip>
             </ReactSimpleTooltip>
 
@@ -86,14 +86,14 @@ export default class Home extends Component {
               zIndex={1}
             >
               <Flip left delay="600" duration="1500">
-                <div className="icon1">
-                  <a href="mailto:sp3bk@virginia.edu">
+                <a href="mailto:sp3bk@virginia.edu">
+                  <div className="icon1">
                     <img
                       src={require("../images/mail4.png")}
                       className="icon"
                     />
-                  </a>
-                </div>
+                  </div>
+                </a>
               </Flip>
             </ReactSimpleTooltip>
 
@@ -116,14 +116,14 @@ export default class Home extends Component {
               zIndex={1}
             >
               <Flip left delay="800" duration="1500">
-                <div className="icon1">
-                  <a href="https://www.linkedin.com/in/sung-joon-park/">
+                <a href="https://www.linkedin.com/in/sung-joon-park/">
+                  <div className="icon1">
                     <img
                       src={require("../images/linkedin2.png")}
                       className="icon"
                     />
-                  </a>
-                </div>
+                  </div>
+                </a>
               </Flip>
             </ReactSimpleTooltip>
 
@@ -146,14 +146,14 @@ export default class Home extends Component {
               zIndex={1}
             >
               <Flip left delay="1000" duration="1500">
-                <div className="icon1">
-                  <a href="http://github.com/sjp1136/">
+                <a href="http://github.com/sjp1136/">
+                  <div className="icon1">
                     <img
                       src={require("../images/github2.svg")}
                       className="icon"
                     />
-                  </a>
-                </div>
+                  </div>
+                </a>
               </Flip>
             </ReactSimpleTooltip>
           </div>
@@ -162,9 +162,9 @@ export default class Home extends Component {
         <div className="centeredb">
           <Link to="about" spy={true} smooth={true} duration={1250}>
             <Fade top delay="1100">
-              <Parallax y={[-40, 100]} tagOuter="figure">
-                <Typography className="toabout">ABOUT ME</Typography>
-              </Parallax>
+              {/* <Parallax y={[-40, 100]} tagOuter="figure"> */}
+              <Typography className="toabout">ABOUT ME</Typography>
+              {/* </Parallax> */}
             </Fade>
           </Link>
         </div>

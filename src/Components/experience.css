@@ -95,6 +95,9 @@ p {
   background-color: #999999;
   background-color: gray;
 }
+.vertical:hover .padding0 {
+  background-color: #e32030;
+}
 .vertical:hover .padding1 {
   background-color: rgb(51, 81, 133, 1);
 }
@@ -107,7 +110,13 @@ p {
 .vertical:hover .padding4 {
   background-color: #1f72be;
 }
-
+.underline0 {
+  background-color: #e32030;
+  margin-left: 2px;
+  height: 1px;
+  width: 0px;
+  transition: 0.3s;
+}
 .underline1 {
   background-color: rgb(51, 81, 133, 1);
   margin-left: 2px;
@@ -139,6 +148,10 @@ p {
   width: 0px;
   transition: 0.3s;
 }
+.vertical:hover .underline0 {
+  width: 162px;
+  height: 1px;
+}
 .vertical:hover .underline1 {
   width: 158px;
   height: 1px;
@@ -154,6 +167,15 @@ p {
 .vertical:hover .underline4 {
   width: 87px;
   height: 1px;
+}
+.bold0 {
+  transition: 0.2s;
+  font-size: 16px;
+  /* font-weight: 700; */
+}
+.vertical:hover .bold0 {
+  color: #e32030;
+  /* font-weight: 700; */
 }
 .bold1 {
   transition: 0.2s;

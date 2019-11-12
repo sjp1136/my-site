@@ -22,9 +22,39 @@ export default class Experience extends Component {
             <Slide right>
               <div className="subhead3" />
             </Slide>
+            <div className="quote">
+              “There are far, far better things ahead than any we leave behind.”
+            </div>
+            <div className="author">-C.S. Lewis</div>
           </Typography>
 
           <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work vertical"
+              // date="May 2019 - Present"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
+              icon={
+                <img
+                  src={require("../images/appian.JPG")}
+                  className="timelineavatar"
+                />
+              }
+            >
+              <div className="padding padding0"></div>
+              <a className="none2" href="http://appian.com/">
+                <h2 className="vertical-timeline-element-title bold0">
+                  Appian Corporation
+                </h2>
+              </a>
+
+              <div className="underline0" />
+              <h3 className="vertical-timeline-element-subtitle role">
+                Incoming Software Engineer Intern
+              </h3>
+              {/* <div className="underline" /> */}
+              <div className="text2"></div>
+              <div className="text3">May - Aug 2020</div>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
               // date="May 2019 - Present"

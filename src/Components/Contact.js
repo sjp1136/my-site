@@ -55,7 +55,9 @@ export default class Contact extends Component {
               <Fade bottom>
                 <div className="subhead" />
               </Fade>
-              <div id="response">Please let me know that you were here!</div>
+              <div id="response">
+                Thank you for taking the time to visit my page!
+              </div>
             </Typography>
             <form
               method="POST"

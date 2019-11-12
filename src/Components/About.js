@@ -70,13 +70,9 @@ export default class About extends Component {
                     </p>
 
                     <p className="p">
-                      <strong>Coursework:</strong> CS4774 Machine Learning,
-                      CS4501 Computer Vision, CS4501 Internet Scale
-                      Applications, CS4102 Algorithms, CS3330 Computer
-                      Arhictecture, CS3240 Advanced Software Development, CS2150
-                      Program and Data Representation, CS2102 Discrete
-                      Mathematics, CS2110 Software Development Methods, STAT3080
-                      From Data to Knowledge
+                      <strong>Coursework:</strong> Machine Learning, Computer
+                      Vision, Internet Scale Applications, Algorithms, Computer
+                      Arhictecture, Program and Data Representation
                     </p>
                   </div>
                 </div>
@@ -101,36 +97,24 @@ export default class About extends Component {
                         University of Virginia
                       </a>
                       , majoring in Computer Science & Statistics in the School
-                      of Engineering. Currently, I am a SDE Intern at&nbsp;
-                      <a
-                        href="https://www.vwcredit.com/Authentication/Login"
-                        className="none4 p"
-                      >
-                        Volkswagen Credit
+                      of Engineering. I am a incoming SWE Intern at&nbsp;
+                      <a href="http://appian.com/" className="none4 p">
+                        Appian Corporation
                       </a>
-                      , a financial branch of the&nbsp;
-                      <a
-                        href="http://www.volkswagengroupofamerica.com/"
-                        className="none4 p"
-                      >
-                        Volkswagen Group
-                      </a>
-                      &nbsp;based in Herndon VA based in the Washington D.C
-                      metro area.
+                      , a cloud computing B2B software company in Tysons Corner
+                      VA based in the Washington D.C metro area.
                       <p className="p">
                         Down the road, I aspire to become a full-stack engineer
                         and enjoy challenging myself to learn and use new modern
                         technologies and tools that software development is
-                        revolving around today. I am currently in search for a
-                        challenging software engineering internship for Summer
-                        2020.
+                        revolving around today.
                       </p>
                     </p>
                     <p className="p">
                       Outside of academics, I enjoy hanging out with friends in
-                      my fellowship, playing tennis, and sometimes reading
-                      interesting books. I have recently started learning guitar
-                      as well.
+                      my fellowship, playing tennis, playing guitar, and
+                      sometimes reading interesting books such as apologetics
+                      written by C.S. Lewis.
                     </p>
                   </div>
                 </div>
