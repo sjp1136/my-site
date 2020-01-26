@@ -38,6 +38,7 @@ export default class Home extends Component {
           </Fade>
 
           <div className="icons">
+          <Flip left delay="400" duration="1000">
             <ReactSimpleTooltip
               arrow={15}
               background="#000"
@@ -55,7 +56,6 @@ export default class Home extends Component {
               radius={0}
               zIndex={1}
             >
-              <Flip left delay="400" duration="1500">
                 <a href="tel:7035776388">
                   <div className="icon1">
                     <img
@@ -64,10 +64,12 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-              </Flip>
             </ReactSimpleTooltip>
+            </Flip>
+
 
             <div className="iconpadding" />
+            <Flip left delay="600" duration="1000">
             <ReactSimpleTooltip
               arrow={15}
               background="#000"
@@ -85,7 +87,6 @@ export default class Home extends Component {
               radius={0}
               zIndex={1}
             >
-              <Flip left delay="600" duration="1500">
                 <a href="mailto:sp3bk@virginia.edu">
                   <div className="icon1">
                     <img
@@ -94,10 +95,12 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-              </Flip>
             </ReactSimpleTooltip>
+            </Flip>
+
 
             <div className="iconpadding" />
+            <Flip left delay="800" duration="1000">
             <ReactSimpleTooltip
               arrow={15}
               background="#000"
@@ -115,7 +118,6 @@ export default class Home extends Component {
               radius={0}
               zIndex={1}
             >
-              <Flip left delay="800" duration="1500">
                 <a href="https://www.linkedin.com/in/sung-joon-park/">
                   <div className="icon1">
                     <img
@@ -124,10 +126,11 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-              </Flip>
             </ReactSimpleTooltip>
+            </Flip>
 
             <div className="iconpadding" />
+            <Flip left delay="1000" duration="1000">
             <ReactSimpleTooltip
               arrow={15}
               background="#000"
@@ -145,7 +148,6 @@ export default class Home extends Component {
               radius={0}
               zIndex={1}
             >
-              <Flip left delay="1000" duration="1500">
                 <a href="http://github.com/sjp1136/">
                   <div className="icon1">
                     <img
@@ -154,8 +156,8 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-              </Flip>
             </ReactSimpleTooltip>
+            </Flip>
           </div>
         </div>
 

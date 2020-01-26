@@ -283,6 +283,10 @@ p {
   .vertical:hover .padding {
     transform: scale(1.02);
   }
+  .vertical:hover .underline0 {
+    width: 139px;
+    height: 1px;
+  }
   .vertical:hover .underline1 {
     width: 132px;
     height: 1px;

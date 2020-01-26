@@ -53,7 +53,7 @@ export default class Experience extends Component {
               </h3>
               {/* <div className="underline" /> */}
               <div className="text2"></div>
-              <div className="text3">May - Aug 2020</div>
+              <div className="text3">Summer 2020</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
@@ -98,7 +98,7 @@ export default class Experience extends Component {
                 the dev team for future scalability. Gained experience using
                 AWS, Docker, and Kubernetes.
               </div>
-              <div className="text3">May - Aug 2019</div>
+              <div className="text3">Summer 2019</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
@@ -178,7 +178,7 @@ export default class Experience extends Component {
                 Python, shell scripts, and jQuery, while also learning Selenium,
                 BeautifulSpoon, and RubyOnRails on the side.
               </div>
-              <div className="text3">Jun - Aug 2018</div>
+              <div className="text3">Summer 2018</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
@@ -217,7 +217,7 @@ export default class Experience extends Component {
                 introduce new team dynamics. In total, we deployed 3 websites,
                 FaceMe, Pomodoro, and Trenchtek. Gained experience using React.
               </div>
-              <div className="text3">May - Jun 2018</div>
+              <div className="text3">Summer 2018</div>
             </VerticalTimelineElement>
 
             {/* <VerticalTimelineElement

@@ -20,8 +20,7 @@ export default class Skill extends Component {
               <div className="subhead3skill" />
             </Slide>
             <div className="quoteskill">
-              “Hardships often prepare ordinary people for an extraordinary
-              destiny.”
+            “Don’t let your happiness depend on something you may lose.”
             </div>
 
             <div className="authorskill">-C.S. Lewis</div>

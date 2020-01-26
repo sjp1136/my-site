@@ -20,10 +20,9 @@ export default class Project extends Component {
             <div className="subhead" />
           </Slide>
           <div className="quote2">
-            “When something is important enough, you do it even if the odds are
-            not in your favor.”
-          </div>
-          <div className="author2">-Elon Musk</div>
+          “Hardships often prepare ordinary people for an extraordinary
+              destiny.”          </div>
+          <div className="author2">-C.S. Lewis</div>
         </Typography>
 
         <div className="portfoliozindex">

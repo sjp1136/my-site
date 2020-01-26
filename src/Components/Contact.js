@@ -95,7 +95,7 @@ export default class Contact extends Component {
                   wrap="hard"
                 />
               </Fade>
-              <Fade top delay="600">
+              <Fade top delay="200">
                 <button type="submit" className="button">
                   SUBMIT
                 </button>
@@ -121,7 +121,7 @@ export default class Contact extends Component {
                   radius={0}
                   zIndex={1}
                 >
-                  <Flip left delay="800" duration="1500">
+                  <Flip left delay="400" duration="1000">
                     <div className="icon2">
                       <a href="tel:7035776388">
                         <img
@@ -151,7 +151,7 @@ export default class Contact extends Component {
                   radius={0}
                   zIndex={1}
                 >
-                  <Flip left delay="1000" duration="1500">
+                  <Flip left delay="600" duration="1000">
                     <div className="icon2">
                       <a href="mailto:sp3bk@virginia.edu">
                         <img
@@ -181,7 +181,7 @@ export default class Contact extends Component {
                   radius={0}
                   zIndex={1}
                 >
-                  <Flip left delay="1200" duration="1500">
+                  <Flip left delay="800" duration="1000">
                     <div className="icon2">
                       <a href="https://www.linkedin.com/in/sung-joon-park/">
                         <img
@@ -211,7 +211,7 @@ export default class Contact extends Component {
                   radius={0}
                   zIndex={1}
                 >
-                  <Flip left delay="1400" duration="1500">
+                  <Flip left delay="1000" duration="1000">
                     <div className="icon2">
                       <a href="http://github.com/sjp1136/">
                         <img
@@ -224,7 +224,7 @@ export default class Contact extends Component {
                 </ReactSimpleTooltip>
               </div>
               <Link to="home" spy={true} smooth={true} duration={2000}>
-                <Fade bottom delay="1600">
+                <Fade bottom delay="1200">
                   <div className="button2container">
                     <div className="button2">BACK TO HOME</div>
                   </div>

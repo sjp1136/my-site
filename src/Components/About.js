@@ -39,7 +39,7 @@ export default class About extends Component {
             </Slide>
 
             <div className="quote">
-              “Don’t let your happiness depend on something you may lose.”
+            “Love is unselfishly choosing for another's highest good.”
             </div>
             <div className="author">-C.S. Lewis</div>
           </Typography>
@@ -113,8 +113,7 @@ export default class About extends Component {
                     <p className="p">
                       Outside of academics, I enjoy hanging out with friends in
                       my fellowship, playing tennis, playing guitar, and
-                      sometimes reading interesting books such as apologetics
-                      written by C.S. Lewis.
+                       reading books written by C.S. Lewis.
                     </p>
                   </div>
                 </div>
