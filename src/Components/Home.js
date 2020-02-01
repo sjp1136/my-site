@@ -34,7 +34,7 @@ export default class Home extends Component {
             <div className="subhead0" />
           </Fade>
           <Fade bottom delay="300">
-            <div className="name2">CS STUDENT @ UVA</div>
+            <div className="name2">EPHESIANS 4:2 | CS STUDENT @ UVA</div>
           </Fade>
 
           <div className="icons">

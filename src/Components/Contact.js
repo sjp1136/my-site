@@ -38,7 +38,7 @@ export default class Contact extends Component {
     //     document.getElementById("response").innerHTML = "Failed to submit!";
     //   }
     // });
-    document.getElementById("response").innerHTML = "Submitted!";
+    document.getElementById("response").innerHTML = "Submitted! Thank you for visiting my page!";
     this.resetForm();
   }
 
@@ -56,7 +56,7 @@ export default class Contact extends Component {
                 <div className="subhead" />
               </Fade>
               <div id="response">
-                Thank you for taking the time to visit my page!
+              "Give thanks to the Lord, for He is good; His love endures forever." <br/><br/>  Psalm 118:1
               </div>
             </Typography>
             <form

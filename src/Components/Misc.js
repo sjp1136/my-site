@@ -269,6 +269,9 @@ function Misc() {
         <Slide left>
           <div className="subhead" />
         </Slide>
+        <div className="quote2">
+          “Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken.”          </div>
+        <div className="author2">Ecclesiastes 4:12</div>
 
       </Typography>
       <div className="misccontainer">
