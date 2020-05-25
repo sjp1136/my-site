@@ -20,8 +20,9 @@ export default class Project extends Component {
             <div className="subhead" />
           </Slide>
           <div className="quote2">
-          “Hardships often prepare ordinary people for an extraordinary
-              destiny.”          </div>
+            “Hardships often prepare ordinary people for an extraordinary
+            destiny.”{" "}
+          </div>
           <div className="author2">-C.S. Lewis</div>
         </Typography>
 

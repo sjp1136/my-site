@@ -34,28 +34,28 @@ export default class Home extends Component {
             <div className="subhead0" />
           </Fade>
           <Fade bottom delay="300">
-            <div className="name2">EPHESIANS 4:2 | CS STUDENT @ UVA</div>
+            <div className="name2">PHILIPPIANS 1:6 | CS STUDENT @ UVA</div>
           </Fade>
 
           <div className="icons">
-          <Flip left delay="400" duration="1000">
-            <ReactSimpleTooltip
-              arrow={15}
-              background="#000"
-              border="#000"
-              color="#fff"
-              content="7035776388"
-              fadeDuration={0}
-              fadeEasing="linear"
-              fixed={false}
-              fontFamily="inherit"
-              fontSize="inherit"
-              offset={0}
-              padding={10}
-              placement="top"
-              radius={0}
-              zIndex={1}
-            >
+            <Flip left delay="400" duration="1000">
+              <ReactSimpleTooltip
+                arrow={15}
+                background="#000"
+                border="#000"
+                color="#fff"
+                content="7035776388"
+                fadeDuration={0}
+                fadeEasing="linear"
+                fixed={false}
+                fontFamily="inherit"
+                fontSize="inherit"
+                offset={0}
+                padding={10}
+                placement="top"
+                radius={0}
+                zIndex={1}
+              >
                 <a href="tel:7035776388">
                   <div className="icon1">
                     <img
@@ -64,29 +64,28 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-            </ReactSimpleTooltip>
+              </ReactSimpleTooltip>
             </Flip>
-
 
             <div className="iconpadding" />
             <Flip left delay="600" duration="1000">
-            <ReactSimpleTooltip
-              arrow={15}
-              background="#000"
-              border="#000"
-              color="#fff"
-              content="sp3bk@virginia.edu"
-              fadeDuration={0}
-              fadeEasing="linear"
-              fixed={false}
-              fontFamily="inherit"
-              fontSize="inherit"
-              offset={0}
-              padding={10}
-              placement="top"
-              radius={0}
-              zIndex={1}
-            >
+              <ReactSimpleTooltip
+                arrow={15}
+                background="#000"
+                border="#000"
+                color="#fff"
+                content="sp3bk@virginia.edu"
+                fadeDuration={0}
+                fadeEasing="linear"
+                fixed={false}
+                fontFamily="inherit"
+                fontSize="inherit"
+                offset={0}
+                padding={10}
+                placement="top"
+                radius={0}
+                zIndex={1}
+              >
                 <a href="mailto:sp3bk@virginia.edu">
                   <div className="icon1">
                     <img
@@ -95,29 +94,28 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-            </ReactSimpleTooltip>
+              </ReactSimpleTooltip>
             </Flip>
-
 
             <div className="iconpadding" />
             <Flip left delay="800" duration="1000">
-            <ReactSimpleTooltip
-              arrow={15}
-              background="#000"
-              border="#000"
-              color="#fff"
-              content="linkedin.com/in/sjp/"
-              fadeDuration={0}
-              fadeEasing="linear"
-              fixed={false}
-              fontFamily="inherit"
-              fontSize="inherit"
-              offset={0}
-              padding={10}
-              placement="top"
-              radius={0}
-              zIndex={1}
-            >
+              <ReactSimpleTooltip
+                arrow={15}
+                background="#000"
+                border="#000"
+                color="#fff"
+                content="linkedin.com/in/sjp/"
+                fadeDuration={0}
+                fadeEasing="linear"
+                fixed={false}
+                fontFamily="inherit"
+                fontSize="inherit"
+                offset={0}
+                padding={10}
+                placement="top"
+                radius={0}
+                zIndex={1}
+              >
                 <a href="https://www.linkedin.com/in/sung-joon-park/">
                   <div className="icon1">
                     <img
@@ -126,28 +124,28 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-            </ReactSimpleTooltip>
+              </ReactSimpleTooltip>
             </Flip>
 
             <div className="iconpadding" />
             <Flip left delay="1000" duration="1000">
-            <ReactSimpleTooltip
-              arrow={15}
-              background="#000"
-              border="#000"
-              color="#fff"
-              content="github.com/sjp1136/"
-              fadeDuration={0}
-              fadeEasing="linear"
-              fixed={false}
-              fontFamily="inherit"
-              fontSize="inherit"
-              offset={0}
-              padding={10}
-              placement="top"
-              radius={0}
-              zIndex={1}
-            >
+              <ReactSimpleTooltip
+                arrow={15}
+                background="#000"
+                border="#000"
+                color="#fff"
+                content="github.com/sjp1136/"
+                fadeDuration={0}
+                fadeEasing="linear"
+                fixed={false}
+                fontFamily="inherit"
+                fontSize="inherit"
+                offset={0}
+                padding={10}
+                placement="top"
+                radius={0}
+                zIndex={1}
+              >
                 <a href="http://github.com/sjp1136/">
                   <div className="icon1">
                     <img
@@ -156,7 +154,7 @@ export default class Home extends Component {
                     />
                   </div>
                 </a>
-            </ReactSimpleTooltip>
+              </ReactSimpleTooltip>
             </Flip>
           </div>
         </div>
@@ -165,7 +163,7 @@ export default class Home extends Component {
           <Link to="about" spy={true} smooth={true} duration={1250}>
             <Fade top delay="1100">
               {/* <Parallax y={[-40, 100]} tagOuter="figure"> */}
-              <Typography className="toabout">ABOUT ME</Typography>
+              <div className="toabout">ABOUT ME</div>
               {/* </Parallax> */}
             </Fade>
           </Link>

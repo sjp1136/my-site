@@ -20,7 +20,7 @@ export default class Skill extends Component {
               <div className="subhead3skill" />
             </Slide>
             <div className="quoteskill">
-            “Don’t let your happiness depend on something you may lose.”
+              “Don’t let your happiness depend on something you may lose.”
             </div>
 
             <div className="authorskill">-C.S. Lewis</div>
@@ -153,10 +153,10 @@ export default class Skill extends Component {
                     src={require("../images/docker.png")}
                     className="height3"
                   />
-                  <img
+                  {/* <img
                     src={require("../images/concourse.png")}
                     className="height3"
-                  />
+                  /> */}
                   <img src={require("../images/git.png")} className="height3" />
 
                   <img

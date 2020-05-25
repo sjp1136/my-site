@@ -6,7 +6,7 @@ import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 import ListItemText from "@material-ui/core/ListItemText";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Grid from "@material-ui/core/Grid";
@@ -39,7 +39,7 @@ export default class About extends Component {
             </Slide>
 
             <div className="quote">
-            “Love is unselfishly choosing for another's highest good.”
+              “Love is unselfishly choosing for another's highest good.”
             </div>
             <div className="author">-C.S. Lewis</div>
           </Typography>
@@ -48,12 +48,10 @@ export default class About extends Component {
               <Fade delay="100">
                 {/* <Slide bottom delay="200"> */}
                 <div className="paper">
-                  <div className="">
-                    <img
-                      src={require("../images/uva3.jpeg")}
-                      className="aboutpic"
-                    />
-                  </div>
+                  <img
+                    src={require("../images/uva3.jpeg")}
+                    className="aboutpic"
+                  />
 
                   <div className="blackglass">
                     <h2 className="who">
@@ -82,12 +80,10 @@ export default class About extends Component {
             <div className="paper2">
               <Fade delay="100">
                 <div className="paper">
-                  <div className="">
-                    <img
-                      src={require("../images/me4.JPG")}
-                      className="aboutpic"
-                    />
-                  </div>
+                  <img
+                    src={require("../images/me4.JPG")}
+                    className="aboutpic"
+                  />
 
                   <div className="blackglass">
                     <h2 className="who">WHO AM I?</h2>
@@ -112,8 +108,8 @@ export default class About extends Component {
                     </p>
                     <p className="p">
                       Outside of academics, I enjoy hanging out with friends in
-                      my fellowship, playing tennis, playing guitar, and
-                       reading books written by C.S. Lewis.
+                      my fellowship, playing tennis, playing guitar, and reading
+                      books written by C.S. Lewis.
                     </p>
                   </div>
                 </div>
@@ -121,14 +117,11 @@ export default class About extends Component {
             </div>
             <div className="paper2">
               <Fade delay="100">
-                {/* <Slide bottom delay="300"> */}
                 <div className="paper">
-                  <div className="">
-                    <img
-                      src={require("../images/tjhsst.png")}
-                      className="aboutpic"
-                    />
-                  </div>
+                  <img
+                    src={require("../images/tjhsst.png")}
+                    className="aboutpic"
+                  />
 
                   <div className="blackglass">
                     <h2 className="who">

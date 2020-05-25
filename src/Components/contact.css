@@ -1,9 +1,9 @@
 /* contact */
 div {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
+
 .icon3 {
   width: 15px;
   height: 15px;
@@ -11,6 +11,7 @@ div {
 
   transform: translate(0%, -80%);
 }
+
 .icons2 {
   display: flex;
   /* margin-bottom: 500px; */
@@ -19,21 +20,25 @@ div {
   justify-content: center;
   padding: 10px;
 }
+
 .contact {
   color: white;
   background-color: rgb(0, 0, 0, 1);
   width: 100%;
   height: 100%;
 }
+
 .footer {
   /* bottom:5%; */
   margin-bottom: 20px;
 }
+
 #response {
   color: white;
   font-size: 20px;
   padding: 10px;
 }
+
 .center5 {
   /* position: absolute; */
   text-align: center;
@@ -45,12 +50,15 @@ div {
   /* transform: translate(-50%, 0); */
   /* background-color: rgb(0, 0, 0, 1); */
 }
+
 .contact {
   font-size: 30px;
 }
+
 .gentlepadding {
   padding-top: 30%;
 }
+
 .flex2 {
   display: flex;
   flex-direction: column;
@@ -59,18 +67,23 @@ div {
   align-items: center;
   align-self: center;
   margin: 0 auto;
-  /*min-width:100%*/ /*margin-top:50px*/ /*margin:auto*/
+  /*min-width:100%*/
+  /*margin-top:50px*/
+  /*margin:auto*/
   width: 100%;
 }
+
 .copyright {
   font-size: 12px;
   color: #999999;
 }
+
 .icons2 {
   display: flex;
   padding: 10px;
   margin: auto;
 }
+
 .icon2 {
   width: 20px;
   height: 20px;
@@ -81,6 +94,7 @@ div {
   text-align: center;
   box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.25);
 }
+
 .icon2:hover {
   background-color: #aaaaaa;
   border: 3px solid #aaaaaa;
@@ -97,6 +111,7 @@ div {
   transform: translate(-50%, -50%);
   z-index: 0;
 }
+
 .button2:after {
   content: "";
   position: absolute;
@@ -107,23 +122,28 @@ div {
   transition: 0.5s;
   font-weight: bold;
 }
+
 .button2:hover:after {
   /* margin-left:5px; */
   width: 100%;
 }
+
 .button2 {
   /* width: 80%; */
   cursor: grab;
   position: relative;
   font-size: 15px;
 }
+
 .button2:hover {
   color: #bbbbbb;
 }
+
 .button2container {
   width: 110px;
   margin: 0 auto;
 }
+
 .button {
   margin: 10px;
   padding: 10px;
@@ -137,18 +157,20 @@ div {
   cursor: grab;
   transition: 0.3s;
   font-size: 16px;
-  background-color: black;
+  background-color: rgb(255, 255, 255, 0.2);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
+
 .button:hover {
   color: black;
   opacity: 1;
   /* width: 55%; */
-  background-color: white;
+  background-color: rgb(255, 255, 255, 1);
   font-size: 14px;
 }
+
 .contactname {
   margin: 5px 10px 30px 10px;
   font-size: 18px;
@@ -162,6 +184,7 @@ div {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
+
 .contactemail {
   margin: 5px 10px 30px 10px;
   font-size: 18px;
@@ -175,6 +198,7 @@ div {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
+
 .contactmessage {
   resize: none;
 
@@ -192,6 +216,7 @@ div {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
+
 @media only screen and (min-height: 550px) and (max-height: 600px) and (min-width: 300px) and (max-width: 350px) {
   .contact {
     color: white;
@@ -200,9 +225,11 @@ div {
     height: 100%;
     z-index: 0;
   }
+
   .gentlepadding {
     padding-top: 30px;
   }
+
   .button {
     margin: 10px;
     padding: 10px;
@@ -214,8 +241,9 @@ div {
     cursor: grab;
     transition: 0.2s;
     font-size: 16px;
-    background-color: black;
+    background-color: rgb(255, 255, 255, 0.2);
   }
+
   .contactname {
     margin: 5px 10px 30px 10px;
     font-size: 14px;
@@ -229,6 +257,7 @@ div {
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
   }
+
   .contactemail {
     margin: 5px 10px 30px 10px;
     font-size: 14px;
@@ -242,6 +271,7 @@ div {
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
   }
+
   .contactmessage {
     resize: none;
 
@@ -259,6 +289,7 @@ div {
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
   }
+
   .center5 {
     /* position: absolute; */
     text-align: center;
@@ -272,6 +303,7 @@ div {
     /* background-color: rgb(0, 0, 0, 1); */
   }
 }
+
 @media only screen and (min-height: 600px) and (max-height: 725px) and (min-width: 350px) and (max-width: 400px) {
   /* .contact {
     color: white;
@@ -345,6 +377,7 @@ div {
       "Helvetica Neue", sans-serif;
   } */
 }
+
 @media only screen and (min-height: 725px) and (max-height: 800px) and (min-width: 370px) and (max-width: 420px) {
   /* .contact {
     color: white;
@@ -418,6 +451,7 @@ div {
       "Helvetica Neue", sans-serif;
   } */
 }
+
 @media only screen and (min-height: 800px) and (max-height: 850px) and (min-width: 370px) and (max-width: 420px) {
   .contact {
     color: white;
@@ -426,6 +460,7 @@ div {
     height: 100%;
     z-index: 0;
   }
+
   .center5 {
     text-align: center;
     margin: auto;
@@ -433,9 +468,11 @@ div {
     flex-direction: column;
     width: 250px;
   }
+
   .gentlepadding {
     padding-top: 50px;
   }
+
   .button {
     margin: 10px;
     padding: 10px;
@@ -447,8 +484,9 @@ div {
     cursor: grab;
     transition: 0.2s;
     font-size: 16px;
-    background-color: black;
+    background-color: rgb(255, 255, 255, 0.2);
   }
+
   .contactname {
     margin: 5px 10px 30px 10px;
     font-size: 14px;
@@ -462,6 +500,7 @@ div {
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
   }
+
   .contactemail {
     margin: 5px 10px 30px 10px;
     font-size: 14px;
@@ -476,6 +515,7 @@ div {
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
   }
+
   .contactmessage {
     resize: none;
 
@@ -494,6 +534,7 @@ div {
       "Helvetica Neue", sans-serif;
   }
 }
+
 @media only screen and (min-width: 370px) and (max-width: 900px) {
   .contact {
     color: white;
@@ -502,6 +543,7 @@ div {
     height: 100%;
     z-index: 0;
   }
+
   .center5 {
     text-align: center;
     margin: auto;
@@ -509,9 +551,11 @@ div {
     flex-direction: column;
     width: 250px;
   }
+
   .gentlepadding {
     padding-top: 50px;
   }
+
   .button {
     margin: 10px;
     padding: 10px;
@@ -523,8 +567,9 @@ div {
     cursor: grab;
     transition: 0.2s;
     font-size: 16px;
-    background-color: black;
+    background-color: rgb(255, 255, 255, 0.2);
   }
+
   .contactname {
     margin: 5px 10px 30px 10px;
     font-size: 14px;
@@ -538,6 +583,7 @@ div {
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
   }
+
   .contactemail {
     margin: 5px 10px 30px 10px;
     font-size: 14px;
@@ -552,6 +598,7 @@ div {
       "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
   }
+
   .contactmessage {
     resize: none;
     font-size: 14px;
