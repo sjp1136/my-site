@@ -10,7 +10,7 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
-import Carousel, { Modal, ModalGateway } from 'react-images';
+import Carousel, { Modal, ModalGateway } from "react-images";
 
 import Gallery from "react-photo-gallery";
 
@@ -129,26 +129,23 @@ function Misc() {
     //   src: require("../images/group2.jpg"),
     //   width: 3,
     //   height: 2
-
     // },
     // {
     //   src: require("../images/group3.jpg"),
     //   width: 3,
     //   height: 2
-
     // },
     // {
     //   src: require("../images/group5.jpg"),
     //   width: 6,
     //   height: 4
-
     // }
   ];
   const nature2 = [
     {
-      src: require("../images/nature3.JPG"),
+      src: require("../images/nature3.jpeg"),
       width: 5,
-      height: 7
+      height: 5,
     },
     // {
     //   src: require("../images/nature4.JPG"),
@@ -156,14 +153,14 @@ function Misc() {
     //   height: 7
     // },
     {
-      src: require("../images/uva_fall.jpg"),
-      width: 5,
-      height: 4
+      src: require("../images/vw11.jpeg"),
+      width: 6,
+      height: 4,
     },
     {
-      src: require("../images/nature1.JPG"),
+      src: require("../images/vw6.jpeg"),
       width: 3,
-      height: 2
+      height: 2,
     },
 
     // {
@@ -171,60 +168,55 @@ function Misc() {
     //   width: 5,
     //   height: 4
     // },
-
-
   ];
   const touring2 = [
-
     {
-      src: require("../images/touring.JPG"),
-      width: 7,
-      height: 5
+      src: require("../images/nature4.jpeg"),
+      width: 4,
+      height: 4,
     },
     {
-      src: require("../images/touring2.JPG"),
+      src: require("../images/touring22.jpeg"),
       width: 5,
-      height: 7
+      height: 7,
     },
     {
-      src: require("../images/2.JPG"),
+      src: require("../images/flower.jpeg"),
       width: 5,
-      height: 7
+      height: 7,
     },
     {
       src: require("../images/touring.jpeg"),
       width: 7,
-      height: 5
+      height: 5,
     },
 
     {
-      src: require("../images/5.JPG"),
+      src: require("../images/vw1.jpeg"),
       width: 5,
-      height: 7
+      height: 7,
     },
     {
-      src: require("../images/7.JPG"),
+      src: require("../images/nature2.jpeg"),
       width: 7,
-      height: 5
+      height: 5,
     },
     {
-      src: require("../images/6.JPG"),
+      src: require("../images/6.jpeg"),
       width: 7,
-      height: 5
+      height: 5,
     },
-
-
   ];
   const friends = [
     {
       src: require("../images/summer_picnic.JPG"),
       width: 5,
-      height: 7
+      height: 7,
     },
     {
       src: require("../images/summer_hike.JPG"),
       width: 7,
-      height: 5
+      height: 5,
     },
 
     {
@@ -270,9 +262,10 @@ function Misc() {
           <div className="subhead" />
         </Slide>
         <div className="quote2">
-          “Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken.”          </div>
+          “Though one may be overpowered, two can defend themselves. A cord of
+          three strands is not quickly broken.”{" "}
+        </div>
         <div className="author2">Ecclesiastes 4:12</div>
-
       </Typography>
       <div className="misccontainer">
         {/* <Fade delay="200">
@@ -297,7 +290,7 @@ function Misc() {
               </GridList>
             </Slide>
           </Fade> */}
-        <Fade >
+        <Fade>
           <div className="gallery">
             <Gallery photos={src} onClick={openLightbox} />
           </div>
@@ -306,21 +299,18 @@ function Misc() {
               <Modal onClose={closeLightbox}>
                 <Carousel
                   currentIndex={currentImage}
-                  views={src.map(x => ({
+                  views={src.map((x) => ({
                     ...x,
                     srcset: x.srcSet,
-                    caption: x.title
+                    caption: x.title,
                   }))}
                 />
-
               </Modal>
             ) : null}
           </ModalGateway>
         </Fade>
-
       </div>
     </div>
   );
-
 }
 export default Misc;

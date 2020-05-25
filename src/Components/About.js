@@ -81,7 +81,7 @@ export default class About extends Component {
               <Fade delay="100">
                 <div className="paper">
                   <img
-                    src={require("../images/me4.JPG")}
+                    src={require("../images/me4.jpeg")}
                     className="aboutpic"
                   />
 
