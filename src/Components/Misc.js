@@ -31,127 +31,15 @@ function Misc() {
     setCurrentImage(0);
     setViewerIsOpen(false);
   };
-  // const gcf = [
-  //   {
-  //     img: require("../images/group1.jpg"),
-  //     author: "SJP",
-  //     cols: 2.6
-  //   },
-  //   {
-  //     img: require("../images/group2.jpg"),
-  //     author: "SJP",
-  //     cols: 2.4
-  //   },
-  //   {
-  //     img: require("../images/group3.jpg"),
-  //     author: "SJP",
-  //     cols: 2.5
-  //   },
-  //   {
-  //     img: require("../images/group5.jpg"),
-  //     author: "SJP",
-  //     cols: 2.5
-  //   }
-  // ];
-  // const vw = [
-  //   {
-  //     img: require("../images/vw1.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 1
-  //   },
-  //   {
-  //     img: require("../images/vw14.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 2
-  //   },
 
-  //   {
-  //     img: require("../images/vw11.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 2
-  //   },
-  // ];
-
-  // const touring = [
-  //   {
-  //     img: require("../images/touring.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 2
-  //   },
-  //   {
-  //     img: require("../images/touring.jpeg"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 2
-  //   },
-  //   {
-  //     img: require("../images/touring2.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 1
-  //   }
-  // ];
-
-  // const nature = [
-  //   {
-  //     img: require("../images/nature3.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 1
-  //   },
-  //   {
-  //     img: require("../images/nature1.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 2
-  //   },
-  //   {
-  //     img: require("../images/nature2.JPG"),
-  //     title: "VW",
-  //     author: "SJP",
-  //     cols: 2
-  //   }
-
-  // ];
-  // const img = gcf.concat(nature.concat(touring.concat(vw)));
-
-  const gcf2 = [
-    // {
-    //   src: require("../images/group1.jpg"),
-    //   width: 4,
-    //   height: 2
-    // },
-    // {
-    //   src: require("../images/group2.jpg"),
-    //   width: 3,
-    //   height: 2
-    // },
-    // {
-    //   src: require("../images/group3.jpg"),
-    //   width: 3,
-    //   height: 2
-    // },
-    // {
-    //   src: require("../images/group5.jpg"),
-    //   width: 6,
-    //   height: 4
-    // }
-  ];
+  const gcf2 = [];
   const nature2 = [
     {
       src: require("../images/nature3.jpeg"),
       width: 5,
       height: 5,
     },
-    // {
-    //   src: require("../images/nature4.JPG"),
-    //   width: 5,
-    //   height: 7
-    // },
+
     {
       src: require("../images/vw11.jpeg"),
       width: 6,
@@ -162,12 +50,6 @@ function Misc() {
       width: 3,
       height: 2,
     },
-
-    // {
-    //   src: require("../images/nature8.JPG"),
-    //   width: 5,
-    //   height: 4
-    // },
   ];
   const touring2 = [
     {
@@ -230,24 +112,6 @@ function Misc() {
       height: 5,
     },
   ];
-  // const vw2 = [
-  //   {
-  //     src: require("../images/vw1.JPG"),
-  //     width: 5,
-  //     height: 7
-  //   },
-  //   {
-  //     src: require("../images/vw14.JPG"),
-  //     width: 7,
-  //     height: 5
-  //   },
-
-  //   {
-  //     src: require("../images/vw3.JPG"),
-  //     width: 7,
-  //     height: 5,
-  //   },
-  // ];
 
   const src = gcf2.concat(nature2.concat(friends.concat(touring2)));
   const height = 300;
@@ -262,10 +126,10 @@ function Misc() {
           <div className="subhead" />
         </Slide>
         <div className="quote2">
-          “Though one may be overpowered, two can defend themselves. A cord of
-          three strands is not quickly broken.”{" "}
+          “The heavens declare the glory of God, and the sky above proclaims his
+          handiwork.”
         </div>
-        <div className="author2">Ecclesiastes 4:12</div>
+        <div className="author2">Psalm 19:1</div>
       </Typography>
       <div className="misccontainer">
         {/* <Fade delay="200">

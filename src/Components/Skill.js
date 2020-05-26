@@ -20,10 +20,11 @@ export default class Skill extends Component {
               <div className="subhead3skill" />
             </Slide>
             <div className="quoteskill">
-              “Don’t let your happiness depend on something you may lose.”
+              “For by you I can run against a troop, and by my God I can leap
+              over a wall.”
             </div>
 
-            <div className="authorskill">-C.S. Lewis</div>
+            <div className="authorskill">Psalm 18:29</div>
           </Typography>
           <div className="containercontainer">
             <div className="container">

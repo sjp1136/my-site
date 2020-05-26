@@ -19,9 +19,9 @@ export default class Project extends Component {
           <Slide left>
             <div className="subhead" />
           </Slide>
+
           <div className="quote2">
-            “Hardships often prepare ordinary people for an extraordinary
-            destiny.”{" "}
+            “Love is unselfishly choosing for another's highest good.”
           </div>
           <div className="author2">-C.S. Lewis</div>
         </Typography>

@@ -39,9 +39,10 @@ export default class About extends Component {
             </Slide>
 
             <div className="quote">
-              “Love is unselfishly choosing for another's highest good.”
+              “Thus the Lord used to speak to Moses face to face, as a man
+              speaks to his friend..”
             </div>
-            <div className="author">-C.S. Lewis</div>
+            <div className="author">Exodus 33:11</div>
           </Typography>
           <div className="flex">
             <div className="paper2">
