@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/unix.fd880ec4.png"
   },
   {
-    "revision": "4277748258e2bda24a33",
+    "revision": "11bca055aa887f87fa29",
     "url": "/my-site/static/css/main.99e13254.chunk.css"
   },
   {
@@ -108,8 +108,8 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/docker.82cbccbf.png"
   },
   {
-    "revision": "4277748258e2bda24a33",
-    "url": "/my-site/static/js/main.42777482.chunk.js"
+    "revision": "11bca055aa887f87fa29",
+    "url": "/my-site/static/js/main.11bca055.chunk.js"
   },
   {
     "revision": "2b07e1a48c31be4f1302e63dffae6d3e",
@@ -188,8 +188,8 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/touring.1dcc607f.jpeg"
   },
   {
-    "revision": "18e383fd5232abd5d03ea3c4b058175f",
-    "url": "/my-site/static/media/vw1.18e383fd.jpeg"
+    "revision": "412892e7402860c658833bbcc0c3b785",
+    "url": "/my-site/static/media/yk_audi.412892e7.JPG"
   },
   {
     "revision": "1eff18d48a7eea9ed4de316754323671",
@@ -216,7 +216,7 @@ self.__precacheManifest = [
     "url": "/my-site/static/css/1.e32defc3.chunk.css"
   },
   {
-    "revision": "d24a8aa7b3a134530dab34c62f0080f9",
+    "revision": "c2934f83f7373d2149d737f5dc82fdda",
     "url": "/my-site/index.html"
   }
 ];
