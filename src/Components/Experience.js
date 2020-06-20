@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Typography from "@material-ui/core/Typography";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import Chip from "@material-ui/core/Chip";
 import Fade from "react-reveal/Fade";
@@ -22,10 +22,14 @@ export default class Experience extends Component {
             <Slide right>
               <div className="subhead3" />
             </Slide>
-            <div className="quote">
+            {/* <div className="quote">
               “There are far, far better things ahead than any we leave behind.”
             </div>
-            <div className="author">-C.S. Lewis</div>
+            <div className="author">-C.S. Lewis</div> */}
+            <div className="quote">
+              “Do you believe? You will see greater things than these.”
+            </div>
+            <div className="author">John 1:50</div>
           </Typography>
 
           <VerticalTimeline>

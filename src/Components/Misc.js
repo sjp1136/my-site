@@ -74,9 +74,9 @@ function Misc() {
     },
 
     {
-      src: require("../images/vw1.jpeg"),
-      width: 5,
-      height: 7,
+      src: require("../images/yk_audi.JPG"),
+      width: 7,
+      height: 5,
     },
     {
       src: require("../images/nature2.jpeg"),
