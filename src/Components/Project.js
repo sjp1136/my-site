@@ -7,6 +7,8 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
+import Typewriter from "typewriter-effect";
+
 import "./project.css";
 
 export default class Project extends Component {
@@ -135,7 +137,7 @@ export default class Project extends Component {
               <Grid item>
                 <div className="post">
                   <img
-                    src={require("../images/faceme2.png")}
+                    src={require("../images/faceme.png")}
                     className="height"
                   />
                   <div className="github">

@@ -14,6 +14,7 @@
     "classnames": "^2.2.6",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
     "nodemailer": "^6.4.6",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
@@ -45,7 +46,8 @@
     "react-typist-updated": "^2.0.6",
     "react-vertical-timeline-component": "^2.6.2",
     "reactstrap": "^8.4.1",
-    "typeit": "^6.5.1"
+    "typeit": "^6.5.1",
+    "typewriter-effect": "^2.13.1"
   },
   "scripts": {
     "start": "react-scripts start",

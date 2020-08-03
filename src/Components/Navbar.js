@@ -51,7 +51,7 @@ export default class Navbar extends Component {
               duration={1000}
             >
               <Fade>
-                <div>HOME</div>
+                <div className="nav_underliner">HOME</div>
               </Fade>
             </Link>
             <Link
@@ -63,7 +63,7 @@ export default class Navbar extends Component {
               duration={1000}
             >
               <Fade delay="100">
-                <div>ABOUT</div>
+                <div className="nav_underliner">ABOUT</div>
               </Fade>
             </Link>
             <Link
@@ -75,7 +75,7 @@ export default class Navbar extends Component {
               duration={1000}
             >
               <Fade delay="200">
-                <div>SKILLS</div>
+                <div className="nav_underliner">SKILLS</div>
               </Fade>
             </Link>
             <Link
@@ -88,7 +88,7 @@ export default class Navbar extends Component {
             >
               <Fade delay="300">
                 <div className="projectsname">
-                  <span>PROJECTS</span>
+                  <div className="nav_underliner">PROJECTS</div>
                 </div>
               </Fade>
             </Link>
@@ -101,7 +101,7 @@ export default class Navbar extends Component {
               duration={1000}
             >
               <Fade delay="400">
-                <div className="experiencename">EXPERIENCE</div>
+                <div className="nav_underliner">EXPERIENCE</div>
               </Fade>
             </Link>
             <Link
@@ -113,7 +113,7 @@ export default class Navbar extends Component {
               duration={500}
             >
               <Fade delay="500">
-                <div>MISC</div>
+                <div className="nav_underliner">MISC</div>
               </Fade>
             </Link>
             <Link
@@ -125,16 +125,16 @@ export default class Navbar extends Component {
               duration={500}
             >
               <Fade delay="500">
-                <div className="">CONTACT</div>
+                <div className="nav_underliner">CONTACT</div>
               </Fade>
             </Link>
             <a
-              className="none"
+              className="link none"
               href={require("../files/SungJoonParkResume.pdf")}
               target="SungJoonParkResume.pdf"
             >
               <Fade delay="600">
-                <div className="link">RESUME</div>
+                <div className="nav_underliner">RESUME</div>
               </Fade>
             </a>
           </div>

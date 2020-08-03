@@ -6,6 +6,7 @@ h4,
 p {
   font-weight: 300;
 }
+
 .underline {
   width: 100%;
   margin: 0 auto;
@@ -15,26 +16,30 @@ p {
   z-index: 4;
   opacity: 0.8;
 }
+
 .experience {
   padding-left: 5%;
   padding-right: 5%;
-  min-height: 500px;
   padding-bottom: 5%;
-  background-color: #eeeeee;
+  background-color: rgb(20, 20, 20);
   /* position: relative;
   z-index:0; */
 }
+
 .text3 {
   margin-top: 5px;
   font-size: 13px;
   color: gray;
 }
+
 .color {
   color: white;
 }
+
 .chip {
   padding: 5px 0px 5px 0px;
 }
+
 .experiencesplash1 {
   height: 175%;
   width: 100%;
@@ -69,6 +74,7 @@ p {
   /* filter: grayscale(100%); */
   /* filter: grayscale(50%); */
 }
+
 .timelineavatar4 {
   vertical-align: middle;
   position: absolute;
@@ -82,11 +88,13 @@ p {
   transition: 0.2s ease-in-out;
   transform-origin: center center;
 }
+
 .timelineavatar3 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
+
 .padding {
   transition: 0.3s ease-in-out;
   padding: 10px 10px 10px 10px;
@@ -95,117 +103,152 @@ p {
   background-color: #999999;
   background-color: gray;
 }
+
 .vertical:hover .padding0 {
   background-color: #e32030;
 }
+
 .vertical:hover .padding1 {
   background-color: rgb(51, 81, 133, 1);
 }
+
 .vertical:hover .padding2 {
   background-color: #19b4f3;
 }
+
 .vertical:hover .padding3 {
   background-color: #222222;
 }
+
 .vertical:hover .padding4 {
   background-color: #1f72be;
 }
-.underline0 {
-  background-color: #e32030;
-  margin-left: 2px;
-  height: 1px;
-  width: 0px;
-  transition: 0.3s;
-}
-.underline1 {
-  background-color: rgb(51, 81, 133, 1);
-  margin-left: 2px;
-  height: 1px;
-  width: 0px;
-  transition: 0.3s;
-}
-.underline2 {
-  background-color: #19b4f3;
-  margin-left: 1px;
 
-  height: 1px;
-  width: 0px;
-  transition: 0.3s;
-}
-.underline3 {
-  background-color: #222222;
-  margin-left: 2px;
-
-  height: 1px;
-  width: 0px;
-  transition: 0.3s;
-}
+.underline0,
+.underline1,
+.underline2,
+.underline3,
 .underline4 {
-  background-color: #1f72be;
-  margin-left: 1px;
+  position: relative;
+}
 
-  height: 0px;
-  width: 0px;
-  transition: 0.3s;
+.vertical:hover .underline0:before,
+.vertical:hover .underline1:before,
+.vertical:hover .underline2:before,
+.vertical:hover .underline3:before,
+.vertical:hover .underline4:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
-.vertical:hover .underline0 {
-  width: 162px;
+
+.underline0:before {
+  content: "";
+  position: absolute;
+  width: 160px;
   height: 1px;
+  bottom: 0;
+  left: 0%;
+  background-color: #e32030;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
 }
-.vertical:hover .underline1 {
-  width: 158px;
+
+.underline1:before {
+  content: "";
+  position: absolute;
+  width: 155px;
   height: 1px;
+  bottom: 0;
+  background-color: rgb(51, 81, 133, 1);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
 }
-.vertical:hover .underline2 {
-  width: 243px;
+
+.underline2:before {
+  content: "";
+  position: absolute;
+  width: 239px;
   height: 1px;
+  bottom: 0;
+  background-color: #19b4f3;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
 }
-.vertical:hover .underline3 {
-  width: 65px;
+
+.underline3:before {
+  content: "";
+  position: absolute;
+  width: 64px;
   height: 1px;
+  bottom: 0;
+  background-color: #222222;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
 }
-.vertical:hover .underline4 {
-  width: 87px;
+
+.underline4:before {
+  content: "";
+  position: absolute;
+  width: 83px;
   height: 1px;
+  bottom: 0;
+  background-color: #1f72be;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
 }
+
 .bold0 {
   transition: 0.2s;
   font-size: 16px;
   /* font-weight: 700; */
 }
+
 .vertical:hover .bold0 {
   color: #e32030;
   /* font-weight: 700; */
 }
+
 .bold1 {
   transition: 0.2s;
   font-size: 16px;
   /* font-weight: 700; */
 }
+
 .vertical:hover .bold1 {
   color: rgb(51, 81, 133, 1);
   /* font-weight: 700; */
 }
+
 .bold2 {
   transition: 0.2s;
   font-size: 16px;
 }
+
 .vertical:hover .bold2 {
   color: #19b4f3;
   /* font-weight: 700; */
 }
+
 .bold3 {
   transition: 0.2s;
   font-size: 16px;
 }
+
 .vertical:hover .bold3 {
   color: #222222;
   /* font-weight: 700; */
 }
+
 .bold4 {
   transition: 0.2s;
   font-size: 16px;
 }
+
 .vertical:hover .bold4 {
   color: #1f72be;
   /* font-weight: 700; */
@@ -214,10 +257,12 @@ p {
 .title {
   font-size: 30px;
 }
+
 .none3 {
   text-decoration: none;
   color: white;
 }
+
 .none3:hover {
   color: black;
 }
@@ -226,9 +271,11 @@ p {
   color: #777777;
   font-size: 15px;
 }
+
 .inner {
   box-shadow: 5px 5px 0px 0px black;
 }
+
 .vertical {
   transition: 0.2s;
   opacity: 1;
@@ -237,6 +284,7 @@ p {
 
   /* border-radius: 20px; */
 }
+
 .vertical:hover .timelineavatar {
   vertical-align: middle;
   position: absolute;
@@ -268,6 +316,7 @@ p {
     /* filter: grayscale(100%); */
     /* filter: grayscale(50%); */
   }
+
   .vertical:hover .timelineavatar {
     vertical-align: middle;
     position: absolute;
@@ -280,27 +329,69 @@ p {
     height: 80px;
     /* transform: scale(1.5); */
   }
+
   .vertical:hover .padding {
     transform: scale(1.02);
   }
-  .vertical:hover .underline0 {
-    width: 139px;
+
+  .underline0:before {
+    content: "";
+    position: absolute;
+    width: 129px;
     height: 1px;
+    bottom: 0;
+    left: 0%;
+    background-color: #e32030;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
   }
-  .vertical:hover .underline1 {
-    width: 132px;
+
+  .underline1:before {
+    content: "";
+    position: absolute;
+    width: 124px;
     height: 1px;
+    bottom: 0;
+    background-color: rgb(51, 81, 133, 1);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
   }
-  .vertical:hover .underline2 {
-    width: 204px;
+
+  .underline2:before {
+    content: "";
+    position: absolute;
+    width: 191px;
     height: 1px;
+    bottom: 0;
+    background-color: #19b4f3;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
   }
-  .vertical:hover .underline3 {
-    width: 53px;
+
+  .underline3:before {
+    content: "";
+    position: absolute;
+    width: 51px;
     height: 1px;
+    bottom: 0;
+    background-color: #222222;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
   }
-  .vertical:hover .underline4 {
-    width: 72px;
+
+  .underline4:before {
+    content: "";
+    position: absolute;
+    width: 68px;
     height: 1px;
+    bottom: 0;
+    background-color: #1f72be;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
   }
 }

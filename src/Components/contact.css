@@ -112,27 +112,27 @@ div {
   z-index: 0;
 }
 
-.button2:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  border-bottom: 1px solid currentColor;
-  transition: 0.5s;
-  font-weight: bold;
-}
-
-.button2:hover:after {
-  /* margin-left:5px; */
-  width: 100%;
-}
-
 .button2 {
-  /* width: 80%; */
-  cursor: grab;
   position: relative;
   font-size: 15px;
+}
+
+.button2:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.button2:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0%;
+  background-color: #bbbbbb;
+  visibility: hidden;
+  transform: scaleX(0);
+  width: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
 .button2:hover {

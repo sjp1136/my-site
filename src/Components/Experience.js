@@ -10,6 +10,8 @@ import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import "react-vertical-timeline-component/style.min.css";
+import Typewriter from "typewriter-effect";
+
 import "./experience.css";
 
 export default class Experience extends Component {
@@ -20,13 +22,13 @@ export default class Experience extends Component {
           <Typography variant="h3" className="center">
             <Slide right>EXPERIENCE</Slide>
             <Slide right>
-              <div className="subhead3" />
+              <div className="subhead" />
             </Slide>
             {/* <div className="quote">
               “There are far, far better things ahead than any we leave behind.”
             </div>
             <div className="author">-C.S. Lewis</div> */}
-            <div className="quote">
+            <div className="quote2">
               “Do you believe? You will see greater things than these.”
             </div>
             <div className="author">John 1:50</div>
@@ -46,14 +48,13 @@ export default class Experience extends Component {
             >
               <div className="padding padding0"></div>
               <a className="none2" href="http://appian.com/">
-                <h2 className="vertical-timeline-element-title bold0">
+                <h2 className="vertical-timeline-element-title bold0 underline0">
                   Appian Corporation
                 </h2>
               </a>
 
-              <div className="underline0" />
               <h3 className="vertical-timeline-element-subtitle role">
-                Incoming Software Engineer Intern
+                Software Engineer Intern
               </h3>
               {/* <div className="underline" /> */}
               <div className="text2"></div>
@@ -83,12 +84,11 @@ export default class Experience extends Component {
                 className="none2"
                 href="http://www.volkswagengroupofamerica.com/"
               >
-                <h2 className="vertical-timeline-element-title bold1">
+                <h2 className="vertical-timeline-element-title bold1 underline1">
                   Volkswagen Credit
                 </h2>
               </a>
 
-              <div className="underline1" />
               <h3 className="vertical-timeline-element-subtitle role">
                 Software Developer Intern
               </h3>
@@ -123,12 +123,10 @@ export default class Experience extends Component {
                 <Chip label="D3.js" clickable color="basic" />
               </div>
               <a className="none2" href="http://www.ridgebacknet.com/">
-                <h2 className="vertical-timeline-element-title bold2">
+                <h2 className="vertical-timeline-element-title bold2 underline2">
                   Ridgeback Network Defense
                 </h2>
               </a>
-
-              <div className="underline2" />
 
               <h3 className="vertical-timeline-element-subtitle role">
                 Javascript Developer Intern (Remote)
@@ -163,11 +161,10 @@ export default class Experience extends Component {
                 <Chip label="BeautifulSpoon" clickable color="basic" />
               </div>
               <a className="none2" href="http://www.tucows.com/">
-                <h2 className="vertical-timeline-element-title bold3">
+                <h2 className="vertical-timeline-element-title bold3 underline3">
                   Tucows
                 </h2>
               </a>
-              <div className="underline3" />
 
               <h3 className="vertical-timeline-element-subtitle role">
                 Software Engineering Intern
@@ -203,12 +200,10 @@ export default class Experience extends Component {
                 <Chip label="RestAPI" clickable color="basic" />
               </div>
               <a className="none2" href="http://www.hackcville.com/">
-                <h2 className="vertical-timeline-element-title bold4">
+                <h2 className="vertical-timeline-element-title bold4 underline4">
                   Hackcville
                 </h2>
               </a>
-
-              <div className="underline4" />
 
               <h3 className="vertical-timeline-element-subtitle role">
                 Software Engineering Intern

@@ -22,6 +22,7 @@ import Slide from "react-reveal/Slide";
 import Navbar from "./Navbar";
 import Drawer from "react-motion-drawer";
 import { Parallax } from "react-scroll-parallax";
+import Typewriter from "typewriter-effect";
 
 import "./about.css";
 
@@ -35,10 +36,10 @@ export default class About extends Component {
           <Typography variant="h3" className="center">
             <Slide left>ABOUT ME</Slide>
             <Slide left>
-              <div className="subhead3" />
+              <div className="subhead" />
             </Slide>
 
-            <div className="quote">
+            <div className="quote2">
               “Thus the Lord used to speak to Moses face to face, as a man
               speaks to his friend..”
             </div>
@@ -89,12 +90,10 @@ export default class About extends Component {
                   <div className="blackglass">
                     <h2 className="who">WHO AM I?</h2>
                     <p className="p">
-                      I am a 3rd year student studying at the{" "}
-                      <a href="https://www.virginia.edu/" className="none4 p">
-                        University of Virginia
-                      </a>
-                      , majoring in Computer Science & Statistics in the School
-                      of Engineering. I am a incoming SWE Intern at&nbsp;
+                      I am a 3rd year student studying at the University of
+                      Virginia , majoring in Computer Science & Statistics in
+                      the School of Engineering. I am a incoming SWE Intern
+                      at&nbsp;
                       <a href="http://appian.com/" className="none4 p">
                         Appian Corporation
                       </a>

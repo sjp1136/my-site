@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./contact.css";
+import "./contact_fireworks.css";
 import "./home.css";
 
 import Typography from "@material-ui/core/Typography";
@@ -27,8 +28,8 @@ export default class Contact extends Component {
       data: {
         name: name,
         email: email,
-        message: message
-      }
+        message: message,
+      },
     });
     // .then(response => {
     //   if (response.data.msg === "success") {
@@ -38,7 +39,8 @@ export default class Contact extends Component {
     //     document.getElementById("response").innerHTML = "Failed to submit!";
     //   }
     // });
-    document.getElementById("response").innerHTML = "Submitted! Thank you for visiting my page!";
+    document.getElementById("response").innerHTML =
+      "Submitted! Thank you for visiting my page!";
     this.resetForm();
   }
 
@@ -49,6 +51,10 @@ export default class Contact extends Component {
     return (
       <div>
         <div className="contact" id="contact">
+          <div className="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+          </div>
           <div className="center5">
             <Typography variant="h3" className="gentlepadding">
               <Fade bottom>CONTACT</Fade>
@@ -56,7 +62,9 @@ export default class Contact extends Component {
                 <div className="subhead" />
               </Fade>
               <div id="response">
-              "Give thanks to the Lord, for He is good; His love endures forever." <br/><br/>  Psalm 118:1
+                "Give thanks to the Lord, for He is good; His love endures
+                forever." <br />
+                <br /> Psalm 118:1
               </div>
             </Typography>
             <form

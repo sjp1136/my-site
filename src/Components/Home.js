@@ -14,6 +14,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Parallax } from "react-scroll-parallax";
 
 import Navbar from "./Navbar";
+import Typewriter from "typewriter-effect";
 import "animate.css/animate.min.css";
 import "./home.css";
 
@@ -34,7 +35,16 @@ export default class Home extends Component {
             <div className="subhead0" />
           </Fade>
           <Fade bottom delay="300">
-            <div className="name2">PHILIPPIANS 1:6 | CS STUDENT @ UVA</div>
+            <div className="name2">
+              <Typewriter
+                options={{
+                  strings: ["John 17:17", "Philippians 1:6"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              ></Typewriter>
+              CS STUDENT @ UVA
+            </div>
           </Fade>
 
           <div className="icons">

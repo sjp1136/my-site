@@ -16,7 +16,6 @@ class App extends Component {
     return (
       <ParallaxProvider>
         <Home />
-        {/* <Navbar /> */}
         <About />
         <Skill />
         <Project />
