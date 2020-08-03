@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/unix.fd880ec4.png"
   },
   {
-    "revision": "c1d5a808b6d9ac737f31",
-    "url": "/my-site/static/css/main.99e13254.chunk.css"
+    "revision": "35162c22db4ac40ff211",
+    "url": "/my-site/static/css/main.fcbc35fc.chunk.css"
   },
   {
     "revision": "b81fd0e9b82750adcafa04749d3ef9ab",
     "url": "/my-site/static/media/summer_beach.b81fd0e9.jpg"
   },
   {
-    "revision": "a989fdf53dcac5f2a927",
-    "url": "/my-site/static/js/1.a989fdf5.chunk.js"
+    "revision": "888556e8979f8b288106",
+    "url": "/my-site/static/js/1.888556e8.chunk.js"
   },
   {
     "revision": "5c22e95fac8b423985b8",
@@ -108,12 +108,8 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/docker.82cbccbf.png"
   },
   {
-    "revision": "c1d5a808b6d9ac737f31",
-    "url": "/my-site/static/js/main.c1d5a808.chunk.js"
-  },
-  {
-    "revision": "2b07e1a48c31be4f1302e63dffae6d3e",
-    "url": "/my-site/static/media/coding.2b07e1a4.jpg"
+    "revision": "35162c22db4ac40ff211",
+    "url": "/my-site/static/js/main.35162c22.chunk.js"
   },
   {
     "revision": "92313ec2069639add6a161f53dbc91fe",
@@ -128,8 +124,8 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/trenchtekb.e8aa4acd.png"
   },
   {
-    "revision": "61b341cff95e0d84e8c7947ad129ea30",
-    "url": "/my-site/static/media/faceme2.61b341cf.png"
+    "revision": "53617b15152f76f06934f4ebcb382db0",
+    "url": "/my-site/static/media/faceme.53617b15.png"
   },
   {
     "revision": "a6ddd406636d223b96cc9b3b6708ef9f",
@@ -212,11 +208,11 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/chapel_friends.4cc3d86a.jpg"
   },
   {
-    "revision": "a989fdf53dcac5f2a927",
-    "url": "/my-site/static/css/1.e32defc3.chunk.css"
+    "revision": "888556e8979f8b288106",
+    "url": "/my-site/static/css/1.086b62f0.chunk.css"
   },
   {
-    "revision": "c13b1d6cc2f498d635b0efbd63132307",
+    "revision": "526c6f16a55edab81bb547ac0a065009",
     "url": "/my-site/index.html"
   }
 ];
