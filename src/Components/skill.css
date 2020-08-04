@@ -92,6 +92,8 @@
   padding-left: 10%;
   padding-right: 10%;
   background-color: rgb(20, 20, 20);
+  /* position: relative; */
+  z-index: 1;
 }
 
 .container {

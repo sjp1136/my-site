@@ -125,7 +125,7 @@ export default class Navbar extends Component {
               duration={500}
             >
               <Fade delay="500">
-                <div className="nav_underliner">CONTACT</div>
+                <div className="nav_underliner">CHECK-IN</div>
               </Fade>
             </Link>
             <a

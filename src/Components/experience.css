@@ -22,8 +22,7 @@ p {
   padding-right: 5%;
   padding-bottom: 5%;
   background-color: rgb(20, 20, 20);
-  /* position: relative;
-  z-index:0; */
+  z-index: 2;
 }
 
 .text3 {
@@ -45,7 +44,7 @@ p {
   width: 100%;
   position: absolute;
   opacity: 0.2;
-  z-index: 0;
+  z-index: 1;
 }
 
 .experiencesplash2 {
@@ -54,7 +53,7 @@ p {
   width: 100%;
   position: absolute;
   opacity: 1;
-  z-index: 0;
+  z-index: 1;
 }
 
 .timelineavatar {

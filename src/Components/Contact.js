@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./contact.css";
 import "./contact_fireworks.css";
 import "./home.css";
+import "./contact_bubbles.css";
 
 import Typography from "@material-ui/core/Typography";
 
@@ -12,25 +13,75 @@ import Slide from "react-reveal/Slide";
 import ReactSimpleTooltip from "react-simple-tooltip";
 import { Link, animateScroll as scroll } from "react-scroll";
 import axios from "axios";
+import firebase from "./Firebase";
 
 // https://ciunkos.com/creating-contact-forms-with-nodemailer-and-react
 export default class Contact extends Component {
+  constructor() {
+    super();
+    this.state = {
+      people: [],
+    };
+  }
+  componentDidMount() {
+    const rootRef = firebase.database();
+    const usernameRef = rootRef.ref("people");
+
+    usernameRef.on("value", (snapshot) => {
+      var a = [];
+      snapshot.forEach(function(childSnapshot) {
+        a.push(childSnapshot.val());
+      });
+      this.setState({
+        people: a,
+      });
+    });
+  }
   handleSubmit(e) {
     e.preventDefault();
-    // document.getElementById("response").innerHTML = "Please wait a few seconds..";
+    document.getElementById("response").innerHTML =
+      "Please wait a few seconds..";
 
     const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
+    // const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
-    axios({
-      method: "POST",
-      url: "https://fathomless-reaches-11670.herokuapp.com/send",
-      data: {
-        name: name,
-        email: email,
-        message: message,
-      },
+    var today = new Date();
+    const date =
+      today.getFullYear() +
+      "-" +
+      (today.getMonth() + 1) +
+      "-" +
+      today.getDate();
+    this.state.people.push({
+      name: name,
+      message: message,
+      date: date,
     });
+    var size = this.state.people.length;
+    if (size > 10) {
+      firebase
+        .database()
+        .ref()
+        .set({
+          people: this.state.people.slice(1, size),
+        });
+    } else {
+      firebase
+        .database()
+        .ref()
+        .set({
+          people: this.state.people,
+        });
+    }
+    // axios({
+    //   method: "POST",
+    //   url: "https://fathomless-reaches-11670.herokuapp.com/send",
+    //   data: {
+    //     name: name,
+    //     email: email,
+    //     message: message,
+    //   },
+    // });
     // .then(response => {
     //   if (response.data.msg === "success") {
     //     document.getElementById("response").innerHTML = "Submitted!";
@@ -51,13 +102,35 @@ export default class Contact extends Component {
     return (
       <div>
         <div className="contact" id="contact">
+          <div id="background-wrap">
+            {this.state.people.map(function(people, index) {
+              var name = "bubble x" + (index + 1);
+              if (index + 1 <= 10) {
+                return (
+                  <div className={name}>
+                    <strong>{index + 1}) </strong>
+                    <q>
+                      <strong>{people.message}</strong>
+                    </q>
+                    <div>
+                      from <strong>{people.name}</strong> on{" "}
+                      <strong> {people.date}</strong>
+                    </div>
+                  </div>
+                );
+              }
+            })}
+
+            <div className="panel"></div>
+          </div>
+
           <div className="pyro">
             <div class="before"></div>
             <div class="after"></div>
           </div>
           <div className="center5">
             <Typography variant="h3" className="gentlepadding">
-              <Fade bottom>CONTACT</Fade>
+              <Fade bottom>VISITOR CHECK-IN</Fade>
               <Fade bottom>
                 <div className="subhead" />
               </Fade>
