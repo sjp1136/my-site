@@ -108,7 +108,7 @@ export default class Contact extends Component {
               if (index + 1 <= 10) {
                 return (
                   <div className={name}>
-                    <strong>{index + 1}) </strong>
+                    <strong>#{index + 1} </strong>
                     <q>
                       <strong>{people.message}</strong>
                     </q>
@@ -169,11 +169,12 @@ export default class Contact extends Component {
                 <textarea
                   id="message"
                   type="text"
-                  rows="4"
-                  cols="20"
+                  rows="2"
+                  cols="15"
                   placeholder="Message"
                   className="contactmessage"
                   wrap="hard"
+                  maxlength="150"
                 />
               </Fade>
               <Fade top delay="200">

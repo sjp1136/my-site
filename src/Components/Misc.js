@@ -13,7 +13,7 @@ import Slide from "react-reveal/Slide";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 import Gallery from "react-photo-gallery";
-
+import "./clouds.css";
 import "./misc.css";
 
 // export default class Misc extends Component {
@@ -119,7 +119,6 @@ function Misc() {
   return (
     <div class="misc" id="misc">
       <div className="background2" />
-
       <Typography variant="h3" className="center1">
         <Slide left>PHOTOS</Slide>
         <Slide left>
@@ -132,28 +131,6 @@ function Misc() {
         <div className="author2">Psalm 19:1</div>
       </Typography>
       <div className="misccontainer">
-        {/* <Fade delay="200">
-            <Slide bottom>
-              <GridList cellHeight={height} className="overflow" cols={5}>
-                {img.map(tile => (
-                  <GridListTile key={tile.img} cols={tile.cols || 1}>
-                    <div className="picture">
-                      <div className="picture3">
-                        <a className="none2" href={tile.img} target="_blank">
-                          <div className="download">VIEW</div>
-                        </a>
-                      </div>
-                      <img
-                        src={tile.img}
-                        alt={tile.title}
-                        className="picture2"
-                      />
-                    </div>
-                  </GridListTile>
-                ))}
-              </GridList>
-            </Slide>
-          </Fade> */}
         <Fade>
           <div className="gallery">
             <Gallery photos={src} onClick={openLightbox} />
