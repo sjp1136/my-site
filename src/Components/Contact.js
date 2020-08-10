@@ -130,7 +130,7 @@ export default class Contact extends Component {
           </div>
           <div className="center5">
             <Typography variant="h3" className="gentlepadding">
-              <Fade bottom>VISITOR CHECK-IN</Fade>
+              <Fade bottom>CHECK-IN</Fade>
               <Fade bottom>
                 <div className="subhead" />
               </Fade>
