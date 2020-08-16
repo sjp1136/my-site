@@ -226,6 +226,7 @@ div {
     width: 100%;
     height: 100%;
     z-index: 0;
+    overflow-x: hidden;
   }
 
   .gentlepadding {
@@ -461,6 +462,7 @@ div {
     width: 100%;
     height: 100%;
     z-index: 0;
+    overflow-x: hidden;
   }
 
   .center5 {
@@ -544,6 +546,7 @@ div {
     width: 100%;
     height: 100%;
     z-index: 0;
+    overflow-x: hidden;
   }
 
   .center5 {

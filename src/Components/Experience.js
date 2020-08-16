@@ -46,18 +46,35 @@ export default class Experience extends Component {
                 />
               }
             >
-              <div className="padding padding0"></div>
+              <div className="padding padding0">
+                <Chip label="SAIL" clickable color="basic" />
+                &nbsp;
+                <Chip label="Java" clickable color="basic" />
+                &nbsp;
+                <Chip label="Javascript" clickable color="basic" />
+                &nbsp;
+                <Chip label="Jenkins" clickable color="basic" />
+                &nbsp;
+                <Chip label="Agile" clickable color="basic" />
+              </div>
               <a className="none2" href="http://appian.com/">
                 <h2 className="vertical-timeline-element-title bold0 underline0">
                   Appian Corporation
                 </h2>
               </a>
-
               <h3 className="vertical-timeline-element-subtitle role">
                 Software Engineer Intern
               </h3>
               {/* <div className="underline" /> */}
-              <div className="text2"></div>
+              <div className="text2">
+                I helped build and improve on features that facilitated the use
+                of the bulk execute test cases on the Appian Designer. I also
+                created the generic metrics collector to improve performance of
+                bulk execute test cases and improved quality of use through
+                recommendations on the Appian Process Model. Gained experience
+                using SAIL, Java, Javascript, and Jenkins in an agile
+                development setting.
+              </div>
               <div className="text3">Summer 2020</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -155,10 +172,6 @@ export default class Experience extends Component {
                 <Chip label="Python" clickable color="basic" />
                 &nbsp;
                 <Chip label="jQuery" clickable color="basic" />
-                &nbsp;
-                <Chip label="Selenium" clickable color="basic" />
-                &nbsp;
-                <Chip label="BeautifulSpoon" clickable color="basic" />
               </div>
               <a className="none2" href="http://www.tucows.com/">
                 <h2 className="vertical-timeline-element-title bold3 underline3">
@@ -196,8 +209,6 @@ export default class Experience extends Component {
                 <Chip label="React" clickable color="basic" />
                 &nbsp;
                 <Chip label="Firebase" clickable color="basic" />
-                &nbsp;
-                <Chip label="RestAPI" clickable color="basic" />
               </div>
               <a className="none2" href="http://www.hackcville.com/">
                 <h2 className="vertical-timeline-element-title bold4 underline4">

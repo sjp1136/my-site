@@ -62,7 +62,7 @@ export default class About extends Component {
                       </a>
                     </h2>
                     <div className="p">
-                      3rd Year (School of Engineering) - CS & Statistics, '21.
+                      4th Year (School of Engineering) - CS & Statistics, '21.
                     </div>
                     <p className="p">
                       <strong>Activities:</strong> Grace Christian Fellowship,
@@ -70,9 +70,10 @@ export default class About extends Component {
                     </p>
 
                     <p className="p">
-                      <strong>Coursework:</strong> Machine Learning, Computer
-                      Vision, Internet Scale Applications, Algorithms, Computer
-                      Arhictecture, Program and Data Representation
+                      <strong>Coursework:</strong> Operating Systems, Databases,
+                      Machine Learning, Computer Vision, Internet Scale
+                      Applications, Algorithms, Computer Arhictecture, Data
+                      Structures
                     </p>
                   </div>
                 </div>
@@ -90,10 +91,10 @@ export default class About extends Component {
                   <div className="blackglass">
                     <h2 className="who">WHO AM I?</h2>
                     <p className="p">
-                      I am a 3rd year student studying at the University of
-                      Virginia , majoring in Computer Science & Statistics in
-                      the School of Engineering. I am a incoming SWE Intern
-                      at&nbsp;
+                      I am a 4th year student studying at the University of
+                      Virginia, majoring in Computer Science & Statistics in the
+                      School of Engineering. In the previous summer, I was an
+                      SWE Intern at&nbsp;
                       <a href="http://appian.com/" className="none4 p">
                         Appian Corporation
                       </a>
@@ -108,8 +109,7 @@ export default class About extends Component {
                     </p>
                     <p className="p">
                       Outside of academics, I enjoy hanging out with friends in
-                      my fellowship, playing tennis, playing guitar, and reading
-                      books written by C.S. Lewis.
+                      my fellowship, playing tennis, and playing guitar.
                     </p>
                   </div>
                 </div>
