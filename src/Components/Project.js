@@ -23,9 +23,10 @@ export default class Project extends Component {
           </Slide>
 
           <div className="quote2">
-            “Love is unselfishly choosing for another's highest good.”
+            “Thus the Lord used to speak to Moses face to face, as a man speaks
+            to his friend..”
           </div>
-          <div className="author2">-C.S. Lewis</div>
+          <div className="author2">Exodus 33:11</div>
         </Typography>
 
         <div className="portfoliozindex">

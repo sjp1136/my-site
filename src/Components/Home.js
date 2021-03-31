@@ -25,7 +25,7 @@ export default class Home extends Component {
         <div className="background" />
         <div className="centered">
           <Fade>
-            <img src={require("../images/me.png")} className="me" />
+            <img src={require("../images/me7.jpeg")} className="me" />
           </Fade>
           <Fade bottom>
             <div className="name">SUNG JOON PARK</div>
@@ -126,7 +126,7 @@ export default class Home extends Component {
                 radius={0}
                 zIndex={1}
               >
-                <a href="https://www.linkedin.com/in/sung-joon-park/">
+                <a href="https://www.linkedin.com/in/sjp/">
                   <div className="icon1">
                     <img
                       src={require("../images/linkedin2.png")}

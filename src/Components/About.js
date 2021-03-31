@@ -40,10 +40,9 @@ export default class About extends Component {
             </Slide>
 
             <div className="quote2">
-              “Thus the Lord used to speak to Moses face to face, as a man
-              speaks to his friend..”
+              “Love is unselfishly choosing for another's highest good.”
             </div>
-            <div className="author">Exodus 33:11</div>
+            <div className="author">-C.S. Lewis</div>
           </Typography>
           <div className="flex">
             <div className="paper2">
@@ -62,7 +61,8 @@ export default class About extends Component {
                       </a>
                     </h2>
                     <div className="p">
-                      4th Year (School of Engineering) - CS & Statistics, '21.
+                      4th Year (School of Engineering) - CS, Statistics (Minor),
+                      '21.
                     </div>
                     <p className="p">
                       <strong>Activities:</strong> Grace Christian Fellowship,
@@ -71,9 +71,9 @@ export default class About extends Component {
 
                     <p className="p">
                       <strong>Coursework:</strong> Operating Systems, Databases,
-                      Machine Learning, Computer Vision, Internet Scale
-                      Applications, Algorithms, Computer Arhictecture, Data
-                      Structures
+                      Info Retrieval, Machine Learning, Computer Vision,
+                      Internet Scale Applications, Algorithms, Computer
+                      Architecture, Data Structures
                     </p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export default class About extends Component {
               <Fade delay="100">
                 <div className="paper">
                   <img
-                    src={require("../images/me4.jpeg")}
+                    src={require("../images/me5.jpeg")}
                     className="aboutpic"
                   />
 
@@ -92,9 +92,9 @@ export default class About extends Component {
                     <h2 className="who">WHO AM I?</h2>
                     <p className="p">
                       I am a 4th year student studying at the University of
-                      Virginia, majoring in Computer Science & Statistics in the
-                      School of Engineering. In the previous summer, I was an
-                      SWE Intern at&nbsp;
+                      Virginia, majoring in Computer Science in the School of
+                      Engineering with a minor in Statistics. I am an incoming
+                      software engineer at&nbsp;
                       <a href="http://appian.com/" className="none4 p">
                         Appian Corporation
                       </a>

@@ -32,50 +32,10 @@ function Misc() {
     setViewerIsOpen(false);
   };
 
-  const gcf2 = [];
   const nature2 = [
     {
       src: require("../images/nature3.jpeg"),
       width: 5,
-      height: 5,
-    },
-
-    {
-      src: require("../images/vw11.jpeg"),
-      width: 6,
-      height: 4,
-    },
-    {
-      src: require("../images/vw6.jpeg"),
-      width: 3,
-      height: 2,
-    },
-  ];
-  const touring2 = [
-    {
-      src: require("../images/nature4.jpeg"),
-      width: 4,
-      height: 4,
-    },
-    {
-      src: require("../images/touring22.jpeg"),
-      width: 5,
-      height: 7,
-    },
-    {
-      src: require("../images/flower.jpeg"),
-      width: 5,
-      height: 7,
-    },
-    {
-      src: require("../images/touring.jpeg"),
-      width: 7,
-      height: 5,
-    },
-
-    {
-      src: require("../images/yk_audi.JPG"),
-      width: 7,
       height: 5,
     },
     {
@@ -84,11 +44,27 @@ function Misc() {
       height: 5,
     },
     {
-      src: require("../images/6.jpeg"),
-      width: 7,
+      src: require("../images/nature8.png"),
+      width: 8,
       height: 5,
     },
+    {
+      src: require("../images/nature9.png"),
+      width: 4,
+      height: 5,
+    },
+    // {
+    //   src: require("../images/nature4.jpeg"),
+    //   width: 4,
+    //   height: 4,
+    // },
+    {
+      src: require("../images/flower.jpeg"),
+      width: 5,
+      height: 7,
+    },
   ];
+
   const friends = [
     {
       src: require("../images/summer_picnic.JPG"),
@@ -112,8 +88,35 @@ function Misc() {
       height: 5,
     },
   ];
+  const touring2 = [
+    // {
+    //   src: require("../images/touring22.jpeg"),
+    //   width: 5,
+    //   height: 7,
+    // },
 
-  const src = gcf2.concat(nature2.concat(friends.concat(touring2)));
+    {
+      src: require("../images/touring.jpeg"),
+      width: 7,
+      height: 5,
+    },
+    {
+      src: require("../images/vw11.jpeg"),
+      width: 6,
+      height: 4,
+    },
+    {
+      src: require("../images/vw6.jpeg"),
+      width: 3,
+      height: 2,
+    },
+    {
+      src: require("../images/yk_audi.JPG"),
+      width: 7,
+      height: 5,
+    },
+  ];
+  const src = nature2.concat(friends.concat(touring2));
   const height = 300;
 
   return (

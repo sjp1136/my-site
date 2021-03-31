@@ -265,7 +265,7 @@ export default class Contact extends Component {
                 >
                   <Flip left delay="800" duration="1000">
                     <div className="icon2">
-                      <a href="https://www.linkedin.com/in/sung-joon-park/">
+                      <a href="https://www.linkedin.com/in/sjp/">
                         <img
                           src={require("../images/linkedin2.png")}
                           className="icon3"
