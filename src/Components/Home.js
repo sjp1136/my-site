@@ -22,10 +22,14 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home" id="home">
-        <div className="background" />
+        {/* <div className="background" /> */}
+
+        <video className="background-video" autoPlay loop muted>
+          <source src={require("../videos/sunrise.mp4")} type="video/mp4" />
+        </video>
         <div className="centered">
           <Fade>
-            <img src={require("../images/me7.jpeg")} className="me" />
+            <img src={require("../images/me9.jpeg")} className="me" />
           </Fade>
           <Fade bottom>
             <div className="name">SUNG JOON PARK</div>
@@ -43,128 +47,50 @@ export default class Home extends Component {
                   loop: true,
                 }}
               ></Typewriter>
-              CS STUDENT @ UVA
+              Software Engineer @ Appian
             </div>
           </Fade>
 
           <div className="icons">
             <Flip left delay="400" duration="1000">
-              <ReactSimpleTooltip
-                arrow={15}
-                background="#000"
-                border="#000"
-                color="#fff"
-                content="7035776388"
-                fadeDuration={0}
-                fadeEasing="linear"
-                fixed={false}
-                fontFamily="inherit"
-                fontSize="inherit"
-                offset={0}
-                padding={10}
-                placement="top"
-                radius={0}
-                zIndex={1}
-              >
-                <a href="tel:7035776388">
-                  <div className="icon1">
-                    <img
-                      src={require("../images/phone.png")}
-                      className="icon"
-                    />
-                  </div>
-                </a>
-              </ReactSimpleTooltip>
+              <a href="tel:7035776388">
+                <div className="icon1">
+                  <img src={require("../images/phone.png")} className="icon" />
+                </div>
+              </a>
             </Flip>
 
             <div className="iconpadding" />
             <Flip left delay="600" duration="1000">
-              <ReactSimpleTooltip
-                arrow={15}
-                background="#000"
-                border="#000"
-                color="#fff"
-                content="sp3bk@virginia.edu"
-                fadeDuration={0}
-                fadeEasing="linear"
-                fixed={false}
-                fontFamily="inherit"
-                fontSize="inherit"
-                offset={0}
-                padding={10}
-                placement="top"
-                radius={0}
-                zIndex={1}
-              >
-                <a href="mailto:sp3bk@virginia.edu">
-                  <div className="icon1">
-                    <img
-                      src={require("../images/mail4.png")}
-                      className="icon"
-                    />
-                  </div>
-                </a>
-              </ReactSimpleTooltip>
+              <a href="mailto:mandrew1136@gmail.com">
+                <div className="icon1">
+                  <img src={require("../images/mail4.png")} className="icon" />
+                </div>
+              </a>
             </Flip>
 
             <div className="iconpadding" />
             <Flip left delay="800" duration="1000">
-              <ReactSimpleTooltip
-                arrow={15}
-                background="#000"
-                border="#000"
-                color="#fff"
-                content="linkedin.com/in/sjp/"
-                fadeDuration={0}
-                fadeEasing="linear"
-                fixed={false}
-                fontFamily="inherit"
-                fontSize="inherit"
-                offset={0}
-                padding={10}
-                placement="top"
-                radius={0}
-                zIndex={1}
-              >
-                <a href="https://www.linkedin.com/in/sjp/">
-                  <div className="icon1">
-                    <img
-                      src={require("../images/linkedin2.png")}
-                      className="icon"
-                    />
-                  </div>
-                </a>
-              </ReactSimpleTooltip>
+              <a href="https://www.linkedin.com/in/sjp/">
+                <div className="icon1">
+                  <img
+                    src={require("../images/linkedin2.png")}
+                    className="icon"
+                  />
+                </div>
+              </a>
             </Flip>
 
             <div className="iconpadding" />
             <Flip left delay="1000" duration="1000">
-              <ReactSimpleTooltip
-                arrow={15}
-                background="#000"
-                border="#000"
-                color="#fff"
-                content="github.com/sjp1136/"
-                fadeDuration={0}
-                fadeEasing="linear"
-                fixed={false}
-                fontFamily="inherit"
-                fontSize="inherit"
-                offset={0}
-                padding={10}
-                placement="top"
-                radius={0}
-                zIndex={1}
-              >
-                <a href="http://github.com/sjp1136/">
-                  <div className="icon1">
-                    <img
-                      src={require("../images/github2.svg")}
-                      className="icon"
-                    />
-                  </div>
-                </a>
-              </ReactSimpleTooltip>
+              <a href="http://github.com/sjp1136/">
+                <div className="icon1">
+                  <img
+                    src={require("../images/github2.svg")}
+                    className="icon"
+                  />
+                </div>
+              </a>
             </Flip>
           </div>
         </div>

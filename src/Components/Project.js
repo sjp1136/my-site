@@ -22,11 +22,11 @@ export default class Project extends Component {
             <div className="subhead" />
           </Slide>
 
-          <div className="quote2">
+          {/* <div className="quote2">
             “Thus the Lord used to speak to Moses face to face, as a man speaks
             to his friend..”
-          </div>
-          <div className="author2">Exodus 33:11</div>
+          </div> */}
+          {/* <div className="author2">Exodus 33:11</div> */}
         </Typography>
 
         <div className="portfoliozindex">
@@ -57,12 +57,12 @@ export default class Project extends Component {
                     <div className="used">SHAREIT</div>
                     <div className="description">3TierECommercePlatform</div>
                     <div className="technology django"> DJANGO</div>
-                    <a
+                    {/* <a
                       className="none"
                       href="https://github.com/sjp1136/cs4501-internet-scale"
                     >
                       <div className="centered label">VIEW</div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </Grid>
@@ -93,9 +93,9 @@ export default class Project extends Component {
                     </div>
 
                     <div className="technology django"> DJANGO</div>
-                    <a className="none" href="https://lucky-13.herokuapp.com/">
+                    {/* <a className="none" href="https://lucky-13.herokuapp.com/">
                       <div className="centered label">VIEW</div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </Grid>
@@ -121,12 +121,12 @@ export default class Project extends Component {
                     <div className="used">TRENCHTEK</div>
                     <div className="description">CompanyClientInteraction</div>
                     <div className="technology react"> REACT</div>
-                    <a
+                    {/* <a
                       className="none"
                       href="https://trenchtek.firebaseapp.com/"
                     >
                       <div className="centered label">VIEW</div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </Grid>
@@ -153,12 +153,12 @@ export default class Project extends Component {
                     <div className="used">FACEME</div>
                     <div className="description">YourFBProfile</div>
                     <div className="technology react"> REACT</div>
-                    <a
+                    {/* <a
                       className="none"
                       href="https://github.com/sjp1136/FaceMe-"
                     >
                       <div className="centered label">VIEW</div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </Grid>
@@ -184,14 +184,14 @@ export default class Project extends Component {
                     <div className="used">SNFLASK</div>
                     <div className="description">SocialNetwork</div>
                     <div className="technology flask"> FLASK</div>
-                    <div className="label2">
+                    {/* <div className="label2">
                       <a
                         className="none"
                         href="https://github.com/sjp1136/sn_flask"
                       >
                         <div className="centered label">VIEW</div>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </Grid>
@@ -218,12 +218,12 @@ export default class Project extends Component {
                     <div className="description">ProducitivityTimerApp</div>
 
                     <div className="technology react"> REACT</div>
-                    <a
+                    {/* <a
                       className="none"
                       href="https://pomodoro-18245.firebaseapp.com/login"
                     >
                       <div className="centered label">VIEW</div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </Grid>

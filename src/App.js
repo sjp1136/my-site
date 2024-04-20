@@ -17,10 +17,10 @@ class App extends Component {
       <ParallaxProvider>
         <Home />
         <About />
-        <Skill />
-        <Project />
+        {/* <Skill /> */}
         <Experience />
-        <Misc />
+        <Project />
+        {/* <Misc /> */}
         <Contact />
       </ParallaxProvider>
     );

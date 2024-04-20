@@ -51,14 +51,13 @@
   height: 450px;
   width: 350px;
   overflow: hidden;
-  transition: 0.3s ease;
+  transition: 0.15s ease;
   padding: 0px;
   margin: 0px;
   /* border: 3px solid rgb(0,0,0,0.5); */
   box-shadow: 6px 6px 0px 6px rgb(0, 0, 0, 0.8);
   /* this is the exact culprit */
   display: block;
-
 }
 
 .paper {
@@ -67,7 +66,7 @@
   margin: 0 auto;
   padding: 0;
   font-size: 20px;
-  transition: 0.3s ease;
+  transition: 0.15s ease;
   box-shadow: 20px 20px 0px 0px rgb(0, 0, 0, 0.8);
   overflow: hidden;
   display: block;
@@ -91,9 +90,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.3s ease;
+  transition: 0.15s ease;
   display: block;
-
 }
 
 .paper:hover .blackglass {
@@ -127,7 +125,7 @@
   left: 0;
   width: 0%;
   border-bottom: 1px solid white;
-  transition: 0.5s;
+  transition: 0.15s;
   visibility: hidden;
   transform: scaleX(0);
   width: 100%;
@@ -177,7 +175,7 @@
 }
 
 .vertical2 {
-  transition: 0.2s;
+  transition: 0.15s;
   opacity: 1;
 }
 
@@ -234,7 +232,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  transition: 0.3s;
+  transition: 0.15s;
 }
 
 .timelineavatar2:hover {
@@ -281,7 +279,7 @@
     height: 450px;
     width: 300px;
     /* overflow: hidden; */
-    transition: 0.3s ease;
+    transition: 0.15s ease;
     box-shadow: 6px 6px 0px 6px rgb(0, 0, 0, 0.8);
   }
 
@@ -305,7 +303,7 @@
     /* top: 50%; */
     /* left: 50%; */
     transform: translate(-50%, -50%);
-    transition: 0.3s ease;
+    transition: 0.15s ease;
   }
 
   .paper {

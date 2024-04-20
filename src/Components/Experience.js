@@ -24,14 +24,15 @@ export default class Experience extends Component {
             <Slide right>
               <div className="subhead" />
             </Slide>
-            {/* <div className="quote">
+            <div className="quote2">
               “There are far, far better things ahead than any we leave behind.”
             </div>
-            <div className="author">-C.S. Lewis</div> */}
-            <div className="quote2">
+            &nbsp;
+            {/* <div className="author">-C.S. Lewis</div> */}
+            {/* <div className="quote2">
               “For though a righteous man falls seven times, he rises again."
-            </div>
-            <div className="author">Proverbs 24:16</div>
+            </div> */}
+            {/* <div className="author">Proverbs 24:16</div> */}
           </Typography>
 
           <VerticalTimeline>
@@ -45,18 +46,30 @@ export default class Experience extends Component {
                 />
               }
             >
-              <div className="padding padding0"></div>
+              <div className="padding padding0">
+                <Chip label="Java/Spring" clickable color="basic" />
+                &nbsp;
+                <Chip label="Appian SAIL" clickable color="basic" />
+                &nbsp;
+                <Chip label="Kafka" clickable color="basic" />
+                &nbsp;
+                <Chip label="Elasticsearch" clickable color="basic" />
+                &nbsp;
+                <Chip label="Hibernate" clickable color="basic" />
+                &nbsp;
+                <Chip label="Agile" clickable color="basic" />
+              </div>
               <a className="none2" href="http://appian.com/">
                 <h2 className="vertical-timeline-element-title bold0 underline0">
                   Appian Corporation
                 </h2>
               </a>
               <h3 className="vertical-timeline-element-subtitle role">
-                Incoming Software Engineer
+                Software Engineer II
               </h3>
               {/* <div className="underline" /> */}
               <div className="text2"></div>
-              <div className="text3">Fall 2021</div>
+              <div className="text3">Fall 2021 - Present</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
@@ -70,13 +83,11 @@ export default class Experience extends Component {
               }
             >
               <div className="padding padding0">
-                <Chip label="SAIL" clickable color="basic" />
+                <Chip label="Java/Spring" clickable color="basic" />
                 &nbsp;
-                <Chip label="Java" clickable color="basic" />
+                <Chip label="Appian SAIL" clickable color="basic" />
                 &nbsp;
                 <Chip label="Javascript" clickable color="basic" />
-                &nbsp;
-                <Chip label="Jenkins" clickable color="basic" />
                 &nbsp;
                 <Chip label="Agile" clickable color="basic" />
               </div>
@@ -89,7 +100,7 @@ export default class Experience extends Component {
                 Software Engineer Intern
               </h3>
               {/* <div className="underline" /> */}
-              <div className="text2">
+              {/* <div className="text2">
                 I helped build and improve on features that facilitated the use
                 of the bulk execute test cases on the Appian Designer. I also
                 created the generic metrics collector to improve performance of
@@ -97,7 +108,7 @@ export default class Experience extends Component {
                 recommendations on the Appian Process Model. Gained experience
                 using SAIL, Java, Javascript, and Jenkins in an agile
                 development setting.
-              </div>
+              </div> */}
               <div className="text3">Summer 2020</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -133,7 +144,7 @@ export default class Experience extends Component {
                 Software Developer Intern
               </h3>
               {/* <div className="underline" /> */}
-              <div className="text2">
+              {/* <div className="text2">
                 I integrated and automated deployment of the VCI React
                 application with Docker, AWS (ECR, ECS Fargate, RDS,
                 CloudFormation, CloudFront, CloudWatch, Lambda, S3)​, and
@@ -141,7 +152,7 @@ export default class Experience extends Component {
                 React application. using AWS EKS and Kubernetes and presented to
                 the dev team for future scalability. Gained experience using
                 AWS, Docker, and Kubernetes.
-              </div>
+              </div> */}
               <div className="text3">Summer 2019</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -171,13 +182,13 @@ export default class Experience extends Component {
               <h3 className="vertical-timeline-element-subtitle role">
                 Javascript Developer Intern (Remote)
               </h3>
-              <div className="text2">
+              {/* <div className="text2">
                 I worked on the visualization portion of the network graph on
                 the Ridgeback-Hunter platform using vis.js and also helped build
                 and deploy 13 network visualization widgets using d3.js. Gained
                 my first experience working in pure Javascript application and
                 using the two data visualization libraries, vis.js and d3.js.
-              </div>
+              </div> */}
               <div className="text3">Aug 2018 - Apr 2019</div>
             </VerticalTimelineElement>
             {/* <VerticalTimelineElement
@@ -244,7 +255,7 @@ export default class Experience extends Component {
               <h3 className="vertical-timeline-element-subtitle role">
                 Software Engineering Intern
               </h3>
-              <div className="text2">
+              {/* <div className="text2">
                 This 5-week training program that involved developing functional
                 web applications/software using React, Firebase, and
                 incorporating different REST APIs in agile development teams.
@@ -258,7 +269,7 @@ export default class Experience extends Component {
                 (OrgLink) using Python and shell scripts. The second project I
                 worked on was the site for the building user functionalities on
                 the internet installation team database using jQuery.
-              </div>
+              </div> */}
               <div className="text3">Summer 2018</div>
             </VerticalTimelineElement>
 

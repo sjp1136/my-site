@@ -66,7 +66,7 @@ export default class Navbar extends Component {
                 <div className="nav_underliner">ABOUT</div>
               </Fade>
             </Link>
-            <Link
+            {/* <Link
               className="link"
               activeClassName="active"
               to="skill"
@@ -76,6 +76,18 @@ export default class Navbar extends Component {
             >
               <Fade delay="200">
                 <div className="nav_underliner">SKILLS</div>
+              </Fade>
+            </Link> */}
+            <Link
+              className="link"
+              activeClassName="active"
+              to="experience"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <Fade delay="400">
+                <div className="nav_underliner">EXPERIENCE</div>
               </Fade>
             </Link>
             <Link
@@ -92,19 +104,7 @@ export default class Navbar extends Component {
                 </div>
               </Fade>
             </Link>
-            <Link
-              className="link"
-              activeClassName="active"
-              to="experience"
-              spy={true}
-              smooth={true}
-              duration={1000}
-            >
-              <Fade delay="400">
-                <div className="nav_underliner">EXPERIENCE</div>
-              </Fade>
-            </Link>
-            <Link
+            {/* <Link
               className="link"
               activeClassName="active"
               to="misc"
@@ -115,7 +115,7 @@ export default class Navbar extends Component {
               <Fade delay="500">
                 <div className="nav_underliner">MISC</div>
               </Fade>
-            </Link>
+            </Link> */}
             <Link
               className="link"
               activeClassName="active"

@@ -38,11 +38,11 @@ export default class About extends Component {
             <Slide left>
               <div className="subhead" />
             </Slide>
-
             <div className="quote2">
               “Love is unselfishly choosing for another's highest good.”
             </div>
-            <div className="author">-C.S. Lewis</div>
+            &nbsp;
+            {/* <div className="author">-C.S. Lewis</div> */}
           </Typography>
           <div className="flex">
             <div className="paper2">
@@ -61,8 +61,8 @@ export default class About extends Component {
                       </a>
                     </h2>
                     <div className="p">
-                      4th Year (School of Engineering) - CS, Statistics (Minor),
-                      '21.
+                      Graduate of 2021. Bachelor of Science in Computer Science,
+                      Minor in Statistics .
                     </div>
                     <p className="p">
                       <strong>Activities:</strong> Grace Christian Fellowship,
@@ -84,32 +84,34 @@ export default class About extends Component {
               <Fade delay="100">
                 <div className="paper">
                   <img
-                    src={require("../images/me5.jpeg")}
+                    src={require("../images/me10.jpeg")}
                     className="aboutpic"
                   />
 
                   <div className="blackglass">
-                    <h2 className="who">WHO AM I?</h2>
+                    <h2 className="who">About Me</h2>
                     <p className="p">
-                      I am a 4th year student studying at the University of
-                      Virginia, majoring in Computer Science in the School of
-                      Engineering with a minor in Statistics. I am an incoming
-                      software engineer at&nbsp;
+                      I am currently a software engineer at &nbsp;
                       <a href="http://appian.com/" className="none4 p">
                         Appian Corporation
                       </a>
-                      , a cloud computing B2B software company in Tysons Corner
-                      VA based in the Washington D.C metro area.
+                      , developing the Low-Code Platform to build enterprise
+                      solutions for businesses.
                       <p className="p">
-                        Down the road, I aspire to become a full-stack engineer
-                        and enjoy challenging myself to learn and use new modern
-                        technologies and tools that software development is
-                        revolving around today.
+                        I enjoy learning and solving challenging problems and
+                        building software that is modular, robust, and impactful
+                        to users.
+                      </p>
+                      <p className="p">
+                        Continuing down the road, I aspire to challenge myself
+                        with different problems and use modern technologies and
+                        tools that software development is revolving around
+                        today.
                       </p>
                     </p>
                     <p className="p">
-                      Outside of academics, I enjoy hanging out with friends in
-                      my fellowship, playing tennis, and playing guitar.
+                      As for hobbies, I enjoy watching professional tennis,
+                      exploring national parks and playing guitar.
                     </p>
                   </div>
                 </div>
@@ -129,10 +131,10 @@ export default class About extends Component {
                         Thomas Jefferson HSST
                       </a>
                     </h2>
-                    <div className="p">Student 2013-2017.</div>
+                    <div className="p">Graduate of 2017.</div>
                     <p className="p">
-                      <strong>Activities:</strong> Varsity Tennis 2014-15,
-                      2016-17, Senior Research (NeuroLab).
+                      <strong>Activities:</strong> Varsity Tennis, Neuroscience
+                      Research Lab.
                     </p>
 
                     <p className="p">
