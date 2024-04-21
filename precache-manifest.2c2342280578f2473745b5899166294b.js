@@ -208,7 +208,7 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/yk_audi.412892e7.JPG"
   },
   {
-    "revision": "c005ac83430f6df6702de16aa5676fcc",
+    "revision": "a5c75599ca128e26a287637382f5c44c",
     "url": "/my-site/index.html"
   }
 ];
