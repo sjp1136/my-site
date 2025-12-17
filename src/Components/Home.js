@@ -24,12 +24,12 @@ export default class Home extends Component {
       <div className="home" id="home">
         {/* <div className="background" /> */}
 
-        <video className="background-video" autoPlay loop muted>
+        <video className="backgroundvideo" autoPlay loop muted>
           <source src={require("../videos/sunrise.mp4")} type="video/mp4" />
         </video>
         <div className="centered">
           <Fade>
-            <img src={require("../images/me9.jpeg")} className="me" />
+            <img src={require("../images/0.JPG")} className="me" />
           </Fade>
           <Fade bottom>
             <div className="name">SUNG JOON PARK</div>
@@ -47,7 +47,7 @@ export default class Home extends Component {
                   loop: true,
                 }}
               ></Typewriter>
-              Software Engineer @ Appian
+              Software Engineer @ FPT Software
             </div>
           </Fade>
 

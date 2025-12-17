@@ -38,6 +38,43 @@ export default class Experience extends Component {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"
+              iconStyle={{ background: "rgb(243, 112, 33)", color: "#000" }}
+              icon={
+                <img
+                  src={require("../images/fpt.png")}
+                  className="timelineavatar"
+                />
+              }
+            >
+              <div className="padding paddingf">
+                <Chip label="Python" clickable color="basic" />
+                &nbsp;
+                <Chip label="Flask" clickable color="basic" />
+                &nbsp;
+                <Chip label="SQL/RDBMS" clickable color="basic" />
+                &nbsp;
+                <Chip label="REST APIs" clickable color="basic" />
+                &nbsp;
+                <Chip label="Trace32" clickable color="basic" />
+                &nbsp;
+                <Chip label="CANoe" clickable color="basic" />
+                &nbsp;
+                <Chip label="MCU" clickable color="basic" />
+              </div>
+              <a className="none2" href="https://fptsoftware.com/">
+                <h2 className="vertical-timeline-element-title boldf underlinef">
+                  FPT Software
+                </h2>
+              </a>
+              <h3 className="vertical-timeline-element-subtitle role">
+                Senior Software Engineer
+              </h3>
+              {/* <div className="underline" /> */}
+              <div className="text2"></div>
+              <div className="text3">Dec 2024 - Present</div>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work vertical"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
               icon={
                 <img
@@ -65,11 +102,14 @@ export default class Experience extends Component {
                 </h2>
               </a>
               <h3 className="vertical-timeline-element-subtitle role">
-                Software Engineer II
+                Software Engineer I-II
               </h3>
               {/* <div className="underline" /> */}
-              <div className="text2"></div>
-              <div className="text3">Fall 2021 - Present</div>
+              <div className="text2">
+                (Hackathon - 2021) Expression Rule Debugging - 🏆 Awarded 1st
+                for Popular Vote.
+              </div>
+              <div className="text3">Sep 2021 - Nov 2024</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work vertical"

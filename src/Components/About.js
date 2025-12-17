@@ -91,27 +91,38 @@ export default class About extends Component {
                   <div className="blackglass">
                     <h2 className="who">About Me</h2>
                     <p className="p">
-                      I am currently a software engineer at &nbsp;
-                      <a href="http://appian.com/" className="none4 p">
-                        Appian Corporation
+                      💼 I am currently a Senior Software Engineer at &nbsp;
+                      <a href="https://fptsoftware.com/" className="none4 p">
+                        FPT Software
                       </a>
-                      , developing the Low-Code Platform to build enterprise
-                      solutions for businesses.
-                      <p className="p">
-                        I enjoy learning and solving challenging problems and
-                        building software that is modular, robust, and impactful
-                        to users.
-                      </p>
-                      <p className="p">
-                        Continuing down the road, I aspire to challenge myself
-                        with different problems and use modern technologies and
-                        tools that software development is revolving around
-                        today.
-                      </p>
+                      , developing automotive security IT solutions for client
+                      &nbsp;
+                      <a
+                        href="https://www.hyundai-autoever.com/kor/main/index.do"
+                        className="none4 p"
+                      >
+                        Hyundai Autoever
+                      </a>
+                      . Previously, I worked as a Software Engineer at &nbsp;
+                      <a href="https://appian.com/" className="none4 p">
+                        Appian
+                      </a>
+                      &nbsp;, building various full-stack enterprise software.
                     </p>
                     <p className="p">
-                      As for hobbies, I enjoy watching professional tennis,
-                      exploring national parks and playing guitar.
+                      <p className="p">
+                        💻 I enjoy working with different technologies/tools and
+                        building modular, robust (and later scalable) software
+                        that help solve critical business problems. Currently, I
+                        am learning Elixir and Phoenix Framework to build a
+                        client-business web application.
+                      </p>
+                      <p className="p"></p>
+                    </p>
+                    <p className="p">
+                      In my free time, I enjoy watching 🎾 professional tennis
+                      (ATP), 🥾🏞️ hiking different national parks, playing 🎵
+                      guitar, or exploring different places in 🇰🇷 Korea.
                     </p>
                   </div>
                 </div>

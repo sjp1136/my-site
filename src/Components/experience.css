@@ -83,6 +83,10 @@ p {
   background-color: gray;
 }
 
+.vertical:hover .paddingf {
+  background-color: #f37021;
+}
+
 .vertical:hover .padding0 {
   background-color: #2420f0;
 }
@@ -103,6 +107,7 @@ p {
   background-color: #8739e5;
 }
 
+.underlinef,
 .underline0,
 .underline1,
 .underline2,
@@ -111,6 +116,7 @@ p {
   position: relative;
 }
 
+.vertical:hover .underlinef:before,
 .vertical:hover .underline0:before,
 .vertical:hover .underline1:before,
 .vertical:hover .underline2:before,
@@ -118,6 +124,19 @@ p {
 .vertical:hover .underline4:before {
   visibility: visible;
   transform: scaleX(1);
+}
+
+.underlinef:before {
+  content: "";
+  position: absolute;
+  width: 112px;
+  height: 1px;
+  bottom: 0;
+  left: 0%;
+  background-color: #f37021;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.15s ease-in-out;
 }
 
 .underline0:before {
@@ -179,6 +198,17 @@ p {
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.15s ease-in-out;
+}
+
+.boldf {
+  transition: 0.15s;
+  font-size: 16px;
+  /* font-weight: 700; */
+}
+
+.vertical:hover .boldf {
+  color: #f37021;
+  /* font-weight: 700; */
 }
 
 .bold0 {
@@ -311,6 +341,19 @@ p {
 
   .vertical:hover .padding {
     transform: scale(1.02);
+  }
+
+  .underlinef:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    bottom: 0;
+    left: 0%;
+    background-color: #f37021;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.15s ease-in-out;
   }
 
   .underline0:before {
