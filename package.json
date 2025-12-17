@@ -15,7 +15,6 @@
     "express": "^4.17.1",
     "firebase": "^7.17.1",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
     "nodemailer": "^6.4.6",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
@@ -51,10 +50,10 @@
     "typewriter-effect": "^2.13.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -68,6 +67,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gh-pages": "^2.2.0"
   }
 }

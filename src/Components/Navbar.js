@@ -130,8 +130,8 @@ export default class Navbar extends Component {
             </Link>
             <a
               className="link none"
-              href={require("../files/SungJoonParkResume.pdf")}
-              target="SungJoonParkResume.pdf"
+              href={require("../files/SungJoonPark_Resume.pdf")}
+              target="SungJoonPark_Resume.pdf"
             >
               <Fade delay="600">
                 <div className="nav_underliner">RESUME</div>
