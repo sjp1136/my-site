@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "729735c72e0706868240",
+    "revision": "95957fccd5385e76d217",
     "url": "/my-site/static/css/main.759c1a8f.chunk.css"
   },
   {
-    "revision": "729735c72e0706868240",
-    "url": "/my-site/static/js/main.729735c7.chunk.js"
+    "revision": "95957fccd5385e76d217",
+    "url": "/my-site/static/js/main.95957fcc.chunk.js"
   },
   {
     "revision": "2dd75fe2f8e6a7c8b3b3",
@@ -208,7 +208,7 @@ self.__precacheManifest = [
     "url": "/my-site/static/media/yk_audi.412892e7.JPG"
   },
   {
-    "revision": "eb0c50e53e1a26db1478f5bbe4565aa8",
+    "revision": "7ba71fabf2c07ae58f27fb3d4fc010de",
     "url": "/my-site/index.html"
   }
 ];
