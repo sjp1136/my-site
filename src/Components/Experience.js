@@ -70,7 +70,9 @@ export default class Experience extends Component {
                 Senior Software Engineer
               </h3>
               {/* <div className="underline" /> */}
-              <div className="text2"></div>
+              <div className="text2">
+                (2025) Client Hyundai Autoever - 🏆 Awarded Best Excellent Team.
+              </div>
               <div className="text3">Dec 2024 - Present</div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
